@@ -1,0 +1,208 @@
+
+body {
+    color: #414141;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    }
+article{
+    background: #f2f2f2;
+}
+article.timeline-item{
+    background: #fff;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    box-shadow: none;
+}   
+.row-gap {
+    margin-top: 20px;
+}
+.media{margin-left: -10px;}
+.media-body {
+    border-left: 1px dashed #DDDDDD;
+    border-bottom: 1px dashed #DDDDDD;
+    position: relative;
+	 padding: 0 15px;
+    }
+ #filter{z-index: 999;}
+ #gtasks ul {list-style: none outside none; margin: 0 10px;}
+ #gtasks li {line-height: 35px;}
+ #gtasks li span:last-child {float: right}
+ #filters { padding: 15px 11px; background: none repeat scroll 0 0 #ffffff;}
+ .create-mini {position: absolute;right:12px;top:30%;}  
+ .circle{    
+ 	 border-radius: 25px 25px 25px 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 9px;
+    padding: 2px 5px;
+    }
+  
+ .pf-bg{background-color: #41AB49}
+ .sc-bg{background-color: #F59121}
+ .dv-bg{background-color: #00ADEF}
+ .cp-bg{background-color: #D2252B}
+ .ga-bg{background-color: #41AB49}
+ .steps{float:right}
+ .affix{    
+ 	 background: none repeat scroll 0 0 #ffffff;
+    box-shadow: 0 5px 5px -5px #000000;
+    margin-left: -12px;
+    padding: 0 12px;
+    top: 41px;
+    }   
+ sup {
+    color: #0088CC;
+    font-size: 11px;
+    font-weight: bold;
+    top: -0.3em;
+}  
+sup:before{
+    content: "(";	
+	}
+sup:after{
+    content: ")";	
+	}	  
+ #feeds{background: #ffffff;}
+.avatar {width:40px; border-radius: 50%; border: 1px solid #FFA500;}
+li{ list-style: none outside none; }
+
+.navbar-inverse .navbar-inner {
+    background-image: linear-gradient(to bottom, #0D6083, #0D6083);
+}
+.navbar-inner {
+    border:0;
+    padding-top: 10px;
+    min-height: 50px;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle{
+    background-color: #1D7C9E;
+}
+.navbar .divider-vertical {
+    border: 0;
+    border-right: 1px solid #FFFFFF;
+    height: 20px;
+    margin: 10px 9px;
+}
+.nav > li > a > img {
+    border-radius: 50%;
+    max-width: none;
+    width: 30px;
+    border:2px solid #F0C786;;
+}
+.nav:first-child li:first-child{ 
+    text-transform: uppercase;
+
+}
+.navbar .nav > li > a.create{
+    background: #E8910C
+}
+.modal {
+    width:605px;
+}
+#addJournal{
+    background: none repeat scroll 0 0 #E8910C;
+    border-radius: 2px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125) inset;
+    margin-top: 10px;
+    padding: 5px 8px;
+}
+.modal-backdrop {
+    background-color: #0D6083;
+}
+
+#summaryFunnel {
+    width: 600px;
+    margin: 10px 0 0 0;
+    padding-top: 5px;
+}
+
+#summaryFunnel ul {
+  list-style: none;
+  font-weight: bold;
+  font-weight: 500;
+  list-style-type: none;
+  position: absolute;
+  right: 48px;
+  top: 26px;
+}
+
+.funnel_a, .funnel_b,.funnel_c, .funnel_d,.funnel_e, .funnel_f,  .funnel_g{
+    clear: both;
+    padding-top: 1%;
+ } 
+
+.funnel_a { margin-left: 13%; }
+.funnel_b { margin-left: 14.5%; }
+.funnel_c { margin-left: 16%; }
+.funnel_d { margin-left: 17.5%; }
+.funnel_e { margin-left: 19%; }
+.funnel_f { margin-left: 20.5%; }
+.funnel_g { margin-left: 22%; }
+
+.rightSide, .leftSide {
+    float: left;
+    position: relative;
+    border-color: #cb5b5d transparent;
+    border-style: solid;
+    border-width: 30px 7px 0 0px; 
+    opacity:.9;
+    filter: alpha(opacity=90);
+}
+
+.leftSide {
+    border-width: 30px 0px 0px 7px; }
+
+.funnel_b .rightSide, .funnel_b .leftSide {
+    border-color: #13598b transparent;}
+
+.funnel_c .rightSide, .funnel_c .leftSide {
+    border-color: #fc9b67 transparent; }
+
+.funnel_d .rightSide, .funnel_d .leftSide {
+    border-color: #dcca6a transparent; }
+
+.funnel_e .rightSide, .funnel_e .leftSide {
+    border-color: #b57ec7 transparent; }
+
+.funnel_f .rightSide, .funnel_f .leftSide {
+    border-color: #a1be76 transparent; }
+
+.funnel_g .rightSide, .funnel_g .leftSide {
+    border-color: #cb5b5d transparent; }
+
+.rightSide span {
+       background: url("http://www.pageupblue.com/styleguide/wp-content/themes/Pears/images/dots.png") no-repeat scroll 0 11% rgba(0, 0, 0, 0);
+    font-size: 0.9em;
+    font-weight: bold;
+    left: 4px;
+    line-height: 10px;
+    padding-left: 33px;
+    position: absolute;
+    top: -20px;
+    width: 200px;
+}
+
+.center {
+    float: left;
+    background-color: #cb5b5d;
+    width: 33.5%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: white; 
+    opacity:.9;
+    filter: alpha(opacity=90);
+    border:0;
+    height:30px;
+    line-height: 30px;
+ }
+
+.funnel_b .center { width: 30.5%; background-color: #13598b;  }
+.funnel_c .center{ width: 27.5%; background-color: #fc9b67;  }
+.funnel_d .center { width: 24.5%; background-color: #dcca6a;  }
+.funnel_e .center { width: 21.5%; background-color: #b57ec7;  }
+.funnel_f .center { width: 18%; background-color: #a1be76;  }
+.funnel_g .center { width: 14.5%; background-color: #cb5b5d;  }         

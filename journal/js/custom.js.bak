@@ -1,0 +1,29 @@
+$(document).ready(function() {
+    $('dd').each(function(){    
+    	$(this).click(function(){
+            $('.quickFlipPanel .panel').hide();
+    		var boxname = $(this).attr('id');
+            $(this).children().first().addClass('clicked');
+            $('.'+ boxname).show();
+    	});
+    });	
+
+    $('.fa-unlock').click(function(){
+    	$(this).removeClass('fa-unlock').addClass('fa-lock');	
+    });
+    // inserting objectives
+    $('ul.obj_sublist li span').each(function(){  
+        $(this).click(function(){
+        	var obj = $(this).html();
+            $('#obj').append('<h5>' + obj +'</h5>');
+        });
+    });
+    // inserting tags
+    $('#tag-cloud li').each(function(){  
+        $(this).click(function(){
+            var tag = $(this).html();
+            $('.panel').hide();
+            $('#tags').append('<span>' + tag +'</span>');
+        });
+    });
+});
