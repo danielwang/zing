@@ -206,3 +206,31 @@ li{ list-style: none outside none; }
 .funnel_e .center { width: 21.5%; background-color: #b57ec7;  }
 .funnel_f .center { width: 18%; background-color: #a1be76;  }
 .funnel_g .center { width: 14.5%; background-color: #cb5b5d;  }         
+
+
+.item {
+    display: inline-block;
+    float: left;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    position: relative;
+    width: 23.0769%;
+    z-index: 0;
+}
+
+.boxcontainer {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff;
+    border-color: #ededed #ededed #ddd;
+    border-image: none;
+    border-style: solid solid double;
+    border-width: 1px 1px medium;
+    font-size: 13px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    transition: border 500ms ease-out 0s;
+}
