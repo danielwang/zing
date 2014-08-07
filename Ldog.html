@@ -1,542 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>My PUP</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="daniel.wang" >
+	<meta charset="utf-8">
+	<title>My PUP</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="daniel.wang" >
 
-    <!-- Le styles -->
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
-    </style>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/custom.css" rel="stylesheet" type="text/css" />
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+	<!-- Le styles -->
+	<link href="../assets/css/bootstrap.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/custom.css" rel="stylesheet" type="text/css" />
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-    <!-- Fav and touch icons -->
-      <script src="http://code.jquery.com/jquery-latest.js"></script>
+	<!-- Fav and touch icons -->
+	  <script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/custom.js"></script>
 	   <link rel="stylesheet" type="text/css" href="css/quickflip.css" />
 	  <link rel="stylesheet" href="journal/css/custom.css" />
-      
-      <script src="journal/js/custom.js"></script>
+	  <style>
+	  body {
+		padding-top: 60px;
+		background-color:#f0f0f0; /* 60px to make the container go all the way to the bottom of the topbar */
+	  }
+	</style>
+	  <script src="journal/js/custom.js"></script>
   </head>
 
   <body>
 
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-	       <div class="container">
-	         <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
-	           <span class="icon-bar"></span>
-	           <span class="icon-bar"></span>
-	           <span class="icon-bar"></span>
-	         </a>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="navbar-inner">
+		   <div class="container">
+			 <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
+			   <span class="icon-bar"></span>
+			   <span class="icon-bar"></span>
+			   <span class="icon-bar"></span>
+			 </a>
 <div class="nav-collapse collapse navbar-responsive-collapse">           
-	           <ul class="nav">
-	             <li class="active dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-graduation-cap icon-white"></i>&nbsp;&nbsp;My Learning </a>
-	             	<ul class="dropdown-menu">
-	                 <li><a href="admin.html">Recruitment</a></li>
-	                 <li><a href="#">Performance</a></li>
-	                 <li><a href="#">Development</a></li>
-	                 <li><a href="#">Succession</a></li>
-	                 <li class="divider"></li>
-	                 <li><a href="#">Succession plans</a></li>
-	               </ul>
-	             </li>
-	           </ul>
-	           <ul class="nav pull-right">      	 
-	             <li><a href="#myModal" role="link" data-toggle="modal" id="addJournal"><i class="icon-edit icon-white"></i> journal</a></li>
+			   <ul class="nav">
+				 <li class="active dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-graduation-cap icon-white"></i>&nbsp;&nbsp;My Learning </a>
+					<ul class="dropdown-menu">
+					 <li><a href="admin.html">Recruitment</a></li>
+					 <li><a href="#">Performance</a></li>
+					 <li><a href="#">Development</a></li>
+					 <li><a href="#">Succession</a></li>
+					 <li class="divider"></li>
+					 <li><a href="#">Succession plans</a></li>
+				   </ul>
+				 </li>
+			   </ul>
+			   <ul class="nav pull-right">      	 
+				 <li><a href="#myModal" role="link" data-toggle="modal" id="addJournal"><i class="icon-edit icon-white"></i> journal</a></li>
 
-	             <li class="dropdown"> 
-	           	 	<!--  ******************************       +  notification                          ********************************* -->
+				 <li class="dropdown"> 
+					<!--  ******************************       +  notification                          ********************************* -->
 					<a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
-		          
-		          <div class="dropdown-menu pull-right messages-list">
-		          <div class="triangle"></div>
-		          
-		            <div class="notice-title">You Have 3 Massages</div>
-		            <!--message #1-->
-		            <div class="notice-message">
-		              <button type="button" class="close">×</button>	
-		              <div class="avatar"><img alt="" src="img/avatar2.png"></div>
-		              <div class="info">
-		                <div class="author">Kane</div>
-		                <div class="date">45 mins ago</div>
-		                <div class="clearfix"></div>
-		                <div class="text">has approved job <a href="#">Office administrator</a></div>
-		              </div>
-		              <div class="clearfix"></div>
-		            </div>
-		            <!--message #4-->
-		            <div class="notice-message due">
-		              <button type="button" class="close">×</button>	
-		              <div class="info">
-		                <div class="text">Mid year performance for <a href="#">Daniel Wang</a> is due now.</div>
-		              </div>
-		              <div class="clearfix"></div>
-		            </div>
-		            <!--message #2-->
-		            <div class="notice-message">
-		              <button type="button" class="close">×</button>	
-		              <div class="avatar"><img alt="" src="img/avatar3.png"></div>
-		              <div class="info">
-		                <div class="author">Aaron</div>
-		                <div class="date">2 hours ago</div>
-		                <div class="clearfix"></div>
-		                <div class="text">has approved the offer to applicant <a href="">Daniel Wang</a>.</div>
-		              </div>
-		              <div class="clearfix"></div>
-		            </div>
-		            <!--message #3-->
-		            <div class="notice-message">
-		              <button type="button" class="close">×</button>	
-		              <div class="avatar"><img alt="" src="img/avatar4.png"></div>
-		              <div class="info">
-		                <div class="author">Adam</div>
-		                <div class="date">yesterday</div>
-		                <div class="clearfix"></div>
-		                <div class="text">suggested <a href="#">HTML6</a> to you in learning library.</div>
-		              </div>
-		              <div class="clearfix"></div>
-		            </div>
+				  
+				  <div class="dropdown-menu pull-right messages-list">
+				  <div class="triangle"></div>
+				  
+					<div class="notice-title">You Have 3 Massages</div>
+					<!--message #1-->
+					<div class="notice-message">
+					  <button type="button" class="close">×</button>	
+					  <div class="avatar"><img alt="" src="img/avatar2.png"></div>
+					  <div class="info">
+						<div class="author">Kane</div>
+						<div class="date">45 mins ago</div>
+						<div class="clearfix"></div>
+						<div class="text">has approved job <a href="#">Office administrator</a></div>
+					  </div>
+					  <div class="clearfix"></div>
+					</div>
+					<!--message #4-->
+					<div class="notice-message due">
+					  <button type="button" class="close">×</button>	
+					  <div class="info">
+						<div class="text">Mid year performance for <a href="#">Daniel Wang</a> is due now.</div>
+					  </div>
+					  <div class="clearfix"></div>
+					</div>
+					<!--message #2-->
+					<div class="notice-message">
+					  <button type="button" class="close">×</button>	
+					  <div class="avatar"><img alt="" src="img/avatar3.png"></div>
+					  <div class="info">
+						<div class="author">Aaron</div>
+						<div class="date">2 hours ago</div>
+						<div class="clearfix"></div>
+						<div class="text">has approved the offer to applicant <a href="">Daniel Wang</a>.</div>
+					  </div>
+					  <div class="clearfix"></div>
+					</div>
+					<!--message #3-->
+					<div class="notice-message">
+					  <button type="button" class="close">×</button>	
+					  <div class="avatar"><img alt="" src="img/avatar4.png"></div>
+					  <div class="info">
+						<div class="author">Adam</div>
+						<div class="date">yesterday</div>
+						<div class="clearfix"></div>
+						<div class="text">suggested <a href="#">HTML6</a> to you in learning library.</div>
+					  </div>
+					  <div class="clearfix"></div>
+					</div>
 
-		            <a class="notice-more" href="#">•••</a>
-		          </div>
+					<a class="notice-more" href="#">•••</a>
+				  </div>
 
 <!--  ******************************        - notification                          ********************************* -->
 
 
-	           	 </li>
-	             <li class="dropdown">
-	               <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/avatar3.png" /> Daniel <b class="caret"></b></a>
-	               <ul class="dropdown-menu">
-	                 <li><a href="#">Profile</a></li>
-	                 <li><a href="#">Journal</a></li>
-	                 <li class="divider"></li>
-	                 <li><a href="#">Logout</a></li>
-	               </ul>
-	             </li>
-	             <li class="divider-vertical"></li>
-	             <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#" href="#_" ><i class="icon-info-sign icon-white"></i></a>
-				    <ul class="dropdown-menu">
-	                 <li><a href="#">Live Supoort</a></li>
-	                 <li><a href="#">Knowledge portal</a></li>
-	                 <li><a href="#">Support centre</a></li>
-	                 <li><a href="#">Release note</a></li>
-	                 <li><a href="#">Beta on/off</a></li>
-	                </ul>
-	             </li>
-	           </ul>
-	         </div><!-- /.nav-collapse -->
-	       </div>
-	     </div>
-	     <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				 </li>
+				 <li class="dropdown">
+				   <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/avatar3.png" /> Daniel <b class="caret"></b></a>
+				   <ul class="dropdown-menu">
+					 <li><a href="#">Profile</a></li>
+					 <li><a href="#">Journal</a></li>
+					 <li class="divider"></li>
+					 <li><a href="#">Logout</a></li>
+				   </ul>
+				 </li>
+				 <li class="divider-vertical"></li>
+				 <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#" href="#_" ><i class="icon-info-sign icon-white"></i></a>
+					<ul class="dropdown-menu">
+					 <li><a href="#">Live Supoort</a></li>
+					 <li><a href="#">Knowledge portal</a></li>
+					 <li><a href="#">Support centre</a></li>
+					 <li><a href="#">Release note</a></li>
+					 <li><a href="#">Beta on/off</a></li>
+					</ul>
+				 </li>
+			   </ul>
+			 </div><!-- /.nav-collapse -->
+		   </div>
+		 </div>
+		 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-header">
 			  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
 			  <h5 id="myModalLabel">Journaling is easy and fun!</h5>
 			</div>
 			<div class="modal-body">
 			  <!-- ********************  journaling  ***********************************-->
-			   	<div class="quickFlip">
-			   	<dl class="quickFlipPanel">
-			   			<dd id="mood" class="quickFlipCta"><i class="fa fa-smile-o "></i>
-                           <label>Mood</label>                                   
-                        </dd>
-                        <dd id="loc" class="quickFlipCta"><i class="fa fa-map-marker"></i>
-                        <label>Occasion</label>
-                        </dd>
-                        <dd id="tags" class="quickFlipCta"><i class="fa fa-tags"></i>
-                           <label>Choose tags</label>
-                           
-                        </dd>
-                        <dd id="obj" class="quickFlipCta"><i class="fa fa-star"></i>
-                        <label>Link to Performance</label>
-                           
-                        </dd>
-                       
-                        <dd id="360" class="quickFlipCta"><i class="fa fa-wechat"></i><label>1 on 1</label></dd>
-                        <dd id="att" class="quickFlipCta"><i class="fa fa-paperclip"></i><i class="fa fa-camera"></i><label>Attachment</lable></dd>
-                        <dd id="dev" class="quickFlipCta"><i class="fa fa-graduation-cap"></i><label>Development</label><button>try it</button></dd> 
-                        <dd id="sec" class="quickFlipCta"><i class="fa fa-sitemap"></i><label>Succession</label><button>try it</button></dd> 
-                        <dd><textarea placeholder="What is happening..."></textarea></dd>
+				<div class="quickFlip">
+				<dl class="quickFlipPanel">
+						<dd id="mood" class="quickFlipCta"><i class="fa fa-smile-o "></i>
+						   <label>Mood</label>                                   
+						</dd>
+						<dd id="loc" class="quickFlipCta"><i class="fa fa-map-marker"></i>
+						<label>Occasion</label>
+						</dd>
+						<dd id="tags" class="quickFlipCta"><i class="fa fa-tags"></i>
+						   <label>Choose tags</label>
+						   
+						</dd>
+						<dd id="obj" class="quickFlipCta"><i class="fa fa-star"></i>
+						<label>Link to Performance</label>
+						   
+						</dd>
+					   
+						<dd id="360" class="quickFlipCta"><i class="fa fa-wechat"></i><label>1 on 1</label></dd>
+						<dd id="att" class="quickFlipCta"><i class="fa fa-paperclip"></i><i class="fa fa-camera"></i><label>Attachment</lable></dd>
+						<dd id="dev" class="quickFlipCta"><i class="fa fa-graduation-cap"></i><label>Development</label><button>try it</button></dd> 
+						<dd id="sec" class="quickFlipCta"><i class="fa fa-sitemap"></i><label>Succession</label><button>try it</button></dd> 
+						<dd><textarea placeholder="What is happening..."></textarea></dd>
 
-                     </dl>
-                   <div id="panel2" class="quickFlipPanel">
-                               <div class="mood panel quickFlipCta">
-                               		<img src="http://ipadnotebook.files.wordpress.com/2012/10/screenshot-2012-10-10-08-26-281.png?w=500&h=111" />
-                               </div>
-                               <div class="loc panel quickFlipCta">
-                                  <img src="journal/images/locations.png" />
-                               </div>
-                               <div class="obj panel quickFlipCta">
-                                  <ul class="obj_list">
-                                     <li><i class="fa fa-star-o"></i><span>Objectives - Growth</span></li>
-                                     <li><i class="fa fa-star-o"></i><span>Objectives - Own MNC</span></li>
-                                     <li><i class="fa fa-star-o"></i><span>Objectives - Scale </span></li>
-                                     <li><i class="fa fa-star-o"></i><span>Competencies</span></li>
-                                     <li><i class="fa fa-star-o"></i><span>Values</span></li>
-                                     <li><i class="fa fa-star-o"></i><span>Career, learning, & development</span></li>
-                                  </ul>     
-                                  <ul class="obj_sublist">
-                                     <li><i class="fa fa-star"></i><span>Personal Development Objective </span></li>
-                                     <li><i class="fa fa-star"></i><span>Employee accountabilities </span></li>
-                                     <li><i class="fa fa-star"></i><span>Process Effectiveness </span></li>
-                                     <li><i class="fa fa-star"></i><span>Team delivers project </span></li>
-                                  </ul>
-                               </div>
-                                <div class="tags panel quickFlipCta">
-                                  <p><input placeholder="enter tags"/></p>
-                                  <ul id="tag-cloud">
-                                     <li class="tag-cloud tag-cloud-info">1:1</li>
-                                     <li class="tag-cloud tag-cloud-warning">growth</li>
-                                     <li class="tag-cloud">communication</li>
-                                     <li class="tag-cloud tag-cloud-success">revenue</li>
-                                     <li class="tag-cloud tag-cloud-danger">development</li>
-                                     <li class="tag-cloud tag-cloud-info">effectiveness</li>
-                                     <li class="tag-cloud tag-cloud-inverse">delivery</li>
-                                     <li class="tag-cloud tag-cloud-warning">innovation</li>
-                                     <li class="tag-cloud">negotiation</li>
-                                     <li class="tag-cloud tag-cloud-success">problem solving</li>
-                                     <li class="tag-cloud tag-cloud-danger">quality</li>
-                                     <li class="tag-cloud tag-cloud-info">teamwork</li>
-                                     <li class="tag-cloud tag-cloud-inverse">zing</li>
-                                  </ul>
-                               </div>
-                               <div class="dev panel quickFlipCta">
-                                  <i class="fa fa-chevron-left"></i>
-                                  <p>Daniel is still thinking</p>
-                               </div>
-                               <div class="360 panel quickFlipCta">
-                                  <i class="fa fa-chevron-left"></i>
-                                  <p>Daniel is still thinking</p>
-                               </div>
-                               <div class="att panel quickFlipCta">
-                                  <i class="fa fa-chevron-left"></i>
-                                   <p>Daniel is still thinking</p>
-                               </div>
-                   </div>
-                 <br clear="both" />
-                </div>
+					 </dl>
+				   <div id="panel2" class="quickFlipPanel">
+							   <div class="mood panel quickFlipCta">
+									<img src="http://ipadnotebook.files.wordpress.com/2012/10/screenshot-2012-10-10-08-26-281.png?w=500&h=111" />
+							   </div>
+							   <div class="loc panel quickFlipCta">
+								  <img src="journal/images/locations.png" />
+							   </div>
+							   <div class="obj panel quickFlipCta">
+								  <ul class="obj_list">
+									 <li><i class="fa fa-star-o"></i><span>Objectives - Growth</span></li>
+									 <li><i class="fa fa-star-o"></i><span>Objectives - Own MNC</span></li>
+									 <li><i class="fa fa-star-o"></i><span>Objectives - Scale </span></li>
+									 <li><i class="fa fa-star-o"></i><span>Competencies</span></li>
+									 <li><i class="fa fa-star-o"></i><span>Values</span></li>
+									 <li><i class="fa fa-star-o"></i><span>Career, learning, & development</span></li>
+								  </ul>     
+								  <ul class="obj_sublist">
+									 <li><i class="fa fa-star"></i><span>Personal Development Objective </span></li>
+									 <li><i class="fa fa-star"></i><span>Employee accountabilities </span></li>
+									 <li><i class="fa fa-star"></i><span>Process Effectiveness </span></li>
+									 <li><i class="fa fa-star"></i><span>Team delivers project </span></li>
+								  </ul>
+							   </div>
+								<div class="tags panel quickFlipCta">
+								  <p><input placeholder="enter tags"/></p>
+								  <ul id="tag-cloud">
+									 <li class="tag-cloud tag-cloud-info">1:1</li>
+									 <li class="tag-cloud tag-cloud-warning">growth</li>
+									 <li class="tag-cloud">communication</li>
+									 <li class="tag-cloud tag-cloud-success">revenue</li>
+									 <li class="tag-cloud tag-cloud-danger">development</li>
+									 <li class="tag-cloud tag-cloud-info">effectiveness</li>
+									 <li class="tag-cloud tag-cloud-inverse">delivery</li>
+									 <li class="tag-cloud tag-cloud-warning">innovation</li>
+									 <li class="tag-cloud">negotiation</li>
+									 <li class="tag-cloud tag-cloud-success">problem solving</li>
+									 <li class="tag-cloud tag-cloud-danger">quality</li>
+									 <li class="tag-cloud tag-cloud-info">teamwork</li>
+									 <li class="tag-cloud tag-cloud-inverse">zing</li>
+								  </ul>
+							   </div>
+							   <div class="dev panel quickFlipCta">
+								  <i class="fa fa-chevron-left"></i>
+								  <p>Daniel is still thinking</p>
+							   </div>
+							   <div class="360 panel quickFlipCta">
+								  <i class="fa fa-chevron-left"></i>
+								  <p>Daniel is still thinking</p>
+							   </div>
+							   <div class="att panel quickFlipCta">
+								  <i class="fa fa-chevron-left"></i>
+								   <p>Daniel is still thinking</p>
+							   </div>
+				   </div>
+				 <br clear="both" />
+				</div>
 			</div>
 			<div class="modal-footer">
 			  <button class="btn" style="background:#0D6083; color:#fff">Add</button>
 			</div>
-        </div>
-    </div>
-</div>
-    <div class="container">
-					    					    							
-					<!-- Filtering Menu
-		================================================== -->
-		<div class="row-fluid">
-			<div class="span12 text-center">
-				<div id="filter">
-					<ul>
-						<li><a href="" data-filter="*" class="selected"><i class="icon icon-reorder"></i> All Items</a></li>
-						<li><a href="" data-filter=".cat1"><i class="icon icon-th-large"></i> Landscape</a></li>
-						<li><a href="" data-filter=".cat2"><i class="icon icon-th-list"></i> Overview</a></li>
-						<li><a href="" data-filter=".cat3"><i class="icon icon-th"></i> Green Nature</a></li>
-					</ul>
-				</div>
-			</div>
 		</div>
-		<!-- END filtering menu -->
-		<!-- MASONRY ITEMS START
-		================================================== -->
-		<div id="Lcontent">	
-		<!-- box 1 -->
-		<div class="item cat2 cat3">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/1.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/1.jpg" title="La Chaux De Fonds"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">1001 Ways To Take Initiative At Work</a></h5>
-				<p>
-					 1001 Ways To Take Initiative At Work, Bob Nelson (Workman Publishing, 1999)
-				</p>
-			</div>
-		</div>
-		<!-- box 2 -->
-		<div class="item cat1">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/2.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/2.jpg" title="Taj Mahal"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Analytic Trouble Shooting</a></h5>
-				<p>
-					This is an External Training Course - discussion & approval from your manager is required for this development activity.
-				</p>
-			</div>
-		</div>
-		<!-- box 3 -->
-		<div class="item cat2 cat3">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/3.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/3.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Customer Feedback</a></h5>
-				<p>
-					Seek feedback from your customers regarding what is working well for them and what could be improved. Are they satisfied with the level of service that you are providing? Take ownership to resolve issues to the satisfaction of the customer and the business.
-				</p>
-			</div>
-		</div>
-		<!-- box 4 -->
-		<div class="item cat1">
-			<div class="boxcontainer">
-				<iframe width="268" height="151" src="//www.youtube.com/embed/qyvSocohssI?list=UU6iVq1hrOBfFs_v5YIbBKTQ" frameborder="0" allowfullscreen></iframe>
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/4.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">St Petersburg, Russia</a></h5>
-				<p>
-					 water fountain
-				</p>
-			</div>
-		</div>
-		<!-- box 5 -->
-		<div class="item cat2">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/5.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/5.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Grunge Architecture</a></h5>
-				<p>
-					ancient style Europe
-				</p>
-			</div>
-		</div>
-		<!-- box 6 -->
-		<div class="item cat2">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/6.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/6.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">France Building</a></h5>
-				<p>
-					 old towers architecture
-				</p>
-			</div>
-		</div>
-		<!-- box 7 -->
-		<div class="item cat2 cat3">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/7.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/7.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Hall in Tirol</a></h5>
-				<p>
-					 town in Tyrol, Austria
-				</p>
-			</div>
-		</div>
-		<!-- box 8 -->
-		<div class="item cat1">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/8.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/8.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Opéra-Théatre de Metz</a></h5>
-				<p>
-					opera house in France
-				</p>
-			</div>
-		</div>
-		<!-- box 9 -->
-		<div class="item cat2 cat3">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/9.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/9.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">The Palace of Charles V</a></h5>
-				<p>
-					 construction in Granada, Spain
-				</p>
-			</div>
-		</div>
-		<!-- box 10 -->
-		<div class="item cat2 cat3">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/10.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/10.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Hamburg, Germany</a></h5>
-				<p>
-					 City Hall
-				</p>
-			</div>
-		</div><!-- box 11 -->
-		<div class="item cat2 cat3">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/11.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/11.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Washington Dc</a></h5>
-				<p>
-					 water fountain
-				</p>
-			</div>
-		</div>
-		<!-- box 12 -->
-		<div class="item cat2 cat3">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/12.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/12.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Bas-Rhin</a></h5>
-				<p>
-					 department of France
-				</p>
-			</div>
-		</div>
-		<!-- box 13 -->
-		<div class="item cat2 cat1">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/13.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/13.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Rome, Italy</a></h5>
-				<p>
-					Fontana di Trevi
-				</p>
-			</div>
-		</div>
-		<!-- box 14 -->
-		<div class="item cat1 cat2">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/14.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/14.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Sacramento, California</a></h5>
-				<p>
-					 tower bridge
-				</p>
-			</div>
-		</div>
-		<!-- box 15 -->
-		<div class="item cat2 cat3">
-			<div class="boxcontainer">
-				<img src="img/temp/masonry/15.jpg" alt="">
-				<div class="roll">
-					<div class="wrapcaption">
-						<a href="singleproject.html"><i class="icon-link captionicons"></i></a>
-						<a data-gal="prettyPhoto[gallery1]" href="img/temp/masonry/15.jpg" title="Title Here"><i class="icon-zoom-in captionicons"></i></a>
-					</div>
-				</div>
-				<h5><a href="singleproject.html">Haikou, China</a></h5>
-				<p>
-					 Haikou city statue
-				</p>
-			</div>
-		</div>	
-		<!-- next box etc -->
 	</div>
-	<!-- MASONRY ITEMS END -->	
-	  <!--  **************************** left column ********************************* -->	
-    </div> <!-- /container -->
-    <script src="http://isotope.metafizzy.co/isotope.pkgd.js"></script>
-    <script type="text/javascript">
+</div>
 
-		//MASONRY
-		$(document).ready(function(){
-			var $container = $('#Lcontent');
-			// init
-			$container.isotope({
-			  // options
-			  itemSelector: '.item',
-			  layoutMode: 'fitRows'
-			});
+<div id="learning" class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="row-fluid">
+				<!--  left
+					================================================== -->
+				<div class="span2">
+					
+					<ul class="nav nav-list well">
+						<li><button class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button></li>
+						<!-- <li class="nav-header active">
+							<a href="#">Learning Library</a> 
+						</li> -->
+						<li class="nav-header">
+							Working on ...
+						</li>
+						<li>
+							<a href="#">In progress/Upcoming </a>  <span class="badge badge-success">3</span>
+						</li>
+						</li>
+						<li>
+							<a href="#">Completed</a> <span class="badge badge-success">15</span>
+						</li>
+						<li>
+							<a href="#">Pending approval</a> <span class="badge badge-success">1</span>
+						</li>
+						<li class="divider">
+						</li>
+						<li>
+							<a href="#">Help</a>
+						</li>
+					</ul>	
+				</div>
+				<!--  right 
+					================================================== -->
+				<div class="span10">
 
-			//FILTER
-			$('#filter a').click(function(){
-			  var selector = $(this).attr('data-filter');
-				$container.isotope({ 
-				filter: selector,
-				animationOptions: {
-				 duration: 750,
-				 easing: 'linear',
-				 queue: false,
-			   }
-			  });
-			  return false;
-			});
-			$('#filter a').click(function (event) {
-				$('a.selected').removeClass('selected');
-				var $this = $(this);
-				$this.addClass('selected');
-				var selector = $this.attr('data-filter');
-				$container.isotope({
-					 filter: selector
-				});
-				return false;
-				});
-		});
-    </script>
+								<!-- Filtering Menu
+					================================================== -->
+					<div style="margin:25px 0" class="row-fluid">
+							<div class="span4" id="search">
+									<input id="searchbox" type="text" style="width: 100%; padding-top: 8px; padding-bottom: 8px;" placeholder="What would you like to learn?"/>
+									<div id="autosuggestion">
+									<!--   search results segment -->
+										<div class="media">
+										 <a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" class="media-object" alt='' /></a>
+										<div class="media-body">
+											<h5 class="media-heading">
+												Nested media heading 
+											</h5> Cras sit amet nibh libero, in gravida <span class="tag-cloud tag-cloud-success">client delivery</span>
+										</div>
+									</div>
+   	<!--   search results segment -->
+										<div class="media">
+										<div class="media-body">
+											<h5 class="media-heading">
+												Nested media heading
+											</h5>in gravida nulla. Nulla vel metus scelerisque.  <span class="tag-cloud tag-cloud-success">communication</span>
+										</div>
+									</div>
+										<!--   search results segment -->
+										<div class="media">
+										 <a href="#" class="pull-left"><img src="img/avatar3.png"></a>
+										<div class="media-body">
+											<h5 class="media-heading">
+												Nested media heading
+											</h5> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.
+										</div>
+									</div>
+										<!--   search results segment -->
+										<div class="media">
+										 <a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" class="media-object" alt='' /></a>
+										<div class="media-body">
+											<h5 class="media-heading">
+												Nested media heading
+											</h5> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.
+										</div>
+									</div>
+										<p id="add-msg">could not find any, would you like to creat your own? <button class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button></p>
+									</div> <!-- / autosuggestion -->
+							
+							</div>
+
+								<div id="filter" class="span8">
+								<ul>
+									<li><i class="fa fa-filter" style="font-size:18px; color:#666" ></i> </li>
+									<li><a href="" data-filter="*" class="badge"> All </a></li>
+									<li><a href="" data-filter=".cat1"  class="badge"> E-Learning</a></li>
+									<li><a href="" data-filter=".cat2"  class="badge">On-the-Job Activities</a></li>
+									<li><a href="" data-filter=".cat3"  class="badge">Training</a></li>
+								</ul>
+								</div>
+
+					</div>
+
+					<!-- END filtering menu -->
+					<!-- MASONRY ITEMS START
+					================================================== -->
+					<div id="Lcontent">	
+					<!-- box 1 -->
+					<div class="item cat2 cat3">
+						<div class="boxcontainer">
+							<p><i class="fa fa-smile-o"></i> 369 <i class="fa fa-meh-o"></i> 100 <i class="fa fa-frown-o"></i> 13</p>
+							<img src="http://imagery.pragprog.com/products/196/rails4_xlargecover.jpg?1378493037" alt="">
+							<h5><a href="singleproject.html">1001 Ways To Take Initiative At Work</a></h5>
+							<p>
+								 1001 Ways To Take Initiative At Work, Bob Nelson (Workman Publishing, 1999)
+							</p>					
+						</div>
+						<div class="card-footer">
+								<button class="btn" type="button"><i class="fa fa-smile-o"></i></button> 
+								<button class="btn" type="button"><i class="fa fa-meh-o"></i></button> 
+								<button class="btn" type="button"><i class="fa fa-frown-o"></i></button> 
+						</div> 
+					</div>
+					<!-- box 2 -->
+					<div class="item cat1">
+						<div class="boxcontainer">
+							<p><i class="fa fa-smile-o"></i> 285 <i class="fa fa-meh-o"></i> 89 <i class="fa fa-frown-o"></i> 10</p>
+							<img src="http://www.craigielawfirm.com/wp-content/uploads/sites/5/2014/03/start-up-of-you-211x300.jpg" alt="">
+							<h5><a href="singleproject.html">Analytic Trouble Shooting</a></h5>
+							<p>
+								This is an External Training Course - discussion & approval from your manager is required for this development activity.
+							</p>
+						</div>
+					</div>
+					<!-- box 3 -->
+					<div class="item cat2 cat3">
+						<div class="boxcontainer">
+							<p><i class="fa fa-smile-o"></i> 255 <i class="fa fa-meh-o"></i> 89 <i class="fa fa-frown-o"></i> 23</p>
+							<img src="http://www.pageuppeople.com/wp-content/uploads/2014/05/simplescreens_applicanttracking-300x236.png" alt="">
+							<h5><a href="singleproject.html">Customer Feedback</a></h5>
+							<p>
+								Seek feedback from your customers regarding what is working well for them and what could be improved. Are they satisfied with the level of service that you are providing? Take ownership to resolve issues to the satisfaction of the customer and the business.
+							</p>
+						</div>
+					</div>
+					<!-- box 6 -->
+					<div class="item cat2">
+						<div class="boxcontainer">
+							<p><i class="fa fa-smile-o"></i> 166 <i class="fa fa-meh-o"></i> 56 <i class="fa fa-frown-o"></i> 45</p>
+							<iframe src="http://player.vimeo.com/video/99311260" width="270" height="152" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+							<h5><a href="singleproject.html">Cultural Understanding</a></h5>
+							<p>
+								 This is an On-the-Job activity - Discuss with your manager how best to approach this competency.Do you have the opportunity to work in a multi-cultural environment? Seek to understand and appreciate different cultural values and thinking styles. Try to understand these alternative points of view.
+							</p>
+						</div>
+					</div>
+					<!-- box 7 -->
+					<div class="item cat2 cat3">
+						<div class="boxcontainer">
+							
+							<img alt="" src="http://lorempixel.com/270/100/sports/1" />
+											
+							<h5><a href="singleproject.html">Change and Innovation</a></h5>
+							<p>
+								This is an E-Learning Activity -  discussion & approval from your manager is required for this development activity. Facilitate and Capitalise on Change and Innovation, Insight International Consultancy <a href="#" class="label"><i class="fa fa-link"></i> www.insightinternational.com.au</a>
+							</p>
+						</div>
+					</div>
+					<!-- box 8 -->
+					<div class="item cat1">
+						<div class="boxcontainer">
+							<img src="img/temp/masonry/8.jpg" alt="">
+							<h5><a href="singleproject.html">Add Value to your Role</a></h5>
+							<p>
+								Consider your role from the perspective of the business and organisation. Can you anticipate needs? How could you add more value in your role? Act on ideas or put forward a proposal to management/the Board. 
+							</p>
+						</div>
+					</div>
+					<!-- box 9 -->
+					<div class="item cat2 cat3">
+						<div class="boxcontainer">
+							<img alt="" src="http://lorempixel.com/270/150/sports/3" />
+							<h5><a href="singleproject.html">Managing Distractions </a></h5>
+							<p>
+								Maintain a positive temperament when faced with interruptions. Think about the last time you were interrupted and your reaction, and consider a more productive response. Can you schedule flexible time into your diary to take into account interruptions? 
+							</p>
+						</div>
+					</div>
+					<!-- box 4 -->
+					<div class="item largeItem cat1">
+						<div class="boxcontainer">
+							<iframe width="560" height="315" src="http://www.youtube.com/embed/0Kgt20E3AYY" frameborder="0"></iframe>
+							<h5><a href="singleproject.html">Zing</a></h5>
+							<p>
+								 water fountain
+							</p>
+						</div>
+					</div>
+					<!-- box 10 -->
+					<div class="item cat2 cat3">
+						<div class="boxcontainer">
+							<img src="https://cdn3.iconfinder.com/data/icons/brands-applications/512/PDF-128.png" alt="">
+							
+							<h5><a href="singleproject.html">Explore Alternative Product Offerings</a></h5>
+							<p>
+								Explore alternative product/service offerings to meet a more diverse range of customer needs. Seek feedback on these ideas from target customer groups. 
+							</p>
+						</div>
+					</div><!-- box 11 -->
+					<div class="item cat2 cat3">
+						<div class="boxcontainer">
+							<img alt="" src="http://lorempixel.com/270/120/sports/2" />
+							
+							<h5><a href="singleproject.html">Improving Performance </a></h5>
+							<p>
+								Generate at least 2 ideas to improve performance in your part of the business. Identify obstacles and develop strategies to overcome them before you put these ideas forward to your Manager/the team.
+							</p>
+						</div>
+					</div>
+					<!-- box 12 -->
+					<div class="item cat2 cat3">
+						<div class="boxcontainer">	
+							<h5><a href="singleproject.html">Marketing Knowledge </a></h5>
+							<p>
+								 I would like to go to ATC next year
+							</p>
+						</div>
+					</div>
+
+					
+					<!-- box 5 -->
+					<div class="item cat2">
+						<div class="boxcontainer">
+							<img src="img/temp/masonry/5.jpg" alt="">
+							
+							<h5><a href="singleproject.html">Judgement Observations </a></h5>
+							<p>
+							Observe people who are particularly good judging situations and making decisions. What information do they use and offer in this process? Could you benefit from using this information in making future judgements?
+							</p>
+						</div>
+					</div>
+							<!-- box 13 -->
+					<div class="item cat2 cat1">
+						<div class="boxcontainer">
+							<img src="img/temp/masonry/13.jpg" alt="">
+							
+							<h5><a href="singleproject.html">Identify quality issues before they escalate </a></h5>
+							<p>
+								Identify quality issues before they escalate. Encourage the early detection of quality related issue by: Setting aside time in each team meeting to discuss quality related issues and work standards Building a safe and open atmosphere where team members can freely express their concerns about quality related issues. Listen attentively and formulate an immediate action plan to prevent the issue from escalating Measuring customer satisfaction and requesting feedback (eg. conduct regular reviews) Recognising and responding to customer complaints
+							</p>
+						</div>
+					</div>
+					<!-- box 14 -->
+					<div class="item cat1 cat2">
+						<div class="boxcontainer">
+							<img src="img/temp/masonry/14.jpg" alt="">
+							
+							<h5><a href="singleproject.html">Managing Relationships</a></h5>
+							<p>
+								Observe people who are particularly good judging situations and making decisions. What information do they use and offer in this process? Could you benefit from using this information in making futurjudgements?
+							</p>
+						</div>
+					</div>
+					<!-- box 15 -->
+					<div class="item cat2 cat3">
+						<div class="boxcontainer">
+							<img src="img/temp/masonry/15.jpg" alt="">
+							
+							<h5><a href="singleproject.html">Engaging your Colleagues</a></h5>
+							<p>
+								Ensure that you are visible to your colleagues and demonstrate an interest in their activities, problems, and results.
+							</p>
+						</div>
+					</div>	
+					<!-- next box etc -->
+				</div>
+				<!-- MASONRY ITEMS END -->	
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<script src="http://isotope.metafizzy.co/isotope.pkgd.js"></script>
+	<script src="js/learning.js"></script>
   </body>
 </html>

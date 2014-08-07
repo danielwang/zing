@@ -25,6 +25,7 @@ article.timeline-item{
 	 padding: 0 15px;
     }
  #filter{z-index: 999;}
+ #filter ul li{display: inline;}
  #gtasks ul {list-style: none outside none; margin: 0 10px;}
  #gtasks li {line-height: 35px;}
  #gtasks li span:last-child {float: right}
@@ -212,25 +213,78 @@ li{ list-style: none outside none; }
     display: inline-block;
     float: left;
     margin-bottom: 20px;
-    padding-right: 20px;
+    margin-right: 20px;
     position: relative;
     width: 23.0769%;
     z-index: 0;
-}
-
-.boxcontainer {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
     background: none repeat scroll 0 0 #fff;
     border-color: #ededed #ededed #ddd;
     border-image: none;
     border-style: solid solid double;
     border-width: 1px 1px medium;
+}
+
+.largeItem{width:560px;}
+
+.boxcontainer {
+
     font-size: 13px;
     overflow: hidden;
     position: relative;
-    text-align: center;
-    transition: border 500ms ease-out 0s;
+    padding:15px;
 }
+.boxcontainer > p:first-child {
+    background: none repeat scroll 0 0 #eeb964;
+    float: right;
+    margin-right: -15px;
+    margin-top: -15px;
+    padding: 2px 5px;
+    width: 136px;
+    color: white;
+    }
+.boxcontainer > p:first-child i{
+    font-size: 22px;
+}
+
+.card-footer {
+    border-top: 1px solid #e6e6e6;
+    padding: 8px 15px;
+    text-shadow: 0 1px 0 #fff;
+}
+.card-footer button i{
+        font-size: 22px;
+        color: #EEB964
+}
+.card-footer button:first-child{
+        background:#EEB964;
+}
+ .card-footer button:first-child i {color: white;}
+
+.list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.badge{ font-size: 13px; background-color: #69c1cf; padding: 5px 8px; border-radius: 0; }
+
+#learning .nav > li > a {
+    display: inline-block;
+}
+#search { 
+    position: relative;
+}
+#autosuggestion {     
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 5px 5px 3px #898989;
+    display: none;
+    padding: 15px;
+    position: absolute;
+    width: 500px;
+    z-index: 999;
+    top:40px;
+}
+#add-msg{display: none}
+/*#searchbox:focus + div {
+        display: block;
+}*/
