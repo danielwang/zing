@@ -227,22 +227,25 @@ li{ list-style: none outside none; }
 .largeItem{width:560px;}
 
 .boxcontainer {
-
     font-size: 13px;
-    overflow: hidden;
+    overflow: visible;
+    padding: 40px 15px 15px;
     position: relative;
-    padding:15px;
+    z-index: 97;
 }
-.boxcontainer > p:first-child {
-    background: none repeat scroll 0 0 #eeb964;
-    float: right;
-    margin-right: -15px;
-    margin-top: -15px;
-    padding: 2px 5px;
-    width: 136px;
+.boxcontainer > span:first-child {
+    background: none repeat scroll 0 0 #7e76b8;
     color: white;
+    left: 0px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    width: auto;
+    z-index: 98;
     }
-.boxcontainer > p:first-child i{
+.boxcontainer > span.rec {background: #eeb964; left: -2px; top:-2px; right: auto; padding: 2px 5px;}   
+
+.boxcontainer > span:first-child i{
     font-size: 22px;
 }
 
@@ -283,6 +286,12 @@ li{ list-style: none outside none; }
     width: 500px;
     z-index: 999;
     top:40px;
+}
+.user {
+    position: absolute;
+    top:0;
+    right:0; 
+    width: 36px;
 }
 #add-msg{display: none}
 /*#searchbox:focus + div {
