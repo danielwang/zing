@@ -243,7 +243,7 @@ li{ list-style: none outside none; }
     width: auto;
     z-index: 98;
     }
-.boxcontainer > span.rec {background: #eeb964; left: -2px; top:-2px; right: auto; padding: 2px 5px;}   
+.boxcontainer > span.rec {background: #eeb964; left: 0; top:0; right: auto; padding: 2px 5px;}   
 
 .boxcontainer > span:first-child i{
     font-size: 22px;
@@ -254,14 +254,12 @@ li{ list-style: none outside none; }
     padding: 8px 15px;
     text-shadow: 0 1px 0 #fff;
 }
-.card-footer button i{
-        font-size: 22px;
-        color: #EEB964
+
+.card-footer button.added{
+        background: #EEB964;
+        color: #ffffff;
 }
-.card-footer button:first-child{
-        background:#EEB964;
-}
- .card-footer button:first-child i {color: white;}
+
 
 .list-inline > li {
     display: inline-block;
@@ -287,6 +285,15 @@ li{ list-style: none outside none; }
     z-index: 999;
     top:40px;
 }
+#autosuggestion2 {
+    background: none repeat scroll 0 0 #f0f0f0;
+    display: none;
+    padding: 15px;
+    position: absolute;
+    top: 45px;
+    width: 300px;
+    z-index: 999;
+}
 .user {
     position: absolute;
     top:0;
@@ -297,3 +304,9 @@ li{ list-style: none outside none; }
 /*#searchbox:focus + div {
         display: block;
 }*/
+.cost {
+    color: gray;
+    position: absolute;
+    right: 5px;
+    top: 0;
+}

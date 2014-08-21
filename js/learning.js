@@ -52,4 +52,13 @@
 				$('#autosuggestion').hide();
 			});
 
+			$('.card-footer button').click(function(){
+				$(this).toggleClass('added');	
+			});
+			
+			$('#title').keydown(function(){
+				$('#autosuggestion2').show();
+				
+			});
+
 		});
