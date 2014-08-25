@@ -101,7 +101,7 @@ li{ list-style: none outside none; }
     background: #E8910C
 }
 .modal {
-    width:605px;
+    width:750px;
 }
 #addJournal{
     background: none repeat scroll 0 0 #E8910C;
@@ -309,4 +309,17 @@ li{ list-style: none outside none; }
     position: absolute;
     right: 5px;
     top: 0;
+}
+
+#search .nav-tabs > .active > a, .nav-tabs > .active > a:hover, #search .tabs-below > .nav-tabs { border:0;}
+.item-des {margin:0;}
+.item-des li {
+    border-bottom: 1px dashed #d4d4d4;
+    list-style-type: none;
+    padding: 10px 5px;
+    font-size: 16px;
+}
+.item-des li i{
+    width: 50px;
+    color: #c0392b;
 }
