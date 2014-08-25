@@ -1,0 +1,158 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Performance</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="daniel.wang" >
+      <!-- Le styles -->
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+      <link href="css/custom.css" rel="stylesheet" type="text/css" />
+      <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      <!-- Fav and touch icons -->
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/custom.js"></script>
+      <link rel="stylesheet" href="journal/css/custom.css" />
+      <style>
+         body {
+         padding-top: 60px;
+         background-color:#ffffff; /* 60px to make the container go all the way to the bottom of the topbar */
+         }
+      </style>
+      <script src="journal/js/custom.js"></script>
+   </head>
+   <body>
+      <div class="navbar navbar-inverse navbar-fixed-top">
+         <div class="navbar-inner">
+            <div class="container">
+               <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </a>
+               <div class="nav-collapse collapse navbar-responsive-collapse">
+                  <ul class="nav">
+                     <li class="active dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-star icon-white"></i>   Performance</a>
+                        <ul class="dropdown-menu">
+                           <li><a href="admin.html">Recruitment</a></li>                           
+                           <li><a href="Ldog.html">Learning</a></li>
+                           <li><a href="#">Succession</a></li>
+                           <li class="divider"></li>
+                           <li><a href="#">Succession plans</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <ul class="nav pull-right">
+                     <li></li>
+                     <li class="dropdown">
+                        <!--  ******************************       +  notification                          ********************************* -->
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
+                        <div class="dropdown-menu pull-right messages-list">
+                           <div class="triangle"></div>
+                           <div class="notice-title">You Have 3 Massages</div>
+                           <!--message #1-->
+                           <div class="notice-message">
+                              <button type="button" class="close">×</button>	
+                              <div class="avatar"><img alt="" src="img/avatar2.png"></div>
+                              <div class="info">
+                                 <div class="author">Kane</div>
+                                 <div class="date">45 mins ago</div>
+                                 <div class="clearfix"></div>
+                                 <div class="text">has approved job <a href="#">Office administrator</a></div>
+                              </div>
+                              <div class="clearfix"></div>
+                           </div>
+                           <!--message #4-->
+                           <div class="notice-message due">
+                              <button type="button" class="close">×</button>	
+                              <div class="info">
+                                 <div class="text">Mid year performance for <a href="#">Daniel Wang</a> is due now.</div>
+                              </div>
+                              <div class="clearfix"></div>
+                           </div>
+                           <!--message #2-->
+                           <div class="notice-message">
+                              <button type="button" class="close">×</button>	
+                              <div class="avatar"><img alt="" src="img/avatar3.png"></div>
+                              <div class="info">
+                                 <div class="author">Aaron</div>
+                                 <div class="date">2 hours ago</div>
+                                 <div class="clearfix"></div>
+                                 <div class="text">has approved the offer to applicant <a href="">Daniel Wang</a>.</div>
+                              </div>
+                              <div class="clearfix"></div>
+                           </div>
+                           <!--message #3-->
+                           <div class="notice-message">
+                              <button type="button" class="close">×</button>	
+                              <div class="avatar"><img alt="" src="img/avatar4.png"></div>
+                              <div class="info">
+                                 <div class="author">Adam</div>
+                                 <div class="date">yesterday</div>
+                                 <div class="clearfix"></div>
+                                 <div class="text">suggested <a href="#">HTML6</a> to you in learning library.</div>
+                              </div>
+                              <div class="clearfix"></div>
+                           </div>
+                           <a class="notice-more" href="#">•••</a>
+                        </div>
+                        <!--  ******************************        - notification                          ********************************* -->
+                     </li>
+                     <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/avatar3.png" /> Daniel <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Profile</a></li>
+                           <li><a href="#">Journal</a></li>
+                           <li class="divider"></li>
+                           <li><a href="#">Logout</a></li>
+                        </ul>
+                     </li>
+                     <li class="divider-vertical"></li>
+                     <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#" href="#_" ><i class="icon-info-sign icon-white"></i></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Live Supoort</a></li>
+                           <li><a href="#">Knowledge portal</a></li>
+                           <li><a href="#">Support centre</a></li>
+                           <li><a href="#">Release note</a></li>
+                           <li><a href="#">Beta on/off</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+               <!-- /.nav-collapse -->
+            </div>
+         </div>
+      </div>
+      <div id="learning" class="container-fluid">
+            <a href="#devPlanBox" role="link" data-toggle="modal"><img src="performance.png" /></a>
+      </div>
+
+      <!-- *******************  detailbox1 lightbox  **********************-->
+      <div id="devPlanBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"  style="left: 5%; margin-left: 0px; width: 90%; height: 600px">
+         <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h5 id="myModalLabel">Add learning activities on your development plan</h5>
+         </div>
+         <div class="modal-body">
+            <iframe id="" src="iframe-ldog.html" width="100%" height="500px" frameborder="0" style="overflow: scroll;"></iframe>
+            <!-- *******************  ***********************************-->							
+            
+         </div>
+         <div class="modal-footer"> 
+            <button class="btn" style="background:#0D6083; color:#fff">Done</button>
+         </div>
+      </div>
+   </body>
+</html>
+

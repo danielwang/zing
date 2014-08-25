@@ -4,7 +4,7 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <title>My PUP</title>
+      <title>Inline - learning</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="description" content="">
       <meta name="author" content="daniel.wang" >
@@ -25,165 +25,24 @@
       <link rel="stylesheet" href="journal/css/custom.css" />
       <style>
          body {
-         padding-top: 60px;
-         background-color:#f0f0f0; /* 60px to make the container go all the way to the bottom of the topbar */
+            background-color:#f0f0f0; /* 60px to make the container go all the way to the bottom of the topbar */
          }
       </style>
       <script src="journal/js/custom.js"></script>
    </head>
-   <body>
-      <div class="navbar navbar-inverse navbar-fixed-top">
-         <div class="navbar-inner">
-            <div class="container">
-               <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </a>
-               <div class="nav-collapse collapse navbar-responsive-collapse">
-                  <ul class="nav">
-                     <li class="active dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-graduation-cap icon-white"></i>&nbsp;&nbsp;My Learning </a>
-                        <ul class="dropdown-menu">
-                           <li><a href="admin.html">Recruitment</a></li>
-                           <li><a href="#">Performance</a></li>
-                           <li><a href="Ldog.html">Learning</a></li>
-                           <li><a href="#">Succession</a></li>
-                           <li class="divider"></li>
-                           <li><a href="#">Succession plans</a></li>
-                        </ul>
-                     </li>
-                  </ul>
-                  <ul class="nav pull-right">
-                     <li><a href="#" role="link" data-toggle="modal" id="addJournal"><i class="icon-edit icon-white"></i> journal</a></li>
-                     <li class="dropdown">
-                        <!--  ******************************       +  notification                          ********************************* -->
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
-                        <div class="dropdown-menu pull-right messages-list">
-                           <div class="triangle"></div>
-                           <div class="notice-title">You Have 3 Massages</div>
-                           <!--message #1-->
-                           <div class="notice-message">
-                              <button type="button" class="close">×</button>	
-                              <div class="avatar"><img alt="" src="img/avatar2.png"></div>
-                              <div class="info">
-                                 <div class="author">Kane</div>
-                                 <div class="date">45 mins ago</div>
-                                 <div class="clearfix"></div>
-                                 <div class="text">has approved job <a href="#">Office administrator</a></div>
-                              </div>
-                              <div class="clearfix"></div>
-                           </div>
-                           <!--message #4-->
-                           <div class="notice-message due">
-                              <button type="button" class="close">×</button>	
-                              <div class="info">
-                                 <div class="text">Mid year performance for <a href="#">Daniel Wang</a> is due now.</div>
-                              </div>
-                              <div class="clearfix"></div>
-                           </div>
-                           <!--message #2-->
-                           <div class="notice-message">
-                              <button type="button" class="close">×</button>	
-                              <div class="avatar"><img alt="" src="img/avatar3.png"></div>
-                              <div class="info">
-                                 <div class="author">Aaron</div>
-                                 <div class="date">2 hours ago</div>
-                                 <div class="clearfix"></div>
-                                 <div class="text">has approved the offer to applicant <a href="">Daniel Wang</a>.</div>
-                              </div>
-                              <div class="clearfix"></div>
-                           </div>
-                           <!--message #3-->
-                           <div class="notice-message">
-                              <button type="button" class="close">×</button>	
-                              <div class="avatar"><img alt="" src="img/avatar4.png"></div>
-                              <div class="info">
-                                 <div class="author">Adam</div>
-                                 <div class="date">yesterday</div>
-                                 <div class="clearfix"></div>
-                                 <div class="text">suggested <a href="#">HTML6</a> to you in learning library.</div>
-                              </div>
-                              <div class="clearfix"></div>
-                           </div>
-                           <a class="notice-more" href="#">•••</a>
-                        </div>
-                        <!--  ******************************        - notification                          ********************************* -->
-                     </li>
-                     <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/avatar3.png" /> Daniel <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                           <li><a href="#">Profile</a></li>
-                           <li><a href="#">Journal</a></li>
-                           <li class="divider"></li>
-                           <li><a href="#">Logout</a></li>
-                        </ul>
-                     </li>
-                     <li class="divider-vertical"></li>
-                     <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#" href="#_" ><i class="icon-info-sign icon-white"></i></a>
-                        <ul class="dropdown-menu">
-                           <li><a href="#">Live Supoort</a></li>
-                           <li><a href="#">Knowledge portal</a></li>
-                           <li><a href="#">Support centre</a></li>
-                           <li><a href="#">Release note</a></li>
-                           <li><a href="#">Beta on/off</a></li>
-                        </ul>
-                     </li>
-                  </ul>
-               </div>
-               <!-- /.nav-collapse -->
-            </div>
-         </div>
-      </div>
+   <body class="whitebg">
       <div id="learning" class="container-fluid">
          <div class="row-fluid">
             <div class="span12">
-               <div class="row-fluid">
+               <div id="find" class="row-fluid">
                   <!--  left
                      ================================================== -->
-                  <div class="span2">
-                     <ul class="nav nav-list well">
-                        <li><button href="#myModal" class="btn btn-danger" data-toggle="modal"><i class="fa fa-plus-circle"></i> Add your own </button></li>
-                        <!-- <li class="nav-header active">
-                           <a href="#">Learning Library</a> 
-                           </li> -->
-                        <li class="nav-header">
-                           Working on ...
-                        </li>
-                        <li>
-                           <a href="#">In progress/Upcoming </a>  <span class="badge badge-success">3</span>
-                        </li>
-                        </li>
-                        <li>
-                           <a href="#">Completed</a> <span class="badge badge-success">15</span>
-                        </li>
-                        <li>
-                           <a href="#">Pending approval</a> <span class="badge badge-success">1</span>
-                        </li>
-                        <li>
-                           <a href="#">Expired</a> <span class="badge badge-success">2</span>
-                        </li>
-                        <li class="divider">
-                        </li>
-                        <li class="nav-header">
-                           <i class="fa fa-sitemap"></i> <a href="#">Library Management </a>			
-                        </li>
-                        <li>
-                           <p>CareerPath is an experimental search engine based on employment data from around the world</p>
-                        <li>
-                     </ul>
-                  </div>
-                  <!--  right 
-                     ================================================== -->
-                  <div class="span10">
                      <!-- Filtering Menu
                         ================================================== -->
                      <div style="margin:25px 0" class="row-fluid">
-                     <div class="span6" id="search">
-                           <div class="tabbable tabs-below" id="tabs-892550">
-                              
+                     <div class="span6" id="search">                              
                               <div class="tab-content" style="background:#fff; padding:10px">
+                                 <button id="create" class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button>
                                  <div class="tab-pane active" id="panel-282702">
 
                                        <input id="searchbox" type="text" style="width: 80%; padding-top: 8px; padding-bottom: 8px;" placeholder="What would you like to learn?"/>
@@ -231,22 +90,7 @@
                                        </div>
                                        <!-- / autosuggestion -->
                                     </div>
-                                   
-
-                                 <div class="tab-pane" id="panel-284950">
-                                    <p><span>Current role: </span><input type="text" style="width:150px" />  <span>Dream role: </span><input type="text" style="width:150px"/> <a href="cp.html" class="btn btn-danger">Explore</a></p>
-                                 </div>
                               </div>
-                              <ul class="nav nav-tabs">
-                                 <li class="active">
-                                    <a href="#panel-282702" data-toggle="tab"><i class="fa fa-lg fa-search"></i> Search</a>
-                                 </li>
-                                 <li>
-                                    <a href="#panel-284950" data-toggle="tab"><i class="fa fa-lg fa-sitemap fa-rotate-180"></i> Explore your next role</a>
-                                 </li>
-                              </ul>
-                           </div>
-
                         </div>
 
                         <div id="filter" class="span6">
@@ -272,7 +116,7 @@
                               <p><i>Recommended because you have also read The Mythical Man Month</i>
                               <p>
                                  <img src="img/rails4_xlargecover.jpg" alt="">
-                              <h5><a href="#detailbox1" data-toggle="modal">1001 Ways To Take Initiative At Work</a></h5>
+                              <h5><a href="#detailbox" id="detailbox" >1001 Ways To Take Initiative At Work</a></h5>
                               <p>
                                  1001 Ways To Take Initiative At Work, Bob Nelson (Workman Publishing, 1999)
                               </p>
@@ -317,7 +161,6 @@
                         <div class="item cat2">
                            <div class="boxcontainer">
                               <span><i class="fa fa-smile-o"></i> 166<i class="fa fa-frown-o"></i> 45</span>
-                              <iframe src="http://player.vimeo.com/video/99311260" width="260" height="152" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
                               <h5><a href="singleproject.html">Cultural Understanding</a></h5>
                               <p>
                                  This is an On-the-Job activity - Discuss with your manager how best to approach this competency.Do you have the opportunity to work in a multi-cultural environment? Seek to understand and appreciate different cultural values and thinking styles. Try to understand these alternative points of view.
@@ -360,7 +203,6 @@
                         <!-- box 4 -->
                         <div class="item largeItem cat1">
                            <div class="boxcontainer">
-                              <iframe width="530" height="315" src="http://www.youtube.com/embed/0Kgt20E3AYY" frameborder="0"></iframe>
                               <h5><a href="singleproject.html">Zing</a></h5>
                               <p>
                                  water fountain
@@ -448,27 +290,16 @@
                         <!-- next box etc -->
                      </div>
                      <!-- MASONRY ITEMS END -->	
-                  </div>
+
                </div>
-            </div>
-         </div>
-      </div>
-      <!-- *******************  create lightbox  **********************-->
-      <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-            <h5 id="myModalLabel">Create you own learning activities</h5>
-         </div>
-         <div class="modal-body">
-            <!-- *******************  ***********************************-->
-            <form class="form-horizontal">
+               <form id="form" class="form-horizontal hide">
                <div class="control-group">
-                  <label class="control-label" for="">Title</label>
+                  <label for="" class="control-label">Title</label>
                   <div class="controls">
-                     <input type="text" id="title" >
+                     <input type="text" id="title">
                   </div>
                   <!-- end of search suggestions -->
-                  <div id="autosuggestion2"  class="controls" style="display: none;">
+                  <div style="display: none;" class="controls" id="autosuggestion2">
                      <!--   search results segment -->
                      <h5>Similar items exist in the library: </h5>
                      <blockquote>
@@ -487,42 +318,47 @@
                   <!-- end of search suggestions -->
                </div>
                <div class="control-group">
-                  <label class="control-label" for="">Overview</label>
+                  <label for="" class="control-label">Overview</label>
                   <div class="controls">
                      <textarea rows="5"></textarea>
                   </div>
                </div>
                <div class="control-group">
-                  <label class="control-label" for="">Video</label>
+                  <label for="" class="control-label">Video</label>
                   <div class="controls">
                      <input type="text">
                   </div>
                </div>
                <div class="control-group">
-                  <label class="control-label" for="">URL</label>
+                  <label for="" class="control-label">URL</label>
                   <div class="controls">
                      <input type="text">
                   </div>
                </div>
                <div class="control-group">
-                  <label class="control-label" for="">Upload</label>
+                  <label for="" class="control-label">Upload</label>
                   <div class="controls">
                      <input type="text">
+                     <p></p>
+                     <p>
+                     <button id="cancel" class="btn">Cancel</button> <button class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button>
+                     </p>
                   </div>
+
                </div>
             </form>
-         </div>
-         <div class="modal-footer">
-            <button class="btn" style="background:#0D6083; color:#fff">Create</button>
+            </div>
          </div>
       </div>
+    
+
+      </div>
       <!-- *******************  detailbox1 lightbox  **********************-->
-      <div id="detailbox1" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div id="detailboxdes" class="hide">
          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
             <h5 id="myModalLabel">1001 Ways To Take Initiative At Work</h5>
          </div>
-         <div class="modal-body row-fluid">
+         <div class="modal-body">
             <div class="span7">
                <img class="pull-left" alt="" style="width:150px; margin-right:20px" src="img/rails4_xlargecover.jpg?1378493037" />
                <p>
@@ -540,18 +376,42 @@
                   <li><i class="fa fa-lg fa-dollar"></i>399</li>
                   <li><i class="fa fa-lg fa-tags"></i> communication </li>
                </ul>
+
             </div>
+             <p style="text-align:center;"><button id="back" class="btn">Back</button> <button class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button></p>
             <!-- *******************  ***********************************-->							
             
          </div>
-         <div class="modal-footer">
-            <span style="float:left">Share: <i class="fa fa-lg fa-linkedin-square"></i> <i class="fa fa-lg fa-facebook-square"></i> <i class="fa fa-l fa-twitter-square"></i></span>
-            <button class="btn" style="background:#0D6083; color:#fff">Add to plan</button>
-         </div>
       </div>
       <!-- *******************  ***********************************-->	
-      <script src="http://isotope.metafizzy.co/isotope.pkgd.js"></script>
+
+
+     <script src="http://isotope.metafizzy.co/isotope.pkgd.js"></script>
       <script src="js/learning.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){     
+
+         $('#create').click(function(){
+            $('#find').slideUp();
+            $('#form').show();    
+         });
+
+          $('#cancel').click(function(){
+            $('#find').slideDown();
+            $('#form').hide();    
+         });
+
+          $('#detailbox').click(function(){
+            $('#find').slideUp();
+            $('#detailboxdes').show();    
+         });
+
+          $('#back').click(function(){
+            $('#find').slideDown();
+            $('#detailboxdes').hide();    
+         }); 
+      });
+      </script>
    </body>
 </html>
 

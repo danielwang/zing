@@ -52,7 +52,7 @@
 				$('#autosuggestion').hide();
 			});
 
-			$('.card-footer button').click(function(){
+			$('.item').click(function(){
 				$(this).toggleClass('added');	
 			});
 			
