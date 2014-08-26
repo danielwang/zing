@@ -27,10 +27,11 @@
          body {
             background-color:#f0f0f0; /* 60px to make the container go all the way to the bottom of the topbar */
          }
+         .iframe .card-footer {display: none}
       </style>
       <script src="journal/js/custom.js"></script>
    </head>
-   <body class="whitebg">
+   <body class="whitebg iframe">
       <div id="learning" class="container-fluid">
          <div class="row-fluid">
             <div class="span12">
@@ -42,7 +43,6 @@
                      <div style="margin:25px 0" class="row-fluid">
                      <div class="span6" id="search">                              
                               <div class="tab-content" style="background:#fff; padding:10px">
-                                 <button id="create" class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button>
                                  <div class="tab-pane active" id="panel-282702">
 
                                        <input id="searchbox" type="text" style="width: 80%; padding-top: 8px; padding-bottom: 8px;" placeholder="What would you like to learn?"/>
@@ -101,6 +101,7 @@
                               <li><a href="" data-filter=".cat1"  class="badge"> E-Learning</a></li>
                               <li><a href="" data-filter=".cat2"  class="badge">On-the-Job Activities</a></li>
                               <li><a href="" data-filter=".cat3"  class="badge">Training</a></li>
+                              <li class="pull-right"><button id="create" class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button></li>
                            </ul>
                         </div>                        
                      </div>
@@ -378,9 +379,10 @@
                </ul>
 
             </div>
-             <p style="text-align:center;"><button id="back" class="btn">Back</button> <button class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button></p>
+            <div class="span12">
+               <p style="text-align:center;"><button id="back" class="btn">Back</button> <button class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button></p>
             <!-- *******************  ***********************************-->							
-            
+            </div>
          </div>
       </div>
       <!-- *******************  ***********************************-->	

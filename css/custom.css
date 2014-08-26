@@ -330,3 +330,4 @@ div.item.added{
 .modal-body {
     max-height: 500px;
 }
+ul.nav span.badge{border-radius: 50%; float: left; margin-right:15px;}
