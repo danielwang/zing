@@ -246,10 +246,6 @@ li{ list-style: none outside none; }
     }
 .boxcontainer > span.rec {background: #eeb964; left: 0; top:0; right: auto; padding: 2px 5px;}   
 
-.boxcontainer > span:first-child i{
-    font-size: 22px;
-}
-
 .card-footer {
     border-top: 1px solid #e6e6e6;
     padding: 8px 15px;
