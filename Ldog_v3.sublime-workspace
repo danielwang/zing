@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"add",
+				"add-button"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"detail",
+				"detailbox"
+			],
+			[
+				"s",
+				"script	Tag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"if",
+				"iframe	Tag"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"lin",
+				"linkedin"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"lame",
+				"lname"
+			],
+			[
+				"e",
+				"each"
+			],
+			[
+				"posi",
+				"position"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"c",
+				"colspan	Attr"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"b",
+				"border	Attr"
+			],
+			[
+				"t",
+				"table	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"cl",
+				"clear	Attr"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"h",
+				"h5	Tag"
+			],
+			[
+				"tal",
+				"table-row"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/daniel.wang/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/0AT58IEH/employee_services_print.css",
+		"/C/Users/daniel.wang/Desktop/lab/colorpicker/colorpickr.html",
+		"/C/Users/daniel.wang/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/CX1XVBF0/employee_services_print.css",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.2.0.zip/font-awesome-4.2.0/css/font-awesome.min.css",
+		"/W/users/danielw/sg/dashboard/Ldog_v2.html",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.2.0.zip/font-awesome-4.2.0/less/font-awesome.less",
+		"/W/users/danielw/sg/dashboard/css/custom.css",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.2.0.zip/font-awesome-4.2.0/less/mixins.less",
+		"/W/users/danielw/sg/dashboard/Ldog_v3.html",
+		"/W/users/danielw/sg/dashboard/iframe-ldog.html",
+		"/C/Users/daniel.wang/Desktop/style.css",
+		"/W/users/danielw/sg/dashboard/Ldog - Copy.html",
+		"/C/Users/daniel.wang/Desktop/admin-bar.min.css",
+		"/C/Users/daniel.wang/Desktop/menu",
+		"/C/Users/daniel.wang/Desktop/samir/stylesheet-s.less",
+		"/C/Users/daniel.wang/Desktop/EMAIL_SIGNATURE_MELBOURNE.html",
+		"/C/Workspaces/PageUp/WebSites/EmployeeServices/_css/icon/font-awesome.css",
+		"/C/Workspaces/PageUp/WebSites/EmployeeServices/_css/icon/font-awesome.min.css",
+		"/W/users/danielw/sg/spinner/spinner.html",
+		"/C/Workspaces/Journal/src/directives/journal-entry/journal-entry.tpl.html",
+		"/C/Workspaces/Journal/src/directives/add-button/add-button.tpl.html",
+		"/C/Workspaces/Journal/src/directives/journal-entry/journal-entry.spec.js",
+		"/C/Workspaces/Journal/src/directives/add-button/add-button.spec.js",
+		"/C/Workspaces/Journal/src/less/variables.less",
+		"/C/Workspaces/Journal/src/less/utilities.less",
+		"/C/Workspaces/Journal/src/less/mixins.less",
+		"/C/Workspaces/Journal/src/less/global.less",
+		"/C/Workspaces/Journal/src/directives/journal-entry/journal-entry.less",
+		"/C/Workspaces/Journal/src/app/journal/journal.tpl.html",
+		"/C/Workspaces/Journal/src/index.html",
+		"/C/Workspaces/Journal/src/app/journal/journal.js",
+		"/C/Workspaces/PageUp/WebSites/EmployeeServices/_css/nightsky/menu.less",
+		"/C/Workspaces/Journal/src/directives/add-button/add-button.js",
+		"/C/Workspaces/Journal/src/directives/add-button/add-button.less",
+		"/C/Workspaces/Journal/src/assets/templates/confirm-modal.tpl.html",
+		"/C/Workspaces/Journal/src/app/journal/journal.spec.js",
+		"/C/Workspaces/Journal/src/app/journal/journal.less",
+		"/C/Workspaces/Journal/src/app/app.js",
+		"/C/Workspaces/Journal/src/directives/search-typeahead/search-typeahead.tpl.html",
+		"/C/Workspaces/Journal/src/directives/journal-entry/journal-entry.js",
+		"/C/Workspaces/Journal/src/less/typography.less",
+		"/C/Users/daniel.wang/Dropbox/Public/prototypes/spinner/spinner.html",
+		"/C/Workspaces/Journal/src/app/app.spec.js",
+		"/W/users/danielw/sg/dashboard/css/bootstrap.css",
+		"/W/users/danielw/sg/dashboard/cp2.html",
+		"/W/users/danielw/sg/dashboard/cp.html",
+		"/W/users/danielw/sg/dashboard/css/bootstrap.min.css",
+		"/W/users/danielw/sg/dashboard/performance.html",
+		"/W/users/danielw/sg/dashboard/Ldog.html",
+		"/W/users/danielw/sg/dashboard/js/learning.js",
+		"/W/users/danielw/sg/dashboard/es.html",
+		"/W/users/danielw/sg/dashboard/js/isotope.pkgd.js",
+		"/W/users/danielw/CareerPath/Home.html",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.1.0.zip/font-awesome-4.1.0/css/font-awesome.min.css",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.1.0.zip/font-awesome-4.1.0/less/variables.less",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.1.0.zip/font-awesome-4.1.0/less/core.less",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.1.0.zip/font-awesome-4.1.0/less/bordered-pulled.less",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.1.0.zip/font-awesome-4.1.0/less/font-awesome.less",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.1.0.zip/font-awesome-4.1.0/less/icons.less",
+		"/C/Users/daniel.wang/Desktop/bkp/employee_services.css",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.1.0.zip/font-awesome-4.1.0/css/font-awesome.css",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome-4.1.0.zip/font-awesome-4.1.0/less/fixed-width.less",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_font-awesome.zip/font-awesome/css/font-awesome.css",
+		"/W/users/danielw/sg/login/login2.html",
+		"/W/users/danielw/bkp/employeeservice-LIVE-bkp.css",
+		"/W/users/danielw/bkp/compassgroup-es-bkp.css",
+		"/W/users/danielw/sg/login/login.html",
+		"/C/Users/daniel.wang/Dropbox/Public/prototypes/es/new-dock.html",
+		"/C/Users/daniel.wang/Dropbox/Public/prototypes/es/journal/js/custom.js",
+		"/C/Users/daniel.wang/AppData/Local/Temp/Temp1_login.zip/login/v2/src/index.html",
+		"/C/Users/daniel.wang/Dropbox/Public/prototypes/es/css/quickflip.css",
+		"/C/Users/daniel.wang/Dropbox/Public/prototypes/es/journal/css/custom.css",
+		"/C/Users/daniel.wang/Dropbox/Public/prototypes/es/css/custom.css",
+		"/C/Workspaces/PageUp/WebSites/EmployeeServices/_css/utm/pages/timesheet.less",
+		"/C/Users/daniel.wang/Dropbox/Public/prototypes/es/js/custom.js",
+		"/W/users/danielw/es/journal/css/custom.css",
+		"/W/users/danielw/es/css/custom.css",
+		"/W/users/danielw/CPB/Plugin/quickflip_0.1/quickflip.css",
+		"/W/users/danielw/es/css/quickflip.css",
+		"/W/users/danielw/es/journal/js/custom.js",
+		"/W/users/danielw/es/new-dock.html",
+		"/W/users/danielw/es/js/custom.js",
+		"/W/users/danielw/es/journal/index.html",
+		"/C/Users/daniel.wang/Desktop/PageUpPeople/main.js",
+		"/C/Users/daniel.wang/Desktop/lab/css.css",
+		"/C/Users/daniel.wang/Desktop/samir/stylesheet-login.less",
+		"/C/Users/daniel.wang/Desktop/bulk/bulk.html",
+		"/C/Workspaces/PageUp/WebSites/EmployeeServices/_css/employee_services.css",
+		"/C/Workspaces/PageUp/WebSites/EmployeeServices/_css/employee_services_shared.less",
+		"/W/users/danielw/journal/index.html",
+		"/W/users/danielw/journal/homepage.html",
+		"/W/users/danielw/journal/css/custom.css",
+		"/C/Users/daniel.wang/Desktop/lab/loading/loading.html",
+		"/C/Users/daniel.wang/Desktop/lab/CRM/crmv2.html",
+		"/C/Users/daniel.wang/Desktop/lab/CRM/crm.html",
+		"/C/Workspaces/PageUp/WebSites/EmployeeServices/_js/CompensationTree.js",
+		"/C/Workspaces/PageUp/WebSites/EmployeeServices/_js/Controls/CompensationReviews.js",
+		"/C/Workspaces/PageUp/WebSites/Apply/Widget/scripts/CRMv2.css",
+		"/C/Workspaces/PageUp/WebSites/Apply/Widget/scripts/CRMv2.js",
+		"/C/Users/daniel.wang/Desktop/lab/compensation/compensation-review.html",
+		"/C/Users/daniel.wang/Desktop/lab/compensation/shared.css",
+		"/C/Users/daniel.wang/Desktop/lab/compensation/es.css",
+		"/C/Users/daniel.wang/Dropbox/work/DailyPerformance/css/custom.css",
+		"/C/Users/daniel.wang/Desktop/lab/compensation-review.html",
+		"/C/Users/daniel.wang/Dropbox/work/DailyPerformance/es.html",
+		"/C/Users/daniel.wang/Desktop/DailyPerformance/css/custom.css",
+		"/C/Users/daniel.wang/Desktop/DailyPerformance/es.html",
+		"/C/Users/daniel.wang/Desktop/DailyPerformance/js/custom.js",
+		"/C/Users/daniel.wang/Desktop/DailyPerformance/index.html",
+		"/C/Users/daniel.wang/Desktop/DailyPerformance/7box.html",
+		"/C/Users/daniel.wang/Desktop/DailyPerformance/custom.js",
+		"/C/Users/daniel.wang/Desktop/DailyPerformance/custom.css"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fa-smile-o",
+			"199",
+			"crea",
+			"creat",
+			"could",
+			"3",
+			"fa-thumbs-o-up",
+			"fa-users",
+			"smile-o",
+			"<i class=\"fa fa-frown-o\"></i>",
+			"frown",
+			"text",
+			"button",
+			"	<button ng-click=\"add()\" class=\"add\"><i class=\"fa fa-2x fa-pencil\"></i></button>",
+			"primary",
+			";\n",
+			"cube",
+			"current",
+			"modal",
+			"moal",
+			"item",
+			"railsa",
+			"devPlanBox",
+			"  My Learning ",
+			"btn",
+			"Development",
+			"Your d",
+			"40",
+			"400",
+			"what",
+			"lkp1",
+			"manager",
+			"padding",
+			"a></h1>",
+			"<h1><a",
+			"boxportfolio4",
+			".panel",
+			"article",
+			"dd",
+			".iconicmenu ul",
+			"waitlist",
+			"selectall1",
+			"<input type=\"checkbox\" />",
+			"<input type=\"checkbox\"  />",
+			"mvc-grid-container-attendee",
+			"<input type=\"checkbox\" /><span class=\"mvc-grid-image\">",
+			"<span class=\"mvc-grid-image\">",
+			"/beta/",
+			"#menu",
+			".PUTabbedPanel_content",
+			".PUTabbedPanel_tabs li.selected",
+			"a.hover_link, .actionCell a",
+			"#menu",
+			"menu",
+			"textarea",
+			"#profile .section",
+			"#menu",
+			"menu",
+			"widget",
+			"box_inner",
+			".PUGrid table th, .PUGridStyles table th",
+			".useful_actions .heading, .dialogTitleBar",
+			".control-toggler .handle, .control-YesNoExpandPanel .handle",
+			".PUGrid table td, .PUGridStyles table td",
+			"rowEven",
+			"table",
+			"body, input, textarea, select, option",
+			".button",
+			"#menu ul ul, #submenu ul ul",
+			".useful_actions ul",
+			".PUGrid table th",
+			".PUGrid table th, .PUGridStyles table th",
+			".PUGrid table th, .PUGridStyles table th.",
+			".PUGrid table th, .PUGridStyles table th",
+			"#submenu",
+			"box",
+			"FONT_SIZE",
+			"#profile_image",
+			"../_fonts",
+			"   \n",
+			"#pu-crm-widget-crm-widget",
+			"css",
+			"<div class=\\\"form-group\\\">\"",
+			"chosen",
+			"font",
+			"{}",
+			".pu-crm-widget-container",
+			"setcss",
+			"{\n",
+			"normalisePositionHeights",
+			"noOwnerReviews",
+			"noOwnerReviews ",
+			"name",
+			"renderPositions",
+			"renderPositions ",
+			"renderPositions",
+			"noaction",
+			"hierarchy",
+			"hi",
+			"hir",
+			"noOwnerReviews",
+			"noOwnerReviews ",
+			"nextLevelNoAction",
+			"renderPositions",
+			"resizeHeading()",
+			"hidereviews",
+			"directr",
+			"push",
+			"hierar",
+			"photo-tiny",
+			"img",
+			"table",
+			"colspan=\"9\"",
+			"highlight",
+			"hight",
+			"https://es.levidev517",
+			"src=\"/PU-EmployeeServices/",
+			"48px",
+			"().",
+			"i",
+			";\n",
+			".timeline-icon",
+			".panel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fa-thumbs-up",
+			"fa-thumbs-o-up",
+			"users",
+			"",
+			"a></h5>",
+			"<h5><a",
+			"item",
+			"<input type=\"checkbox\" name=\"foo\"/>",
+			"<span class=\"mvc-grid-image\"><input type=\"checkbox\" />",
+			"<input type=\"checkbox\" /><span class=\"mvc-grid-image\">",
+			"https://demo600.pageuppeople.com/beta/",
+			"fonts",
+			"#pu-crm",
+			"<li>",
+			"#pu-crm-widget-crm-widget",
+			"https://es.levidev517/PU-EmployeeServices",
+			"src=\"https://es.levidev517/",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Ldog_v3.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

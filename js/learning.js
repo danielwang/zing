@@ -61,4 +61,10 @@
 				
 			});
 
+			$('#multiple-search-panel li').click(function () {
+
+				$(this).toggleClass('selected')
+
+			});
+
 		});
