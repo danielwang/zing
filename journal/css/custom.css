@@ -406,20 +406,23 @@ dl dd:nth-child(5) i{
 dl dd:nth-child(6) i{
 	color: #CB6564
 }
-#dev, #sec {
+dl dd:nth-child(7) i{
+	color: #1d9d73;
+}
+#sec {
     color: #CCCCCC;
     width: 93px;
 }
-#dev i, #sec i {
+#sec i {
 	font-size: 30px;
 }
-#dev button, #sec button {
+#sec button {
 	display: none;
 }
-#dev:hover, #sec:hover {
+#sec:hover {
     color: #aaa;
 }
-#dev:hover button, #sec:hover button {
+#sec:hover button {
 	background: none repeat scroll 0 0 #1D9D73;
     border: 0 none;
     color: #FFFFFF;

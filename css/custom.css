@@ -3,12 +3,11 @@ body {
     color: #414141;
     font-size: 13px;
     font-family: 'Open Sans', sans-serif;
+    padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    background-color: #f2f2f2;
     }
 article{
     background: #f2f2f2;
-}
-article.timeline-item{
-    background: #fff;
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
@@ -93,10 +92,7 @@ li{ list-style: none outside none; }
     width: 30px;
     border:2px solid #F0C786;;
 }
-.nav:first-child li:first-child{ 
-    text-transform: uppercase;
 
-}
 .navbar .nav > li > a.create{
     background: #E8910C
 }
@@ -213,9 +209,9 @@ li{ list-style: none outside none; }
     display: inline-block;
     float: left;
     margin-bottom: 20px;
-    margin-right: 20px;
+    margin-right: 2%;
     position: relative;
-    width: 23.0769%;
+    width: 30%;
     z-index: 0;
     background: none repeat scroll 0 0 #fff;
     border-color: #ededed #ededed #ddd;
@@ -225,7 +221,7 @@ li{ list-style: none outside none; }
     transition: background-color 0.1s ease 0s;
 }
 
-.largeItem{width:560px;}
+.largeItem{width:62%;}
 
 .boxcontainer {
     font-size: 13px;
@@ -334,10 +330,80 @@ ul.nav span.badge{border-radius: 50%; float: left; margin-right:15px;}
     left: -15px;
     position: absolute;
 }
+#multiple-search-panel {display: none}
 #multiple-search-panel li.heading {font-size: 16px; text-indent: 0px}
 #multiple-search-panel li{text-indent: 20px}
 .competency{
     max-height:220px;
     overflow-y: scroll; 
     position: relative;
+}
+
+/*************************************************\
+        system settings
+\*************************************************/
+.green{
+    color:#1d9d73;
+}
+.gray{
+    color:#999999;
+}
+
+
+#featureGrid_table tr td:first-child, #featureGrid_table tr td:last-child{
+    display: none;
+}
+#systemsettings .label{   
+    border-radius: 0;
+    color: #ffffff;
+    float: right;
+    font-size: 12px;
+    margin: 3px;
+    padding: 5px 8px;
+    font-weight: normal;
+}
+#systemsettings  .table {
+    overflow: hidden;
+}
+#systemsettings table label{ display: inline;}
+#systemsettings h5{
+    color:#0093ca
+}
+#systemsettings .editable{
+    cursor: pointer;
+    background-color: lightyellow;
+    border: 1px dotted #999;
+}
+#systemsettings .edit-mode, #systemsettings .editable:hover{
+    background-color: #ffff99;; 
+    border: 1px dotted #999;
+}
+#systemsettings .table thead th {
+    vertical-align: middle;
+}
+
+#systemsettings #autosuggestion{
+    box-shadow: 1px 3px 5px #898989;
+}
+
+.chosen-container{width:520px !important;}
+#systemsettings .chosen-container-multi .chosen-choices li.search-choice {
+    background-clip: padding-box;
+    background-color: #69c1cf;
+    background-image: none;
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    cursor: default;
+    line-height: 13px;
+    margin: 3px 0 3px 5px;
+    padding: 6px 20px 6px 8px;
+    position: relative;
+}
+
+#systemsettings .chosen-container .chosen-results li.highlighted {
+    background-color: #aaa;
+    background-image: none;
+    color: #fff;
 }

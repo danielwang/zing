@@ -1,141 +1,5 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <title>My PUP</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="">
-      <meta name="author" content="daniel.wang" >
-      <!-- Le styles -->
-      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-      <link href="css/custom.css" rel="stylesheet" type="text/css" />
-      <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
-      <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-      <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
-      <!-- Fav and touch icons -->
-      <script src="https://code.jquery.com/jquery-latest.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/custom.js"></script>
-      <link rel="stylesheet" type="text/css" href="css/quickflip.css" />
-      <link rel="stylesheet" href="journal/css/custom.css" />
-      <style>
-         body {
-         padding-top: 60px;
-         background-color:#f0f0f0; /* 60px to make the container go all the way to the bottom of the topbar */
-         }
-      </style>
-      <script src="journal/js/custom.js"></script>
-   </head>
-   <body>
-      <div class="navbar navbar-inverse navbar-fixed-top">
-         <div class="navbar-inner">
-            <div class="container">
-               <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               </a>
-               <div class="nav-collapse collapse navbar-responsive-collapse">
-                  <ul class="nav">
-                     <li class="active dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-graduation-cap icon-white"></i>&nbsp;&nbsp;My Learning </a>
-                        <ul class="dropdown-menu">
-                           <li><a href="admin.html">Recruitment</a></li>
-                           <li><a href="performance.html">Performance</a></li>
-                           <li><a href="Ldog.html">Learning</a></li>
-                           <li><a href="#">Succession</a></li>
-                           <li class="divider"></li>
-                           <li><a href="#">Succession plans</a></li>
-                        </ul>
-                     </li>
-                  </ul>
-                  <ul class="nav pull-right">
-                     <li><a href="#" role="link" data-toggle="modal" id="addJournal"><i class="icon-edit icon-white"></i> journal</a></li>
-                     <li class="dropdown">
-                        <!--  ******************************       +  notification                          ********************************* -->
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
-                        <div class="dropdown-menu pull-right messages-list">
-                           <div class="triangle"></div>
-                           <div class="notice-title">You Have 3 Massages</div>
-                           <!--message #1-->
-                           <div class="notice-message">
-                              <button type="button" class="close">×</button>	
-                              <div class="avatar"><img alt="" src="img/avatar2.png"></div>
-                              <div class="info">
-                                 <div class="author">Kane</div>
-                                 <div class="date">45 mins ago</div>
-                                 <div class="clearfix"></div>
-                                 <div class="text">has approved job <a href="#">Office administrator</a></div>
-                              </div>
-                              <div class="clearfix"></div>
-                           </div>
-                           <!--message #4-->
-                           <div class="notice-message due">
-                              <button type="button" class="close">×</button>	
-                              <div class="info">
-                                 <div class="text">Mid year performance for <a href="#">Daniel Wang</a> is due now.</div>
-                              </div>
-                              <div class="clearfix"></div>
-                           </div>
-                           <!--message #2-->
-                           <div class="notice-message">
-                              <button type="button" class="close">×</button>	
-                              <div class="avatar"><img alt="" src="img/avatar3.png"></div>
-                              <div class="info">
-                                 <div class="author">Aaron</div>
-                                 <div class="date">2 hours ago</div>
-                                 <div class="clearfix"></div>
-                                 <div class="text">has approved the offer to applicant <a href="">Daniel Wang</a>.</div>
-                              </div>
-                              <div class="clearfix"></div>
-                           </div>
-                           <!--message #3-->
-                           <div class="notice-message">
-                              <button type="button" class="close">×</button>	
-                              <div class="avatar"><img alt="" src="img/avatar4.png"></div>
-                              <div class="info">
-                                 <div class="author">Adam</div>
-                                 <div class="date">yesterday</div>
-                                 <div class="clearfix"></div>
-                                 <div class="text">suggested <a href="#">HTML6</a> to you in learning library.</div>
-                              </div>
-                              <div class="clearfix"></div>
-                           </div>
-                           <a class="notice-more" href="#">•••</a>
-                        </div>
-                        <!--  ******************************        - notification                          ********************************* -->
-                     </li>
-                     <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/avatar3.png" /> Daniel <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                           <li><a href="#">Profile</a></li>
-                           <li><a href="#">Journal</a></li>
-                           <li class="divider"></li>
-                           <li><a href="#">Logout</a></li>
-                        </ul>
-                     </li>
-                     <li class="divider-vertical"></li>
-                     <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#" href="#_" ><i class="icon-info-sign icon-white"></i></a>
-                        <ul class="dropdown-menu">
-                           <li><a href="#">Live Supoort</a></li>
-                           <li><a href="#">Knowledge portal</a></li>
-                           <li><a href="#">Support centre</a></li>
-                           <li><a href="#">Release note</a></li>
-                           <li><a href="#">Beta on/off</a></li>
-                        </ul>
-                     </li>
-                  </ul>
-               </div>
-               <!-- /.nav-collapse -->
-            </div>
-         </div>
-      </div>
+<?php include '_partials/head.html';?>
+<?php include '_partials/nav.html';?>
       <div id="learning" class="container-fluid">
          <div class="row-fluid">
             <div class="span12">
@@ -186,66 +50,7 @@
                               <div class="tab-content" style="background:#fff; padding:10px">
                                  <div class="tab-pane active" id="panel-282702">
 
- <!-- ********** advanced search *********************************************************************************************************************************-->                                      <p><input id="searchbox" type="text" style="width: 80%; padding-top: 8px; padding-bottom: 8px;" placeholder="What would you like to learn?"/>
-                                       <i id="multiple-search-icon" class="fa fa-tasks fa-lg"></i>
-                                       </p>
-                                       <div id="multiple-search-panel">
-                                          <div class="row-fluid">
-                                             <ul class="span6">
-                                                <li class="heading">Type:</li>
-                                                <li>E-Learning</li>
-                                                <li>On-the-Job Activities</li>
-                                                <li>Reading</li>
-                                                <li>Training</li>
-                                                <li>Online Video Learning</li>
-                                                <li></li>
-                                                <li class="heading">Level:</li>
-                                                <li>Level 1</li>
-                                                <li>Level 2</li>
-                                                <li>Level 3</li>
-                                                <li>Level 4</li>
-                                             </ul>
-                                             <ul class="competency span6">
-                                                <li class="heading">Competency:</li>
-                                                <li value="36">Agility (4)</li>
-                                                <li value="37">Analysis (5)</li>
-                                                <li value="38">Building Rapport (6)</li>
-                                                <li value="39">Building Relationships (4)</li>
-                                                <li value="40">Business Acumen (8)</li>
-                                                <li value="57">Business Management</li>
-                                                <li value="58">Change Leadership</li>
-                                                <li value="43">Client Centric</li>
-                                                <li value="52">Commitment To Learning</li>
-                                                <li value="65">Communication</li>
-                                                <li value="41">Communication (Verbal)</li>
-                                                <li value="42">Communication (Written/Visual)</li>
-                                                <li value="59">Conflict Resolution</li>
-                                                <li value="67">Consulting</li>
-                                                <li value="44">Decision Making</li>
-                                                <li value="45">Delegation</li>
-                                                <li value="68">Engineering Innovation</li>
-                                                <li value="46">Influencing</li>
-                                                <li value="47">Initiative</li>
-                                                <li value="48">Innovation</li>
-                                                <li value="49">Judgement</li>
-                                                <li value="51">Leadership (Strategic)</li>
-                                                <li value="50">Leading Teams</li>
-                                                <li value="60">Negotiation</li>
-                                                <li value="53">Planning &amp; Organising</li>
-                                                <li value="61">Problem Solving</li>
-                                                <li value="62">Project Management</li>
-                                                <li value="54">Quality Orientation</li>
-                                                <li value="55">Results Focus</li>
-                                                <li value="63">Sales Focus</li>
-                                                <li value="64">Teamwork</li>
-                                                <li value="66">Technical Merit</li>
-                                                <li value="56">Tenacity</li>
-                                             </ul>
-                                          </div>
-                                          <hr>
-                                            <p><i class="fa fa-money fa-lg"></i> Cost: <input type="range" name="points" min="100" max="1000"></p>
-                                       </div>
-<!-- *****************************************************************************************************************************************************************-->                                       
+                                       <input id="searchbox" type="text" style="width: 80%; padding-top: 8px; padding-bottom: 8px;" placeholder="What would you like to learn?"/>
                                        <div id="autosuggestion">
                                           <!--   search results segment -->
                                           <div class="media">
@@ -286,7 +91,7 @@
                                                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.
                                              </div>
                                           </div>
-                                          <p id="add-msg">Could not find any, would you like to create your own? <button class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button></p>
+                                          <p id="add-msg">could not find any, would you like to creat your own? <button class="btn btn-danger"><i class="fa fa-plus-circle"></i> Add </button></p>
                                        </div>
                                        <!-- / autosuggestion -->
                                     </div>
@@ -327,7 +132,7 @@
                         <div class="item reco cat2 cat3">
                            <div class="boxcontainer">
                               <span class="rec">Recommended</span>
-                              <span class="cost"><b class="badge bg-success"><i class="fa fa-usd"></i>399</b></span>
+                              <span class="cost"><b class="badge bg-success">$399</b></span>
                               <p><i>Recommended because you have also read The Mythical Man Month</i>
                               <p>
                                  <img src="img/rails4_xlargecover.jpg" alt="">
@@ -345,7 +150,7 @@
                         <div class="item reco cat1">
                            <div class="boxcontainer">
                               <span class="rec">Recommended</span>
-                              <span class="cost"><b class="badge bg-success"><i class="fa fa-usd"></i>199</b></span>
+                              <span class="cost"><i class="fa fa-2x fa-money"></i></span>
                               <p><i>Recommended because you are a product manager</i>
                               <p>
                                  <img src="http://www.craigielawfirm.com/wp-content/uploads/sites/5/2014/03/start-up-of-you-211x300.jpg" alt="">
@@ -361,7 +166,7 @@
                         <!-- box 3 -->
                         <div class="item cat2 cat3">
                            <div class="boxcontainer">
-                              <span><i class="fa fa-thumbs-up"></i> 255</span>
+                              <span><i class="fa fa-smile-o"></i> 255 <i class="fa fa-frown-o"></i> 23</span>
                               <img src="http://www.pageuppeople.com/wp-content/uploads/2014/05/simplescreens_applicanttracking-300x236.png" alt="">
                               <h5><a href="singleproject.html">Customer Feedback</a></h5>
                               <p>
@@ -375,7 +180,7 @@
                         <!-- box 6 -->
                         <div class="item cat2">
                            <div class="boxcontainer">
-                              <span><i class="fa fa-thumbs-up"></i> 166</span>
+                              <span><i class="fa fa-smile-o"></i> 166<i class="fa fa-frown-o"></i> 45</span>
                               <iframe src="http://player.vimeo.com/video/99311260" width="260" height="152" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
                               <h5><a href="singleproject.html">Cultural Understanding</a></h5>
                               <p>
@@ -386,7 +191,7 @@
                         <!-- box 7 -->
                         <div class="item cat2 cat3">
                            <div class="boxcontainer">
-                              <span><i class="fa fa-thumbs-up"></i> 9</span>
+                              <span><i class="fa fa-smile-o"></i> 9</span>
                               <img alt="" src="http://lorempixel.com/270/100/sports/1" />
                               <h5><a href="singleproject.html">Change and Innovation</a></h5>
                               <p>
@@ -397,7 +202,7 @@
                         <!-- box 8 -->
                         <div class="item cat1">
                            <div class="boxcontainer">
-                              <span><i class="fa fa-thumbs-up"></i> 3</span>
+                              <span><i class="fa fa-frown-o"></i> 3</span>
                               <img class="user" src="img/avatar1.png" />
                               <h5><a href="singleproject.html">Add Value to your Role</a></h5>
                               <p>
@@ -408,7 +213,7 @@
                         <!-- box 9 -->
                         <div class="item cat2 cat3">
                            <div class="boxcontainer">
-                              <span><i class="fa fa-thumbs-up"></i> 25</span>
+                              <span><i class="fa fa-smile-o"></i> 25 <i class="fa fa-frown-o"></i> 1</span>
                               <img alt="" src="http://lorempixel.com/270/150/sports/3" />
                               <h5><a href="singleproject.html">Managing Distractions </a></h5>
                               <p>
@@ -458,7 +263,7 @@
                         <!-- box 5 -->
                         <div class="item cat2">
                            <div class="boxcontainer">
-                              <span><i class="fa fa-thumbs-up"></i> 6</span>
+                              <span><i class="fa fa-smile-o"></i> 6 <i class="fa fa-frown-o"></i> 5</span>
                               <img class="user" src="img/avatar1.png" />							
                               <h5><a href="singleproject.html">Judgement Observations </a></h5>
                               <p>
@@ -521,15 +326,6 @@
          <div class="modal-body">
             <!-- *******************  ***********************************-->
             <form class="form-horizontal">
-             	<div class="control-group">
-                  <label class="control-label" for="">Create for</label>
-                  <div class="controls">
-                     <div class="btn-group">
-						 <button type="button" class="btn"><i class="fa fa-building fa-lg"></i> Business</button> 
-						 <button type="button" class="btn" style="background: none repeat scroll 0px 0px rgb(29, 157, 115); color: white; width: 106px;"><i class="fa fa-lock fa-lg"></i> Myself</button>
-					</div>
-                  </div>
-               </div>
                <div class="control-group">
                   <label class="control-label" for="">Title</label>
                   <div class="controls">
@@ -620,6 +416,5 @@
       <!-- *******************  ***********************************-->	
       <script src="js/isotope.pkgd.js"></script>
       <script src="js/learning.js"></script>
-   </body>
-</html>
+<?php include '_partials/foot.html';?>  
 

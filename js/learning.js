@@ -52,15 +52,17 @@
 				$('#autosuggestion').hide();
 			});
 
-			$('.item').click(function(){
-				$(this).toggleClass('added');	
-			});
+			//$('.item').click(function(){
+			//	$(this).toggleClass('added');	
+			//});
 			
 			$('#title').keydown(function(){
 				$('#autosuggestion2').show();
 				
 			});
-
+			$('#multiple-search-icon').click(function () {
+				$('#multiple-search-panel').slideToggle(300);
+			});
 			$('#multiple-search-panel li').click(function () {
 
 				$(this).toggleClass('selected')

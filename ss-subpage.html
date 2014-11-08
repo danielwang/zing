@@ -1,0 +1,176 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>System settings</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="daniel.wang" >
+      <!-- Le styles -->
+      <link href="../assets/css/bootstrap.css" rel="stylesheet">
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+      <link href="css/custom.css" rel="stylesheet" type="text/css" />
+      <link href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+      <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+      <!-- Fav and touch icons -->
+      <script src="https://code.jquery.com/jquery-latest.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/custom.js"></script>
+      <style>
+         body {
+         padding-top: 60px;
+         }
+      </style>
+   </head>
+   <body>
+      <div class="navbar navbar-inverse navbar-fixed-top">
+         <div class="navbar-inner">
+            <div class="container">
+               <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </a>
+               <div class="nav-collapse collapse navbar-responsive-collapse">
+                  <ul class="nav">
+                     <li class="active dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-graduation-cap icon-white"></i>&nbsp;&nbsp;My Learning </a>
+                        <ul class="dropdown-menu">
+                           <li><a href="admin.html">Recruitment</a></li>
+                           <li><a href="#">Performance</a></li>
+                           <li><a href="Ldog.html">Development</a></li>
+                           <li><a href="#">Succession</a></li>
+                           <li class="divider"></li>
+                           <li><a href="#">Succession plans</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+                  <ul class="nav pull-right">
+                     <li><a href="#" role="link" data-toggle="modal" id="addJournal"><i class="icon-edit icon-white"></i> journal</a></li>
+                     <li class="dropdown">
+                     </li>
+                     <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/avatar3.png" /> Daniel <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Profile</a></li>
+                           <li><a href="#">Journal</a></li>
+                           <li class="divider"></li>
+                           <li><a href="#">Logout</a></li>
+                        </ul>
+                     </li>
+                     <li class="divider-vertical"></li>
+                     <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#" href="#_" ><i class="icon-info-sign icon-white"></i></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="#">Live Supoort</a></li>
+                           <li><a href="#">Knowledge portal</a></li>
+                           <li><a href="#">Support centre</a></li>
+                           <li><a href="#">Release note</a></li>
+                           <li><a href="#">Beta on/off</a></li>
+                        </ul>
+                     </li>
+                  </ul>
+               </div>
+               <!-- /.nav-collapse -->
+            </div>
+         </div>
+      </div>
+      <div id="systemsettings" class="container-fluid">
+         <div class="row-fluid">
+            <div class="span12">
+               <div class="row-fluid">
+                  <!--  left
+                     ================================================== -->
+                  <div class="span2">
+                  </div>
+                  <!--  right 
+                     ================================================== -->
+                  <div class="span10">
+                              <!-- conents ================================================== -->
+                  <div class="row-fluid" style="margin:25px 0">
+                     <input type="text" style="width: 413px;" placeholder="Search for system settings, eg background checking">
+                  </div>
+                  <ul class="breadcrumb">
+                     <li>
+                        <i class="fa fa-puzzle-piece fa-lg"></i> <a href="systemsettings.html">Background checking</a> <span class="divider">/</span>
+                     </li>
+                     <li class="active">
+                        Background check packages
+                     </li>
+                     <li style="float: right; margin-top: -5px;"><button class="btn btn-danger"><i class="fa fa-plus-circle"></i>  New </button></li>
+                  </ul>
+                  <table class="table">
+                     <tbody>
+                        <tr onselectstart="return false">
+                           <th name="userColumn" id="sCheckSupplierGroupCode" width="158px" nowrap="">
+                              <div class="headerWrapper">
+                                 <span style="float: left; overflow: hidden; white-space: nowrap;"><a onclick="ReorderGrid('sCheckSupplierGroupCode','orderByctl00_Main_ManageBackgroundCheckPackages','orderByActionctl00_Main_ManageBackgroundCheckPackages','ManageBackgroundCheckPackages');PageCallBack('GRID_ManageBackgroundCheckPackages')" class="linkButton">Code</a></span>
+                                 <div class="resizor" onmousedown="resizeColumn(this)">
+                                 </div>
+                              </div>
+                           </th>
+                           <th name="userColumn" id="sCheckGroupTitle" width="646px" nowrap="">
+                              <div class="headerWrapper">
+                                 <span style="float: left; overflow: hidden; white-space: nowrap;"><a onclick="ReorderGrid('sCheckGroupTitle','orderByctl00_Main_ManageBackgroundCheckPackages','orderByActionctl00_Main_ManageBackgroundCheckPackages','ManageBackgroundCheckPackages');PageCallBack('GRID_ManageBackgroundCheckPackages')" class="linkButton">Title</a></span>
+                                 <div class="resizor" onmousedown="resizeColumn(this)">
+                                 </div>
+                              </div>
+                           </th>
+                           <th name="userColumn" id="sCheckSupplierTitle" width="220px" nowrap="">
+                              <div class="headerWrapper">
+                                 <span style="float: left; overflow: hidden; white-space: nowrap;"><a onclick="ReorderGrid('sCheckSupplierTitle','orderByctl00_Main_ManageBackgroundCheckPackages','orderByActionctl00_Main_ManageBackgroundCheckPackages','ManageBackgroundCheckPackages');PageCallBack('GRID_ManageBackgroundCheckPackages')" class="linkButton">Supplier</a></span>
+                                 <div class="resizor" onmousedown="resizeColumn(this)">
+                                 </div>
+                              </div>
+                           </th>
+                           <th class="paddingCell">&nbsp;</th>
+                           <th class="navigationCell" nowrap="true" width="118px"><span>&nbsp;</span></th>
+                        </tr>
+                        <tr class="rowEven">
+                           <td nowrap=""><span style="white-space: nowrap;"><span id="sUpDownId_YesNo_1"></span>1234</span></td>
+                           <td title="Baseline Employment History" nowrap=""><span style="white-space: nowrap;">Baseline Employment History</span></td>
+                           <td title="FADV" nowrap=""><span style="white-space: nowrap;">FADV</span></td>
+                           <td class="paddingCell">&nbsp;</td>
+                           <td class="actionCell" nowrap="true"><span>&nbsp;<a class="tableAction" href="EditBackgroundCheckPackage.aspx?sData=qkjPoy4-lojaylRnDAzT-fQSEbuf7o_CPx88zibhIAc%7e"><i class="fa fa-edit fa-lg"></i></a>&nbsp;<a class="tableAction" onclick="javascript:SingleCallBack(this.id, 'lRecordID:65;bDeleteRecord:' + ConfirmDelete(), 'CALLBACK_DELETE');"><i class="fa fa-archive fa-lg"></i></a></span><a href="#"><i class="fa fa-trash fa-lg"></i></a></td>
+                        </tr>
+                        <tr class="rowOdd">
+                           <td nowrap=""><span style="white-space: nowrap;"><span id="sUpDownId_YesNo_2"></span>5678</span></td>
+                           <td title="Full Employment History" nowrap=""><span style="white-space: nowrap;">Full Employment History</span></td>
+                           <td title="FADV" nowrap=""><span style="white-space: nowrap;">FADV</span></td>
+                           <td class="paddingCell">&nbsp;</td>
+                           <td class="actionCell" nowrap="true"><span>&nbsp;<a class="tableAction" href="EditBackgroundCheckPackage.aspx?sData=qkjPoy4-lojaylRnDAzT-bIu_pgoJJsE6ok9AORPJqU%7e"><i class="fa fa-edit fa-lg"></i></a>&nbsp;<a class="tableAction" onclick="javascript:SingleCallBack(this.id, 'lRecordID:114;bDeleteRecord:' + ConfirmDelete(), 'CALLBACK_DELETE');"><i class="fa fa-trash fa-lg"></i></a></span></td>
+                        </tr>
+                        <tr class="rowEven">
+                           <td nowrap=""><span style="white-space: nowrap;"><span id="sUpDownId_YesNo_3"></span>1123</span></td>
+                           <td title="Employment History + Criminal" nowrap=""><span style="white-space: nowrap;">Employment History + Criminal</span></td>
+                           <td title="FADV" nowrap=""><span style="white-space: nowrap;">FADV</span></td>
+                           <td class="paddingCell">&nbsp;</td>
+                           <td class="actionCell" nowrap="true"><span>&nbsp;<a class="tableAction" href="EditBackgroundCheckPackage.aspx?sData=qkjPoy4-lojaylRnDAzT-bIu_pgoJJsE_jlglRW-MF0%7e"><i class="fa fa-edit fa-lg"></i></a>&nbsp;<a class="tableAction" onclick="javascript:SingleCallBack(this.id, 'lRecordID:115;bDeleteRecord:' + ConfirmDelete(), 'CALLBACK_DELETE');"><i class="fa fa-trash fa-lg"></i></a></span></td>
+                        </tr>
+                        <tr class="rowOdd">
+                           <td nowrap=""><span style="white-space: nowrap;"><span id="sUpDownId_YesNo_4"></span>1900</span></td>
+                           <td title="Probity Plus Employment History" nowrap=""><span style="white-space: nowrap;">Probity Plus Employment History</span></td>
+                           <td title="FADV" nowrap=""><span style="white-space: nowrap;">FADV</span></td>
+                           <td class="paddingCell">&nbsp;</td>
+                           <td class="actionCell" nowrap="true"><span>&nbsp;<a class="tableAction" href="EditBackgroundCheckPackage.aspx?sData=qkjPoy4-lojaylRnDAzT-bIu_pgoJJsEb7G3ctWNDKE%7e"><i class="fa fa-edit fa-lg"></i></a>&nbsp;<a class="tableAction" onclick="javascript:SingleCallBack(this.id, 'lRecordID:116;bDeleteRecord:' + ConfirmDelete(), 'CALLBACK_DELETE');"><i class="fa fa-trash fa-lg"></i></a></span></td>
+                        </tr>
+                     </tbody>
+                  </table>
+
+    <!-- ***************************************************************************************************************************************- -->                 
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <script src="js/learning.js"></script>
+   </body>
+</html>
+
