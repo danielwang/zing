@@ -1,130 +1,157 @@
-<div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-	       <div class="container">
-	         <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
-	           <span class="icon-bar"></span>
-	           <span class="icon-bar"></span>
-	           <span class="icon-bar"></span>
-	         </a>
-			 <div class="nav-collapse collapse navbar-responsive-collapse">           
-	           <ul class="nav">
-	             <li class="active dropdown"><a href="index.php" data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-th-list icon-white"></i>&nbsp;&nbsp;My PUP </a>
-	             	<ul class="dropdown-menu">
-	             	 <li><a href="index.php">PUP</a></li>	
-	                 <li><a href="admin.html">Recruitment</a></li>
-	                 <li><a href="performance.php">Performance</a></li>
-	                 <li><a href="learning.php">Learning</a></li>
-	                 <li><a href="#">Succession</a></li>
-	                 <li class="divider"></li>
-	                 <li><a href="systemsettings.html">System settings</a></li>
-	               </ul>
-	             </li>
-	           <!--  <li><a href="#">Link</a></li>
-	             <li><a href="#">Link</a></li>-->
-	             <li class="dropdown">
-	               <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-plus-sign icon-white"></i>&nbsp;Create</a>
-	               <ul class="dropdown-menu">
-	                 <li><a href="#">Performance review</a></li>
-	                 <li><a href="#">Team member's performance review</a></li>
-	                 <li><a href="#">360 review</a></li>
-	                 <li><a href="#">Succession plan</a></li>
-	               </ul>
-	             </li>
-	             <li class="dropdown">
-	               <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-th-large icon-white"></i>&nbsp;Menu</a>
-	               <ul class="dropdown-menu">
-	                 <li><a href="#">For an employee</a></li>
-	                 <li><a href="#">Performance dashboard</a></li>
-	                 <li><a href="#">1-on-1</a></li>
-	               </ul>
-	             </li>
-	    
-	           </ul>
-	           <ul class="nav pull-right">      	 
-	             <li><a href="#myModal" role="link" data-toggle="modal" id="addJournal"><i class="icon-edit icon-white"></i> journal</a></li>
+<header id="top" class="navbar navbar-static-top bs-docs-nav" role="banner">
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">PageUp</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="glyphicon glyphicon-th-list icon-white"></i>&nbsp;&nbsp;My PUP </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.php">PUP</a>
+                                </li>
+                                <li><a href="admin.html">Recruitment</a>
+                                </li>
+                                <li><a href="performance.php">Performance</a>
+                                </li>
+                                <li><a href="learning.php">Learning</a>
+                                </li>
+                                <li><a href="#">Succession</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href="systemsettings.html">System settings</a>
+                                </li>
+                            </ul>
+                    </li>
+                    <!-- <li><a href="#">Link</a></li>
 
-	             <li class="dropdown"> 
-	           	 	<!--  ******************************       +  notification                          ********************************* -->
-					<a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
-		          
-		          <div class="dropdown-menu pull-right messages-list">
-		          <div class="triangle"></div>
-		          
-		            <div class="notice-title">You Have 3 Massages</div>
-		            <!--message #1-->
-		            <div class="notice-message">
-		              <button type="button" class="close">×</button>	
-		              <div class="avatar"><img alt="" src="img/avatar2.png"></div>
-		              <div class="info">
-		                <div class="author">Kane</div>
-		                <div class="date">45 mins ago</div>
-		                <div class="clearfix"></div>
-		                <div class="text">has approved job <a href="#">Office administrator</a></div>
-		              </div>
-		              <div class="clearfix"></div>
-		            </div>
-		            <!--message #4-->
-		            <div class="notice-message due">
-		              <button type="button" class="close">×</button>	
-		              <div class="info">
-		                <div class="text">Mid year performance for <a href="#">Daniel Wang</a> is due now.</div>
-		              </div>
-		              <div class="clearfix"></div>
-		            </div>
-		            <!--message #2-->
-		            <div class="notice-message">
-		              <button type="button" class="close">×</button>	
-		              <div class="avatar"><img alt="" src="img/avatar3.png"></div>
-		              <div class="info">
-		                <div class="author">Aaron</div>
-		                <div class="date">2 hours ago</div>
-		                <div class="clearfix"></div>
-		                <div class="text">has approved the offer to applicant <a href="">Daniel Wang</a>.</div>
-		              </div>
-		              <div class="clearfix"></div>
-		            </div>
-		            <!--message #3-->
-		            <div class="notice-message">
-		              <button type="button" class="close">×</button>	
-		              <div class="avatar"><img alt="" src="img/avatar4.png"></div>
-		              <div class="info">
-		                <div class="author">Adam</div>
-		                <div class="date">yesterday</div>
-		                <div class="clearfix"></div>
-		                <div class="text">suggested <a href="#">HTML6</a> to you in learning library.</div>
-		              </div>
-		              <div class="clearfix"></div>
-		            </div>
-
-		            <a class="notice-more" href="#">•••</a>
-		          </div>
-
-<!--  ******************************        - notification                          ********************************* -->
-
-
-	           	 </li>
-	             <li class="dropdown">
-	               <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/avatar3.png" /> Daniel <b class="caret"></b></a>
-	               <ul class="dropdown-menu">
-	                 <li><a href="#">Profile</a></li>
-	                 <li><a href="#">Journal</a></li>
-	                 <li class="divider"></li>
-	                 <li><a href="#">Logout</a></li>
-	               </ul>
-	             </li>
-	             <li class="divider-vertical"></li>
-	             <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#" href="#_" ><i class="icon-info-sign icon-white"></i></a>
-				    <ul class="dropdown-menu">
-	                 <li><a href="#">Live Supoort</a></li>
-	                 <li><a href="#">Knowledge portal</a></li>
-	                 <li><a href="#">Support centre</a></li>
-	                 <li><a href="#">Release note</a></li>
-	                 <li><a href="#">Beta on/off</a></li>
-	                </ul>
-	             </li>
-	           </ul>
-	         </div><!-- /.nav-collapse -->
-	       </div>
-	     </div>
+                                     <li><a href="#">Link</a></li>-->
+                    <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="glyphicon glyphicon-plus-sign icon-white"></i>&nbsp;Create</a>
+                        <ul
+                        class="dropdown-menu">
+                            <li><a href="#">Performance review</a>
+                            </li>
+                            <li><a href="#">Team member's performance review</a>
+                            </li>
+                            <li><a href="#">360 review</a>
+                            </li>
+                            <li><a href="#">Succession plan</a>
+                            </li>
+                            </ul>
+                    </li>
+                    <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="glyphicon glyphicon-th-large icon-white"></i>&nbsp;Menu</a>
+                        <ul
+                        class="dropdown-menu">
+                            <li><a href="#">For an employee</a>
+                            </li>
+                            <li><a href="#">Performance dashboard</a>
+                            </li>
+                            <li><a href="#">1-on-1</a>
+                            </li>
+                            </ul>
+                    </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#myModal" role="link" data-toggle="modal" id="addJournal"><i class="glyphicon glyphicon-edit icon-white"></i> journal</a>
+                        </li>
+                        <li class="dropdown">
+                            <!-- ****************************** + notification *********************************
+                            --> <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
+                            <div
+                            class="dropdown-menu pull-right messages-list">
+                                <div class="triangle"></div>
+                                <div class="notice-title">You Have 3 Massages</div>
+                                <!--message #1-->
+                                <div class="notice-message">
+                                    <button type="button" class="close">×</button>
+                                    <div class="avatar">
+                                        <img alt="" src="img/avatar2.png" class="img-responsive" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="author">Kane</div>
+                                        <div class="date">45 mins ago</div>
+                                        <div class="clearfix"></div>
+                                        <div class="text">has approved job <a href="#">Office administrator</a>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <!--message #4-->
+                                <div class="notice-message due">
+                                    <button type="button" class="close">×</button>
+                                    <div class="info">
+                                        <div class="text">Mid year performance for <a href="#">Daniel Wang</a> is due now.</div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <!--message #2-->
+                                <div class="notice-message">
+                                    <button type="button" class="close">×</button>
+                                    <div class="avatar">
+                                        <img alt="" src="img/avatar3.png" class="img-responsive" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="author">Aaron</div>
+                                        <div class="date">2 hours ago</div>
+                                        <div class="clearfix"></div>
+                                        <div class="text">has approved the offer to applicant <a href="">Daniel Wang</a>.</div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <!--message #3-->
+                                <div class="notice-message">
+                                    <button type="button" class="close">×</button>
+                                    <div class="avatar">
+                                        <img alt="" src="img/avatar4.png" class="img-responsive" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="author">Adam</div>
+                                        <div class="date">yesterday</div>
+                                        <div class="clearfix"></div>
+                                        <div class="text">suggested <a href="#">HTML6</a> to you in learning library.</div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div> <a class="notice-more" href="#">•••</a>
+                                </div>
+                                <!-- ****************************** - notification *********************************
+                                -->
+                        </li>
+                        <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/avatar3.png" class="img-responsive" /> Daniel <b class="caret"></b></a>
+                            <ul
+                            class="dropdown-menu">
+                                <li><a href="#">Profile</a>
+                                </li>
+                                <li><a href="#">Journal</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href="#">Logout</a>
+                                </li>
+                    </ul>
+                    </li>
+                    <li class="divider-vertical"></li>
+                    <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="glyphicon glyphicon-info-sign icon-white"></i></a>
+                        <ul
+                        class="dropdown-menu">
+                            <li><a href="#">Live Supoort</a>
+                            </li>
+                            <li><a href="#">Knowledge portal</a>
+                            </li>
+                            <li><a href="#">Support centre</a>
+                            </li>
+                            <li><a href="#">Release note</a>
+                            </li>
+                            <li><a href="#">Beta on/off</a>
+                            </li>
+                            </ul>
+                    </li>
+                    </ul>
+                </div>
+                
+            </nav>
+        </div>
     </div>
 </div>
+</header>
