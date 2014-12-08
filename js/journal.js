@@ -33,11 +33,11 @@ $(document).ready(function() {
     });
 
     $('.mood img').click(function(){
-        $('#mood').append('<img src="journal/images/face.png" />');
+        $('#mood').append('<img src="img/journal/face.png" />');
         slideOut();
     });
     $('.loc img').click(function(){
-        $('#loc').append('<img src="journal/images/airport.png" />');
+        $('#loc').append('<img src="img/journal/airport.png" />');
         slideOut();
     });
     $('.dev').click(function(){

@@ -38,6 +38,7 @@ article{
 }
 
 .timeline-date {
+	color: #aaa;
 	position:absolute;
 	width:150px;
 	left:-200px;
@@ -375,7 +376,7 @@ dd {
 dd:last-child{
 	width: 66.66%;
 }
-dd > i {
+dd > i.fa {
 	font-size: 42px;
 	margin-top: 20px;
 	transition: all 0.2s ease 0s
@@ -446,7 +447,7 @@ i ~ .panel{
     text-align: left;
     width: 500px;
 }
-dd label{/*visibility: hidden;*/ font-size: 12px; transition: all 0.1s ease 0s}
+dd label{/*visibility: hidden;*/ font-size: 12px; transition: all 0.1s ease 0s; display: block;}
 dd:hover label {}
 .wrapper-inner{
 	position: relative;

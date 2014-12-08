@@ -1,3 +1,5 @@
+   
+<script src="js/journal.js"></script>
 <!-- ********************  journaling  ***********************************-->
 <div class="quickFlip">
 <dl class="quickFlipPanel">
@@ -29,7 +31,7 @@
                		<img src="http://ipadnotebook.files.wordpress.com/2012/10/screenshot-2012-10-10-08-26-281.png?w=500&h=111" />
                </div>
                <div class="loc panel quickFlipCta">
-                  <img src="journal/images/locations.png" />
+                  <img src="img/journal/locations.png" />
                </div>
                <div class="obj panel quickFlipCta">
                   <ul class="obj_list">
@@ -67,7 +69,7 @@
                </div>
                <div class="dev panel quickFlipCta">
                   <i class="fa fa-chevron-left"></i>
-                  <p>Daniel is still thinking</p>
+                  <p>Daniel has some ideas, will mock up some thing soon</p>
                </div>
                <div class="360 panel quickFlipCta">
                   <i class="fa fa-chevron-left"></i>
