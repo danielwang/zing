@@ -1,7 +1,6 @@
 .bp-item {
     position: absolute;
     overflow: hidden;
-    font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif;
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-user-select: none;
     -webkit-touch-callout: none;
@@ -10,6 +9,12 @@
     -ms-user-select: none;
     user-select: none;
     box-sizing:content-box;
+}
+.bp-item img{
+    width: 45px !important;
+    height: 45px !important;
+    border: 2px solid #ffa500;
+    border-radius: 50%;
 }
 
 .bp-corner-all {
