@@ -14,16 +14,32 @@ article{
     border-radius: 10px;
     color: #fff;
     height: 60px;
-    margin: 20px;
+    margin: 30px 15px 10px 15px;
     padding: 20px;
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
     transition: transform 0.3s ease 0s;
+    -webkit-transition: transform 0.3s ease 0s;
     width: 60px;
 
 }
 .pu-square:hover{
     transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
 }
+.pu-square i{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transition: transform 0.3s ease 0s;
+    -webkit-transition: transform 0.3s ease 0s;
+}
+.pu-square:hover i{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: transform 0.3s ease 0s;
+    -webkit-transition: transform 0.3s ease 0s;
+}
+
 .row-gap {
     margin-top: 20px;
 }
