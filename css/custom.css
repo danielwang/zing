@@ -5,22 +5,25 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f2f2f2;
     }
+ul {padding: 0;}
+li{  list-style: outside none none;}    
 article{
     background: #f2f2f2;
 }
 .pu-square{
     background: none repeat scroll 0 0 #1d9d73;
-    border: 4px solid #1d9d73;
     border-radius: 10px;
     color: #fff;
     height: 60px;
-    margin: 30px 15px 10px 15px;
-    padding: 20px;
+    font-size: 24px;
+    padding: 13px 18px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transition: transform 0.3s ease 0s;
     -webkit-transition: transform 0.3s ease 0s;
     width: 60px;
+    display: inline-block;
+    margin: 40px auto 20px;
 
 }
 .pu-square:hover{
@@ -39,6 +42,14 @@ article{
     transition: transform 0.3s ease 0s;
     -webkit-transition: transform 0.3s ease 0s;
 }
+.pu-square + span{
+    display: block;
+}
+.blue-bg{background-color: #69c1cf}
+.red-bg{background-color: #cb6564 }
+.green-bg{background-color: #1d9d73 }
+.orange-bg{background-color: #eeb964 }
+.purple-bg{background-color: #7e76b8 }
 
 .row-gap {
     margin-top: 20px;
@@ -115,100 +126,15 @@ li.dropdown.open{
     background-color: #0D6083;
 }
 
-#summaryFunnel {
-    width: 600px;
-    margin: 10px 0 0 0;
-    padding-top: 5px;
+#filter li{
+    line-height: 1.4;
+} 
+#filter li:before{
+    font-family: "FontAwesome";
+    content:'\f096';
+    margin-left: 2px;
+    margin-right: 5px;
 }
-
-#summaryFunnel ul {
-  list-style: none;
-  font-weight: bold;
-  font-weight: 500;
-  list-style-type: none;
-  position: absolute;
-  right: 48px;
-  top: 26px;
-}
-
-.funnel_a, .funnel_b,.funnel_c, .funnel_d,.funnel_e, .funnel_f,  .funnel_g{
-    clear: both;
-    padding-top: 1%;
- } 
-
-.funnel_a { margin-left: 13%; }
-.funnel_b { margin-left: 14.5%; }
-.funnel_c { margin-left: 16%; }
-.funnel_d { margin-left: 17.5%; }
-.funnel_e { margin-left: 19%; }
-.funnel_f { margin-left: 20.5%; }
-.funnel_g { margin-left: 22%; }
-
-.rightSide, .leftSide {
-    float: left;
-    position: relative;
-    border-color: #cb5b5d transparent;
-    border-style: solid;
-    border-width: 30px 7px 0 0px; 
-    opacity:.9;
-    filter: alpha(opacity=90);
-}
-
-.leftSide {
-    border-width: 30px 0px 0px 7px; }
-
-.funnel_b .rightSide, .funnel_b .leftSide {
-    border-color: #13598b transparent;}
-
-.funnel_c .rightSide, .funnel_c .leftSide {
-    border-color: #fc9b67 transparent; }
-
-.funnel_d .rightSide, .funnel_d .leftSide {
-    border-color: #dcca6a transparent; }
-
-.funnel_e .rightSide, .funnel_e .leftSide {
-    border-color: #b57ec7 transparent; }
-
-.funnel_f .rightSide, .funnel_f .leftSide {
-    border-color: #a1be76 transparent; }
-
-.funnel_g .rightSide, .funnel_g .leftSide {
-    border-color: #cb5b5d transparent; }
-
-.rightSide span {
-       background: url("http://www.pageupblue.com/styleguide/wp-content/themes/Pears/images/dots.png") no-repeat scroll 0 11% rgba(0, 0, 0, 0);
-    font-size: 0.9em;
-    font-weight: bold;
-    left: 4px;
-    line-height: 10px;
-    padding-left: 33px;
-    position: absolute;
-    top: -20px;
-    width: 200px;
-}
-
-.center {
-    float: left;
-    background-color: #cb5b5d;
-    width: 33.5%;
-    text-align: center;
-    font-size: 1em;
-    font-weight: bold;
-    color: white; 
-    opacity:.9;
-    filter: alpha(opacity=90);
-    border:0;
-    height:30px;
-    line-height: 30px;
- }
-
-.funnel_b .center { width: 30.5%; background-color: #13598b;  }
-.funnel_c .center{ width: 27.5%; background-color: #fc9b67;  }
-.funnel_d .center { width: 24.5%; background-color: #dcca6a;  }
-.funnel_e .center { width: 21.5%; background-color: #b57ec7;  }
-.funnel_f .center { width: 18%; background-color: #a1be76;  }
-.funnel_g .center { width: 14.5%; background-color: #cb5b5d;  }         
-
 
 .item {
     display: inline-block;
@@ -329,11 +255,9 @@ div.item.added{
 }
 ul.nav span.badge{border-radius: 50%; float: left; margin-right:15px;}
 .selected{background: none repeat scroll 0 0 #faecd6;}
-.selected:before{
-    content:'\f00c';
+#filter li.selected:before{
+    content:'\f046';
     font-family: 'FontAwesome';
-    left: -15px;
-    position: absolute;
 }
 #multiple-search-panel {display: none}
 #multiple-search-panel li.heading {font-size: 16px; text-indent: 0px}
@@ -342,6 +266,15 @@ ul.nav span.badge{border-radius: 50%; float: left; margin-right:15px;}
     max-height:220px;
     overflow-y: scroll; 
     position: relative;
+}
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
 /*************************************************\

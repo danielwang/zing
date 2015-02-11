@@ -24,8 +24,8 @@
 			  });
 			  return false;
 			});
-			$('#filter a').click(function (event) {
-				$('a.selected').removeClass('selected');
+			$('#filter li').click(function (event) {
+				$('li.selected').removeClass('selected');
 				var $this = $(this);
 				$this.addClass('selected');
 				var selector = $this.attr('data-filter');
