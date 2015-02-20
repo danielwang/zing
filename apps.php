@@ -5,7 +5,22 @@
       <div class="col-xs-12 col-md-4 col-md-offset-4">
         <div class="row clearfix">
           <div class="col-xs-4 text-center">
-             <a href="bbbbbbbbbbdashboard.php">
+            <a href="learning.php"><span class="pu-square orange-bg">
+                <span><i class="fa fa-graduation-cap"></i></span>   
+            </span></a> 
+            <span>Learning</span> 
+          </div>
+          <div class="col-xs-4 text-center">
+            <a href="journal.php">
+              <span class="pu-square purple-bg">
+                <span><i class="fa fa-pencil-square-o"></i></span>
+              </span>   
+            </a> 
+            <span>Journal</span> 
+          </div>
+
+          <div class="col-xs-4 text-center">
+             <a href="dashboard.php">
               <span class="pu-square blue-bg">
                  <i class="fa fa-user-plus"></i>   
               </span>
@@ -28,7 +43,7 @@
           </div>
           
            <div class="col-xs-4 text-center">
-             <div class="pu-square red-bg">
+             <div class="pu-square sushi-bg">
                <span><i class="fa fa-calendar"></i></span>   
             </div> 
             <span>Leave</span> 
@@ -45,22 +60,13 @@
             </div> 
             <span>Compensation</span> 
           </div>
+          
           <div class="col-xs-4 text-center">
-            <a href="learning.php"><span class="pu-square orange-bg">
-                <span><i class="fa fa-graduation-cap"></i></span>   
-            </span></a> 
-            <span>Learning</span> 
-          </div>
-          <div class="col-xs-4 text-center">
-            <div class="pu-square purple-bg">
-                <span><i class="fa fa-pencil-square-o"></i></span>   
-            </div> 
-            <span>Journal</span> 
-          </div>
-          <div class="col-xs-4 text-center">
-            <div class="pu-square red-bg">
+            <a href="#_">
+              <span class="pu-square red-bg">
                 <span><i class="fa fa-suitcase"></i></span>           
-            </div> 
+              </span>
+            </a> 
             <span>Travel</span> 
           </div>
       </div>

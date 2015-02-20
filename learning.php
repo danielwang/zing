@@ -66,7 +66,7 @@
                <!-- Filtering Menu
                   ================================================== -->
                <div style="margin: 25px 0;" class="row">
-                  <div class="col-md-6" id="search">
+                  <div class="col-md-8" id="search">
                      <div class="tabbable tabs-below" id="tabs-892550">
                         <div class="tab-content" style="background: #fff; padding: 10px;">
                            <div class="tab-pane active" id="panel-282702">
@@ -144,7 +144,7 @@
                               <div id="autosuggestion">
                                  <!-- search results segment -->
                                  <div class="media">
-                                    <a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" class="media-object img-responsive" alt="" /></a>
+                                    <a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" class="media-object featured" alt="" /></a>
                                     <div
                                        class="media-body">
                                        <h5 class="media-heading">
@@ -164,7 +164,7 @@
                                  </div>
                                  <!-- search results segment -->
                                  <div class="media">
-                                    <a href="#" class="pull-left"><img src="img/avatar3.png" class="img-responsive" /></a>
+                                    <a href="#" class="pull-left"><img src="img/avatar3.png" class="featured" /></a>
                                     <div
                                        class="media-body">
                                        <h5 class="media-heading">
@@ -175,7 +175,7 @@
                                  </div>
                                  <!-- search results segment -->
                                  <div class="media">
-                                    <a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" class="media-object img-responsive" alt="" /></a>
+                                    <a href="#" class="pull-left"><img src="http://lorempixel.com/64/64/" class="media-object featured" alt="" /></a>
                                     <div
                                        class="media-body">
                                        <h5 class="media-heading">
@@ -204,22 +204,22 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-4">
                      <!-- dimonds -->
                      <div class="col-xs-4 text-center">
-                        <div class="pu-square red-bg" style="margin-top:0">
+                        <div class="pu-square red-bg small" style="margin-top:0">
                            <i class="fa fa-leaf"></i>   
                         </div>
                         <span>Library</span> 
                      </div>
                      <div class="col-xs-4 text-center">
-                        <div class="pu-square green-bg" style="margin-top:0">
+                        <div class="pu-square green-bg small" style="margin-top:0">
                            <i class="fa fa-user"></i>   
                         </div>
                         <span>My Learning</span> 
                      </div>
                      <div class="col-xs-4 text-center">
-                        <div class="pu-square orange-bg" style="margin-top:0">
+                        <div class="pu-square orange-bg small" style="margin-top:0">
                            <i class="fa fa-plus"></i>   
                         </div>
                         <span>Create</span> 

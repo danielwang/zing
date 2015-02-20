@@ -26,6 +26,11 @@ article{
     margin: 40px auto 20px;
 
 }
+.pu-square.small{
+    height: 45px;
+    width: 45px;
+    font-size: 16px;
+}
 .pu-square:hover{
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
@@ -50,7 +55,7 @@ article{
 .green-bg{background-color: #1d9d73 }
 .orange-bg{background-color: #eeb964 }
 .purple-bg{background-color: #7e76b8 }
-
+.sushi-bg{background-color: #A3B941}
 .row-gap {
     margin-top: 20px;
 }
@@ -137,12 +142,19 @@ li.dropdown.open{
 }
 
 .item {
-    display: inline-block;
-    float: left;
-    margin-bottom: 20px;
-    margin-right: 2%;
+
+}
+
+.largeItem{width:62%;}
+
+.boxcontainer {
+    font-size: 13px;
+    overflow: visible;
+    padding: 20px 15px 15px;
     position: relative;
-    width: 30%;
+    z-index: 97;
+    margin-bottom: 20px;
+    position: relative;
     z-index: 0;
     background: none repeat scroll 0 0 #fff;
     border-color: #ededed #ededed #ddd;
@@ -152,27 +164,49 @@ li.dropdown.open{
     transition: background-color 0.1s ease 0s;
 }
 
-.largeItem{width:62%;}
-
-.boxcontainer {
-    font-size: 13px;
-    overflow: visible;
-    padding: 40px 15px 15px;
-    position: relative;
-    z-index: 97;
-}
-.boxcontainer > span:first-child {
-    background: none repeat scroll 0 0 #7e76b8;
+.boxcontainer > span.rec {
+    background: #eeb964; 
+    left: 0; 
+    top:0; 
+    padding: 2px 5px; 
+    font-size: 11px;
     color: white;
-    left: 0px;
-    padding: 5px 10px;
     position: absolute;
-    top: 0;
-    width: auto;
-    z-index: 98;
-    }
-.boxcontainer > span.rec {background: #eeb964; left: 0; top:0; right: auto; padding: 2px 5px;}   
+}   
 
+.boxcontainer h5 {margin-top:20px; font-size: 18px; margin-bottom:5px; }
+.boxcontainer figure { text-align: center;}
+.boxcontainer figure > i.fa {
+         font-size: 8em;
+         color: #E0E4CC;
+       }
+    .type{ color: #F38630}  
+    .featured{
+       min-width: 295px;
+       margin-left: -16px;
+       margin-top: -20px;
+       max-width: 100%
+    }
+    .rec + p { 
+       margin-top: 5px;
+       font-size: 12px;
+       color: #888;
+
+    }
+    .rec + p + img { 
+       margin-top: 5px;
+    }
+
+    .boxcontainer > span.like{
+        background: none repeat scroll 0 0 #7e76b8;
+        color: white;
+        right: -1px;
+        padding: 5px 10px;
+        position: absolute;
+        top: 0;
+        width: auto;
+        z-index: 98;
+    }
 .card-footer {
     border-top: 1px solid #e6e6e6;
     padding: 8px 15px;
