@@ -1,6 +1,6 @@
 
 		//MASONRY
-		$(document).ready(function(){
+		$(window).load(function(){
 			var $container = $('#Lcontent');
 			// init
 			$container.isotope({

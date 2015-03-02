@@ -1,295 +1,161 @@
-*{
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	position: relative;
+.vertical-orgchart-content:before
+.vertical-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
-
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.vertical-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
 }
-
-.cf:after {
-    clear: both;
+#vertical-orgchart {
+  position: relative;
 }
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
+.vertical-orgchart-block::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 150%;
+  width: 4px;
+  background: #ffffff;
 }
-
-/* Generic styling */
-
-.content{
-	width: 100%;
-	max-width: 1142px;
-	margin: 0 auto;
-	padding: 0 20px;
-}
-
-a:focus{
-	outline: 2px dashed #f7f7f7;
-}
-
-@media all and (max-width: 767px){
-	.content{
-		padding: 0 20px;
-	}	
-}
-
-.org-chart ul{
-	padding: 0;
-	margin: 0;
-	list-style: none;		
-}
-
-.org-chart ul a{
-	display: block;
-	background: #ccc;
-	text-align: center;
-	overflow: hidden;
-	text-decoration: none;
-	color: #333;
-	height: 70px;
-	margin-bottom: -26px;
-	-webkit-transition: all linear .1s;
-	-moz-transition: all linear .1s;
-	transition: all linear .1s;
-}
-
-
-@media all and (max-width: 767px){
-	ul a{
-		font-size: 1em;
-	}
-}
-
-
-ul a span{
-	top: 50%;
-	margin-top: -0.7em;
-	display: block;
-}
-
-/*
- 
- */
-
-.administration > li > a{
-	margin-bottom: 25px;
-}
-
-.director > li > a{
-	width: 50%;
-	margin: 0 auto 0px auto;
-}
-
-.subdirector:after{
-	content: "";
-	display: block;
-	width: 0;
-	height: 130px;
-	background: red;
-	border-left: 4px solid #fff;
-	left: 45.45%;
-	position: relative;
-}
-
-.subdirector,
-.departments{
-	position: absolute;
-	width: 100%;
-}
-
-.subdirector > li:first-child,
-.departments > li:first-child{	
-	width: 18.59894921190893%;
-	height: 64px;
-	margin: 0 auto 92px auto;		
-	padding-top: 25px;
-	border-bottom: 4px solid white;
-	z-index: 1;	
-}
-
-.subdirector > li:first-child{
-	float: right;
-	right: 27.2%;
-	border-left: 4px solid white;
-}
-
-.departments > li:first-child{	
-	float: left;
-	left: 27.2%;
-	border-right: 4px solid white;	
-}
-
-.subdirector > li:first-child a,
-.departments > li:first-child a{
-	width: 100%;
-}
-
-.subdirector > li:first-child a{	
-	left: 25px;
-}
-
-@media all and (max-width: 767px){
-	.subdirector > li:first-child,
-	.departments > li:first-child{
-		width: 40%;	
-	}
-
-	.subdirector > li:first-child{
-		right: 10%;
-		margin-right: 2px;
-	}
-
-	.subdirector:after{
-		left: 49.8%;
-	}
-
-	.departments > li:first-child{
-		left: 10%;
-		margin-left: 2px;
-	}
-}
-
-
-.departments > li:first-child a{
-	right: 25px;
-}
-
-.department:first-child,
-.departments li:nth-child(2){
-	margin-left: 0;
-	clear: left;	
-}
-
-.departments:after{
-	content: "";
-	display: block;
-	position: absolute;
-	width: 81.1%;
-	height: 22px;	
-	border-top: 4px solid #fff;
-	border-right: 4px solid #fff;
-	border-left: 4px solid #fff;
-	margin: 0 auto;
-	top: 130px;
-	left: 9.1%
-}
-
-@media all and (max-width: 767px){
-	.departments:after{
-		border-right: none;
-		left: 0;
-		width: 49.8%;
-	}  
-}
-
-@media all and (min-width: 768px){
-	.department:first-child:before,
-   .department:last-child:before{
-    border:none;
+.vertical-orgchart-block:first-child:before{
+  left: 58px;
+} 
+.vertical-orgchart-block:last-child:before{
+  width: 0;
+} 
+@media only screen and (min-width: 1170px) {
+  #vertical-orgchart.center-orientation {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  #vertical-orgchart.center-orientation:before {
+    left: 50%;
+    margin-left: -2px;
   }
 }
-
-.department:before{
-	content: "";
-	display: block;
-	position: absolute;
-	width: 0;
-	height: 22px;
-	border-left: 4px solid white;
-	z-index: 1;
-	top: -22px;
-	left: 50%;
-	margin-left: -4px;
+@media only screen and (max-width: 1170px) {
+  .center-orientation.dark-orgchart .vertical-orgchart-content:before {
+    border-color: transparent #f5f5f5 transparent transparent;
+  }
 }
-
-.department{
-	border-left: 4px solid #fff;
-	width: 18.59894921190893%;
-	float: left;
-	margin-left: 1.751313485113835%;
-	margin-bottom: 60px;
+.vertical-orgchart-block {
+  position: relative;
+  margin: 2em 0;
 }
-
-.lt-ie8 .department{
-	width: 18.25%;
+.vertical-orgchart-block:after {
+  content: "";
+  display: table;
+  clear: both;
 }
-
-@media all and (max-width: 767px){
-	.department{
-		float: none;
-		width: 100%;
-		margin-left: 0;
-	}
-
-	.department:before{
-		content: "";
-		display: block;
-		position: absolute;
-		width: 0;
-		height: 60px;
-		border-left: 4px solid white;
-		z-index: 1;
-		top: -60px;
-		left: 0%;
-		margin-left: -4px;
-	}
-
-	.department:nth-child(2):before{
-		display: none;
-	}
+.vertical-orgchart-block:first-child {
+  margin-left: -40px;
+  margin-top: 0;
+  width: 85%;
 }
-
-.department > a{
-	margin: 0 0 -26px -4px;
-	z-index: 1;
+.vertical-orgchart-block:first-child .vertical-orgchart-content:before{
+  border: 0 none;
 }
-
-.department > a:hover{	
-	height: 80px;
+.vertical-orgchart-block:last-child {
+  margin-bottom: 0;
 }
-
-.department > ul{
-	margin-top: 0px;
-	margin-bottom: 0px;
+@media only screen and (min-width: 1170px) {
+  .center-orientation .vertical-orgchart-block {
+    margin: 4em 0;
+  }
+  .center-orientation .vertical-orgchart-block:first-child {
+    margin-top: 0;
+  }
+  .center-orientation .vertical-orgchart-block:last-child {
+    margin-bottom: 0;
+  }
 }
-
-.department li{	
-	padding-left: 25px;
-	border-bottom: 4px solid #fff;
-	height: 80px;	
+.vertical-orgchart-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 16px;
+  border: 3px solid #f1f1f1;
+  text-align: center;
 }
-
-.department li a{
-	background: #fff;
-	top: 48px;	
-	position: absolute;
-	z-index: 1;
-	width: 90%;
-	height: 60px;
-	vertical-align: middle;
-	right: -1px;
+.vertical-orgchart-icon i {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -9px;
 }
-
-.department li a:hover{
-	box-shadow: 8px 8px 9px -4px rgba(0,0,0,0.1);
-	height: 80px;
-	width: 95%;
-	top: 39px;
-	background-image: none!important;
+@media only screen and (min-width: 1170px) {
+  .center-orientation .vertical-orgchart-icon {
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    margin-left: -25px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    font-size: 19px;
+  }
+  .center-orientation .vertical-orgchart-icon i {
+    margin-left: -12px;
+    margin-top: -10px;
+  }
+  .center-orientation .cssanimations .vertical-orgchart-icon.is-hidden {
+    visibility: hidden;
+  }
 }
-
-/* Department/ section colors */
-.department.dep-a a{ background: #FFD600; }
-.department.dep-b a{ background: #AAD4E7; }
-.department.dep-c a{ background: #FDB0FD; }
-.department.dep-d a{ background: #A3A2A2; }
-.department.dep-e a{ background: #f0f0f0; }
+.vertical-orgchart-content {
+  position: relative;
+  margin-left: 60px;
+  background: white;
+  border-radius: 0.25em;
+  padding: 1em;
+}
+.vertical-orgchart-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.vertical-orgchart-content h2 {
+  font-weight: 400;
+  margin-top: 4px;
+}
+.vertical-orgchart-content p {
+  margin: 1em 0;
+  line-height: 1.6;
+}
+.vertical-orgchart-content .vertical-date {
+  float: left;
+  font-weight: 500;
+}
+.vertical-date small {
+  color: #1ab394;
+  font-weight: 400;
+}
+.vertical-orgchart-content::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 40px;
+  border: 2px solid #fff;
+}
+@media only screen and (min-width: 768px) {
+  .vertical-orgchart-content h2 {
+    font-size: 18px;
+  }
+  .vertical-orgchart-content p {
+    font-size: 13px;
+  }
+}
