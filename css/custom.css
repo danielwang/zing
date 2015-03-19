@@ -125,6 +125,15 @@ li.dropdown.open{
     color: #0D6083;
 
 }
+.new {
+  color: #fff;
+  background: #E8910C;
+  padding: 0px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+
+}
+
 .dropdown-menu > li > a.live:hover{
     margin-left: 5px;
     transition: all 0.2s ease 0s;
@@ -180,10 +189,10 @@ li.dropdown.open{
     margin-right: 5px;
 }
 
-.item {
-
+/** Learning ***/
+.head{
+    padding: 30px 0;
 }
-
 .largeItem{width:62%;}
 
 .boxcontainer {

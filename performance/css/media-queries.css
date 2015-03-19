@@ -1,0 +1,171 @@
+/* 
+	MEDIA QUERIES FOR COMMON DEVICES- RESPONSIVE GRID SYSTEM
+	URL - http://responsive.gs
+	LICENSE - PUBLIC DOMAIN
+*/
+
+/* SMARTPHONES - PORTRAIT & LANDSCAPE 最小屏幕 < 480*/
+@media
+only screen and (max-device-width: 480px), only screen and (max-width: 480px) {
+	.container, .span_7, .span_16{ width: 95%; } 
+	#nav{display:none;}
+	#dropdown {
+		display:block;
+		margin: 0 0 20px;
+		padding: 10px;
+		width: 95%;
+	}
+	.span_6 {display:none} 
+	.span_17 {width: 95%;}
+	#book > .inner > .inner {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+   }
+   #book > .inner > .inner > .inner {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+	}
+
+	
+}
+
+/* SMALL SCREENS 481< 屏幕区间 < 1024 */
+@media 
+only screen and (min-width: 481px) and (max-width: 1024px) {
+	.container { width: 95%; } /* edit how you see fit */
+	.span_6 {display:none} 
+	.span_17 {width:95%}
+	#nav{display:block}
+	#book > .inner > .inner {
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+   }
+   #book > .inner > .inner > .inner {
+    -webkit-transform: rotate(1deg);
+    -moz-transform: rotate(1deg);
+    -ms-transform: rotate(1deg);
+    -o-transform: rotate(1deg);
+    transform: rotate(1deg);
+	}
+}
+
+/* SMALL SCREENS 481 < 屏幕 < 768 */
+@media 
+only screen and (min-width: 481px) and (max-width: 768px) {
+	
+
+}
+/* SMARTPHONES - LANDSCAPE */
+@media 
+only screen and (min-width: 321px) {
+	
+	.container						{ width: 95%; } /* edit how you see fit */
+	
+	/* INSERT YOUR STYLES */
+	
+}
+
+/* SMARTPHONES - PORTRAIT */
+@media 
+only screen and (max-width: 320px) {
+	
+	.container						{ width: 95%; } /* edit how you see fit */
+	
+	/* INSERT YOUR STYLES */
+	
+}
+
+/* IPADS - PORTRAIT & LANDSCAPE */
+@media 
+only screen and (min-device-width: 768px) and (max-device-width: 1024px),
+only screen and (min-width: 768px) and (max-width: 1024px) {
+	
+	.container						{ width: 95%; } /* edit how you see fit */
+	
+
+	
+}
+
+/* IPADS - LANDSCAPE */
+@media 
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	
+	.container						{ width: 95%; } /* edit how you see fit */
+	
+	/* INSERT YOUR STYLES */
+	
+}
+
+/* IPADS - PORTRAIT 
+*/
+@media 
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	
+	.container						{ width: 95%; } /* edit how you see fit */
+	
+	/* INSERT YOUR STYLES */
+	
+}
+
+
+/* DESKTOPS & LAPTOPS */
+@media 
+only screen and (min-device-width: 481px) and (max-device-width: 1024px),
+only screen and (min-width: 481px) and (max-width: 1024px) {
+	
+	.container						{ width: 95%; }
+	
+	#header .span_6,
+	#header .span_17					{ width: 48%; }
+	#header .span_17					{ float: right; }
+	#header .span_17 h1					{ font-size: 1.2em; /* 18/14 */ }
+	
+}
+
+@media 
+only screen and (min-width: 1024px) {
+	
+	.container						{ max-width: 1000px; }
+	
+	/* INSERT YOUR STYLES */
+	
+}
+
+@media 
+only screen and (min-width: 1224px) {
+	
+	.container						{ max-width: 1024px; }
+	
+	/* INSERT YOUR STYLES */
+	
+}
+
+/* LARGE SCREENS */
+@media 
+only screen and (min-width : 1824px) {
+	
+	.container						{ max-width: 1336px; }
+	#header h1 {font-size:32px}
+	/* INSERT YOUR STYLES */
+	
+}
+
+
+
+/* RETINA DISPLAY */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+	
+	/* INSERT YOUR STYLES */
+	
+}	

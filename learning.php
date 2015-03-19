@@ -73,74 +73,9 @@
                               
                               <!-- ********** advanced search *****************-->                                      
                               <p><input id="searchbox" type="text" style="width: 80%; padding-top: 8px; padding-bottom: 8px;" placeholder="What would you like to learn?"/>
-                              <i id="multiple-search-icon" class="fa fa-caret-down fa-lg"></i> <button>Search</button>
+                              <button>Search</button>
                               </p>
-                              <div id="multiple-search-panel">
-                                 <div class="row">
-                                    <div class="col-md-6">
-                                       <ul>
-                                          <li class="heading">Type:</li>
-                                          <li>E-Learning</li>
-                                          <li>On-the-Job Activities</li>
-                                          <li>Reading</li>
-                                          <li>Training</li>
-                                          <li>Online Video Learning</li>
-                                          <li></li>
-                                          <li class="heading">Level:</li>
-                                          <li>Level 1</li>
-                                          <li>Level 2</li>
-                                          <li>Level 3</li>
-                                          <li>Level 4</li>
-                                       </ul>
-                                    </div>
-                                    <div class="col-md-6">
-                                       <span class="heading">Competency:</span>   
-                                       <ul class="competency">
-                                          <li class="heading">group 1:</li>
-                                          <li value="36">Agility (4)</li>
-                                          <li value="37">Analysis (5)</li>
-                                          <li value="38">Building Rapport (6)</li>
-                                          <li value="39">Building Relationships (4)</li>
-                                          <li value="40">Business Acumen (8)</li>
-                                          <li value="57">Business Management</li>
-                                          <li value="58">Change Leadership</li>
-                                          <li value="43">Client Centric</li>
-                                          <li value="52">Commitment To Learning</li>
-                                          <li value="65">Communication</li>
-                                          <li value="41">Communication (Verbal)</li>
-                                          <li value="42">Communication (Written/Visual)</li>
-                                          <li value="59">Conflict Resolution</li>
-                                          <li value="67">Consulting</li>
-                                          <li value="44">Decision Making</li>
-                                          <li value="45">Delegation</li>
-                                          <li class="heading">group 2:</li>
-                                          <li value="68">Engineering Innovation</li>
-                                          <li value="46">Influencing</li>
-                                          <li value="47">Initiative</li>
-                                          <li value="48">Innovation</li>
-                                          <li value="49">Judgement</li>
-                                          <li value="51">Leadership (Strategic)</li>
-                                          <li value="50">Leading Teams</li>
-                                          <li value="60">Negotiation</li>
-                                          <li value="53">Planning &amp; Organising</li>
-                                          <li value="61">Problem Solving</li>
-                                          <li value="62">Project Management</li>
-                                          <li value="54">Quality Orientation</li>
-                                          <li value="55">Results Focus</li>
-                                          <li value="63">Sales Focus</li>
-                                          <li value="64">Teamwork</li>
-                                          <li value="66">Technical Merit</li>
-                                          <li value="56">Tenacity</li>
-                                       </ul>
-                                    </div> 
-                                 </div>
-                                 <div class="row">
-                                    <div class="col-md-6"><i class="fa fa-money fa-lg"></i> Cost: <input type="range" name="points" min="100" max="1000"></div> 
-                                 </div>                      
-                              </div>
-                              <!-- **********************-->   
-
-
+                           
                               <div id="autosuggestion">
                                  <!-- search results segment -->
                                  <div class="media">

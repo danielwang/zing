@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> 
+<html lang="en" class="ie ie6">
+   <![endif]-->
+   <!--[if IE 7 ]>    
+   <html lang="en" class="ie ie7 non-ie6">
+      <![endif]-->
+      <!--[if IE 8 ]>    
+      <html lang="en" class="ie ie8 non-ie6">
+         <![endif]-->
+         <!--[if IE 9 ]>    
+         <html lang="en" class="ie ie9 non-ie6">
+            <![endif]-->
+            <!--[if IE 10 ]>   
+            <html lang="en" class="ie ie10 non-ie6">
+               <![endif]-->
+               <!--[if (gt IE 10)|!(IE)]><!--> 
+               <html lang="en" class="non-ie non-ie6">
+                  <!--<![endif]-->
+                  <head>             
+					 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+					 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+					 <title>Daniel Wang - Annual Performance Appraisal and Incentive</title>
+                     <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+                     <link href="css/perform.css" media="screen" rel="stylesheet" type="text/css" />
+                     <link href="css/media-queries.css" media="screen" rel="stylesheet" type="text/css" />
+                     <!-- <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css" /> -->
+                     <link href="css/responsive-gs-12col.css" media="screen" rel="stylesheet" type="text/css" />
+                     	
+                  </head>
+                  <body id="sections" class="start compassgroup">
+                     <div id="wrapper" class="container">
+                        <!--[if IE 6 ]>
+                        <p class="red-box banner"><span class="message">WARNING: Internet Explorer 6 is not a supported browser for this application.<br />While the system may function adequately, your experience will be dramatically improved if you use a more modern browser.</span></p>
+                        <![endif]-->
+                        <div id="header" class="clearfix row span_12">
+						   <div id="logo" class="col span_2"><img src="PUP-logo-sm.png" /></div>	
+                           <div id="title" class="col span_10" ><h1>Daniel Wang - Annual Performance Appraisal and Incentive - May 2012</h1></div>
+                        </div>
+                        <div id="content" class="row span_12">
+                           <ul id="crumbs" class="crumb edit">
+                              <li>
+                                 <span class="cnr tl"></span>
+                                 <span class="cnr bl"></span>
+                                 <a href="/my_reviews/895/start" class="selected">Summary</a>
+                                 <img src="https://compassgroup.performuat.pageuppeople.com/assets/crumb_pointer-83aabe5b85a877c42cb0b8456ec0fc48.png" />
+                              </li>
+                              <li>
+                                 <div>
+                                    <div>Objectives</div>
+                                    <ul class="crumb-subsection">
+                                       <li>
+                                          <a href="/my_reviews/895/sections/3936" class="">Safety, Health &amp; Environment</a>
+                                          <span>></span>
+                                       </li>
+                                       <li>
+                                          <a href="/my_reviews/895/sections/3935" class="">People</a>
+                                          <span>></span>
+                                       </li>
+                                       <li>
+                                          <a href="/my_reviews/895/sections/3934" class="">MAP</a>
+                                          <span>></span>
+                                       </li>
+                                       <li>
+                                          <a href="/my_reviews/895/sections/3931" class="">Country / Region Performance</a>
+                                          <span>></span>
+                                       </li>
+                                       <li>
+                                          <a href="/my_reviews/895/sections/3932" class="">Manager's Portfolio</a>
+                                       </li>
+                                    </ul>
+                                 </div>
+                                 <img src="https://compassgroup.performuat.pageuppeople.com/assets/crumb_pointer-83aabe5b85a877c42cb0b8456ec0fc48.png" /><span class="cnr tr"></span><span class="cnr br"></span>
+                              </li>
+                              <li>
+                                 <a href="/my_reviews/895/sections/3933" class="">Values</a>
+                                 <img src="https://compassgroup.performuat.pageuppeople.com/assets/crumb_pointer-83aabe5b85a877c42cb0b8456ec0fc48.png" />
+                              </li>
+                              <li>
+                                 <a href="/my_reviews/895/sections/3930" class="">Competencies</a>
+                                 <img src="https://compassgroup.performuat.pageuppeople.com/assets/crumb_pointer-83aabe5b85a877c42cb0b8456ec0fc48.png" />
+                              </li>
+                              <li><a href="/my_reviews/895/development_plan" class="">Development plan</a><img src="/assets/crumb_pointer-83aabe5b85a877c42cb0b8456ec0fc48.png" /></li>
+                              <li>
+                                 <div>
+                                    <div>Next steps</div>
+                                    <ul class="crumb-subsection">
+                                       <li>
+                                          <a href="/my_reviews/895/approval" class="">Review</a>
+                                          <span>></span>
+                                       </li>
+                                       <li><a href="/my_reviews/895/end" class="">Finalise</a></li>
+                                    </ul>
+                                 </div>
+                                 <span class="cnr tr"></span><span class="cnr br"></span>
+                              </li>
+                           </ul>
+                           <div class="cl"></div>
+                           <div class="letterhead">
+                              <span class="fr">
+                              Total performance weighting: <span class="weight"><b id="weighting-total">100</b>%</span>
+                              Total incentive weighting:  <span class="weight"><b id="bonus-weighting-total">100</b>%</span>
+                              </span>
+                           </div>
+                           <div class="cb">
+                              <div class="top-button-area cr">
+                                 <span class="last-change">
+                                 Last saved: 25 May 2012 at 10:28 AM
+                                 </span>
+                                 <a href="/my_reviews/895/report" class="button-link button-link-border popupLink" popup-width="925" target="_blank">
+                                 Report
+                                 </a>
+                                 <a href="/my_reviews/895/history" id="history-link" class="button-link button-link-border" target="_blank">
+                                 History
+                                 </a>
+                                 <a href="/ratings/895/sections/start" id="rating-link" class="button-link button-link-border">
+                                 Rate
+                                 </a>
+                              </div>
+                           </div>
+                           <div class="content-wrapper">
+                              <div class="content">
+                                 <div class="letter">
+                                    <div style="margin-bottom: 20px;">
+                                       <div style="background-color: rgb(255, 255, 255); font-family: Arial,Verdana,sans-serif; color: rgb(34, 34, 34); font-size: 12px;">
+                                          <div style="margin-bottom: 20px;">
+                                             <p>
+                                                <img src="http://pageuppeople.com/images/logo.png" />
+                                             </p>
+                                             <p>
+                                                &nbsp;
+                                             </p>
+                                             <p>
+                                                &nbsp;
+                                             </p>
+                                             <p>
+                                                Hi Aaron,
+                                             </p>
+                                             <div>
+                                                <p>
+                                                   <span face="">Welcome back to your Performance Appraisal and Incentive Review for year ending September 2012 (YES2012</span>).
+                                                </p>
+                                                <p>
+                                                   <span face="">Your annual performance/incentive objectives and competencies have now been agreed between Aaron and yourself.&nbsp; If you wish to review this information you can do so at any time by clicking on each of the headings at the top of the screen or the &ldquo;Next&rdquo; button at the bottom of the screen.</span>
+                                                </p>
+                                                <p>
+                                                   <span face="">You are encouraged to use the journal as much as possible between now and your annual review. It&#39;s a great way to record any feedback, achievements or examples of your progress against your agreed objectives and competencies. </span>
+                                                </p>
+                                                <p>
+                                                   To access your journal, hover over the &ldquo;About Me&rdquo; menu tab and click on &ldquo;Journal&rdquo;. &nbsp;All journal entries can only be viewed by you.
+                                                </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <p>
+                                          <br class="Apple-interchange-newline" />
+                                          &nbsp;
+                                       </p>
+                                    </div>
+                                    <p>
+                                       &nbsp;
+                                    </p>
+                                    <table class="review-details">
+                                       <tr>
+                                          <td><span class="review-detail-label">Review:</span> Aaron Approver</td>
+                                          <td><span class="review-detail-label">Manager:</span> Aaron Approver</td>
+                                       </tr>
+                                       <tr>
+                                          <td><span class="review-detail-label">Role:</span> Adviser - HR</td>
+                                       </tr>
+                                       <tr>
+                                          <td><span class="review-detail-label">Incentive plan:</span> SS2 (15%)</td>
+                                       </tr>
+                                    </table>
+                                    <p>
+                                       Click <a href="http://my.compass-group.com.au/portal/page?_pageid=53,52526,53_52540:53_58255&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">here</a> for reference material regarding the Performance Appraisal and Incentive Review process and for information and plan rules on Incentive Schemes click <a href="http://my.compass-group.com.au/portal/page?_pageid=53,52526,53_52548:53_58310&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">here</a>.
+                                    </p>
+                                    <p>
+                                       You may also view a <a href="http://my.compass-group.com.au/portal/page?_pageid=53,52526,53_52540:53_58255&amp;_dad=portal&amp;_schema=PORTAL" target="_blank">short video</a> which steps you through how the Performance Appraisal and Incentive Review works.
+                                    </p>
+                                    <p>
+                                       Your HR team is also available to support you through any of the Performance Appraisal and Incentive Review steps.
+                                    </p>
+                                    <p>
+                                       &nbsp;Regards,
+                                    </p>
+                                    <table border="0" style="width: 338px; height: 170px;">
+                                       <tbody>
+                                          <tr>
+                                             <td width="50%">
+                                                <img src="https://az29734.vo.msecnd.net/clients/541/compass_sign.png" style="width: 201px; height: 97px;" />
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>
+                                                George Mifsud
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td>
+                                                Executive Director - Human Resources, Pacific
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    <p>
+                                       &nbsp;
+                                    </p>
+                                 </div>
+                                 <div class="notes">
+                                    <h3>General notes</h3>
+                                    <form accept-charset="UTF-8" action="/my_reviews/895/add_note" class="new_note" id="new_note" method="post">
+                                       <div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#10003;" /><input name="authenticity_token" type="hidden" value="yx1fyGTC/BzjC10MVEWkogeFN+ZnMZtBwnh7FmJomcs=" /></div>
+                                       <input id="note_review_id" name="note[review_id]" type="hidden" value="895" />
+                                       <div class="note-add">
+                                          <textarea id="note-textarea" name="note[comment]"></textarea>
+                                          <a onclick="javascript: addNote();" id="note-button" class="button" title="Save note"><span class="sprite new"></span>Save note</a>
+                                       </div>
+                                    </form>
+                                 </div>
+                                 <div id="note-toggle" class="expand-toggle border" onclick="javascript: toggleExpandPanel('note-toggle', 'notes-list')">
+                                    <span class="sprite new"></span>
+                                    Show notes
+                                 </div>
+                                 <div id="notes-list" class="expand-section border dn">
+                                    <div class="note">
+                                       <div class="note-comment">
+                                          <img class="note-remove" src="/assets/close-dedc3fee975c4940ef1d4b8bddbdecba.png" data-action="/my_reviews/895/remove_note/29" />
+                                          <p>zxcvzsdvsv</p>
+                                          <div class="note-info"><b>Aaron Approver</b> on 09 Jan 2012 at 04:00 PM</div>
+                                       </div>
+                                    </div>
+                                    <div class="note">
+                                       <div class="note-comment">
+                                          <img class="note-remove" src="/assets/close-dedc3fee975c4940ef1d4b8bddbdecba.png" data-action="/my_reviews/895/remove_note/28" />
+                                          <p>blah blah</p>
+                                          <div class="note-info"><b>Aaron Approver</b> on 09 Jan 2012 at 03:55 PM</div>
+                                       </div>
+                                    </div>
+                                    <div class="note">
+                                       <div class="note-comment">
+                                          <img class="note-remove" src="/assets/close-dedc3fee975c4940ef1d4b8bddbdecba.png" data-action="/my_reviews/895/remove_note/27" />
+                                          <p>general note test</p>
+                                          <div class="note-info"><b>Aaron Approver</b> on 09 Jan 2012 at 03:53 PM</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="cb clearfix"></div>
+                              <div id="nav-link">
+                                 <div>
+                                    <div class="fl"></div>
+                                    <div class="fr">
+                                       <a class="forward-link button fr" href="/my_reviews/895/sections/3936" title="Next">
+                                       Next
+                                       <span class="sprite next"></span>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </body>
+               </html>
