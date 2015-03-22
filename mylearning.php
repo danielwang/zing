@@ -4,7 +4,7 @@
    <div class="container">
    	<div class="row">
       <div class="col-sm-6">
-      	<img class="avatar-lg" src="img/avatar3.png">
+      	<img class="avatar-lg" src="img/emp/emp0.png">
         <div class="m-t-xs font-bold">Daniel Wang</div>
       </div>
       <div class="col-sm-6">
