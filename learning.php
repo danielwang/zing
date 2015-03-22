@@ -148,10 +148,10 @@
                         <span>Library</span> 
                      </div>
                      <div class="col-xs-4 text-center">
-                        <div class="pu-square green-bg small" style="margin-top:0">
+                        <a href="mylearning.php"><div class="pu-square green-bg small" style="margin-top:0">
                            <i class="fa fa-user"></i>   
-                        </div>
-                        <span>My Learning</span> 
+                        </div></a>
+                        <span>MyLearning</span> 
                      </div>
                      <div class="col-xs-4 text-center">
                         <div class="pu-square orange-bg small" style="margin-top:0">

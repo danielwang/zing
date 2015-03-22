@@ -1,7 +1,8 @@
 <?php include '_partials/head.html';?>
 <?php include '_partials/nav.html';?>
 <div class="head">
-   <div class="container row">
+   <div class="container">
+   	<div class="row">
       <div class="col-sm-6">
       	<img class="avatar-lg" src="img/avatar3.png">
         <div class="m-t-xs font-bold">Daniel Wang</div>
@@ -57,7 +58,7 @@
    </div> 
 
    <!---  *************************************--> 
-   <div class="container row">
+   <div class="row">
       <div class="col-md-12">
       	<?php include '_partials/learning_cards.html';?>
       </div>
