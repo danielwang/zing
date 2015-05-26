@@ -88,6 +88,14 @@
   -o-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
+.c100 > span > sub{
+    color: #666;
+    display: block;
+    font-size: 0.315em;
+    top: -3em;
+}
+
 .c100:after {
   position: absolute;
   top: 0.08em;
@@ -874,10 +882,10 @@
 }
 
 .c100.red .bar, .c100.red .fill {
-  border-color: #4db53c !important;
+  border-color: #cb6564 !important;
 }
-.c100.red:hover > span {
-  color: #4db53c;
+.c100.red > span {
+  color: #cb6564;
 }
 
 .c100.purple .bar, .c100.purple .fill {
