@@ -108,12 +108,7 @@
   -webkit-animation-name: swing;
   animation-name: swing;
 }
-.box {
-  background: #fff;
-  padding: 10px 20px;
-  width: 100%;
-  margin: 20px 0;
-}
+
 .job {
   background: #fff;
   padding: 15px 0;

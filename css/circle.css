@@ -63,6 +63,9 @@
 .c100.small {
   font-size: 80px;
 }
+.c100.xs{
+  font-size: 45px;
+}
 .c100 > span {
   position: absolute;
   width: 100%;
@@ -875,10 +878,10 @@
 }
 
 .c100.blue .bar, .c100.blue .fill {
-  border-color: #69c1cf !important;
+  border-color: #1A7BB9 !important;
 }
 .c100.blue:hover > span {
-  color: #69c1cf;
+  color: #1A7BB9;
 }
 
 .c100.red .bar, .c100.red .fill {

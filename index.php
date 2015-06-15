@@ -10,7 +10,7 @@
                <?php include '_partials/timeline.php';?>
           </div>
           <div class="col-xs-12 col-sm-6">
-               <?php include '_partials/orgchart_small.html';?>
+               <?php include '_partials/circle-ui.php';?>
           </div>
 
         </div>
