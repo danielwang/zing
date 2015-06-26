@@ -50,9 +50,6 @@ $(document).ready(function() {
         slideOut();
     });
    
-    $('#switch').click(function(){
-        $('#flipBoard').toggleClass('flip');
-    });
 
     $('.close').each(function(){  
         $(this).click(function(){

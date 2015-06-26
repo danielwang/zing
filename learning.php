@@ -5,64 +5,9 @@
       <div class="col-md-12">
          <div class="row">
             <!-- left==================================================-->
-            <div id="filter" class="col-md-2 well">
-               <h5><i class="fa fa-filter"></i> Refin Search</h5>
-               <ul>
-                  <li data-filter="*"> All </li>
-                  <li data-filter=".reco"> Recommendations </li>
-                  <li data-filter=".cat1"> E-Learning </li>
-                  <li data-filter=".cat2">On-the-Job Activities </li>
-                  <li data-filter=".cat3">Training </li>
-               </ul>
-               <ul>                       
-                  <li class="heading">Level:</li>
-                  <li>Level 1</li>
-                  <li>Level 2</li>
-                  <li>Level 3</li>
-                  <li>Level 4</li>
-               </ul>
-                <span class="heading">Competency:</span>   
-                <ul class="competency">
-                  <li class="heading">group 1:</li>
-                  <li value="36">Agility (4)</li>
-                  <li value="37">Analysis (5)</li>
-                  <li value="38">Building Rapport (6)</li>
-                  <li value="39">Building Relationships (4)</li>
-                  <li value="40">Business Acumen (8)</li>
-                  <li value="57">Business Management</li>
-                  <li value="58">Change Leadership</li>
-                  <li value="43">Client Centric</li>
-                  <li value="52">Commitment To Learning</li>
-                  <li value="65">Communication</li>
-                  <li value="41">Communication (Verbal)</li>
-                  <li value="42">Communication (Written/Visual)</li>
-                  <li value="59">Conflict Resolution</li>
-                  <li value="67">Consulting</li>
-                  <li value="44">Decision Making</li>
-                  <li value="45">Delegation</li>
-                  <li class="heading">group 2:</li>
-                  <li value="68">Engineering Innovation</li>
-                  <li value="46">Influencing</li>
-                  <li value="47">Initiative</li>
-                  <li value="48">Innovation</li>
-                  <li value="49">Judgement</li>
-                  <li value="51">Leadership (Strategic)</li>
-                  <li value="50">Leading Teams</li>
-                  <li value="60">Negotiation</li>
-                  <li value="53">Planning &amp; Organising</li>
-                  <li value="61">Problem Solving</li>
-                  <li value="62">Project Management</li>
-                  <li value="54">Quality Orientation</li>
-                  <li value="55">Results Focus</li>
-                  <li value="63">Sales Focus</li>
-                  <li value="64">Teamwork</li>
-                  <li value="66">Technical Merit</li>
-                  <li value="56">Tenacity</li>
-               </ul>
-               <p><i class="fa fa-money fa-lg"></i> Cost: <input type="range" name="points" min="100" max="1000"></p>
-            </div>
-            <!-- right==================================================-->
-            <div class="col-md-10">
+
+            
+            <div class="col-md-9">
                <!-- Filtering Menu
                   ================================================== -->
                <div style="margin: 25px 0;" class="row">
@@ -164,10 +109,65 @@
                <!-- END filtering menu -->
                <?php include '_partials/learning_cards.html';?>
             </div>
+            <!-- right==================================================-->
+            <div id="filter" class="col-md-3 box">
+               <h5><i class="fa fa-filter"></i> Refin Search</h5>
+               <ul>
+                  <li data-filter="*"> All </li>
+                  <li data-filter=".reco"> Recommendations </li>
+                  <li data-filter=".cat1"> E-Learning </li>
+                  <li data-filter=".cat2">On-the-Job Activities </li>
+                  <li data-filter=".cat3">Training </li>
+               </ul>
+               <ul>                       
+                  <li class="heading">Level:</li>
+                  <li>Level 1</li>
+                  <li>Level 2</li>
+                  <li>Level 3</li>
+                  <li>Level 4</li>
+               </ul>
+                <span class="heading">Competency:</span>   
+                <ul class="competency">
+                  <li class="heading">group 1:</li>
+                  <li value="36">Agility (4)</li>
+                  <li value="37">Analysis (5)</li>
+                  <li value="38">Building Rapport (6)</li>
+                  <li value="39">Building Relationships (4)</li>
+                  <li value="40">Business Acumen (8)</li>
+                  <li value="57">Business Management</li>
+                  <li value="58">Change Leadership</li>
+                  <li value="43">Client Centric</li>
+                  <li value="52">Commitment To Learning</li>
+                  <li value="65">Communication</li>
+                  <li value="41">Communication (Verbal)</li>
+                  <li value="42">Communication (Written/Visual)</li>
+                  <li value="59">Conflict Resolution</li>
+                  <li value="67">Consulting</li>
+                  <li value="44">Decision Making</li>
+                  <li value="45">Delegation</li>
+                  <li class="heading">group 2:</li>
+                  <li value="68">Engineering Innovation</li>
+                  <li value="46">Influencing</li>
+                  <li value="47">Initiative</li>
+                  <li value="48">Innovation</li>
+                  <li value="49">Judgement</li>
+                  <li value="51">Leadership (Strategic)</li>
+                  <li value="50">Leading Teams</li>
+                  <li value="60">Negotiation</li>
+                  <li value="53">Planning &amp; Organising</li>
+                  <li value="61">Problem Solving</li>
+                  <li value="62">Project Management</li>
+                  <li value="54">Quality Orientation</li>
+                  <li value="55">Results Focus</li>
+                  <li value="63">Sales Focus</li>
+                  <li value="64">Teamwork</li>
+                  <li value="66">Technical Merit</li>
+                  <li value="56">Tenacity</li>
+               </ul>
+               <p><i class="fa fa-money fa-lg"></i> Cost: <input type="range" name="points" min="100" max="1000"></p>
+            </div>
          </div>
       </div>
    </div>
 </div> 
-<script src="js/isotope.pkgd.js"></script>
-<script src="js/learning.js"></script>
 <?php include '_partials/foot.html';?>

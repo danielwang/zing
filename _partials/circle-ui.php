@@ -25,7 +25,6 @@
   height: 500px;
   margin: 0 auto;
   position: relative;
-  background: #fff;
   border-radius: 50%
 }
 

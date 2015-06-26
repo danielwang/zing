@@ -8,7 +8,7 @@
       <div class="col-sm-8 col-sm-offset-2">
       	<h4>Bulk creating <strong style="color:#e8910c">1000</strong> Performance reviews</h4>
       	<hr>
-      	<div class="row boxcontainer">
+      	<div class="row box">
 	        <span class="col-xs-6">
 	            <div class="c100 orange center big p65 selected">
 	                <span>650<sub>Processed</sub></span>
