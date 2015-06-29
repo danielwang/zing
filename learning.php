@@ -11,6 +11,27 @@
                <!-- Filtering Menu
                   ================================================== -->
                <div style="margin: 25px 0;" class="row">
+                  <div class="col-md-4">
+                     <!-- dimonds -->
+                     <div class="col-xs-4 text-center">
+                        <div class="pu-square red-bg small" style="margin-top:0">
+                           <i class="fa fa-leaf"></i>   
+                        </div>
+                        <span>Library</span> 
+                     </div>
+                     <div class="col-xs-4 text-center">
+                        <a href="mylearning.php"><div class="pu-square green-bg small" style="margin-top:0">
+                           <i class="fa fa-user"></i>   
+                        </div></a>
+                        <span>MyLearning</span> 
+                     </div>
+                     <div class="col-xs-4 text-center">
+                        <div class="pu-square orange-bg small" style="margin-top:0">
+                           <i class="fa fa-plus"></i>   
+                        </div>
+                        <span>Create</span> 
+                     </div>
+                  </div>
                   <div class="col-md-8" id="search">
                      <div class="tabbable tabs-below" id="tabs-892550">
                         <div class="tab-content" style="background: #fff; padding: 10px;">
@@ -84,27 +105,7 @@
                         </ul>
                      </div>
                   </div>
-                  <div class="col-md-4">
-                     <!-- dimonds -->
-                     <div class="col-xs-4 text-center">
-                        <div class="pu-square red-bg small" style="margin-top:0">
-                           <i class="fa fa-leaf"></i>   
-                        </div>
-                        <span>Library</span> 
-                     </div>
-                     <div class="col-xs-4 text-center">
-                        <a href="mylearning.php"><div class="pu-square green-bg small" style="margin-top:0">
-                           <i class="fa fa-user"></i>   
-                        </div></a>
-                        <span>MyLearning</span> 
-                     </div>
-                     <div class="col-xs-4 text-center">
-                        <div class="pu-square orange-bg small" style="margin-top:0">
-                           <i class="fa fa-plus"></i>   
-                        </div>
-                        <span>Create</span> 
-                     </div>
-                  </div>
+
                </div>
                <!-- END filtering menu -->
                <?php include '_partials/learning_cards.html';?>

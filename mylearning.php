@@ -7,7 +7,11 @@
       <!---  ***************** time line ********************--> 
       <div class="col-sm-9">
          <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-4">
+               <a href="learning.php"><span>Library</span></a> &nbsp;&nbsp;&nbsp;&nbsp;
+               <span>My Learning</span>
+            </div>
+            <div class="col-md-8">
                <div class="box">
                   <input type="text" placeholder="search" />
                </div>
@@ -46,11 +50,7 @@
          <?php include '_partials/timeline-learning.php';?>
       </div>
       <div class="col-sm-3">
-         <div class="box">
-            <a href="learning.php"><span>Library</span></a> &nbsp;&nbsp;&nbsp;&nbsp;
-            <span>My Learning</span>
-         </div>
-         <div class="box text-center" data-spy="affix" data-offset-top="0">
+         <div id="mybox" class="box text-center" data-spy="affix" data-offset-top="100" >
             <img class="avatar-lg" src="img/emp/emp.jpg">
             <p>Daniel Wang</p>
             <hr>
@@ -101,9 +101,10 @@
             <div class="row">
                <span class="col-xs-12 text-left">
                   <h6>Colleague shared learning with you</h6>
-                  <p><img class="avatar" src="img/emp/emp3.png"> Matt Kane</p>
-                  <p><img class="avatar" src="img/emp/emp1.png"> Aaron Hardy</p>
-                  <p><img class="avatar" src="img/emp/emp6.png"> Tal Rotbart</p>
+                  <p><span class="cert"><i class="fa fa-lg fa-graduation-cap"></i></span> Administrator<span class="num">10</span></p>
+                  <p><img class="avatar" src="img/emp/emp3.png"> Matt Kane <span class="num">5</span></p>
+                  <p><img class="avatar" src="img/emp/emp1.png"> Aaron Hardy<span class="num">3</span></p>
+                  <p><img class="avatar" src="img/emp/emp6.png"> Tal Rotbart<span class="num">1</span></p>
                </span>
             </div>
          </div>

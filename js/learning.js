@@ -71,6 +71,7 @@ $(window).load(function(){
 });
 
 $(document).ready(function(){
+
 //filtering  
   	$('.circle').click(function(){
 	  $('.vertical-timeline-block').fadeOut();
@@ -84,7 +85,7 @@ $(document).ready(function(){
 	  $(this).each(function(){
 	  	 $('#switch-view ~ div').hide();
 	  	 var view = $(this).attr( "attr-data");
-	  	 $('.'+ view).fadeIn(500);
+	  	 $('.'+ view).fadeIn(300);
 	  });
 	});
 });
