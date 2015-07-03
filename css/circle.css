@@ -832,9 +832,7 @@
   -o-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-.c100:hover {
-  cursor: default;
-}
+
 .c100:hover > span {
   width: 3.33em;
   line-height: 3.33em;

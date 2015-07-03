@@ -97,12 +97,14 @@
             </div>
             <hr>
             <div class="row">
-               <span class="col-xs-12 text-left">
+               <span id="filter" class="col-xs-12 text-left">
                   <h6>Colleague shared learning with you</h6>
-                  <p><span class="cert"><i class="fa fa-lg fa-graduation-cap"></i></span> Administrator<span class="num">10</span></p>
-                  <p><img class="avatar" src="img/emp/emp3.png"> Matt Kane <span class="num">5</span></p>
-                  <p><img class="avatar" src="img/emp/emp1.png"> Aaron Hardy<span class="num">3</span></p>
-                  <p><img class="avatar" src="img/emp/emp6.png"> Tal Rotbart<span class="num">1</span></p>
+                  <ul>
+                     <li data-filter=".cat4"> <span class="cert"><i class="fa fa-lg fa-graduation-cap"></i></span> Administrator<span class="num">10</span></li>
+                     <li data-filter=".cat3"><img class="avatar" src="img/emp/emp3.png"> Matt Kane <span class="num">5</span></li>
+                     <li data-filter=".cat1"><img class="avatar" src="img/emp/emp1.png"> Aaron Hardy<span class="num">3</span></li>
+                     <li data-filter=".cat2"><img class="avatar" src="img/emp/emp6.png"> Tal Rotbart<span class="num">1</span></li>
+                  </ul>
                </span>
             </div>
          </div>

@@ -25,9 +25,9 @@ $(window).load(function(){
 	  return false;
 	});
 	$('#filter li').click(function (event) {
-		$('li.selected').removeClass('selected');
+
 		var $this = $(this);
-		$this.addClass('selected');
+
 		var selector = $this.attr('data-filter');
 		$container.isotope({
 			 filter: selector
@@ -72,16 +72,17 @@ $(window).load(function(){
 
 $(document).ready(function(){
 
-//filtering  
+//filtering 
+
   	$('.circle').click(function(){
-	  $('.vertical-timeline-block').fadeOut();
-	  $(this).each(function(){
-	  	 var status = $(this).attr( "attr-data");
-	  	 $('.'+ status).fadeIn(500);
-	  });
+  	  var status = $(this).attr( "attr-data");
+	  $('.vertical-timeline-block').not('.'+ status).fadeOut();
+	  $('.'+ status).fadeIn();
+
 	});
 
 	$('#switch-view button').click(function(){
+		console.log('aaa');
 	  $(this).each(function(){
 	  	 $('#switch-view ~ div').hide();
 	  	 var view = $(this).attr( "attr-data");
