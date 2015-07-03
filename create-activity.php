@@ -1,7 +1,6 @@
-<?php include '_partials/head.html';?>
-<?php include '_partials/nav.html';?>
+<?php include 'base.php' ?>
+<?php startblock('page') ?>
 
-<div class="container">
 	<div class="box">
 		<div class="row">
 			<div class="col-md-6">
@@ -32,5 +31,4 @@
 		</div>
 	</div>	
 </div>
-
-<?php include '_partials/foot.html';?>
+<?php endblock() ?>

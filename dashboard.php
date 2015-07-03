@@ -1,7 +1,5 @@
-<?php include '_partials/head.html';?>
-<?php include '_partials/nav.html';?>
-    
-<div class="container">
+<?php include 'base.php' ?>
+<?php startblock('page') ?>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
 			<div class="row clearfix">
@@ -300,31 +298,4 @@
 			</div>
 		</div>
 	</div>
-</div>
-
-<!-- ******************************************************************************************************  -->      
-<script>
-    Event.observe(window, "load", function () {
-
-       $$('.status li').each(function (el) {
-          el.observe('click', function(event) {
-             var status = el.readAttribute('data-attr');
-             $$('.job').each(function (el2) {
-                if (status == 'all'){
-                   el2.removeClassName('hidden');
-                } 
-                else if (!el2.hasClassName(status)){
-                       el2.addClassName('hidden');
-                    } 
-                else{
-                    el2.removeClassName('hidden');
-
-                }
-             });
-          });
-
-       });
-    });
-
-</script>   
-<?php include '_partials/foot.html';?>  
+<?php endblock() ?>

@@ -1,4 +1,4 @@
-<?php include '_partials/head.html';?>
-<?php include '_partials/nav.html';?>
+<?php include 'base.php' ?>
+<?php startblock('page') ?>
+<?php endblock() ?>
 
-<?php include '_partials/foot.html';?>

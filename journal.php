@@ -1,12 +1,9 @@
-<?php include '_partials/head.html';?>
-<?php include '_partials/nav.html';?>
-<div class="container">
-	<br>
-	<div class="row clearfix">
+<?php include 'base.php' ?>
+<?php startblock('page') ?>
+	<div class="row row-gap">
 		<div class="col-md-6 col-md-offset-3">  	
-            <?php include '_partials/journal.php';?>
-            <?php include '_partials/timeline.php';?>
+            <?php include '_partials/_journal.php';?>
+            <?php include '_partials/_timeline.php';?>
         </div>
     </div>
-</div>        
-<?php include '_partials/foot.html';?>
+<?php endblock() ?>

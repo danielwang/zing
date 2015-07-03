@@ -1,10 +1,7 @@
-<?php include '_partials/head.html';?>
-<?php include '_partials/nav.html';?>
+<?php include 'base.php' ?>
+<?php startblock('page') ?>
 
-<div class="container">
-	<br><br>
-	
-   	<div class="row">
+   	<div class="row row-gap">
       <div class="col-sm-8 col-sm-offset-2">
       	<h4>Bulk creating <strong style="color:#e8910c">1000</strong> Performance reviews</h4>
       	<hr>
@@ -79,8 +76,4 @@
 
    </div> 
 
-   
-    
-</div>
-
-<?php include '_partials/foot.html';?>
+<?php endblock() ?>

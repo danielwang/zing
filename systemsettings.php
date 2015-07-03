@@ -1,8 +1,6 @@
-<?php include '_partials/head.html';?>
-<?php include '_partials/nav.html';?>
-    <div id="systemsettings" class="container">
-    <div class="row">
-        <div class="col-md-12">
+<?php include 'base.php' ?>
+<?php startblock('page') ?>    
+<div id="systemsettings">
             <div class="row">
                 <!-- left==================================================-->
 
@@ -307,71 +305,4 @@
         </div>
     </div>
 </div>
-</div>
-</div>
-
-      <script>
-
-      $(document).ready(function(e) {      
-        $('.editable').focus(function() {
-            $(this).addClass('edit-mode');
-         });
-        $('.editable').blur( function() {
-           $(this).removeClass('edit-mode');
-         });
-         $('#lang').change(function(){
-           $('.zh').toggleClass('hide');
-           $('.th').toggleClass('hide');
-         });
-
-         $('#searchbox').keydown(function(){
-            $('#autosuggestion').show();
-            var $this = $(this);
-            var lng = $this.val().length;
-            if( lng >10){
-               $('.media').fadeOut();
-               $('#add-msg').fadeIn();
-            }else{
-               $('.media').fadeIn();
-               $('#add-msg').fadeOut();
-            }
-         });
-
-         $('#searchbox').focusout(function(){
-            $('#autosuggestion').hide();
-         });
-
-         $('#chosenForm')
-        .find('[name="tags"]')
-            .chosen()
-            // Revalidate the color when it is changed
-            .change(function(e) {
-                $('#chosenForm').bootstrapValidator('revalidateField', 'tags');
-            })
-            .end()
-        .bootstrapValidator({
-            excluded: ':disabled',
-            feedbackIcons: {
-                valid: 'glyphicon glyphicon-ok',
-                invalid: 'glyphicon glyphicon-remove',
-                validating: 'glyphicon glyphicon-refresh'
-            },
-            fields: {
-                colors: {
-                    validators: {
-                        callback: {
-                            message: 'Search for features',
-                            callback: function(value, validator) {
-                                // Get the selected options
-                                var options = validator.getFieldElements('colors').val();
-                                return (options != null && options.length >= 2 && options.length <= 4);
-                            }
-                        }
-                    }
-                }
-            }
-        });
-
-      });
-      </script>
-<?php include '_partials/foot.html';?>
+<?php endblock() ?>

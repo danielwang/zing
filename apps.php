@@ -1,6 +1,6 @@
-<?php include '_partials/head.html';?>
-<?php include '_partials/nav.html';?>
-    <div class="container">
+<?php include 'base.php' ?>
+
+<?php startblock('page') ?>
     <div class="row clearfix">
       <div class="col-xs-12 col-md-4 col-md-offset-4">
         <div class="row clearfix">
@@ -72,5 +72,4 @@
       </div>
       </div>
     </div>
-  </div>
-<?php include '_partials/foot.html';?>  
+<?php endblock() ?>

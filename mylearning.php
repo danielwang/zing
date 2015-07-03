@@ -1,9 +1,7 @@
-<?php include '_partials/head.html';?>
-<?php include '_partials/nav.html';?>
-<div class="head">
-<div class="container">
-   <div class="row">
-
+<?php include 'base.php' ?>
+<?php startblock('page') ?>
+<link href="css/learning.css" rel="stylesheet" type="text/css" />
+   <div class="row row-gap">
       <!---  ***************** time line ********************--> 
       <div class="col-sm-9">
          <div class="row">
@@ -46,8 +44,8 @@
             <button type="button" class="btn btn-sm btn-white" attr-data="light-timeline"><i class="fa fa-lg fa-th-list"></i></button>
          </div>
          <hr class="clearfix">
-         <?php include '_partials/learning_cards.html';?>
-         <?php include '_partials/timeline-learning.php';?>
+         <?php include '_partials/_learning_cards.html';?>
+         <?php include '_partials/_timeline-learning.php';?>
       </div>
       <div class="col-sm-3">
          <div id="mybox" class="box text-center" data-spy="affix" data-offset-top="100" >
@@ -110,6 +108,6 @@
          </div>
       </div>
    </div>
-</div>
+
 <script src="js/learning.js"></script>    
-<?php include '_partials/foot.html';?>
+<?php endblock() ?>
