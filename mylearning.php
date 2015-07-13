@@ -6,15 +6,21 @@
       <div class="col-sm-9">
          <div class="row">
             <div class="col-md-4">
-               <a href="learning.php"><span>Library</span></a> &nbsp;&nbsp;&nbsp;&nbsp;
-               <span>My Learning</span>
+               <ul class="PUBreadcrumb">
+                  <li><a href="learning.php">Library</a></li>
+                  <li class="last selected"><span><a href="#">My Learning</a></span></li>
+               </ul>
             </div>
-            <div class="col-md-8">
-               <div class="box">
-                  <input type="text" placeholder="search" />
+            <div class="col-md-2">               
+               <div class="pu-square orange-bg small" style="margin-top:0">
+                  <i class="fa fa-plus"></i>   
                </div>
+            </div>   
+            <div class="col-md-6">
+                  <input type="text" placeholder="search" />
             </div>
             <div id="search" class="col-md-8 hide">
+
                <div id="tabs-892550" class="tabbable tabs-below">
                   <div style="background: #fff; padding: 10px;" class="tab-content">
                      <div id="panel-282702" class="tab-pane active">

@@ -11,6 +11,17 @@ li{  list-style: outside none none;}
 article{
     background: #f2f2f2;
 }
+
+.btn-primary {
+    background-color: @pucolor;
+    border-color: @pucolor;
+    color: #fff;
+    &:hover{
+        color:@pucolor;
+        background-color:#fff;
+    }
+}
+
 .affix{
     top: 0;
     width: 100%
@@ -134,7 +145,12 @@ article{
     -webkit-transition: transform 0.3s ease 0s;
 }*/
 
-
+input, textarea, select {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 5px 12px;
+    border-radius:0;
+}
 .row-gap {
     margin-top: 20px;
 }
@@ -168,7 +184,7 @@ li.dropdown.open{
     color: @pucolor;
 
 }
-.new {
+.navbar .new {
   color: #fff;
   background: #E8910C;
   padding: 0px 5px;

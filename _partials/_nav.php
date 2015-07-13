@@ -54,66 +54,8 @@
                         <li><a href="#myModal" role="link" data-toggle="modal" id="addJournal"><i class="glyphicon glyphicon-edit icon-white"></i> journal</a>
                         </li>
                         <li class="dropdown">
-                            <!-- ****************************** + notification *********************************
-                            --> <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
-                            <div
-                            class="dropdown-menu pull-right messages-list">
-                                <div class="triangle"></div>
-                                <div class="notice-title">You Have 3 Massages</div>
-                                <!--message #1-->
-                                <div class="notice-message">
-                                    <button type="button" class="close">×</button>
-                                    <div class="avatar">
-                                        <img alt="" src="img/emp/emp12.png" class="img-responsive" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="author">Kane</div>
-                                        <div class="date">45 mins ago</div>
-                                        <div class="clearfix"></div>
-                                        <div class="text">has approved job <a href="#">Office administrator</a>
-                                        </div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <!--message #4-->
-                                <div class="notice-message due">
-                                    <button type="button" class="close">×</button>
-                                    <div class="info">
-                                        <div class="text">Mid year performance for <a href="#">Daniel Wang</a> is due now.</div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <!--message #2-->
-                                <div class="notice-message">
-                                    <button type="button" class="close">×</button>
-                                    <div class="avatar">
-                                        <img alt="" src="img/emp/emp11.png" class="img-responsive" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="author">Aaron</div>
-                                        <div class="date">2 hours ago</div>
-                                        <div class="clearfix"></div>
-                                        <div class="text">has approved the offer to applicant <a href="">Daniel Wang</a>.</div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <!--message #3-->
-                                <div class="notice-message">
-                                    <button type="button" class="close">×</button>
-                                    <div class="avatar">
-                                        <img alt="" src="img/emp/emp10.png" class="img-responsive" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="author">Adam</div>
-                                        <div class="date">yesterday</div>
-                                        <div class="clearfix"></div>
-                                        <div class="text">suggested <a href="#">HTML6</a> to you in learning library.</div>
-                                    </div>
-                                    <div class="clearfix"></div>
-                                </div> <a class="notice-more" href="#">•••</a>
-                                </div>
-                                <!-- ****************************** - notification *********************************
-                                -->
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
+                            <?php include '_notification.html' ?>
                         </li>
                         <li class="dropdown loginAs"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/emp/emp.jpg" class="img-responsive" /> Daniel <b class="caret"></b></a>
                             <ul
@@ -125,7 +67,7 @@
                                 <li class="divider"></li>
                                 <li><a href="#">Logout</a>
                                 </li>
-                    </ul>
+                            </ul>
                     </li>
                     <li class="divider-vertical"></li>
                     <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="glyphicon glyphicon-info-sign icon-white"></i></a>
