@@ -15,36 +15,37 @@
     border: 1px solid #ddd;
     border-image: none;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);
-}
-.boxcontainer.stack{
-   border-bottom: 0; 
-   box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #fff, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.2), 0 1em 0 -0.5em #fff, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1)
-}
 
-.boxcontainer > span.rec {
-    background: #eeb964; 
-    left: 0; 
-    top:0; 
-    padding: 2px 5px; 
-    font-size: 11px;
-    color: white;
-    position: absolute;
-}   
-.boxcontainer:hover img.featured {
-    transform: scale(1.1, 1.1);
-}
+    &.stack{
+       border-bottom: 0; 
+       box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #fff, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.2), 0 1em 0 -0.5em #fff, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1)
+    }
 
-.boxcontainer h5 {margin-top:20px; font-size: 18px; margin-bottom:5px; }
-.boxcontainer figure { text-align: center;}
-.boxcontainer figure > i.fa {
+    > span.rec {
+        background: #eeb964; 
+        left: 0; 
+        top:0; 
+        padding: 2px 5px; 
+        font-size: 11px;
+        color: white;
+        position: absolute;
+    }
+    &:hover img.featured {
+        transform: scale(1.1, 1.1);
+    }   
+    h5 {margin-top:0px; font-size: 18px; margin-bottom:5px; }
+    figure { 
+        text-align: center;
+        > i.fa {
          font-size: 8em;
          color: #E0E4CC;
        }
+    }
     .type{ color: #F38630}  
     .featured{
        min-width: 295px;
        margin-left: -16px;
-       margin-top: -20px;
+       margin-top: 15px;
        max-width: 100%;
        transform: scale(1, 1);
        transition: transform 1200ms ease-out 0s;
@@ -58,8 +59,7 @@
     .rec + p + img { 
        margin-top: 5px;
     }
-
-    .boxcontainer > span.status{
+    > span.status{
         left: 0; 
         top:0; 
         padding: 2px 5px; 
@@ -68,7 +68,13 @@
         position: absolute;
         width: auto;
         z-index: 98;
+
+        + h5{
+            margin-top: 10px
+        }
     }
+}
+
 .card-footer {
     border-top: 1px solid #e6e6e6;
     padding: 8px 15px;

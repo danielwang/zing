@@ -1,6 +1,5 @@
 <?php include 'base.php' ?>
 <?php startblock('page') ?>
-
 <link rel="stylesheet" href="http://abpetkov.github.io/switchery/dist/switchery.css" />
 <script src="http://abpetkov.github.io/switchery/dist/switchery.js"></script>
 <form class="form-horizontal" method="get">
@@ -26,17 +25,17 @@
 			<div class="box">
 					<div class="form-group"><label class="col-sm-2 control-label">Title</label>
 
-                        <div class="col-sm-10"><input type="text"></div>
+                        <div class="col-sm-10"><input id="title" type="text"></div>
 
                     </div>
                     <div class="form-group"><label class="col-sm-2 control-label">Type</label>
 
                         <div class="col-sm-10">
-                        	<select>
-                                <option>option 1</option>
-                                <option>option 2</option>
-                                <option>option 3</option>
-                                <option>option 4</option>
+                        	<select id="type">
+                                <option>Select</option>
+                                <option>On-the-Job Activities</option>
+                                <option>Reading</option>
+                                <option>Training</option>
                             </select>
                     	</div>
                     </div>
@@ -69,6 +68,15 @@
 					    	
 					    </div>
 					</div>
+					<div class="form-group">
+						<label class="col-sm-2">Cost associated</label>
+
+					    <div class="col-sm-10">
+					    	<input id="cost" type="checkbox" class="js-switch" unchecked/>
+					    	<br>
+					    	
+					    </div>
+					</div>
 					<hr>
 					<div class="form-group">
                         <div class="col-sm-4 col-sm-offset-2">
@@ -80,23 +88,16 @@
 			</div>
 		</div>
 		<div class="col-md-3">
-			<div class="box">
-
-		        <figure class="text-center well" style="font-size:72px; color:#ccc"><i class="fa fa-camera"></i></figure>
-		        <p>Valid file formats: JPG, GIF, PNG. Max file size: 2mb
+			<div class="boxcontainer box">
+				<h5 id="card-title"></h5>
+				<p><span id="card-type" class="type"></span></p>
+		        <figure class="text-center well" style="color:#ccc">
+		        	<p><i style="font-size:72px;" class="fa fa-camera"></i></p>
+		        	<p style="font-size:11px; color:#999">Valid file formats: JPG, GIF, PNG. Max file size: 2mb
 Recommended dimension: 800 x 600 pixels</p>
-				<hr>	
-					
-					
-					<div class="form-group">
-						<label class="col-sm-8">Cost associated</label>
-
-					    <div class="col-sm-4">
-					    	<input id="cost" type="checkbox" class="js-switch" unchecked/>
-					    	<br>
-					    	
-					    </div>
-					</div>
+		        </figure>
+				<hr>					
+				<img class="avatar-sm" src="img/emp/emp.jpg">
 		    </div>
 		</div>
 	</div>
@@ -121,6 +122,13 @@ $('#event-based').change(function(){
 		}else{
 			$('.timeslot').fadeOut();
 		}
+});
+
+$('#title').keyup(function () {
+  $('#card-title').text($(this).val());
+});
+$( '#type').change(function() {
+	$('#card-type').text($(this).val());
 });
 </script>
 <?php endblock() ?>

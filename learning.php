@@ -1,6 +1,5 @@
 <?php include 'base.php' ?>
 <?php startblock('page') ?>
-<link href="css/learning.css" rel="stylesheet" type="text/css" />
 
 <div class="row row-gap">   
    <div class="col-sm-9">
@@ -61,7 +60,7 @@
                         </div>
                         <!-- search results segment -->
                         <div class="media">
-                           <a href="#" class="pull-left"><img src="img/avatar3.png" class="featured" /></a>
+                           <a href="#" class="pull-left"><img src="img/emp/emp3.png" class="featured" /></a>
                            <div
                               class="media-body">
                               <h5 class="media-heading">

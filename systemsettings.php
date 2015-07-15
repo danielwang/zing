@@ -1,5 +1,60 @@
 <?php include 'base.php' ?>
-<?php startblock('page') ?>    
+<?php startblock('page') ?>
+<style>
+#featureGrid_table tr td:first-child, #featureGrid_table tr td:last-child{
+    display: none;
+}
+#systemsettings .label{   
+    border-radius: 0;
+    color: #ffffff;
+    float: right;
+    font-size: 12px;
+    margin: 3px;
+    padding: 5px 8px;
+    font-weight: normal;
+}
+#systemsettings  .table {
+    overflow: hidden;
+}
+#systemsettings table label{ display: inline;}
+#systemsettings h5{
+    color:#0093ca
+}
+
+#systemsettings .edit-mode, #systemsettings .editable:hover{
+    background-color: #ffff99;; 
+    border: 1px dotted #999;
+}
+#systemsettings .table thead th {
+    vertical-align: middle;
+}
+
+#systemsettings #autosuggestion{
+    box-shadow: 1px 3px 5px #898989;
+}
+
+.chosen-container{width:520px !important;}
+#systemsettings .chosen-container-multi .chosen-choices li.search-choice {
+    background-clip: padding-box;
+    background-color: @blue;
+    background-image: none;
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #fff;
+    cursor: default;
+    line-height: 13px;
+    margin: 3px 0 3px 5px;
+    padding: 6px 20px 6px 8px;
+    position: relative;
+}
+
+#systemsettings .chosen-container .chosen-results li.highlighted {
+    background-color: #aaa;
+    background-image: none;
+    color: #fff;
+}
+</style>    
 <div id="systemsettings">
             <div class="row">
                 <!-- left==================================================-->
