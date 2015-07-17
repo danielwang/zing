@@ -25,10 +25,10 @@
 			<div class="box">
 					<div class="form-group"><label class="col-sm-2 control-label">Title</label>
 
-                        <div class="col-sm-10"><input id="title" type="text"></div>
+                        <div class="col-sm-10"><input id="title" type="text" class="form-control"></div>
 
                     </div>
-                    <div class="form-group"><label class="col-sm-2 control-label">Type</label>
+                    <div class="form-group"><label class="col-sm-2 control-label" >Type</label>
 
                         <div class="col-sm-10">
                         	<select id="type">
@@ -46,7 +46,23 @@
                     </div>
                     <div class="form-group"><label class="col-sm-2 control-label">Content</label>
 
-                        <div class="col-sm-10"><textarea class="form-control"></textarea></div>
+                        <div class="col-sm-10">
+                        	<div class="row">
+	                        	<div class="radio col-sm-3">
+	                                <label>
+	                                    <input type="radio" checked="true" value="option1" id="optionsRadios1" name="optionsRadios"><span class="circle"></span><span class="check"></span>
+	                                    Rich media text
+	                                </label>
+	                            </div>
+	                            <div class="radio col-sm-3">
+	                                <label>
+	                                    <input type="radio" value="option2" id="optionsRadios2" name="optionsRadios"><span class="circle"></span><span class="check"></span>
+	                                    SCORM
+	                                </label>
+	                            </div>
+	                        </div>    
+                        	<textarea class="form-control"></textarea>
+                        </div>
 
                     </div>
 
@@ -54,17 +70,21 @@
 						<label class="col-sm-2 control-label">Event schedule</label>
 
 					    <div class="col-sm-10">
-					    	<input id="event-based" type="checkbox" class="js-switch" unchecked/>
-					    	<br><br>
+					    	<span class="togglebutton">
+                                <label>
+                                    <input id="event-based" type="checkbox" unchecked />
+                                </label>
+                            </span>
+                            <br>
 					    	<?php include '_partials/_datepicker.html' ?>
+
 					    </div>
 					</div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label">Competencies</label>
 
 					    <div class="col-sm-10">
-					    	<input id="competency" type="checkbox" class="js-switch" unchecked/>
-					    	<br>
+					    	<button class="btn btn-default btn-raised btn-sm">Add</button>
 					    	
 					    </div>
 					</div>
@@ -72,9 +92,11 @@
 						<label class="col-sm-2">Cost associated</label>
 
 					    <div class="col-sm-10">
-					    	<input id="cost" type="checkbox" class="js-switch" unchecked/>
-					    	<br>
-					    	
+					    	<span class="togglebutton">
+                                <label>
+                                    <input type="checkbox" checked =""/>
+                                </label>
+                            </span>
 					    </div>
 					</div>
 					<hr>
@@ -103,6 +125,7 @@ Recommended dimension: 800 x 600 pixels</p>
 	</div>
 
 </form>	
+
 <script type="text/javascript">
 
 //var elem = document.querySelector('.js-switch');
