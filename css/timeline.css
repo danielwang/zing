@@ -20,16 +20,15 @@
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   max-width: 1170px;
   margin: 0 auto;
-
-  &.learning-plan{
-    display: none;
-  }
 }
 .vertical-container::after {
   /* clearfix */
   content: '';
   display: table;
   clear: both;
+}
+.vertical-container.learning-plan{
+  display: none;
 }
 #vertical-timeline {
   position: relative;

@@ -1,5 +1,5 @@
 <link href="css/timeline.css" rel="stylesheet" type="text/css" />
-<div class="vertical-container light-timeline center-orientation" id="vertical-timeline">
+<div class="vertical-container light-timeline center-orientation learning-plan" id="vertical-timeline">
     <div id="add-activity" class="small pu-bg">
         <i class="fa fa-lg fa-plus"></i>   
     </div>
