@@ -20,7 +20,10 @@
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   max-width: 1170px;
   margin: 0 auto;
-  display: none;
+
+  &.learning-plan{
+    display: none;
+  }
 }
 .vertical-container::after {
   /* clearfix */
@@ -164,6 +167,7 @@
   background: white;
   border-radius: 0.25em;
   padding: 1em;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.11);
 }
 .vertical-timeline-content:after {
   content: "";
@@ -179,8 +183,9 @@
   line-height: 1.6;
 }
 .vertical-timeline-content .vertical-date {
-  float: left;
-  font-weight: 500;
+  position: absolute;
+  right:10px;
+  top:5px;
 }
 .vertical-date small {
   color: #999;

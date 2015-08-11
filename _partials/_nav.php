@@ -30,16 +30,17 @@
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a class="live" href="bulk-progress.php">Bulk Process  <span class="new">new</span></a>
+                            <li><a class="live" href="bulk-progress.php">Bulk Process</a>
                             </li>
                             <li><a class="live" href="orgchart-small.php">Org Chart</a><li>
                             <li><a class="live" href="360review.php">Circle UI</a>
+                            <li><a class="live" href="social-feed.php">Timeline</a>
                         </ul>
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="glyphicon glyphicon-plus-sign icon-white"></i>&nbsp;Create</a>
                         <ul
                         class="dropdown-menu">
-                            <li><a  class="live"  href="create-activity.php">Learning activity</a>
+                            <li><a  class="live"  href="create-activity.php">Learning activity  <span class="new">new</span></a>
                             </li>
                             <li><a href="#">Performance review</a>
                             </li>

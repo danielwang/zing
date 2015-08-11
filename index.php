@@ -36,17 +36,17 @@
             <span>Performance</span> 
           </div>
           <div class="col-xs-4 text-center">
-             <div class="pu-square red-bg">
-                <span><i class="fa fa-usd"></i></span>            
+             <div class="pu-square orange-bg">
+                <span><i class="fa fa-users"></i></span>            
             </div> 
-            <span>Expense</span> 
+            <span>360</span> 
           </div>
           
            <div class="col-xs-4 text-center">
-             <div class="pu-square sushi-bg">
-               <span><i class="fa fa-calendar"></i></span>   
+             <div class="pu-square red-bg">
+               <span><i class="fa fa-sitemap"></i></span>   
             </div> 
-            <span>Leave</span> 
+            <span>Succession</span> 
           </div>
           <div class="col-xs-4 text-center">
             <div class="pu-square blue-bg">
@@ -62,10 +62,10 @@
           </div>
           
           <div class="col-xs-4 text-center">
-            <div class="pu-square red-bg">
-              <span><i class="fa fa-suitcase"></i></span>           
+            <div class="pu-square sushi-bg">
+              <span><i class="fa fa-bar-chart"></i></span>           
             </div>
-            <span>Travel</span> 
+            <span>Analytics</span> 
           </div>
       </div>
       </div>
