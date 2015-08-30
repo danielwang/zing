@@ -1,6 +1,6 @@
 <?php include 'base.php' ?>
 <?php startblock('page') ?>
-<link href="css/learning.css" rel="stylesheet" type="text/css" />
+<link href="css/learning.less" rel="stylesheet" type="text/css" />
    <div class="row row-gap">
       <!---  ***************** time line ********************--> 
       <div class="col-sm-9">
