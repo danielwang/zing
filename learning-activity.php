@@ -1,11 +1,23 @@
 <?php include 'base.php' ?>
 <?php startblock('page') ?>
-<link href="css/learning.less" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.side .row {
+      margin-bottom: 20px;
+      padding-bottom: 5px;
+  }
+.side i {
+    color: #e8910c;
+  }
+.side .dash {
+      border-bottom: 1px dashed #ddd;
+      padding-bottom: 5px;
+  }
+</style>
    <div class="box">
       <div class="row">
           <div class="col-sm-6">
               <h4>Talent Mobility</h4>
-              <img width="100%" src="https://pageup-storage-private-uk.s3-eu-west-1.amazonaws.com/311/LearningObjectImage/c9a615b5-3da9-416d-9d7a-ff89b0343e73?AWSAccessKeyId=AKIAIA62EDU5CYN2BBYQ&Expires=1440966421&Signature=goSuKuddhxnvVzCNndjul5Of%2FP4%3D" />
+              <img width="100%" src="http://wwwstatic.pageuppeople.com/wp-content/uploads/2015/03/mobile-blog-pic2.jpg" />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 

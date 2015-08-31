@@ -1,7 +1,7 @@
 <?php include 'base.php' ?>
 <?php startblock('page') ?>
 
-<div class="row row-gap">   
+<div id="learning" class="row row-gap">   
    <div class="col-sm-9">
       <!-- Filtering Menu
          ================================================== -->
