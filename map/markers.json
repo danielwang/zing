@@ -1,0 +1,51 @@
+[{ 
+    "lat":  4, 
+    "lng":  101, 
+    "content":"test content1" 
+}, 
+{ 
+    "lat": -37, 
+    "lng": 175, 
+    "content":"test content2" 
+}, 
+{ 
+    "lat":  -33.412045, 
+    "lng": 24,
+    "content":"test content3"
+},
+{ 
+    "lat": -33.945237, 
+    "lng": 151.150688, 
+    "content":"test content1" 
+}, 
+{ 
+    "lat": -37.694672, 
+    "lng": 145.011907, 
+    "content":"test content2" 
+}, 
+{ 
+    "lat": 12.97, 
+    "lng": 14.55,
+    "content":"test content3"
+},
+{ 
+    "lat": 53, 
+    "lng": 0, 
+    "content":"test content1" 
+}, 
+{ 
+    "lat": 0, 
+    "lng": 103, 
+    "content":"test content2" 
+}, 
+{ 
+    "lat": 22, 
+    "lng": 114.55,
+    "content":"test content3"
+},
+{ 
+    "lat": -33.945237, 
+    "lng": 151.140161, 
+    "content":"test content1" 
+}
+]
