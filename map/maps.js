@@ -47,7 +47,7 @@ function initMap() {
         streetViewControl: false,
         zoom: 2,
         center: {
-            lat: 20,
+            lat: 35,
             lng: 26
         },
         mapTypeControlOptions: {
