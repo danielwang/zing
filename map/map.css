@@ -96,11 +96,13 @@ a[href^="https://maps.google.com/maps"] {
 
 footer {
     position: absolute;
-    bottom: 0;
+    bottom: 90px;
     right: 5px;
-    color: #ccc;
+    color: #fff;
     font-size: 11px;
     font-family: 'ProximaNovaLight';
+    transform: rotate(-90deg);
+    right: -50px;
 }
 
 .label {

@@ -25,15 +25,25 @@
     <section id="intro">
         <h1>Releasing the potential in <span id="num"></span> people with talent technology people love to use.</h1>
     </section>
+    <footer> Map designed by Daniel Wang</footer>
 </body>
 <script type="text/javascript" src="countUp.js"></script>
 <script type="text/javascript">
 $(function() {
+    counter();
+});
+
+function counter () {
     var parameter = parseInt(getQueryVariable("parameter"));
-    if(parameter > 0){
-        var num_of_markers = 1020;
-        var newnum = parameter + num_of_markers;
-        var options = {  
+    var num_of_markers = 1020;
+    var newnum, options; 
+    if(parameter){      
+        newnum = parameter + num_of_markers;      
+       
+    } else{
+        newnum = num_of_markers;
+    }
+    options = {  
             useEasing: true,
               useGrouping: true,
               separator: ',',
@@ -41,10 +51,9 @@ $(function() {
               prefix: '',
               suffix: ''
         };
-        var demo = new CountUp("num", parameter, newnum, 0, 20, options);
-        demo.start();
-    }
-});
+    var counter = new CountUp("num", parameter, newnum, 0, 20, options);
+    counter.start();
+}
 
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
@@ -55,7 +64,7 @@ function getQueryVariable(variable) {
             return pair[1];
         }
     }
-    return (false);
+    return (1234567); // if not set, return fake number
 }
 </script>
 
