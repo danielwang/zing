@@ -79,37 +79,37 @@ a[href^="https://maps.google.com/maps"] {
 
 #intro {
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
     color: white;
     width: 100%;
     font-family: 'ProximaNovaExtrabold';
-    padding: 0 0 0 50px;
     box-sizing: border-box;
     font-size: 18px;
+    text-align: center;
+    background: #0D6083;
+    opacity: 0.75
 }
 #num{
-    background: #000 none repeat scroll 0 0;
-    opacity: 0.75;
     padding: 5px 8px;
     color: #a3cb39;
+    display: inline-block;
+    width: 150px;
 }
 
 footer {
     position: absolute;
-    bottom: 90px;
+    bottom: 5px;
     right: 5px;
     color: #fff;
     font-size: 11px;
     font-family: 'ProximaNovaLight';
-    transform: rotate(-90deg);
-    right: -50px;
 }
 
 .label {
     box-sizing: border-box;
     height: 15px;
     width: 15px;
-    animation: pulse 2s ease 1.5s 1000;
+    animation: pulse 2s ease 1.5s 1;
     opacity: 0;
     transform: rotate(45deg);
     border-radius: 3px;
@@ -149,3 +149,9 @@ footer {
         opacity: 1;
     }
 }
+
+@media screen and (max-height: 768px), screen and (max-width: 1280px) {
+    #intro{
+        font-size: 14px;
+    }
+} 

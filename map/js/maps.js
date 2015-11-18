@@ -3,12 +3,16 @@
   Author: Daniel Wang
 \----------------------------------------*/
 
+
 /*  Google map setup
 ----------------------------------------*/
-var map, terminator;
+var map, terminator, zoomlevel, lat, lng;
 var markers = [];
 var currentLength = 0;
-
+zoomlevel = getZoomLevel().level;
+lat = getZoomLevel().lat;
+lng = getZoomLevel().lng;
+// console.log( zoomlevel + " " + lat + " " + lng);
 function initMap() {
     var customMapType = new google.maps.StyledMapType([{
 
@@ -45,10 +49,10 @@ function initMap() {
         scaleControl: false,
         overviewMapControl: false,
         streetViewControl: false,
-        zoom: 2,
+        zoom: zoomlevel,
         center: {
-            lat: 35,
-            lng: 26
+            lat: lat,
+            lng: lng
         },
         mapTypeControlOptions: {
             mapTypeIds: [google.maps.MapTypeId.TERRAIN, customMapTypeId]
@@ -70,7 +74,6 @@ function initMap() {
     terminator.set(date);
     Updater();
     AddMakers();
-    RemoveOld();
 }
 
 
@@ -78,12 +81,12 @@ window.onload = initMap;
 
 // add markers on map
 function AddMakers(){
-  var json = (function() {
+  /* var json = (function() {
         var json = null;
         $.ajax({
             'async': false,
             'global': false,
-            'url': "markers.json",
+            'url': "js/markers.json",
             'dataType': "json",
             'success': function(data) {
                 json = data;
@@ -94,12 +97,34 @@ function AddMakers(){
 
 
     //loop between each of the json elements
-    for (var i = 0, length = json.length; i < length; i++) {
+   for (var i = 0, length = json.length; i < length; i++) {
         var data = json[i],
-            latLng = new google.maps.LatLng(data.lat, data.lng);
-        var marker = new MarkerWithLabel({
+        latLng = new google.maps.LatLng(data.lat, data.lng);
+        addMarkerWithTimeout(latLng, i * 200);
+    }*/
+   /* ****************************************************/
+     var bounds = {
+        north: 180,
+        south: -180,
+        east: 180,
+        west: -180
+      };
+
+    for (var i = 0; i < 1000; i++) {
+       var ptLat = Math.random() * (bounds.north - bounds.south) + bounds.south;
+       var ptLng = Math.random() * (bounds.east - bounds.west) + bounds.west;
+       var pins = new google.maps.LatLng(ptLat,ptLng);
+       addMarkerWithTimeout(pins, i * 200);
+    } 
+    /* ****************************************************/
+   // console.log('marker no.: ' + markers.length);
+}
+
+function addMarkerWithTimeout(latLng, timeout) {
+    window.setTimeout(function() {
+        markers.push(new MarkerWithLabel({
             position: latLng,
-            icon: //'markers/ApplicantwaveP.gif',
+            icon: 
             {
              path: google.maps.SymbolPath.CIRCLE,
              scale: 0, //tamaño 0
@@ -108,42 +133,49 @@ function AddMakers(){
             draggable: false,
             labelAnchor: new google.maps.Point(10, 10),
             labelClass: "label", // the CSS class for the label
-        });
-        markers.push(marker);
-    }
-
-   // window.setTimeout(AddMakers, 2000);
+        }));
+        console.log('adding: ' + markers.length);
+         //console.log('marker length: ' + markers.length);
+        if (markers.length >100) {
+            
+            clearMarkers();
+        }
+    }, timeout); 
 
 }
-
 // remove the old markers from the map
-function RemoveOld() {
 
-    console.log('markers num: ' + currentLength);
-    
-
-     if (currentLength > 0){
-       for( var i = currentLength; i >= 0;  i--){
-                 if (typeof markers[i] === "undefined") {
-  //            //check array hasn't died
-         } else {
-          console.log('removing' + i);
-          markers[i].setMap(null);
-          markers = markers.splice(i);
-       }
-     }
+function clearMarkers() {
+  for (var i = 0; i < markers.length; i++) {
+    markers[i].setMap(null);
+    console.log('removing: ' + markers.length);
   }
-  //   console.log('removing now');
-    currentLength = markers.length;
-
-   // window.setTimeout(RemoveOld, 2500);
+  markers=[];
 }
-
 
 
 function Updater() {
     var date = new Date()
     terminator.update(date);
     window.setTimeout("Updater();", 60000);
+}
+
+function getZoomLevel() {
+    var viewportWidth = $(window).width();
+    var viewportHeight = $(window).height();
+    if (viewportWidth > 1600) {
+        level = 3;
+        lat = 10;
+        lng = 26;
+    } else {
+        level = 2;
+        lat = 25;
+        lng = 26
+    }
+    return {
+        level: level,
+        lat: lat,        
+        lng: lng
+    }; 
 }
 
