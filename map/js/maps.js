@@ -13,18 +13,6 @@ zoomlevel = getZoomLevel().level;
 lat = getZoomLevel().lat;
 lng = getZoomLevel().lng;
 // console.log( zoomlevel + " " + lat + " " + lng);
-
-var locations = [
-     [0, 0],
-     [25, 160],
-     [0, 100],
-     [46, 0],
-     [31, -97]
-];
-
-var index = 0;
-
-
 function initMap() {
     var customMapType = new google.maps.StyledMapType([{
 
@@ -86,16 +74,6 @@ function initMap() {
     terminator.set(date);
     Updater();
     AddMakers();
-
-    setInterval(function() {
-        console.log('index: ' + index);
-        var nlat = locations[index][0];
-        var nlng = locations[index][1];
-        var nextLatlng = new google.maps.LatLng(nlat, nlng);
-        map.panTo(nextLatlng);  
-        index = (index + 1) % locations.length;  
-        console.log('index2: ' + index);
-    }, 5000);
 }
 
 
@@ -132,7 +110,7 @@ function AddMakers(){
         west: -180
       };
 
-    for (var i = 0; i < 110; i++) {
+    for (var i = 0; i < 1000; i++) {
        var ptLat = Math.random() * (bounds.north - bounds.south) + bounds.south;
        var ptLng = Math.random() * (bounds.east - bounds.west) + bounds.west;
        var pins = new google.maps.LatLng(ptLat,ptLng);
@@ -156,7 +134,7 @@ function addMarkerWithTimeout(latLng, timeout) {
             labelAnchor: new google.maps.Point(10, 10),
             labelClass: "label", // the CSS class for the label
         }));
-      //  console.log('adding: ' + markers.length);
+        console.log('adding: ' + markers.length);
          //console.log('marker length: ' + markers.length);
         if (markers.length >100) {
             
@@ -200,5 +178,4 @@ function getZoomLevel() {
         lng: lng
     }; 
 }
-
 
