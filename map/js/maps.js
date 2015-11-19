@@ -74,6 +74,7 @@ function initMap() {
     terminator.set(date);
     Updater();
     AddMakers();
+    AutoZoomAndPan(lat, lng, zoomlevel, 10000);
 }
 
 
@@ -175,5 +176,22 @@ function getZoomLevel() {
         lat: lat,        
         lng: lng
     }; 
+}
+
+function AutoZoomAndPan(lat, lng, zoomlevel, timeout){
+    // anz -30 150  euro 49 18 sea 7 112    usa 39 -79
+    var i = 0;
+    var locs = [[lat, lng, zoomlevel, timeout], 
+                [-30, 150, 4, 5000], [7, 112, 4, 5000], 
+                [49, 18, 4, 5000],[ 39, -79, 4, 5000]];
+    setInterval(function() {
+        console.log("index: " + i);
+        var p = new google.maps.LatLng(locs[i][0], locs[i][1]);
+        map.panTo(p);
+        map.setZoom(locs[i][2]);
+        i = (i+1) % locs.length;
+    }, locs[i][3]);
+
+
 }
 
