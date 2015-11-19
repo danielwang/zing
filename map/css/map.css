@@ -94,6 +94,7 @@ a[href^="https://maps.google.com/maps"] {
     color: #a3cb39;
     display: inline-block;
     width: 150px;
+    background-color: #000;
 }
 
 footer {
