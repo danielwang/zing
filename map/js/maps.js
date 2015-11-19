@@ -8,7 +8,6 @@
 ----------------------------------------*/
 var map, terminator, zoomlevel, lat, lng;
 var markers = [];
-var currentLength = 0;
 zoomlevel = getZoomLevel().level;
 lat = getZoomLevel().lat;
 lng = getZoomLevel().lng;
@@ -74,6 +73,7 @@ function initMap() {
     terminator.set(date);
     Updater();
     AddMakers();
+    AutoZoomAndPan(lat, lng, zoomlevel, 10000);
 }
 
 
@@ -81,7 +81,7 @@ window.onload = initMap;
 
 // add markers on map
 function AddMakers(){
-  /* var json = (function() {
+   var json = (function() {
         var json = null;
         $.ajax({
             'async': false,
@@ -100,8 +100,8 @@ function AddMakers(){
    for (var i = 0, length = json.length; i < length; i++) {
         var data = json[i],
         latLng = new google.maps.LatLng(data.lat, data.lng);
-        addMarkerWithTimeout(latLng, i * 200);
-    }*/
+        addMarkerWithTimeout(latLng, i * 300);
+    }
    /* ****************************************************/
      var bounds = {
         north: 180,
@@ -114,7 +114,7 @@ function AddMakers(){
        var ptLat = Math.random() * (bounds.north - bounds.south) + bounds.south;
        var ptLng = Math.random() * (bounds.east - bounds.west) + bounds.west;
        var pins = new google.maps.LatLng(ptLat,ptLng);
-       addMarkerWithTimeout(pins, i * 200);
+       addMarkerWithTimeout(pins, i * 100);
     } 
     /* ****************************************************/
    // console.log('marker no.: ' + markers.length);
@@ -134,8 +134,7 @@ function addMarkerWithTimeout(latLng, timeout) {
             labelAnchor: new google.maps.Point(10, 10),
             labelClass: "label", // the CSS class for the label
         }));
-        console.log('adding: ' + markers.length);
-         //console.log('marker length: ' + markers.length);
+        //console.log('adding: ' + markers.length);
         if (markers.length >100) {
             
             clearMarkers();
@@ -148,7 +147,6 @@ function addMarkerWithTimeout(latLng, timeout) {
 function clearMarkers() {
   for (var i = 0; i < markers.length; i++) {
     markers[i].setMap(null);
-    console.log('removing: ' + markers.length);
   }
   markers=[];
 }
@@ -177,5 +175,22 @@ function getZoomLevel() {
         lat: lat,        
         lng: lng
     }; 
+}
+
+function AutoZoomAndPan(lat, lng, zoomlevel, timeout){
+    // anz -30 150  euro 49 18 sea 7 112    usa 39 -79
+    var i = 0;
+    var locs = [[lat, lng, zoomlevel, timeout], 
+                [-30, 150, 4, 5000], [7, 112, 5, 5000], 
+                [49, 18, 4, 5000],[ 39, -79, 4, 5000]];
+    setInterval(function() {
+        console.log("index: " + i);
+        var p = new google.maps.LatLng(locs[i][0], locs[i][1]);
+        map.panTo(p);
+        map.setZoom(locs[i][2]);
+        i = (i+1) % locs.length;
+    }, locs[i][3]);
+
+
 }
 
