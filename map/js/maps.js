@@ -8,7 +8,6 @@
 ----------------------------------------*/
 var map, terminator, zoomlevel, lat, lng;
 var markers = [];
-var currentLength = 0;
 zoomlevel = getZoomLevel().level;
 lat = getZoomLevel().lat;
 lng = getZoomLevel().lng;
@@ -182,7 +181,7 @@ function AutoZoomAndPan(lat, lng, zoomlevel, timeout){
     // anz -30 150  euro 49 18 sea 7 112    usa 39 -79
     var i = 0;
     var locs = [[lat, lng, zoomlevel, timeout], 
-                [-30, 150, 4, 5000], [7, 112, 4, 5000], 
+                [-30, 150, 4, 5000], [7, 112, 5, 5000], 
                 [49, 18, 4, 5000],[ 39, -79, 4, 5000]];
     setInterval(function() {
         console.log("index: " + i);
