@@ -110,7 +110,7 @@ function AddMakers(){
         west: -180
       };
 
-    for (var i = 0; i < 1000; i++) {
+    for (var i = 0; i < 2000; i++) {
        var ptLat = Math.random() * (bounds.north - bounds.south) + bounds.south;
        var ptLng = Math.random() * (bounds.east - bounds.west) + bounds.west;
        var pins = new google.maps.LatLng(ptLat,ptLng);
@@ -135,8 +135,7 @@ function addMarkerWithTimeout(latLng, timeout) {
             labelClass: "label", // the CSS class for the label
         }));
         //console.log('adding: ' + markers.length);
-        if (markers.length >100) {
-            
+        if (markers.length >100) {            
             clearMarkers();
         }
     }, timeout); 

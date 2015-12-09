@@ -13,6 +13,8 @@
                             <ul class="dropdown-menu">
                                 <li><a class="live" href="dock.php">ES Dock</a>
                                 </li>
+                                <li><a class="live" href="home.php">My Home</a>
+                                </li>
                                 <li><a class="live" href="orgchart.php">Org Chart</a>
                                 </li>
                                 <li><a class="live" href="dashboard.php">Recruitment</a>
@@ -20,6 +22,8 @@
                                 <li><a class="live" href="performance.php">Performance</a>
                                 </li>
                                 <li><a class="live" href="learning.php">Learning</a>
+                                </li>
+                                <li><a class="live" href="journal.php">Journal</a>
                                 </li>
                                 <li><a href="#">Succession</a>
                                 </li>
@@ -40,7 +44,7 @@
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="glyphicon glyphicon-plus-sign icon-white"></i>&nbsp;Create</a>
                         <ul
                         class="dropdown-menu">
-                            <li><a  class="live"  href="create-activity.php">Learning activity  <span class="new">new</span></a>
+                            <li><a  class="live"  href="create-activity.php">Learning activity</a>
                             </li>
                             <li><a href="#">Performance review</a>
                             </li>
@@ -49,6 +53,9 @@
                             <li><a href="#">Succession plan</a>
                             </li>
                             </ul>
+                    </li>
+                    <li>
+                        <a target="_black" href="map"><i class="fa fa-lg fa-globe"></i> Map  <span class="new">new</span></a>
                     </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
