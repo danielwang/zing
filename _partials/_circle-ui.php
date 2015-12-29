@@ -74,12 +74,14 @@ document.querySelector('.menu-button').onclick = function(e) {
    e.preventDefault(); document.querySelector('.circle').classList.toggle('open');
 }
 
-$('.myteam a').on('click', function(){
-  var left = $(this).position().left;
+$('.myteam a').on('click', function(e){
+  var MouseX = parseInt(e.clientX);
+  var MouseY = parseInt(e.clientY);
+  var left = $(this).position().left - 150;
   var top = $(this).position().top + 36;
   console.log(left);
   $('.pop').css({
-      "left": 'auto',
+      "left": left,
       "top": top
     });
   $('.pop, a').toggleClass('active');
