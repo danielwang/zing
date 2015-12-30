@@ -539,6 +539,7 @@ margin:0 auto;
 			position: relative;		
 			-webkit-perspective: 600px;
 			-moz-perspective: 600px;
+			background: #f0f0f0;
 		}
 
 		.feedpanel .front {
@@ -564,11 +565,13 @@ margin:0 auto;
 			-moz-transition: all .4s ease-in-out;
 			-webkit-transition: all .4s ease-in-out;
 			transition: all .4s ease-in-out;
+			background: #f0f0f0;
 		}
 		.feedpanel.flip .front {
 			z-index: 900;
 			-webkit-transform: rotateY(180deg);
 			-moz-transform: rotateY(180deg);
+
 		}
 		
 		.feedpanel .back {
@@ -600,7 +603,7 @@ margin:0 auto;
 			z-index: 1000;
 			-webkit-transform: rotateX(0deg) rotateY(0deg);
 			-moz-transform: rotateX(0deg) rotateY(0deg);
-			background: #f2f2f2;
+			background: #f0f0f0;
 		}
 
 /******  end filp ***********************/

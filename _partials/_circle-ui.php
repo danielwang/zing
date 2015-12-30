@@ -3,13 +3,13 @@
   <div class="myteam circle open">
     <a href="#_">
       <sub></sub>
-      <img class="avatar-lg" src="img/emp/emp1.png">  
+      <img class="avatar-lg spaceboots" src="img/emp/emp1.png">  
     </a>
     <a href="#_"><img class="avatar-lg" src="img/emp/emp2.png"></a>
     <a href="#_"><img class="avatar-lg" src="img/emp/emp3.png"></a>
     <a href="#_"><img class="avatar-lg" src="img/emp/emp4.png"></a>
     <a href="#_"><img class="avatar-lg" src="img/emp/emp5.png"></a>
-    <a href="#_"><sub></sub><img class="avatar-lg" src="img/emp/emp6.png"></a>
+    <a href="#_"><sub></sub><img class="avatar-lg spaceboots" src="img/emp/emp6.png"></a>
     <a href="#_"><img class="avatar-lg" src="img/emp/emp7.png"></a>
     <a href="#_"><img class="avatar-lg" src="img/emp/emp8.png"></a>
     <!--<a href="#_"><img class="avatar-lg" src="img/emp/emp9.png"></a>
@@ -18,7 +18,7 @@
   </div>
   <div class='pop'>
     <div class='content'>
-      <p>Pellentesque habitant morbi tristique senectus feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+       <img src="img/orgchart-card.png"/>
     </div>
   </div>
   <span class="menu-button"><i class="fa fa-users fa-lg"></i></span>
@@ -77,14 +77,16 @@ document.querySelector('.menu-button').onclick = function(e) {
 $('.myteam a').on('click', function(e){
   var MouseX = parseInt(e.clientX);
   var MouseY = parseInt(e.clientY);
-  var left = $(this).position().left - 150;
-  var top = $(this).position().top + 36;
+  var left = $(this).position().left - 220;
+  var top = $(this).position().top + 48;
   console.log(left);
   $('.pop').css({
       "left": left,
       "top": top
     });
-  $('.pop, a').toggleClass('active');
+  $('.circle').toggleClass('open');
+  $(this).toggleClass('active');
+  $('.pop').toggleClass('active');
   return false;
 });
 </script>
