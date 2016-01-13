@@ -1,19 +1,19 @@
 <div class="box row">
-  <h4>Increase revenues for existing customers by 15% (Current)</h4>
+  <h4>Increase revenues for existing customers by 15% (Current) <span class="pull-right"><i class="fa fa-ellipsis-h"></i></span></h4>
   <hr>
-  <div class="col-sm-2">
-      <ul>
-        <li><i class="fa fa-fw fa-info-circle "></i> &nbsp;Details</li>
-        <li><i class="fa fa-fw fa-sticky-note-o"></i> &nbsp;Progress note</li>
-        <li><i class="fa fa-fw fa-graduation-cap"></i> &nbsp;Development activities</li>
-        <li><i class="fa fa-fw fa-bullseye"></i> &nbsp;Goal Align</li>
-        <li><i class="fa fa-fw fa-money"></i> &nbsp;Bonus</li>
-        <li><i class="fa fa-fw fa-paperclip"></i> &nbsp;Attachment</li>
-        <li><i class="fa fa-fw fa-history"></i> &nbsp;History</li>
-        <li><i class="fa fa-fw fa-comments-o"></i> &nbsp;External Feedback</li>
+  <div class="col-sm-3">
+      <ul class="item-nav">
+        <li><i class="fa fa-fw fa-lg fa-info-circle"></i> &nbsp;Details</li>
+        <li><i class="fa fa-fw fa-lg fa-sticky-note-o"></i> &nbsp;Progress note (5)</li>
+        <li><i class="fa fa-fw fa-lg fa-graduation-cap"></i> &nbsp;Development activities (3)</li>
+        <li><i class="fa fa-fw fa-lg fa-bullseye"></i> &nbsp;Goal Align</li>
+        <li><i class="fa fa-fw fa-lg fa-money"></i> &nbsp;Bonus</li>
+        <li><i class="fa fa-fw fa-lg fa-paperclip"></i> &nbsp;Attachment (1)</li>
+        <li><i class="fa fa-fw fa-lg fa-history"></i> &nbsp;History</li>
+        <li><i class="fa fa-fw fa-lg fa-comments-o"></i> &nbsp;External Feedback (2)</li>
       </ul>  
   </div>
-  <div class="col-sm-10">
+  <div class="col-sm-9">
     <!-- details-->
     <div class="row">
       <div class="col-sm-8">
@@ -28,19 +28,20 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
         </div>        
       </div>
-      <div class="col-sm-4">
+      <div class="item-side col-sm-4">
         <!-- weighting-->
-        <div class="c100 orange small p30">
-            <span>30<sub>Weighting</sub></span>
+        <div class="c100 orange small p25">
+            <span>25</span>
             <div class="slice">
                 <div class="bar"></div>
                 <div class="fill"></div>
             </div>
+            <h5>Weighting</h5>
         </div>
         <!-- target date -->
-        <div class="target-date">
-          <div class="month">Jan</div>
-          <div class="day">13</div>
+        <div class="target-date pull-right">
+          <div class="month">June</div>
+          <div class="day">30</div>
           <div class="year">2016</div>
         </div>
       </div>
@@ -50,8 +51,8 @@
     <div class="row">
         <!-- employee comments-->
         <span class="col-sm-2"><p><img class="avatar" src="img/emp/emp.jpg" /></p> Daniel Wang</span>
-        <span class="col-sm-6"><textarea></textarea></span>
-        <span class="col-sm-4">
+        <span class="col-sm-7"><textarea></textarea></span>
+        <span class="col-sm-3">
           <div class="well">
             <span class="rating">
               <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
@@ -61,10 +62,10 @@
         <span class="clearfix"></span>
         <!-- manager comments-->
         <span class="col-sm-2"><p><img class="avatar" src="img/emp/emp9.png" /></p>Simon Cariss</span>
-        <span class="col-sm-6">
+        <span class="col-sm-7">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
         </span>
-        <span class="col-sm-4">
+        <span class="col-sm-3">
           <div class="well">
             <span class="rating">
               <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
@@ -76,37 +77,44 @@
 </div>
 
 <style>
+.item-side {
+  position: relative;
+}
+.item-nav li{
+  line-height: 2.5;
+  font-size:14px;
+}
 .target-date {
-    border: 4px solid #e5e6e7;
+    border: 5px solid #cccccc;
     border-radius: 20px;
-    height: 100px;
+    height: 80px;
     text-align: center;
-    width: 100px;
+    width: 80px;
+    color: #1d9d73;
 }
 .target-date .month {
-    color: #e5e6e7;
     font-size: 13px;
     position: absolute;
     top: 8px;
-    width: 92px;
+    width: 72px;
 }
 .target-date .day {
-    font-size: 60px;
+    font-size: 26px;
     position: absolute;
-    top: 15px;
-    width: 92px;
+    top: 22px;
+    width: 70px;
 }
 .target-date .year {
-    bottom: 10px;
+    bottom: 16px;
     color: #7c8ba4;
     font-size: 10px;
     position: absolute;
-    width: 92px;
+    width: 70px;
 }
 .rating {
   unicode-bidi: bidi-override;
   direction: rtl;
-  font-size: 30px;
+  font-size: 22px;
 }
 .rating span.star {
   font-family: FontAwesome;
