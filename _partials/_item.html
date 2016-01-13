@@ -1,0 +1,130 @@
+<div class="box row">
+  <h4>Increase revenues for existing customers by 15% (Current)</h4>
+  <hr>
+  <div class="col-sm-2">
+      <ul>
+        <li><i class="fa fa-fw fa-info-circle "></i> &nbsp;Details</li>
+        <li><i class="fa fa-fw fa-sticky-note-o"></i> &nbsp;Progress note</li>
+        <li><i class="fa fa-fw fa-graduation-cap"></i> &nbsp;Development activities</li>
+        <li><i class="fa fa-fw fa-bullseye"></i> &nbsp;Goal Align</li>
+        <li><i class="fa fa-fw fa-money"></i> &nbsp;Bonus</li>
+        <li><i class="fa fa-fw fa-paperclip"></i> &nbsp;Attachment</li>
+        <li><i class="fa fa-fw fa-history"></i> &nbsp;History</li>
+        <li><i class="fa fa-fw fa-comments-o"></i> &nbsp;External Feedback</li>
+      </ul>  
+  </div>
+  <div class="col-sm-10">
+    <!-- details-->
+    <div class="row">
+      <div class="col-sm-8">
+        <!-- measure -->
+        <div class="measure">
+          <p>The following expectations for the review period are below:</p>
+          <ul>
+            <li>Proposal phase completed by mid-year</li>
+            <li>Ready to act on plan by end of year</li>
+            <li>Project plan attached to objective</li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+        </div>        
+      </div>
+      <div class="col-sm-4">
+        <!-- weighting-->
+        <div class="c100 orange small p30">
+            <span>30<sub>Weighting</sub></span>
+            <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+            </div>
+        </div>
+        <!-- target date -->
+        <div class="target-date">
+          <div class="month">Jan</div>
+          <div class="day">13</div>
+          <div class="year">2016</div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- comments rating-->
+    <div class="row">
+        <!-- employee comments-->
+        <span class="col-sm-2"><p><img class="avatar" src="img/emp/emp.jpg" /></p> Daniel Wang</span>
+        <span class="col-sm-6"><textarea></textarea></span>
+        <span class="col-sm-4">
+          <div class="well">
+            <span class="rating">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </span>
+          </div>
+        </span>
+        <span class="clearfix"></span>
+        <!-- manager comments-->
+        <span class="col-sm-2"><p><img class="avatar" src="img/emp/emp9.png" /></p>Simon Cariss</span>
+        <span class="col-sm-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+        </span>
+        <span class="col-sm-4">
+          <div class="well">
+            <span class="rating">
+              <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+            </span>
+          </div>
+        </span>
+    </div>        
+  </div>
+</div>
+
+<style>
+.target-date {
+    border: 4px solid #e5e6e7;
+    border-radius: 20px;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+}
+.target-date .month {
+    color: #e5e6e7;
+    font-size: 13px;
+    position: absolute;
+    top: 8px;
+    width: 92px;
+}
+.target-date .day {
+    font-size: 60px;
+    position: absolute;
+    top: 15px;
+    width: 92px;
+}
+.target-date .year {
+    bottom: 10px;
+    color: #7c8ba4;
+    font-size: 10px;
+    position: absolute;
+    width: 92px;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 30px;
+}
+.rating span.star {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+}
+.rating span.star:hover {
+  cursor: pointer;
+}
+.rating span.star:before {
+  content: "\f006";
+  padding-right: 5px;
+  color: #777777;
+}
+.rating span.star:hover:before,
+.rating span.star:hover ~ span.star:before {
+  content: "\f005";
+  color: #e3cf7a;
+}
+</style>
