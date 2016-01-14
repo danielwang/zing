@@ -3,7 +3,7 @@
   <hr>
   <div class="col-sm-3">
       <ul class="item-nav">
-        <li><i class="fa fa-fw fa-lg fa-info-circle"></i> &nbsp;Details</li>
+        <li class="selected"><i class="fa fa-fw fa-lg fa-info-circle"></i> &nbsp;Details</li>
         <li><i class="fa fa-fw fa-lg fa-sticky-note-o"></i> &nbsp;Progress note (5)</li>
         <li><i class="fa fa-fw fa-lg fa-graduation-cap"></i> &nbsp;Development activities (3)</li>
         <li><i class="fa fa-fw fa-lg fa-bullseye"></i> &nbsp;Goal Align</li>
@@ -30,19 +30,25 @@
       </div>
       <div class="item-side col-sm-4">
         <!-- weighting-->
-        <div class="c100 orange small p25">
-            <span>25</span>
+        <div class="col-sm-6 text-center">
+          <div class="c100 orange small p25">
+            <span>25%</span>
             <div class="slice">
                 <div class="bar"></div>
                 <div class="fill"></div>
-            </div>
-            <h5>Weighting</h5>
+          </div>    
         </div>
-        <!-- target date -->
-        <div class="target-date pull-right">
-          <div class="month">June</div>
-          <div class="day">30</div>
-          <div class="year">2016</div>
+        <h6>Weighting</h6>
+        </div>
+         <!-- target date -->
+        <div class="col-sm-6 text-center
+        dd6">
+          <div class="target-date">
+            <div class="month">June</div>
+            <div class="day">30</div>
+            <div class="year">2016</div>
+          </div>
+          <h6>Target date</h6>
         </div>
       </div>
     </div>
@@ -76,63 +82,6 @@
   </div>
 </div>
 
-<style>
-.item-side {
-  position: relative;
-}
-.item-nav li{
-  line-height: 2.5;
-  font-size:14px;
-}
-.target-date {
-    border: 5px solid #cccccc;
-    border-radius: 20px;
-    height: 80px;
-    text-align: center;
-    width: 80px;
-    color: #1d9d73;
-}
-.target-date .month {
-    font-size: 13px;
-    position: absolute;
-    top: 8px;
-    width: 72px;
-}
-.target-date .day {
-    font-size: 26px;
-    position: absolute;
-    top: 22px;
-    width: 70px;
-}
-.target-date .year {
-    bottom: 16px;
-    color: #7c8ba4;
-    font-size: 10px;
-    position: absolute;
-    width: 70px;
-}
-.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-  font-size: 22px;
-}
-.rating span.star {
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  display: inline-block;
-}
-.rating span.star:hover {
-  cursor: pointer;
-}
-.rating span.star:before {
-  content: "\f006";
-  padding-right: 5px;
-  color: #777777;
-}
-.rating span.star:hover:before,
-.rating span.star:hover ~ span.star:before {
-  content: "\f005";
-  color: #e3cf7a;
-}
-</style>
+<div class="box row">
+<h4>Objectives 2 (Current) <span class="pull-right"></h4>
+</div>

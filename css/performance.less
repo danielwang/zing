@@ -1,0 +1,143 @@
+
+.lifecycle {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.li {
+  transition: all 200ms ease-in;
+}
+
+.timestamp {
+  margin-bottom: 20px;
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 100;
+  font-size: 12px;
+  color: #999;
+}
+
+.status {
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #D6DCE0;
+  position: relative;
+  transition: all 200ms ease-in;
+}
+.status h4 {
+  font-size: 12px;
+}
+.status:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: -6px;
+  left: 42%;
+  transition: all 200ms ease-in;
+}
+
+.li.complete .status {
+  border-top: 2px solid @green;
+}
+.li.complete .status:before {
+  background-color: @green;
+  border: none;
+  transition: all 200ms ease-in;
+}
+.li.complete .status h4 {
+  color: @green;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 700px) {
+  .lifecycle {
+    list-style-type: none;
+    display: block;
+  }
+
+  .li {
+    transition: all 200ms ease-in;
+    display: flex;
+    width: inherit;
+  }
+
+  .timestamp {
+    width: 100px;
+  }
+
+  .status:before {
+    left: -8%;
+    top: 30%;
+    transition: all 200ms ease-in;
+  }
+}
+
+
+
+.item-side {
+  position: relative;
+}
+.item-nav li{
+  line-height: 2.5;
+  font-size:14px;
+}
+.target-date {
+    border: 5px solid #cccccc;
+    border-radius: 20px;
+    height: 80px;
+    text-align: center;
+    width: 80px;
+    color: @green;
+  
+  .month {
+      font-size: 13px;
+      position: absolute;
+      top: 8px;
+      width: 72px;
+  }
+  .day {
+      font-size: 26px;
+      position: absolute;
+      top: 22px;
+      width: 70px;
+  }
+  .year {
+      top: 56px;
+      color: #7c8ba4;
+      font-size: 10px;
+      position: absolute;
+      width: 70px;
+  }
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 22px;
+}
+.rating span.star {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+}
+.rating span.star:hover {
+  cursor: pointer;
+}
+.rating span.star:before {
+  content: "\f006";
+  padding-right: 5px;
+  color: #777777;
+}
+.rating span.star:hover:before,
+.rating span.star:hover ~ span.star:before {
+  content: "\f005";
+  color: #e3cf7a;
+}
