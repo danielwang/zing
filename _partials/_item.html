@@ -1,10 +1,10 @@
 <div class="box row">
   <!-- rate item mode -->
-  <div class="rate-mode hidden">
+  <div class="rate-mode">
     <h4>Increase revenues for existing customers by 15% (Current) 
         <div class="dropdown pull-right"><a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-ellipsis-h"></i></a>
           <ul class="dropdown-menu" aria-labelledby="dLabel">
-            <li><a href="#"><i class="fa fa-fw fa-pencil"></i>&nbsp;Edit</a></li>
+            <li><a class="edit-btn" href="#"><i class="fa fa-fw fa-pencil"></i>&nbsp;Edit</a></li>
             <li><a href="#"><i class="fa fa-fw fa-trash-o"></i>&nbsp;Remove</a></li>
           </ul>
         </div>
@@ -92,7 +92,7 @@
   </div>
   <!-- end rate item mode -->
   <!-- edit item mode -->
-  <div class="edit-mode">
+  <div class="edit-mode hidden">
       <form class="form-horizontal" method="get">
          <!-- item title -->
           <div class="form-group"><label class="col-sm-3 control-label">Title<sup>*</sup></label>
@@ -186,7 +186,7 @@
           </div>
           <div class="form-group">
               <div class="col-sm-4 col-sm-offset-3">
-                  <button class="btn btn-primary" type="submit">Done</button>
+                  <button class="done btn btn-primary" type="submit">Done</button>
               </div>
           </div>
 
@@ -200,6 +200,10 @@
 </div>
 <script type="text/javascript">
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
+  $('[data-toggle="tooltip"]').tooltip();
+  $('.done, .edit-btn').click(function(){
+    $('.edit-mode').toggleClass('hidden');
+    $('.rate-mode').toggleClass('hidden');
+  });
 })
 </script>
