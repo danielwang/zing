@@ -12,8 +12,8 @@
     <hr>
     <div class="col-sm-1">
         <ul class="item-nav">
-          <li title="Details" class="active" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-info-circle"></i></li>
-          <li title="Progress note" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-sticky-note-o"></i><span>5</span></li>
+          <li title="Details" class="active" data-toggle="tooltip" data-placement="right" data-attr="details-panel"><i class="fa fa-fw fa-lg fa-info-circle"></i></li>
+          <li title="Progress note" data-toggle="tooltip" data-placement="right" data-attr="progress-note-panel"><i class="fa fa-fw fa-lg fa-sticky-note-o"></i><span>5</span></li>
           <li title="Development activities" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-graduation-cap"></i><span>3</span></li>
           <li title="Goal Align" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-bullseye"></i></li>
           <!-- <li title=""><i class="fa fa-fw fa-lg fa-money"></i> &nbsp;Bonus</li> -->
@@ -22,73 +22,81 @@
           <li title="External Feedback" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-comments-o"></i><span>2</span></li>
         </ul>  
     </div>
-    <div class="col-sm-11 left-border">
-      <!-- details-->
-      <div class="row">
-        <div class="col-sm-8">
-          <!-- measure -->
-          <div class="measure">
-            <p>The following expectations for the review period are below:</p>
-            <ul>
-              <li>Proposal phase completed by mid-year</li>
-              <li>Ready to act on plan by end of year</li>
-              <li>Project plan attached to objective</li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
-          </div>        
-        </div>
-        <div class="item-side col-sm-4">
-          <!-- weighting-->
-          <div class="col-sm-6 text-center">
-            <div class="c100 orange small p25">
-              <span>25%</span>
-              <div class="slice">
-                  <div class="bar"></div>
-                  <div class="fill"></div>
-            </div>    
+    <div class="col-sm-11 left-border panel-container">
+      <div class="details-panel">
+        <!-- details panel-->
+        <div class="row">
+          <div class="col-sm-8">
+            <!-- measure -->
+            <div class="measure">
+              <p>The following expectations for the review period are below:</p>
+              <ul>
+                <li>Proposal phase completed by mid-year</li>
+                <li>Ready to act on plan by end of year</li>
+                <li>Project plan attached to objective</li>
+              </ul>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+            </div>        
           </div>
-          <h6>Weighting</h6>
-          </div>
-           <!-- target date -->
-          <div class="col-sm-6 text-center
-          dd6">
-            <div class="target-date">
-              <div class="month">June</div>
-              <div class="day">30</div>
-              <div class="year">2016</div>
+          <div class="item-side col-sm-4">
+            <!-- weighting-->
+            <div class="col-sm-6 text-center">
+              <div class="c100 orange small p25">
+                <span>25%</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+              </div>    
             </div>
-            <h6>Target date</h6>
+            <h6>Weighting</h6>
+            </div>
+             <!-- target date -->
+            <div class="col-sm-6 text-center
+            dd6">
+              <div class="target-date">
+                <div class="month">June</div>
+                <div class="day">30</div>
+                <div class="year">2016</div>
+              </div>
+              <h6>Target date</h6>
+            </div>
           </div>
         </div>
+        <hr>
+        <!-- comments rating-->
+        <div class="row">
+            <!-- employee comments-->
+            <span class="col-sm-2 text-center"><p><img class="avatar" src="img/emp/emp.jpg" /></p> Daniel Wang</span>
+            <span class="col-sm-7"><textarea class="col-sm-12"></textarea></span>
+            <span class="col-sm-3">
+              <div class="well">
+                <span class="rating">
+                  <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+                </span>
+              </div>
+            </span>
+            <span class="clearfix"></span>
+            <!-- manager comments-->
+            <span class="col-sm-2 text-center"><p><img class="avatar" src="img/emp/emp9.png" /></p>Simon Cariss</span>
+            <span class="col-sm-7">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+            </span>
+            <span class="col-sm-3">
+              <div class="well">
+                <span class="rating">
+                  <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+                </span>
+              </div>
+            </span>
+        </div>        
       </div>
-      <hr>
-      <!-- comments rating-->
-      <div class="row">
-          <!-- employee comments-->
-          <span class="col-sm-2"><p><img class="avatar" src="img/emp/emp.jpg" /></p> Daniel Wang</span>
-          <span class="col-sm-7"><textarea></textarea></span>
-          <span class="col-sm-3">
-            <div class="well">
-              <span class="rating">
-                <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
-              </span>
-            </div>
-          </span>
-          <span class="clearfix"></span>
-          <!-- manager comments-->
-          <span class="col-sm-2"><p><img class="avatar" src="img/emp/emp9.png" /></p>Simon Cariss</span>
-          <span class="col-sm-7">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
-          </span>
-          <span class="col-sm-3">
-            <div class="well">
-              <span class="rating">
-                <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
-              </span>
-            </div>
-          </span>
-      </div>        
+      <!-- progress note panel-->
+      <div class="progress-note-panel hidden">
+           <?php include '_partials/_feeds.php';?>
+      </div>
     </div>
+    
+
   </div>
   <!-- end rate item mode -->
   <!-- edit item mode -->
@@ -196,7 +204,14 @@
 </div>
 
 <div class="box row">
-<h4>Objectives 2 (Current) <span class="pull-right"></h4>
+  <h4>Develop sustainable reliability plans to meet standard scheme(Current) <span class="pull-right"></h4>
+  <div class="c100 orange xs p25">
+      <span>25%</span>
+      <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+    </div>    
+  </div>
 </div>
 <script type="text/javascript">
 $(function () {
@@ -204,6 +219,13 @@ $(function () {
   $('.done, .edit-btn').click(function(){
     $('.edit-mode').toggleClass('hidden');
     $('.rate-mode').toggleClass('hidden');
+  });
+  $('.item-nav li').click(function (e) {
+    $(".item-nav li").removeClass("active");
+    $(this).addClass('active');
+    var panel = $(this).attr('data-attr');
+    $('.panel-container > div').addClass('hidden');
+    $('.' + panel).removeClass('hidden');
   });
 })
 </script>

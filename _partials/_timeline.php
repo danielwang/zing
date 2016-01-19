@@ -3,5 +3,4 @@
 <hr>
 <div id ="flipBoard" class="feedpanel">
  <?php include '_partials/_entry.php';?>
- <?php include '_partials/_feeds.php';?>
 </div> <!-- -flip panel -->  		 

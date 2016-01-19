@@ -1,8 +1,7 @@
 <div class="back" id="feed">
-	<h5><a class="fa fa-repeat"></a> Activity Feed </h5>
+	
     <ul id="timeline">	
 		<li class="task">
-			<i class="title"><img class="avatar" src="img/emp/emp5.png"></i>
 			<div class="desc">Lucas has set his <a href="#">Objectives and Development Plans</a>. You are now required to review them.  Please  be reminded that you need to meet with Lucas to discuss his Objectives before moving to the next step.</div>
 			<span class="date">3 seconds ago</span>
 			<span class="separator">•</span>
@@ -17,7 +16,6 @@
 		</li>
 		
 		<li class="comment">
-			<i class="title"><img class="avatar" src="img/emp/emp3.png" /> </i>
 			<div class="desc">has completed reading of <a href="#">.Net MVC</a></div>
 			<span class="date">Today</span>
 			<span class="separator">•</span>

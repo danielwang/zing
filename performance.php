@@ -49,7 +49,7 @@
         </ul>  
     </div> 
     <div class="col-sm-10">
-         <?php include '_partials/_item.html';?>
+         <?php include '_partials/_item.php';?>
     </div>
 
   </div>
