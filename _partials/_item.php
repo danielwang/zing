@@ -1,19 +1,39 @@
-<div class="box row">
+<div class="item box row collaps">
+  <h4>Develop sustainable reliability plans to meet standard scheme <span class="status">Completed</span></h4>
+   <span class="pull-right">
+    <div class="target-date xs">
+      <div class="month">Jan</div>
+      <div class="day">1</div>
+      <div class="year">2016</div>
+    </div>
+  </span> 
+  <span class="pull-right">
+    <div class="c100 green xs p15">
+        <span>15%</span>
+        <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+      </div>    
+    </div> 
+  </span>
+  
+</div>
+
+<div class="item box row">
   <!-- rate item mode -->
   <div class="rate-mode">
-    <h4>Increase revenues for existing customers by 15% (Current) 
-        <div class="dropdown pull-right"><a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-ellipsis-h"></i></a>
-          <ul class="dropdown-menu" aria-labelledby="dLabel">
-            <li><a class="edit-btn" href="#"><i class="fa fa-fw fa-pencil"></i>&nbsp;Edit</a></li>
-            <li><a href="#"><i class="fa fa-fw fa-trash-o"></i>&nbsp;Remove</a></li>
-          </ul>
-        </div>
-    </h4>
+    <h4>Increase revenues for existing customers by 15%  <span class="status">Current</span></h4>
+    <div class="dropdown pull-right"><a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-2x fa-ellipsis-h gray"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <li><a class="edit-btn" href="#"><i class="fa fa-fw fa-pencil"></i>&nbsp;Edit</a></li>
+        <li><a href="#"><i class="fa fa-fw fa-trash-o"></i>&nbsp;Remove</a></li>
+      </ul>
+    </div>
     <hr>
     <div class="col-sm-1">
         <ul class="item-nav">
           <li title="Details" class="active" data-toggle="tooltip" data-placement="right" data-attr="details-panel"><i class="fa fa-fw fa-lg fa-info-circle"></i></li>
-          <li title="Progress note" data-toggle="tooltip" data-placement="right" data-attr="progress-note-panel"><i class="fa fa-fw fa-lg fa-sticky-note-o"></i><span>5</span></li>
+          <li title="Progress note" data-toggle="tooltip" data-placement="right" data-attr="progress-note-panel"><i class="fa fa-fw fa-lg fa-sticky-note"></i><span>5</span></li>
           <li title="Development activities" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-graduation-cap"></i><span>3</span></li>
           <li title="Goal Align" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-bullseye"></i></li>
           <!-- <li title=""><i class="fa fa-fw fa-lg fa-money"></i> &nbsp;Bonus</li> -->
@@ -41,7 +61,7 @@
           <div class="item-side col-sm-4">
             <!-- weighting-->
             <div class="col-sm-6 text-center">
-              <div class="c100 orange small p25">
+              <div class="c100 green small p25">
                 <span>25%</span>
                 <div class="slice">
                     <div class="bar"></div>
@@ -51,8 +71,7 @@
             <h6>Weighting</h6>
             </div>
              <!-- target date -->
-            <div class="col-sm-6 text-center
-            dd6">
+            <div class="col-sm-6 text-center">
               <div class="target-date">
                 <div class="month">June</div>
                 <div class="day">30</div>
@@ -60,6 +79,22 @@
               </div>
               <h6>Target date</h6>
             </div>
+            <div class="col-sm-12">&nbsp;</div> 
+            <!-- set status -->
+            <div class="col-sm-12 text-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-primary">Current</button>
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Completed</a>
+                  <a class="dropdown-item" href="#">Cancelled</a>
+                  <a class="dropdown-item" href="#">No longer achievable</a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
         <hr>
@@ -67,7 +102,7 @@
         <div class="row">
             <!-- employee comments-->
             <span class="col-sm-2 text-center"><p><img class="avatar" src="img/emp/emp.jpg" /></p> Daniel Wang</span>
-            <span class="col-sm-7"><textarea class="col-sm-12"></textarea></span>
+            <span class="col-sm-7"><textarea class="col-sm-12"></textarea> <a href="#">Link journal entries</a></span>
             <span class="col-sm-3">
               <div class="well">
                 <span class="rating">
@@ -203,16 +238,7 @@
   <!-- end edit item mode -->  
 </div>
 
-<div class="box row">
-  <h4>Develop sustainable reliability plans to meet standard scheme(Current) <span class="pull-right"></h4>
-  <div class="c100 orange xs p25">
-      <span>25%</span>
-      <div class="slice">
-          <div class="bar"></div>
-          <div class="fill"></div>
-    </div>    
-  </div>
-</div>
+
 <script type="text/javascript">
 $(function () {
   $('[data-toggle="tooltip"]').tooltip();
@@ -226,6 +252,9 @@ $(function () {
     var panel = $(this).attr('data-attr');
     $('.panel-container > div').addClass('hidden');
     $('.' + panel).removeClass('hidden');
+  });
+  $('.item h4').click(function(){
+    $(this).parentsUntil("item").toggleClass('collaps');
   });
 })
 </script>

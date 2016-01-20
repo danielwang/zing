@@ -25,6 +25,7 @@ article{
         background-color:#fff;
     }
 }
+
 .btn-secondary{
     background-color: @secondary;
     border-color: @secondary;
@@ -260,7 +261,34 @@ li.dropdown.open{
     margin-left: 2px;
     margin-right: 5px;
 }
-
+.dropdown-toggle::after {
+    border-left: 0.3em solid transparent;
+    border-right: 0.3em solid transparent;
+    border-top: 0.3em solid;
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    vertical-align: middle;
+    width: 0;
+}
+.btn-group > .btn + .dropdown-toggle {
+    opacity: 0.9;
+}
+.dropdown-item {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    clear: both;
+    color: #373a3c;
+    display: block;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 3px 20px;
+    text-align: inherit;
+    white-space: nowrap;
+    width: 100%;
+}
 /*****************************  / 
         notification 
 \**************************** */
