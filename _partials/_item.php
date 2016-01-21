@@ -1,24 +1,3 @@
-<div class="item box row collaps">
-  <h4>Develop sustainable reliability plans to meet standard scheme <span class="status">Completed</span></h4>
-   <span class="pull-right">
-    <div class="target-date xs">
-      <div class="month">Jan</div>
-      <div class="day">1</div>
-      <div class="year">2016</div>
-    </div>
-  </span> 
-  <span class="pull-right">
-    <div class="c100 green xs p15">
-        <span>15%</span>
-        <div class="slice">
-            <div class="bar"></div>
-            <div class="fill"></div>
-      </div>    
-    </div> 
-  </span>
-  
-</div>
-
 <div class="item box row">
   <!-- rate item mode -->
   <div class="rate-mode">
@@ -33,7 +12,7 @@
     <div class="col-sm-1">
         <ul class="item-nav">
           <li title="Details" class="active" data-toggle="tooltip" data-placement="right" data-attr="details-panel"><i class="fa fa-fw fa-lg fa-info-circle"></i></li>
-          <li title="Progress note" data-toggle="tooltip" data-placement="right" data-attr="progress-note-panel"><i class="fa fa-fw fa-lg fa-sticky-note"></i><span>5</span></li>
+          <li title="Progress note" data-toggle="tooltip" data-placement="right" data-attr="progress-note-panel"><i class="fa fa-fw fa-lg fa-pencil-square-o"></i><span>5</span></li>
           <li title="Development activities" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-graduation-cap"></i><span>3</span></li>
           <li title="Goal Align" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-bullseye"></i></li>
           <!-- <li title=""><i class="fa fa-fw fa-lg fa-money"></i> &nbsp;Bonus</li> -->
@@ -61,7 +40,7 @@
           <div class="item-side col-sm-4">
             <!-- weighting-->
             <div class="col-sm-6 text-center">
-              <div class="c100 green small p25">
+              <div class="c100 orange small p25">
                 <span>25%</span>
                 <div class="slice">
                     <div class="bar"></div>

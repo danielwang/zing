@@ -41,12 +41,12 @@
   </div> 
   <div class="row"> 
     <div class="col-sm-2">
-        <ul>
-          <li>Start</li>
-          <li>My Contribution</li>
-          <li>Career plan</li>
-          <li>Next Step</li>
-        </ul>  
+        <ul class="affix" data-spy="affix" data-offset-top="100">
+          <li><a href="#">Start</a></li>
+          <li><a href="#" class="selected">My Contribution</a></li>
+          <li><a href="#">Career plan</a></li>
+          <li><a href="#">Next Step</a></li>
+        </ul>
     </div> 
     <div class="col-sm-10">
          <?php include '_partials/_item.php';?> 
@@ -61,7 +61,7 @@
               </div>
             </span> 
             <span class="pull-right">
-              <div class="c100 green xs p15">
+              <div class="c100 orange xs p15">
                   <span>15%</span>
                   <div class="slice">
                       <div class="bar"></div>
