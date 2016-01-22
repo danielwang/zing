@@ -41,9 +41,12 @@
   </div> 
   <div class="row"> 
     <div class="col-sm-2">
-        <ul class="affix" data-spy="affix" data-offset-top="100">
+        <ul class="sidenav affix" data-spy="affix" data-offset-top="100">
           <li><a href="#">Start</a></li>
-          <li><a href="#" class="selected">My Contribution</a></li>
+          <li class="active">
+            <a href="#">My Contribution</a>
+
+          </li>
           <li><a href="#">Career plan</a></li>
           <li><a href="#">Next Step</a></li>
         </ul>
@@ -52,7 +55,7 @@
          <?php include '_partials/_item.php';?> 
          <?php for ($x = 0; $x <= 5; $x++) {?> 
           <div class="item box row collaps">
-            <h4>Develop sustainable reliability plans to meet standard scheme <span class="status">Completed</span></h4>
+            <h4>Develop sustainable reliability plans to meet standard scheme <span class="status">Current</span></h4>
              <span class="pull-right">
               <div class="target-date xs">
                 <div class="month">Jan</div>
