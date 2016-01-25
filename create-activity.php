@@ -2,6 +2,8 @@
 <?php startblock('page') ?>
 <link rel="stylesheet" href="http://abpetkov.github.io/switchery/dist/switchery.css" />
 <script src="http://abpetkov.github.io/switchery/dist/switchery.js"></script>
+<link href="lib/text-editor/editor.css" type="text/css" rel="stylesheet"/>
+<script src="lib/text-editor/editor.js"></script>
 <form class="form-horizontal" method="get">
 	<div class="row">
 		<div class="col-md-3">
@@ -61,7 +63,7 @@
 	                                </label>
 	                            </div>
 	                        </div>    
-                        	<textarea class="form-control"></textarea>
+                        	<textarea class="form-control txtEditor"></textarea>
                         </div>
 
                     </div>
@@ -72,7 +74,7 @@
 					    <div class="col-sm-10">
 					    	<span class="togglebutton">
                                 <label>
-                                    <input id="event-based" type="checkbox" unchecked />
+                                    <input id="event-based" type="checkbox" class="js-switch" unchecked />
                                 </label>
                             </span>
                             <br>
@@ -152,6 +154,9 @@ $('#title').keyup(function () {
 });
 $( '#type').change(function() {
 	$('#card-type').text($(this).val());
+});
+$(".txtEditor").each(function(){
+	$(this).Editor();
 });
 </script>
 <?php endblock() ?>

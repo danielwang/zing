@@ -1,6 +1,7 @@
 <link href="lib/text-editor/editor.css" type="text/css" rel="stylesheet"/>
 <script src="lib/text-editor/editor.js"></script>
-
+<link rel="stylesheet" href="http://abpetkov.github.io/switchery/dist/switchery.css" />
+<script src="http://abpetkov.github.io/switchery/dist/switchery.js"></script>
 <div class="item box row">
   <!-- rate item mode -->
   <div class="rate-mode">
@@ -191,10 +192,17 @@
           <div class="form-group">
              <label class="col-sm-3 control-label">Bonus</label>
              <div class="col-sm-9">
-                <div class="row">
-                   <div class="col-md-3"><input type="text" placeholder="Weighting" class="form-control"></div>
-                   <div class="col-md-6"><input type="text" placeholder="Oppurtunity" class="form-control"></div>
-                </div>
+              <div class="row">
+                  <div class="col-md-1">
+                    <input id="bonusable" type="checkbox" class="js-switch" unchecked />
+                  </div>  
+                  <span class="col-md-3 bonusable-fields">  
+                    <input type="text" placeholder="Weighting" class="form-control">
+                  </span>
+                  <span class="col-md-8 bonusable-fields">  
+                    <input type="text" placeholder="Oppurtunity" class="form-control">
+                  </span>
+              </div>  
              </div>
           </div>
           <!-- item Bonus-->
@@ -202,8 +210,12 @@
              <label class="col-sm-3 control-label">Target type</label>
              <div class="col-sm-9">
                 <div class="row">
-                  <div class="col-md-3">
-                      <select>
+
+                  <div class="col-md-1">
+                    <input id="target-type" type="checkbox" class="js-switch" unchecked />
+                  </div>  
+                  <div class="col-md-2">
+                      <select class="target-type-fields">
                         <option>Select</option>
                         <option>Text</option>
                         <option>Date</option>
@@ -211,9 +223,9 @@
                         <option>$</option>
                     </select>
                   </div>
-                  <div class="col-md-3"><input type="text" placeholder="Min" class="form-control"></div>
-                  <div class="col-md-3"><input type="text" placeholder="Par" class="form-control"></div>
-                  <div class="col-md-3"><input type="text" placeholder="Max" class="form-control"></div>
+                  <div class="col-md-3 target-type-fields"><input type="text" placeholder="Min" class="form-control"></div>
+                  <div class="col-md-3 target-type-fields"><input type="text" placeholder="Par" class="form-control"></div>
+                  <div class="col-md-3 target-type-fields"><input type="text" placeholder="Max" class="form-control"></div>
                 </div>
              </div>
           </div>
@@ -264,8 +276,30 @@ $(function () {
   $('.item h4').click(function(){
     $(this).parentsUntil("item").toggleClass('collaps');
   });
+  // rich editor
   $(".txtEditor").each(function(){
     $(this).Editor();
+  });
+
+  // eye button
+  var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+
+  elems.forEach(function(elem) {
+    var switchery = new Switchery(elem, { size: 'small', color: '#faab43' });
+  });
+  $('#bonusable').change(function(){
+      if(this.checked){ 
+        $('.bonusable-fields').fadeIn();
+      }else{
+        $('.bonusable-fields').fadeOut();
+      }
+  });
+  $('#target-type').change(function(){
+      if(this.checked){ 
+        $('.target-type-fields').fadeIn();
+      }else{
+        $('.target-type-fields').fadeOut();
+      }
   });
 })
 </script>
