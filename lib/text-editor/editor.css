@@ -10,7 +10,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 @charset "utf-8";
 /* base styles */
-.jumbotron {
+.Editor-container .jumbotron {
    background-color: #67A754;
   background-image: url(images/radial_bg.png);
   background-position: center center;
@@ -25,9 +25,9 @@ You should have received a copy of the GNU General Public License along with thi
     position: relative;
     text-shadow: 0 1px 3px rgba(255, 255, 255, 0.4), 0 0 30px rgba(255, 255, 255, 0.075);
 }
-.jumbotron h1{font-family: 'Roboto', sans-serif!important; font-size:45px;font-weight:300; border-bottom:1px solid rgba(255,255,255,0.4);padding-bottom:20px; }
-.jumbotron h1 span{color:rgba(0,0,0,0.4); }
-.jumbotron p {
+.Editor-container .jumbotron h1{font-family: 'Roboto', sans-serif!important; font-size:45px;font-weight:300; border-bottom:1px solid rgba(255,255,255,0.4);padding-bottom:20px; }
+.Editor-container .jumbotron h1 span{color:rgba(0,0,0,0.4); }
+.Editor-container .jumbotron p {
   font-family: 'Roboto', sans-serif!important;
     font-size: 30px;
     font-weight: 300;
@@ -35,11 +35,11 @@ You should have received a copy of the GNU General Public License along with thi
   color:#444;
 }
 
-.jumbotron .container {
+.Editor-container .jumbotron .container {
     position: relative;
     z-index: 2;
 }
-.jumbotron:after {
+.Editor-container .jumbotron:after {
     background: url("../images/pattern.png") repeat scroll center center transparent;
     bottom: 0;
     content: "";
@@ -50,17 +50,17 @@ You should have received a copy of the GNU General Public License along with thi
     right: 0;
     top: 0;
 }
-.jumbotron:after {
+.Editor-container .jumbotron:after {
     background-size: 400px 400px;
 }
-.masthead {
+.Editor-container .masthead {
     color: #FFFFFF;
     margin-bottom: 0;
     padding: 30px 0 10px;
 }
-h2.demo-text{font-family: 'Roboto', sans-serif!important; font-size:45px; font-weight:300; color:#51D2FF; text-align:center; margin:20px 0; line-height:40px;}
-.features{padding:20px 0 10px 0;background:#EEE;font-family: 'Roboto', sans-serif!important; font-size:25px; line-height:35px; text-align:center;font-weight:300;}
-.footer{border-top:1px solid #DDD; margin:20px 0 10px 0; padding-top:10px; font-size:12px;}
+.Editor-container h2.demo-text{font-family: 'Roboto', sans-serif!important; font-size:45px; font-weight:300; color:#51D2FF; text-align:center; margin:20px 0; line-height:40px;}
+.Editor-container .features{padding:20px 0 10px 0;background:#EEE;font-family: 'Roboto', sans-serif!important; font-size:25px; line-height:35px; text-align:center;font-weight:300;}
+.Editor-container .footer{border-top:1px solid #DDD; margin:20px 0 10px 0; padding-top:10px; font-size:12px;}
 
 /* Editor Styles */
 
@@ -105,7 +105,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   line-height:14px;
 } 
 .Editor-editor{ 
-    height:300px;
+    height:150px;
     padding:1%;  
   border:1px solid #EEE;
   border-radius:0;
@@ -169,49 +169,49 @@ pre {
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
-.on{display:block; position:relative;}
+.Editor-container .on{display:block; position:relative;}
 .fullscreen{position:fixed; background:#FFF; width:100%; height:100%; top:0; left:0; z-index:1000; margin:0;}
 .fullscreen #statusbar{position:fixed; bottom:0; border-top:1px solid #DDD;}
 .fullscreen #contentarea{border:none;}
 
 /***Custome Added Css for Left Tabs***/
-.tabs-below > .nav-tabs,
-.tabs-right > .nav-tabs,
-.tabs-left > .nav-tabs {
+.Editor-container .tabs-below > .nav-tabs,
+.Editor-container .tabs-right > .nav-tabs,
+.Editor-container .tabs-left > .nav-tabs {
   border-bottom: 0;
 }
-.tabs-left ul{
+.Editor-container .tabs-left ul{
   -webkit-padding-start: 0px;
   }
-.tabs-left > .nav-tabs > li,
-.tabs-right > .nav-tabs > li {
+.Editor-container .tabs-left > .nav-tabs > li,
+.Editor-container .tabs-right > .nav-tabs > li {
   float: none;
 }
-.tabs-left > .nav-tabs > li > a,
-.tabs-right > .nav-tabs > li > a {
+.Editor-container .tabs-left > .nav-tabs > li > a,
+.Editor-container .tabs-right > .nav-tabs > li > a {
   min-width: 74px;
   margin-right: 0;
   margin-bottom: 3px;
 }
-.tabs-left > .nav-tabs {
+.Editor-container .tabs-left > .nav-tabs {
   float: left;
   margin-right: 19px;
   border-right: 1px solid #ddd;
 }
-.tabs-left > .nav-tabs > li > a {
+.Editor-container .tabs-left > .nav-tabs > li > a {
   margin-right: -1px;
   -webkit-border-radius: 4px 0 0 4px;
      -moz-border-radius: 4px 0 0 4px;
           border-radius: 4px 0 0 4px;
 }
-.tabs-left > .nav-tabs > li > a:hover,
+.Editor-container .tabs-left > .nav-tabs > li > a:hover,
 .tabs-left > .nav-tabs > li > a:focus {
   border-color: #eeeeee #dddddd #eeeeee #eeeeee;
   outline:none;
 }
-.tabs-left > .nav-tabs .active > a,
-.tabs-left > .nav-tabs .active > a:hover,
-.tabs-left > .nav-tabs .active > a:focus {
+.Editor-container .tabs-left > .nav-tabs .active > a,
+.Editor-container .tabs-left > .nav-tabs .active > a:hover,
+.Editor-container .tabs-left > .nav-tabs .active > a:focus {
   border-color: #ddd transparent #ddd #ddd;
   *border-right-color: #ffffff;
   color:rgb(0, 176, 245) !important;
@@ -223,57 +223,57 @@ pre {
   padding:6px 12px 10px 12px;
   }
 }
-.form-control-width{
+.Editor-container .form-control-width{
   width:100px;
   }
-.form-control-link{
+.Editor-container .form-control-link{
   width:204px;
   display:inline-block;
   margin-bottom:5px;
   margin-right:5px;
   }
-.form-control-button-right{
+.Editor-container .form-control-button-right{
   width:204px;
   }
-.inline-form-control{
+.Editor-container .inline-form-control{
   display:inline !important;
   }
 
-.btn-group + .btn-group {
+.Editor-container .btn-group + .btn-group {
   margin-left: 5px;
 }
-.activeColour ul{
+.Editor-container .activeColour ul{
   -webkit-padding-start: 0px;
   -moz-padding-start: 0px;
   }
-h1{
+.Editor-container h1{
   margin-top:10px;
   line-height:40px;
   }
-.col-lg-6 nth:child(1){
+.Editor-container .col-lg-6 nth:child(1){
   margin-left:0px;
   }
-.nopadding{
+.Editor-container .nopadding{
   padding:0px;
   }
-.nopadding-right{
+.Editor-container .nopadding-right{
   padding-right:0px;
   }
-.modal{
+.Editor-container  .modal{
   overflow-y:auto;
   }
-.padding-top{
+.Editor-container  .padding-top{
   padding-top:10px;
   }
 /*** Drop Down Menu***/
-.dropdown-submenu
+.Editor-container .dropdown-submenu
 {position:relative;}
-.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
-.dropdown-submenu:hover>.dropdown-menu{display:block;}
-.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
-.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
-.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
+.Editor-container .dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.Editor-container .dropdown-submenu:hover>.dropdown-menu{display:block;}
+.Editor-container .dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.Editor-container .dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+.Editor-container .dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+.Editor-container .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
   color: #fff;
   text-decoration: none;
   background-color: #0081c2;
@@ -285,6 +285,6 @@ h1{
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0077b3',GradientType=0);
 }
-.dropdown-menu>li>a{
+.Editor-container .dropdown-menu>li>a{
   cursor:pointer;
   }

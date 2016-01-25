@@ -16,12 +16,12 @@
         <ul class="item-nav">
           <li title="Details" class="active" data-toggle="tooltip" data-placement="right" data-attr="details-panel"><i class="fa fa-fw fa-lg fa-info-circle"></i></li>
           <li title="Progress note" data-toggle="tooltip" data-placement="right" data-attr="progress-note-panel"><i class="fa fa-fw fa-lg fa-pencil-square-o"></i><span>5</span></li>
-          <li title="Development activities" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-graduation-cap"></i><span>3</span></li>
-          <li title="Goal Align" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-bullseye"></i></li>
+          <li title="Development activities" data-toggle="tooltip" data-placement="right" data-attr="dev-activity-panel"><i class="fa fa-fw fa-lg fa-graduation-cap"></i><span>3</span></li>
+          <li title="Goal Align" data-toggle="tooltip" data-placement="right" data-attr="goalalign-panel"><i class="fa fa-fw fa-lg fa-bullseye"></i></li>
           <!-- <li title=""><i class="fa fa-fw fa-lg fa-money"></i> &nbsp;Bonus</li> -->
           <!-- <li title=""><i class="fa fa-fw fa-lg fa-paperclip"></i> &nbsp;Attachment (1)</li> -->
-          <li title="History" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-history"></i></li>
-          <li title="External Feedback" data-toggle="tooltip" data-placement="right"><i class="fa fa-fw fa-lg fa-comments-o"></i><span>2</span></li>
+          <li title="History" data-toggle="tooltip" data-placement="right" data-attr="history-panel"><i class="fa fa-fw fa-lg fa-history"></i></li>
+          <li title="External Feedback" data-toggle="tooltip" data-placement="right" data-attr="external-feedback-panel"><i class="fa fa-fw fa-lg fa-comments-o"></i><span>2</span></li>
         </ul>  
     </div>
     <div class="col-sm-11 left-border panel-container">
@@ -65,8 +65,8 @@
             <!-- set status -->
             <div class="col-sm-12 text-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-primary">Current</button>
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn">Current</button>
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <span class="sr-only">Toggle Dropdown</span>
                 </button>
                 <div class="dropdown-menu">
@@ -111,6 +111,32 @@
       <div class="progress-note-panel hidden">
            <?php include '_partials/_feeds.php';?>
       </div>
+      <!-- dev-activity panel-->
+      <div class="dev-activity-panel hidden">
+        <h5>Development Activities <button class="btn btn-default btn-sm">Add</button></h5>
+        <span class="clearfix"></span>
+        <?php for ($x = 0; $x <= 2; $x++) {?> 
+           <div class="boxcontainer"> 
+            <h6><a href="learning-activity.php">Add Value to your Role</a></h6>
+            <span class="type">Internal class</span>
+            <p>Consider your role from the perspective of the business and organisation.
+                Can you anticipate needs? How could you add more value in your role? Act
+                on ideas or put forward a proposal to management/the Board.</p>
+          </div>
+        <?php } ?>
+      </div>
+       <!-- Goalalign panel-->
+      <div class="goalalign-panel hidden">
+        <h5>Goal Align<button class="btn btn-default btn-sm">Add</button></h5> 
+      </div>
+      <!-- History panel-->
+      <div class="history-panel hidden">
+        <h5>History</h5> 
+      </div>
+      <!-- Goalalign panel-->
+      <div class="external-feedback-panel hidden">
+        <h5>External Feedback</h5> 
+      </div>
     </div>
     
 
@@ -130,7 +156,7 @@
 
           </div>
           <!-- item status -->
-          <div class="form-group"><label class="col-sm-3 control-label">Status</label>
+          <!-- <div class="form-group"><label class="col-sm-3 control-label">Status</label>
 
               <div class="col-sm-9">
                 <select id="type">
@@ -141,7 +167,7 @@
                       <option>No longer achievable </option>
                   </select>
             </div>
-          </div>
+          </div> -->
           <!-- item weighting -->
           <div class="form-group"> <label class="col-sm-3 control-label">Weighting</label> 
             <div class="col-sm-3">
