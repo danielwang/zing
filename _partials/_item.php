@@ -1,3 +1,6 @@
+<link href="lib/text-editor/editor.css" type="text/css" rel="stylesheet"/>
+<script src="lib/text-editor/editor.js"></script>
+
 <div class="item box row">
   <!-- rate item mode -->
   <div class="rate-mode">
@@ -94,7 +97,7 @@
             <span class="clearfix"></span>
             <!-- employee comments-->
             <span class="col-sm-2 text-center"><p><img class="avatar" src="img/emp/emp.jpg" /></p> Daniel Wang</span>
-            <span class="col-sm-7"><textarea class="col-sm-12"></textarea> <a href="#">Link journal entries</a></span>
+            <span class="col-sm-7"><a href="#">Link journal entries</a><textarea class="col-sm-12 txtEditor"></textarea> </span>
             <span class="col-sm-3">
               <div class="well">
                 <span class="rating">
@@ -123,7 +126,7 @@
           <!-- item measure -->
           <div class="form-group"><label class="col-sm-3 control-label">Measure <sup>*</sup></label>
 
-              <div class="col-sm-9"><textarea class="form-control"></textarea></div>
+              <div class="col-sm-9"><textarea class="form-control txtEditor"></textarea></div>
 
           </div>
           <!-- item status -->
@@ -189,23 +192,23 @@
              </div>
           </div>
           <!-- Development activities -->
-          <div class="form-group"><label class="col-sm-3 control-label">Development activities</label>
+          <!--<div class="form-group"><label class="col-sm-3 control-label">Development activities</label>
 
               <div class="col-sm-9"><button><i class="fa fa-plus-circle"></i>&nbsp;Add</button></div>
 
-          </div>
+          </div> -->
           <!-- attachment -->
-          <div class="form-group"><label class="col-sm-3 control-label">Attachment</label>
+          <!--<div class="form-group"><label class="col-sm-3 control-label">Attachment</label>
 
               <div class="col-sm-9"><button><i class="fa fa-plus-circle"></i>&nbsp;Add</button></div>
 
-          </div>
+          </div> -->
           <!-- Goal align -->
-          <div class="form-group"><label class="col-sm-3 control-label">Goal align</label>
+          <!-- <div class="form-group"><label class="col-sm-3 control-label">Goal align</label>
 
               <div class="col-sm-9"><button><i class="fa fa-plus-circle"></i>&nbsp;Add</button></div>
 
-          </div>
+          </div> -->
           <div class="form-group">
               <div class="col-sm-4 col-sm-offset-3">
                   <button class="done btn btn-primary" type="submit">Done</button>
@@ -234,6 +237,9 @@ $(function () {
   });
   $('.item h4').click(function(){
     $(this).parentsUntil("item").toggleClass('collaps');
+  });
+  $(".txtEditor").each(function(){
+    $(this).Editor();
   });
 })
 </script>
