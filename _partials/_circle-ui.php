@@ -21,7 +21,7 @@
        <img src="img/orgchart-card.png"/>
     </div>
   </div>
-  <span class="menu-button"><i class="fa fa-users fa-lg"></i></span>
+  <span class="menu-button"><i class="fa fa-users fa-3x"></i></span>
 
 </nav>
 
