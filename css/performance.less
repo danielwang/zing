@@ -101,7 +101,7 @@
   .measure{
     font-size: 14px;
   }
-
+  
   .item-side {
     position: relative;
   }
@@ -167,6 +167,9 @@
       }
     }
   }
+  .well{
+    text-align: center;
+  }
   .rating {
     unicode-bidi: bidi-override;
     direction: rtl;
@@ -187,11 +190,12 @@
     color: #777777;
   }
   .rating span.star:hover:before,
-  .rating span.star:hover ~ span.star:before {
+  .rating span.star:hover ~ span.star:before, .rating span.star.highlight:before {
     content: "\f005";
     color: #e3cf7a;
   }
   .bonusable-fields, .target-type-fields{
     display: none;
   }
+  
 }

@@ -18,7 +18,7 @@
           <li title="Details" class="active" data-toggle="tooltip" data-placement="right" data-attr="details-panel"><i class="fa fa-fw fa-lg fa-info-circle"></i></li>
           <li title="Progress note" data-toggle="tooltip" data-placement="right" data-attr="progress-note-panel"><i class="fa fa-fw fa-lg fa-pencil-square-o"></i><span>5</span></li>
           <li title="Development activities" data-toggle="tooltip" data-placement="right" data-attr="dev-activity-panel"><i class="fa fa-fw fa-lg fa-graduation-cap"></i><span>3</span></li>
-          <li title="Goal Align" data-toggle="tooltip" data-placement="right" data-attr="goalalign-panel"><i class="fa fa-fw fa-lg fa-bullseye"></i></li>
+          <!--<li title="Goal Align" data-toggle="tooltip" data-placement="right" data-attr="goalalign-panel"><i class="fa fa-fw fa-lg fa-bullseye"></i></li> -->
           <!-- <li title=""><i class="fa fa-fw fa-lg fa-money"></i> &nbsp;Bonus</li> -->
           <!-- <li title=""><i class="fa fa-fw fa-lg fa-paperclip"></i> &nbsp;Attachment (1)</li> -->
           <li title="History" data-toggle="tooltip" data-placement="right" data-attr="history-panel"><i class="fa fa-fw fa-lg fa-history"></i></li>
@@ -87,18 +87,20 @@
             <span class="col-sm-2 text-center"><p><img class="avatar" src="img/emp/emp9.png" /></p>Simon Cariss</span>
             <span class="col-sm-7">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> 
             </span>
             <span class="col-sm-3">
               <div class="well">
                 <span class="rating">
-                  <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+                  <span class="star"></span><span class="star"></span><span class="star"></span><span class="star highlight"></span><span class="star highlight"></span>
                 </span>
+                Outstanding
               </div>
             </span>
             <span class="clearfix"></span>
             <!-- employee comments-->
             <span class="col-sm-2 text-center"><p><img class="avatar" src="img/emp/emp.jpg" /></p> Daniel Wang</span>
-            <span class="col-sm-7"><a href="#">Link journal entries</a><textarea class="col-sm-12 txtEditor"></textarea> </span>
+            <span class="col-sm-7"><p style="color:#999"><i class="fa fa-unlock"></i> <span>Your comment is visible to Simon Cariss</a></p><textarea class="col-sm-12 txtEditor"></textarea> <a href="#">Link journal entries</a></span>
             <span class="col-sm-3">
               <div class="well">
                 <span class="rating">

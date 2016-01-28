@@ -1,7 +1,7 @@
 <div class="back" id="feed">
 	<h5>Progress Note</h5>
 	<div class="alert alert-warning">
-		This is a journalling too which is NOT visible to your manager. To make final comments that are visible to your manager
+		<i class="fa fa-lock"></i> This is a journalling tool which is NOT visible to your manager. To make final comments that are visible to your manager
 		please click "Link"
 	</div>
 	<textarea class="col-sm-12"></textarea>

@@ -3,7 +3,7 @@
 
 <div id="performance"> 
   <div class="row row-gap"> 
-    <h4>Daniel Wang - My Contribution and Career Plan</h4> 
+    <h4>Simon Cariss - My Contribution and Career Plan</h4> 
     <ul class="lifecycle" id="lifecycle">
       <li class="li complete">
         <div class="timestamp">
