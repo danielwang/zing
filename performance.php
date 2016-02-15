@@ -41,7 +41,7 @@
   </div> 
   <div class="row"> 
     <div class="col-sm-2">
-        <ul class="sidenav affix" data-spy="affix" data-offset-top="100">
+        <ul class="sidenav affix" data-spy="affix" data-offset-top="150">
           <li><a href="#">Start</a></li>
           <li class="active">
             <a href="#">My Contribution</a>
