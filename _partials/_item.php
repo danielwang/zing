@@ -29,7 +29,7 @@
       <div class="details-panel">
         <!-- details panel-->
         <div class="row">
-          <div class="col-sm-8">
+          <div class="col-sm-12">
             <!-- measure -->
             <div class="measure">
               <p>The following expectations for the review period are below:</p>
@@ -39,22 +39,20 @@
                 <li>Project plan attached to objective</li>
               </ul>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>  
-            </div>        
-          </div>
-          <div class="item-side col-sm-4">
+            </div>
             <!-- weighting-->
-            <div class="col-sm-6 text-center">
+           <!-- <div class="col-sm-3 text-center">
               <div class="c100 orange small p25">
                 <span>25%</span>
                 <div class="slice">
                     <div class="bar"></div>
                     <div class="fill"></div>
-              </div>    
+                </div>
+              </div> 
+              <h6>Weighting</h6>   
             </div>
-            <h6>Weighting</h6>
-            </div>
-             <!-- target date -->
-            <div class="col-sm-6 text-center">
+            target date 
+            <div class="col-sm-3 text-center">
               <div class="target-date">
                 <div class="month">June</div>
                 <div class="day">30</div>
@@ -62,9 +60,22 @@
               </div>
               <h6>Target date</h6>
             </div>
-            <div class="col-sm-12">&nbsp;</div> 
+          -->
+             
+
+              <ul class="extra">
+                <li> <i class="fa fa-fw fa-pie-chart orange"></i> 25%</li>
+                <li> <i class="fa fa-fw fa-calendar orange"></i> 30 June 2016</li>
+                <li> <i class="fa fa-fw fa-bullseye orange"></i> A target From <b>64.00%</b> To <b>100.00%</b> with a par of <b>80.00%</b> has been defined.</li>
+                <li> <i class="fa fa-fw fa-dollar orange"></i> A bonus applies to this item, with a weighting of <b>10%</b></li>
+                <li> <i class="fa fa-fw fa-paperclip orange"></i> This item has the following attachment <a href="#">sample file.pdf</a></li>
+              </ul>
+
+                    
+          </div>
+
             <!-- set status -->
-            <div class="col-sm-12 text-center">
+           <!-- <div class="col-sm-12 text-center">
               <div class="btn-group">
                 <button type="button" class="btn">Current</button>
                 <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -76,9 +87,8 @@
                   <a class="dropdown-item" href="#">No longer achievable</a>
                 </div>
               </div>
-            </div>
+            </div>-->
 
-          </div>
         </div>
         <hr>
         <!-- comments rating-->
@@ -100,7 +110,7 @@
             <span class="clearfix"></span>
             <!-- employee comments-->
             <span class="col-sm-2 text-center"><p><img class="avatar" src="img/emp/emp.jpg" /></p> Daniel Wang</span>
-            <span class="col-sm-7"><p style="color:#999"><i class="fa fa-unlock"></i> <span>Your comment is visible to Simon Cariss</a></p><textarea class="col-sm-12 txtEditor"></textarea> <a href="#">Link journal entries</a></span>
+            <span class="col-sm-7"><p style="color:#999"><i class="fa fa-eye-slash"></i> <span>Your comment is not visible to Simon Cariss</a></p><textarea class="col-sm-12 txtEditor"></textarea> <a href="#">Link journal entries</a></span>
             <span class="col-sm-3">
               <div class="well">
                 <span class="rating">
