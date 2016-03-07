@@ -1,0 +1,53 @@
+.nav{
+  display: none;
+}
+body{
+  background: white;
+}
+strong{
+  font-size: 16px;
+  color: #0D6083;
+}
+/* Intimeline */
+.timeline-item {
+    display: inherit;
+}
+.timeline-item .date i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  width: 30px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  background: #f8f8f8;
+}
+.timeline-item .date i.green {
+  background: green;
+  color: white;
+}
+.timeline-item .date {
+  text-align: right;
+  position: relative;
+  padding-top: 30px;
+}
+.timeline-item .content {
+  border-left: 1px solid #e7eaec;
+  border-top: 1px solid #e7eaec;
+  padding-top: 10px;
+  min-height: 100px;
+}
+.timeline-item .content i {
+  color: #eeb964;
+}
+.timeline-item.passed .date, .timeline-item.passed .content{
+  opacity: 0.5;
+}
+.timeline-item.passed strong{
+  color: #414141;
+}
+.timeline-item.passed .content i {
+  color: #aaa;
+}

@@ -502,6 +502,41 @@ a.notice-more, a.notice-more:hover {
     }
 }    
 
+.target-date {
+      border: 5px solid #dddddd;
+      border-radius: 10px;
+      height: 80px;
+      text-align: center;
+      width: 80px;
+      color: @green;
+    
+    .month {
+        font-size: 13px;
+    }
+    .day {
+        font-size: 26px;
+    }
+    .year {
+        color: #7c8ba4;
+        font-size: 10px;
+    }
+    &.xs{
+      width: 45px;
+      height:45px;
+      border-width: 3px;
+      .month{
+        font-size: 9px;
+      }
+      .day {
+          font-size: 13px;
+          line-height: 0.9;
+      }
+      .year {
+          font-size: 9px;
+      }
+    }
+  }
+
 .pop {
   position: absolute;
   overflow: hidden;
