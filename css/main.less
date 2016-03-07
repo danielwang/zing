@@ -137,7 +137,7 @@ article{
 .purple{color: @purple }
 .sushi{color: @sushi }
 .pucolor{color: @pucolor;}
-.gray{color:#999999;}
+.gray, .mute, .inactive{color:#999999;}
 .white-bg{background-color: @white}
 .blue-bg{background-color: @blue}
 .red-bg{background-color: @red }
@@ -169,6 +169,21 @@ input, textarea, select {
 .row-gap {
     margin-top: 20px;
 }
+
+.btn-circle {
+    border-radius: 50%;
+    font-size: 18px;
+    height: 50px;
+    line-height: 1.33;
+    padding: 10px 16px;
+    width: 50px;
+    text-align: center;
+    &.btn-lg{
+        height: 80px;
+        width: 80px;
+    }
+}
+
 #feeds{background: #ffffff;}
 .avatar-sm {width:30px; border-radius: 50%; border: 2px solid #FFA500;}
 .avatar {width:45px; border-radius: 50%; border: 3px solid #FFA500;}

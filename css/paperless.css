@@ -51,3 +51,44 @@ strong{
 .timeline-item.passed .content i {
   color: #aaa;
 }
+#tag-list{
+  height: 500px;
+  overflow-y: scroll;
+}
+#tag-list li{
+  padding: 10px 15px;
+  border-top:1px solid #ddd;
+  font-size: 16px;
+}
+#tag-list li:before{
+  content:"\f02b";
+  font-family: fontawesome;
+  color: #aaa;
+  margin-right: 10px;
+  margin-left: -10px;
+  font-size: 14px;
+}
+.tag-cloud {
+    padding: 5px 8px;
+    font-size: 16px;
+    margin: 5px 8px;
+    position: relative;
+}
+sup {
+    background: white none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 16px;
+    position: absolute;
+    right: -5px;
+    text-align: center;
+    top: -5px;
+    width: 16px;
+    border: 1px solid currentcolor;
+    color: #999999;
+    font-size: 12px !important
+}
+.tag-cloud-success sup{
+  color: #1D9D73;
+}
+.back{font-size: 18px;}
+.name{font-size: 24px; color: #0D6083; text-transform: uppercase;}
