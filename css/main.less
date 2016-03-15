@@ -5,6 +5,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: @bgcolor;
     padding-top: 55px;
+
+      &.manager-view{
+        * .manager-only{
+          display: block !important;
+        }
+        * .employee-only{
+          display: block !important;
+        }
+      }
     }
 footer{position: fixed; bottom: 0; right:5px;}
 h1, h2, h3, h4 {

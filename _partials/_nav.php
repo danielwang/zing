@@ -25,10 +25,10 @@
                                 </li>
                                 <li><a class="live" href="journal.php">Journal</a>
                                 </li>
-                                <li><a href="#">Succession</a>
+                                <li><a class="manager-only hide" href="#">Succession</a>
                                 </li>
                                 <li class="divider"></li>
-                                <li><a class="live" href="systemsettings.php">System settings</a>
+                                <li><a class="live manager-only hide" href="systemsettings.php">System settings</a>
                                 </li>
                             </ul>
                     </li>
@@ -54,7 +54,7 @@
                             </li>
                             </ul>
                     </li>
-                    <li>
+                    <li class="manager-only hide">
                         <a target="_black" href="map"><i class="fa fa-lg fa-globe"></i> Map  <span class="new">new</span></a>
                     </li>
                     </ul>
@@ -78,20 +78,12 @@
                             </ul>
                     </li>
                     <li class="divider-vertical"></li>
-                    <li class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="glyphicon glyphicon-info-sign icon-white"></i></a>
-                        <ul
-                        class="dropdown-menu">
-                            <li><a href="#">Live Supoort</a>
-                            </li>
-                            <li><a href="#">Knowledge portal</a>
-                            </li>
-                            <li><a href="#">Support centre</a>
-                            </li>
-                            <li><a href="#">Release note</a>
-                            </li>
-                            <li><a href="#">Beta on/off</a>
-                            </li>
-                            </ul>
+                    <li id="user-setting" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="fa fa-cog"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                         <li>User Type :</li>
+                         <li class="manager"><a data-attr="manager" href="#"> Manager</a> </li>
+                         <li class="employee"><a data-attr="employee" href="#"> Employee</a> </li>
+                        </ul>
                     </li>
                     </ul>
                 </div>
