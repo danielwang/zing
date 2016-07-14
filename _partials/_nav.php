@@ -37,8 +37,10 @@
                             <li><a class="live" href="bulk-progress.php">Bulk Process</a>
                             </li>
                             <li><a class="live" href="orgchart-small.php">Org Chart</a><li>
-                            <li><a class="live" href="360review.php">Circle UI</a>
-                            <li><a class="live" href="social-feed.php">Timeline</a>
+                            <li><a class="live" href="360review.php">Circle UI</a></li>
+                            <li><a class="live" href="social-feed.php">Timeline</a></li>
+                            <li><a class="live" href="paperless.php">Paper less interview</a></li>
+                            <li><a class="live" href="paper-performance.php">Paper Performance</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="glyphicon glyphicon-plus-sign icon-white"></i>&nbsp;Create</a>

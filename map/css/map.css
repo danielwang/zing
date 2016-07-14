@@ -116,23 +116,23 @@ footer {
     border-radius: 3px;
 }
 
-#map-canvas .label:nth-child(5n) {
+#map-canvas div div div div div:nth-child(5n) .label {
     background-color: #0094d4;
 }
 
-#map-canvas .label:nth-child(5n+1) {
+#map-canvas div div div div div:nth-child(5n+1) .label {
     background-color: #f58233;
 }
 
-#map-canvas .label:nth-child(5n+2) {
+#map-canvas div div div div div:nth-child(5n+2) .label {
     background-color: #009f4c;
 }
 
-#map-canvas .label:nth-child(5n+3) {
+#map-canvas div div div div:nth-child(5n+3) .label {
     background-color: #c9252c;
 }
 
-#map-canvas .label:nth-child(5n+4) {
+#map-canvas div div div div:nth-child(5n+4) .label {
     background-color: #96377b;
 }
 
