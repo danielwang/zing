@@ -4,14 +4,14 @@
         <div class="col-md-12 column">
             <nav class="navbar navbar-default" role="navigation">
                 <div class="navbar-header">
-                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index.php"><img width="80" src="img/pu-logo.png"/></a>
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="<?php echo($resURL) ?>index.php"><img width="80" src="<?php echo($resURL) ?>img/pu-logo.png"/></a>
                 </div>
                 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav main-nav">
                         <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="glyphicon glyphicon-th-list icon-white"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a class="live" href="dock.php">ES Dock</a>
+                                <li><a class="live" href="<?php echo($pageURL)?>dock.php">ES Dock</a>
                                 </li>
                                 <li><a class="live" href="home.php">My Home</a>
                                 </li>
@@ -39,8 +39,8 @@
                             <li><a class="live" href="orgchart-small.php">Org Chart</a><li>
                             <li><a class="live" href="360review.php">Circle UI</a></li>
                             <li><a class="live" href="social-feed.php">Timeline</a></li>
-                            <li><a class="live" href="paperless.php">Paper less interview</a></li>
-                            <li><a class="live" href="paper-performance.php">Paper Performance</a></li>
+                            <li><a class="live" href="apps/paperless.php">Paper less interview</a></li>
+                            <li><a class="live" href="apps/paper-performance.php">Paper Performance</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="glyphicon glyphicon-plus-sign icon-white"></i>&nbsp;Create</a>
@@ -61,13 +61,13 @@
                     </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#myModal" role="link" data-toggle="modal" id="addJournal"><i class="glyphicon glyphicon-edit icon-white"></i> journal</a>
+                        <li class="journa-btn"><a href="#myModal" role="link" data-toggle="modal" id="addJournal"><i class="glyphicon glyphicon-edit icon-white"></i> journal</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
                             <?php include '_notification.html' ?>
                         </li>
-                        <li class="dropdown loginAs"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/emp/emp.jpg" class="img-responsive" /> Daniel <b class="caret"></b></a>
+                        <li class="dropdown loginAs"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="<?php echo($resURL) ?>img/emp/emp.jpg" class="img-responsive" /> Daniel <b class="caret"></b></a>
                             <ul
                             class="dropdown-menu">
                                 <li><a href="#">Profile</a>

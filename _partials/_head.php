@@ -10,9 +10,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <!--<link rel="stylesheet/less" type="text/css" href="css/material/material.less"> -->
     <link href="css/circle.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet/less" type="text/css" href="css/main.less" />
+    <link rel="stylesheet/less" type="text/css" href="<?php echo($resURL) ?>css/main.less" />
     <link rel="stylesheet" type="text/css" href="css/quickflip.css" />
-    <link rel="stylesheet" href="css/journal.css" /> 
+    <link rel="stylesheet" href="<?php echo($resURL) ?>css/journal.css" /> 
+    <!-- apps css -->
+    <?php if($pageClass != null) { 
+       echo '<link rel="stylesheet/less" type="text/css" href="'.$resURL.'css/apps.less" />';
+    }?>
     <!-- LESS.js -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
     <!-- Fontawesome -->
@@ -26,6 +30,6 @@
     <!-- custom script -->
     <script src="js/custom.js"></script> 
 </head>
-<body>
+<body class="<?php echo($pageClass)?>">
 
     

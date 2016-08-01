@@ -1,7 +1,8 @@
 <!-- template engine http://arshaw.com/phpti/ -->
 
 <?php require_once 'ti.php' ?>
-<?php include '_partials/_head.html';?>
+<?php include_once('functions.php'); ?>
+<?php include '_partials/_head.php';?>
 <?php include '_partials/_nav.php';?>
 
  <div class="container">

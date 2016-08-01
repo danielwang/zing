@@ -1,4 +1,4 @@
-<?php include 'base.php' ?>
+<?php include '../base.php' ?>
 <?php startblock('page') ?>
 <link href="css/paperless.css" rel="stylesheet" type="text/css" />
 <div class="ipad row-gap">
