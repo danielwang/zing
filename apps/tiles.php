@@ -3,16 +3,16 @@
     <link href="css/MetroJs.css" rel="stylesheet" type="text/css" />
     <div id="myFlipList" class="cobalt tile-group" data-initdelay="500" data-mode="flip-list" data-delay="3000">
         <div class="live-tile two-wide">
-            <div>
+            <div>Back
                 <!-- Put images or other content here -->
             </div>
-            <div>fffff
+            <div>Front
                 <!-- Put images or other content here -->
             </div>
         </div>
         <div class="live-tile exclude red">
             <div>
-                <p>excluded</p>
+                <p>Pinned</p>
             </div>
         </div>
         <div class="live-tile green">

@@ -57,7 +57,7 @@
                             </ul>
                     </li>
                     <li class="manager-only hide">
-                        <a target="_black" href="map"><i class="fa fa-lg fa-globe"></i> Map  <span class="new">new</span></a>
+                        <a target="_black" href="apps/map"><i class="fa fa-lg fa-globe"></i> Map  <span class="new">new</span></a>
                     </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -79,8 +79,7 @@
                                 </li>
                             </ul>
                     </li>
-                    <li class="divider-vertical"></li>
-                    <li id="user-setting" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="fa fa-cog"></i></a>
+                    <li id="user-setting" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="fa fa-cogs"></i></a>
                         <ul class="dropdown-menu dropdown-menu-right">
                          <li>User Type :</li>
                          <li class="manager"><a data-attr="manager" href="#"> Manager</a> </li>
