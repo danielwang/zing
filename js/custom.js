@@ -5,7 +5,7 @@ $(document).ready(function(){
     });
 
     initUser();
-
+    toggleView();
 });
 
 /*  Store user type in local storage */
@@ -33,4 +33,17 @@ function initUser() {
 function setUserType(user) {
     $('body')[0].className = user+"-view";
     localStorage.setItem("user", user); // store the value in local browser
+}
+
+function toggleView(){
+     $('#toggle-view').change(function(){
+        if(this.checked)
+        {
+            console.log('1');
+        }
+        else
+        {
+             console.log('2');
+        }
+    });
 }

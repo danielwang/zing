@@ -12,12 +12,17 @@ body.apps {
     #search {
 	    display: block;
 	    text-align: center;
+	    .input-group-addon {
+		    background-color: #0f719a;
+		    border-color: #0f719a;
+		    color: white;
+		}
 	    .search-box {
 	        background-color: #0f719a;
 	        border: 1px solid #0f719a;
 	        color: #fff;
 	        display: inline-block;
-	        width: 550px;
+	        width: 485px;
 	    }
 	}
     
@@ -27,12 +32,13 @@ body.apps {
         visibility: hidden;
     }
     .checkbox__label {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        text-align: center;
-        width: 40px;
-        margin: 15px 15px 0 0;
+	    cursor: pointer;
+	    display: inline-table;
+	    margin: 0 0 0 60px;
+	    position: relative;
+	    text-align: center;
+	    vertical-align: middle;
+	    width: 40px;
     }
     .pin {
         background: #1493c9;
@@ -47,7 +53,7 @@ body.apps {
         transition: background 0.25s, left 0.25s, box-shadow 0.25s;
         width: 30px;
         color: #fff;
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
         transition: transform 0.3s ease 0s;
         transition: left 0.3s ease 0s;
     }

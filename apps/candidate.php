@@ -11,7 +11,7 @@
       </div>
       <br clear="both" />    
       <hr>
-      <div class="col-sm-4">
+      <div class="col-sm-2">
          <p class="mute"><i>Swipe left or right</i></p>
          <ul id="tag-list">
             <li>Agility</li>

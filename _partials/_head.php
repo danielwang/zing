@@ -9,9 +9,9 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <!--<link rel="stylesheet/less" type="text/css" href="css/material/material.less"> -->
-    <link href="css/circle.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo($resURL) ?>css/circle.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet/less" type="text/css" href="<?php echo($resURL) ?>css/main.less" />
-    <link rel="stylesheet" type="text/css" href="css/quickflip.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo($resURL) ?>css/quickflip.css" />
     <link rel="stylesheet" href="<?php echo($resURL) ?>css/journal.css" /> 
     <!-- apps css -->
     <?php if($pageClass != null) { 
@@ -28,7 +28,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>  
     <!-- custom script -->
-    <script src="js/custom.js"></script> 
+    <script src="<?php echo($resURL) ?>js/custom.js"></script> 
 </head>
 <body class="<?php echo($pageClass)?>">
 

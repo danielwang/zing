@@ -61,18 +61,6 @@
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="app-only">
-                            <label id="pin-btn" class="checkbox__label">
-                              <input class="checkbox hide" type="checkbox">
-                              <span class="pin__track">
-                                <span class="pin">
-                                  <span class="pin__component__wrapper">
-                                    <i class="fa fa-lg fa-thumb-tack" aria-hidden="true"></i>
-                                  </span>
-                                </span>
-                              </span>
-                            </label>
-                        </li>
                         <li class="journa-btn"><a href="#myModal" role="link" data-toggle="modal" id="addJournal"><i class="glyphicon glyphicon-edit icon-white"></i> journal</a>
                         </li>
                         <li class="dropdown">
@@ -100,10 +88,20 @@
                     </ul>
                     <!-- search box -->
                     <form role="search" id="search" class="navbar-form app-only">
-                        <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"> <i class="fa fa-search"></i> </span>
                             <input type="text" placeholder="Search" class="form-control search-box">
                         </div>
-                        
+                        <label id="pin-btn" class="checkbox__label">
+                          <input id="toggle-view" class="checkbox hide" type="checkbox">
+                          <span class="pin__track">
+                            <span class="pin">
+                              <span class="pin__component__wrapper">
+                                <i class="fa fa-lg fa-thumb-tack" aria-hidden="true"></i>
+                              </span>
+                            </span>
+                          </span>
+                        </label>
                     </form>
                 </div>   
             </nav>
