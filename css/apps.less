@@ -1,8 +1,156 @@
-body.apps{
-  .main-nav{
-    display: none;
-  }
-  .journa-btn{
-    display: none;
-  }
+@import "variables";
+body.apps {
+	.app-only{
+		display: block !important;
+	}
+    .main-nav {
+        display: none;
+    }
+    .journa-btn {
+        display: none;
+    }
+    #search {
+	    display: block;
+	    text-align: center;
+	    .search-box {
+	        background-color: #0f719a;
+	        border: 1px solid #0f719a;
+	        color: #fff;
+	        display: inline-block;
+	        width: 550px;
+	    }
+	}
+    
+    /* pin */
+    .checkbox {
+        position: absolute;
+        visibility: hidden;
+    }
+    .checkbox__label {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        width: 40px;
+        margin: 15px 15px 0 0;
+    }
+    .pin {
+        background: #1493c9;
+        border-radius: 100%;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1);
+        display: block;
+        height: 30px;
+        position: absolute;
+        left: -4px;
+        top: -6px;
+        -webkit-transition: background 0.25s, left 0.25s, box-shadow 0.25s;
+        transition: background 0.25s, left 0.25s, box-shadow 0.25s;
+        width: 30px;
+        color: #fff;
+        transform: rotate(-45deg);
+        transition: transform 0.3s ease 0s;
+        transition: left 0.3s ease 0s;
+    }
+    .checkbox__label:hover .pin {
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.2);
+    }
+    .pin__track {
+        background: white;
+        border-radius: 9px;
+        content: ' ';
+        display: block;
+        height: 17px;
+        -webkit-transition: background 0.25s;
+        transition: background 0.25s;
+        width: 100%;
+    }
+    .checkbox:checked + .pin__track {
+        background: #fff;
+    }
+    .checkbox:checked + .pin__track .pin {
+        background: #f0f0f0;
+        left: 20px;
+        color: #1493c9;
+        transform: rotate(0deg);
+    }
+    .checkbox:checked + .pin__track .pin__component__wrapper {
+        left: 52%;
+        -webkit-transform: translateX(-50%) translateY(-50%) rotate(0deg);
+        transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    }
+    .checkbox:checked + .pin__track .pin__component--top {
+        background: #377df9;
+    }
+    .checkbox:checked + .pin__track .pin__component--top:before {
+        border-bottom: 2px solid #377df9;
+    }
+    .checkbox:checked + .pin__track .pin__component--top:after {
+        border-top: 2px solid #377df9;
+    }
+    .checkbox:checked + .pin__track .pin__component--bottom {
+        border-top: 6px solid #377df9;
+    }
+    .pin__component {
+        -webkit-transition: background 0.25s, border 0.25s;
+        transition: background 0.25s, border 0.25s;
+    }
+    .pin__component__wrapper {
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        -webkit-transition: -webkit-transform 0.25s;
+        transition: -webkit-transform 0.25s;
+        transition: transform 0.25s;
+        transition: transform 0.25s, -webkit-transform 0.25s;
+        -webkit-transform: translateX(-50%) translateY(-50%) rotate(0);
+        transform: translateX(-50%) translateY(-50%) rotate(0);
+    }
+    .pin__component--top {
+        background: #fff;
+        display: block;
+        height: 4px;
+        position: relative;
+        width: 6px;
+    }
+    .pin__component--top:before,
+    .pin__component--top:after {
+        content: ' ';
+        display: block;
+        position: absolute;
+        -webkit-transition: border 0.25s;
+        transition: border 0.25s;
+        width: 100%;
+    }
+    .pin__component--top:before {
+        border-bottom: 2px solid #fff;
+        border-left: 2px solid transparent;
+        border-right: 2px solid transparent;
+        border-top: none;
+        bottom: -2px;
+        left: -2px;
+    }
+    .pin__component--top:after {
+        border-bottom: none;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        border-top: 2px solid #fff;
+        left: -1px;
+        top: -2px;
+        width: 100%;
+    }
+    .pin__component--bottom {
+        border-bottom: none;
+        border-left: 1px solid transparent;
+        border-right: 1px solid transparent;
+        border-top: 6px solid #fff;
+        box-sizing: border-box;
+        display: block;
+        left: 50%;
+        position: relative;
+        top: 2px;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        height: 0;
+        width: 0;
+    }
 }

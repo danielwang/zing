@@ -1,77 +1,94 @@
+body {
+    background: white;
+}
 
-body{
-  background: white;
+strong {
+    font-size: 16px;
+    color: #0D6083;
 }
-strong{
-  font-size: 16px;
-  color: #0D6083;
-}
+
+
 /* Intimeline */
+
 .timeline-item {
     display: inherit;
 }
+
 .timeline-item .date i {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 5px;
-  width: 30px;
-  text-align: center;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  border-left: 1px solid #ddd;
-  background: #f8f8f8;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    background: #f8f8f8;
 }
+
 .timeline-item .date i.green {
-  background: green;
-  color: white;
+    background: green;
+    color: white;
 }
+
 .timeline-item .date {
-  text-align: right;
-  position: relative;
-  padding-top: 30px;
+    text-align: right;
+    position: relative;
+    padding-top: 30px;
 }
+
 .timeline-item .content {
-  border-left: 1px solid #e7eaec;
-  border-top: 1px solid #e7eaec;
-  padding-top: 10px;
-  min-height: 100px;
+    border-left: 1px solid #e7eaec;
+    border-top: 1px solid #e7eaec;
+    padding-top: 10px;
+    min-height: 100px;
 }
+
 .timeline-item .content i {
-  color: #eeb964;
+    color: #eeb964;
 }
-.timeline-item.passed .date, .timeline-item.passed .content{
-  opacity: 0.5;
+
+.timeline-item.passed .date,
+.timeline-item.passed .content {
+    opacity: 0.5;
 }
-.timeline-item.passed strong{
-  color: #414141;
+
+.timeline-item.passed strong {
+    color: #414141;
 }
+
 .timeline-item.passed .content i {
-  color: #aaa;
+    color: #aaa;
 }
-#tag-list{
-  height: 500px;
-  overflow-y: scroll;
+
+#tag-list {
+    height: 500px;
+    overflow-y: scroll;
 }
-#tag-list li{
-  padding: 10px 15px;
-  border-top:1px solid #ddd;
-  font-size: 16px;
+
+#tag-list li {
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    font-size: 16px;
 }
-#tag-list li:before{
-  content:"\f02b";
-  font-family: fontawesome;
-  color: #aaa;
-  margin-right: 10px;
-  margin-left: -10px;
-  font-size: 14px;
+
+#tag-list li:before {
+    content: "\f02b";
+    font-family: fontawesome;
+    color: #aaa;
+    margin-right: 10px;
+    margin-left: -10px;
+    font-size: 14px;
 }
+
 .tag-cloud {
     padding: 5px 8px;
     font-size: 16px;
     margin: 5px 8px;
     position: relative;
 }
+
 sup {
     background: white none repeat scroll 0 0;
     border-radius: 50%;
@@ -85,8 +102,17 @@ sup {
     color: #999999;
     font-size: 12px !important
 }
-.tag-cloud-success sup{
-  color: #1D9D73;
+
+.tag-cloud-success sup {
+    color: #1D9D73;
 }
-.back{font-size: 18px;}
-.name{font-size: 24px; color: #0D6083; text-transform: uppercase;}
+
+.back {
+    font-size: 18px;
+}
+
+.name {
+    font-size: 24px;
+    color: #0D6083;
+    font-weight: 700
+}

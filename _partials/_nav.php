@@ -31,36 +31,48 @@
                                 <li><a class="live manager-only hide" href="systemsettings.php">System settings</a>
                                 </li>
                             </ul>
-                    </li>
-                    <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="live" href="bulk-progress.php">Bulk Process</a>
-                            </li>
-                            <li><a class="live" href="orgchart-small.php">Org Chart</a><li>
-                            <li><a class="live" href="360review.php">Circle UI</a></li>
-                            <li><a class="live" href="social-feed.php">Timeline</a></li>
-                            <li><a class="live" href="apps/paperless.php">Paper less interview</a></li>
-                            <li><a class="live" target="_black" href="paper-performance">Paper Performance</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="glyphicon glyphicon-plus-sign icon-white"></i>&nbsp;Create</a>
-                        <ul
-                        class="dropdown-menu">
-                            <li><a  class="live"  href="create-activity.php">Learning activity</a>
-                            </li>
-                            <li><a href="#">Performance review</a>
-                            </li>
-                            <li><a href="#">360 review</a>
-                            </li>
-                            <li><a href="#">Succession plan</a>
-                            </li>
+                        </li>
+                        <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="live" href="bulk-progress.php">Bulk Process</a>
+                                </li>
+                                <li><a class="live" href="orgchart-small.php">Org Chart</a><li>
+                                <li><a class="live" href="360review.php">Circle UI</a></li>
+                                <li><a class="live" href="social-feed.php">Timeline</a></li>
+                                <li><a class="live" href="apps/paperless.php">Paper less interview</a></li>
+                                <li><a class="live" target="_black" href="paper-performance">Paper Performance</a></li>
                             </ul>
-                    </li>
-                    <li class="manager-only hide">
-                        <a target="_black" href="apps/map"><i class="fa fa-lg fa-globe"></i> Map  <span class="new">new</span></a>
-                    </li>
+                        </li>
+                        <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="glyphicon glyphicon-plus-sign icon-white"></i>&nbsp;Create</a>
+                            <ul
+                            class="dropdown-menu">
+                                <li><a  class="live"  href="create-activity.php">Learning activity</a>
+                                </li>
+                                <li><a href="#">Performance review</a>
+                                </li>
+                                <li><a href="#">360 review</a>
+                                </li>
+                                <li><a href="#">Succession plan</a>
+                                </li>
+                                </ul>
+                        </li>
+                        <li class="manager-only hide">
+                            <a target="_black" href="apps/map"><i class="fa fa-lg fa-globe"></i> Map  <span class="new">new</span></a>
+                        </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
+                        <li class="app-only">
+                            <label id="pin-btn" class="checkbox__label">
+                              <input class="checkbox hide" type="checkbox">
+                              <span class="pin__track">
+                                <span class="pin">
+                                  <span class="pin__component__wrapper">
+                                    <i class="fa fa-lg fa-thumb-tack" aria-hidden="true"></i>
+                                  </span>
+                                </span>
+                              </span>
+                            </label>
+                        </li>
                         <li class="journa-btn"><a href="#myModal" role="link" data-toggle="modal" id="addJournal"><i class="glyphicon glyphicon-edit icon-white"></i> journal</a>
                         </li>
                         <li class="dropdown">
@@ -68,8 +80,7 @@
                             <?php include '_notification.html' ?>
                         </li>
                         <li class="dropdown loginAs"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="<?php echo($resURL) ?>img/emp/emp.jpg" class="img-responsive" /> Daniel <b class="caret"></b></a>
-                            <ul
-                            class="dropdown-menu">
+                            <ul class="dropdown-menu">
                                 <li><a href="#">Profile</a>
                                 </li>
                                 <li><a href="#">Journal</a>
@@ -78,17 +89,23 @@
                                 <li><a href="#">Logout</a>
                                 </li>
                             </ul>
-                    </li>
-                    <li id="user-setting" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="fa fa-cogs"></i></a>
-                        <ul class="dropdown-menu dropdown-menu-right">
-                         <li>User Type :</li>
-                         <li class="manager"><a data-attr="manager" href="#"> Manager</a> </li>
-                         <li class="employee"><a data-attr="employee" href="#"> Employee</a> </li>
-                        </ul>
-                    </li>
+                        </li>
+                        <li id="user-setting" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="fa fa-cogs"></i></a>
+                            <ul class="dropdown-menu dropdown-menu-right">
+                             <li>User Type :</li>
+                             <li class="manager"><a data-attr="manager" href="#"> Manager</a> </li>
+                             <li class="employee"><a data-attr="employee" href="#"> Employee</a> </li>
+                            </ul>
+                        </li>
                     </ul>
-                </div>
-                
+                    <!-- search box -->
+                    <form role="search" id="search" class="navbar-form app-only">
+                        <div class="form-group">
+                            <input type="text" placeholder="Search" class="form-control search-box">
+                        </div>
+                        
+                    </form>
+                </div>   
             </nav>
         </div>
     </div>
