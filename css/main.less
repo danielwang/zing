@@ -26,6 +26,9 @@ article{
     background: #f2f2f2;
 }
 
+.btn{
+  border-radius:2px;
+}
 .btn-primary {
     background-color: @pucolor;
     border-color: @pucolor;
@@ -56,6 +59,81 @@ article{
     padding: 20px;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);
 }
+.card{
+    background: #fff none repeat scroll 0 0;
+    padding: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);  
+}
+.ibox {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+  background: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);
+  border:1px solid @bordercolor;  
+  .ibox-title {
+    background-color: #ffffff;
+    margin-bottom: 0;
+    padding: 14px 15px 7px;
+    min-height: 48px;
+    border-top:3px solid @blue;
+    h5 {
+        display: inline-block;
+        float: left;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0 0 7px;
+        padding: 0;
+        text-overflow: ellipsis;
+    }
+    .ibox-tools {
+        display: block;
+        float: none;
+        margin-top: 0;
+        padding: 0;
+        position: relative;
+        text-align: right;
+        &> a {
+            color: #c4c4c4;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        &.open{
+          .dropdown-menu {
+              left: auto;
+              right: 0;
+          }
+        }
+    }
+  }
+  .ibox-content {
+    padding: 15px 20px 20px 20px;
+    border-color: @bordercolor;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+  }
+  .ibox-footer {
+    padding: 10px 15px;
+    border-top: 1px solid @bordercolor;
+  }
+}
+.ibox.collapsed .ibox-content {
+  display: none;
+}
+.ibox.collapsed .fa.fa-chevron-up:before {
+  content: "\f078";
+}
+.ibox.collapsed .fa.fa-chevron-down:before {
+  content: "\f077";
+}
+.ibox:after,
+.ibox:before {
+  display: table;
+}
+
+
 .btn-white {
     background: white none repeat scroll 0 0;
     border: 1px solid #ddd;

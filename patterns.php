@@ -2,6 +2,9 @@
 <?php startblock('page') ?>
 <link rel="stylesheet" href="http://abpetkov.github.io/switchery/dist/switchery.css" />
 <script src="http://abpetkov.github.io/switchery/dist/switchery.js"></script>
+
+ 	 <?php showPatterns(); ?>
+
 <script type="text/javascript">
 
 var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
