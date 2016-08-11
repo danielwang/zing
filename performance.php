@@ -79,6 +79,4 @@
 
   </div>
 </div>
- 
-<?php include '_partials/foot.html';?>
 <?php endblock() ?>

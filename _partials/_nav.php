@@ -11,34 +11,36 @@
                     <ul class="nav navbar-nav main-nav">
                         <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="glyphicon glyphicon-th-list icon-white"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a class="live" href="<?php echo($pageURL)?>dock.php">ES Dock</a>
+                                <li><a class="live" href="<?php echo($resURL) ?>dock.php">ES Dock</a>
                                 </li>
-                                <li><a class="live" href="home.php">My Home</a>
+                                <li><a class="live" href="<?php echo($resURL) ?>home.php">My Home</a>
                                 </li>
-                                <li><a class="live" target="_black" href="orgchart.php">Org Chart</a>
+                                <li><a class="live" target="_black" href="<?php echo($resURL) ?>orgchart.php">Org Chart</a>
                                 </li>
-                                <li><a class="live" href="dashboard.php">Recruitment</a>
+                                <li><a class="live" href="<?php echo($resURL) ?>dashboard.php">Recruitment</a>
                                 </li>
-                                <li><a class="live" href="performance.php">Performance</a>
+                                <li><a class="live" href="<?php echo($resURL) ?>performance.php">Performance</a>
                                 </li>
-                                <li><a class="live" href="learning.php">Learning</a>
+                                <li><a class="live" href="<?php echo($resURL) ?>learning.php">Learning</a>
                                 </li>
-                                <li><a class="live" href="journal.php">Journal</a>
+                                <li><a class="live" href="<?php echo($resURL) ?>journal.php">Journal</a>
                                 </li>
                                 <li><a class="manager-only hide" href="#">Succession</a>
                                 </li>
                                 <li class="divider"></li>
-                                <li><a class="live manager-only hide" href="systemsettings.php">System settings</a>
+                                <li><a class="live manager-only hide" href="<?php echo($resURL) ?>systemsettings.php">System settings</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
                             <ul class="dropdown-menu">
+                                <li><a class="live" href="patterns.php">Common Patterns</a></li>
                                 <li><a class="live" href="bulk-progress.php">Bulk Process</a>
                                 </li>
                                 <li><a class="live" href="orgchart-small.php">Org Chart</a><li>
                                 <li><a class="live" href="360review.php">Circle UI</a></li>
                                 <li><a class="live" href="social-feed.php">Timeline</a></li>
+                                <li class="divider"></li>
                                 <li><a class="live" href="apps/paperless.php">Paper less interview</a></li>
                                 <li><a class="live" target="_black" href="paper-performance">Paper Performance</a></li>
                             </ul>
