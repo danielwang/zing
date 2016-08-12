@@ -3,9 +3,6 @@
    		<div class="pu-box-title">
             <h5><span class="pu-box-icon hide"><i class="fa fa-leaf" aria-hidden="true"></i></span> This is box title <small class="pu-box-label hide"><label class="label label-warning">label</label></small></h5>
             <div class="pu-box-tools hide">
-                <a class="collapse-link">
-                    <i class="fa fa-chevron-up"></i>
-                </a> 
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">
                     <i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i>
                 </a>
@@ -31,7 +28,7 @@
 		$options = array(
 			array("Icon", "pu-box-icon"),
 			array("Label", "pu-box-label"),
-			array("Expandable", "pu-box-tools"),
+			//array("Expandable", "pu-box-tools"),
 			array("Footer", "pu-box-footer"),
 			array("Actions", "pu-box-tools"),
 		);

@@ -35,6 +35,7 @@ function setUserType(user) {
     localStorage.setItem("user", user); // store the value in local browser
 }
 
+// pin views in app
 function toggleView(){
      $('#toggle-view').change(function(){
         if(this.checked)

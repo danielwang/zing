@@ -11,8 +11,13 @@ body {
         * .manager-only{
           display: block !important;
         }
-        * .employee-only{
-          display: block !important;
+        .manager a{
+          color: #ccc;
+        }
+      }
+      &.employee-view{
+        .employee a{
+          color: #ccc;
         }
       }
     }
@@ -60,7 +65,7 @@ article{
     padding: 20px;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);
 }
-.card{
+.pu-card{
     background: #fff none repeat scroll 0 0;
     padding: 20px;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);  
@@ -78,7 +83,6 @@ article{
     margin-bottom: 0;
     padding: 14px 15px 7px;
     min-height: 48px;
-    border-top:3px solid @blue;
     h5 {
         display: inline-block;
         float: left;
