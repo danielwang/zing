@@ -1,11 +1,11 @@
 <div class="col-sm-6">
-   <div class="ibox">
-   		<div class="ibox-title">
-            <h5><i class="fa fa-leaf" aria-hidden="true"></i> This is box title <small>sub title goes here</small></h5>
-            <div class="ibox-tools">
-                <!-- <a class="collapse-link">
+   <div class="pu-box">
+   		<div class="pu-box-title">
+            <h5><span class="pu-box-icon hide"><i class="fa fa-leaf" aria-hidden="true"></i></span> This is box title <small class="pu-box-label hide"><label class="label label-warning">label</label></small></h5>
+            <div class="pu-box-tools hide">
+                <a class="collapse-link">
                     <i class="fa fa-chevron-up"></i>
-                </a> -->
+                </a> 
                 <a href="#" data-toggle="dropdown" class="dropdown-toggle">
                     <i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i>
                 </a>
@@ -17,18 +17,28 @@
                 </ul>
             </div>
         </div>
-        <div class="ibox-content">
+        <div class="pu-box-content">
         	Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam ...
         </div>
-        <div class="ibox-footer">
+        <div class="pu-box-footer hide">
         	<button class="btn btn-sm btn-primary">Action</button>
         </div>
    </div>
 </div>
 <div class="col-sm-4">
-<span class="togglebutton">
-    <label>
-        <input id="event-based" type="checkbox" class="js-switch" unchecked /> Footer
-    </label>
-</span>
+	<ul>
+	<?php 
+		$options = array(
+			array("Icon", "pu-box-icon"),
+			array("Label", "pu-box-label"),
+			array("Expandable", "pu-box-tools"),
+			array("Footer", "pu-box-footer"),
+			array("Actions", "pu-box-tools"),
+		);
+		//$i = 0;
+		for($r=0; $r<count($options); $r++) {
+			echo '<li class="checkbox checkbox-info checkbox-circle"><input id="'.$options[$r][1].'" type="checkbox" class="styled" value="'.$options[$r][1].'" unchecked /><label for="'.$options[$r][1].'"> '.$options[$r][0].' </label></li>';
+		}
+  	?>
+	</ul>
 </div>

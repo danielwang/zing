@@ -9,57 +9,45 @@
                 
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav main-nav">
-                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="glyphicon glyphicon-th-list icon-white"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
+                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-th-large fa-lg"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a class="live" href="<?php echo($resURL) ?>dock.php">ES Dock</a>
+                                <li><a href="<?php echo($resURL) ?>dock.php">ES Dock</a>
                                 </li>
-                                <li><a class="live" href="<?php echo($resURL) ?>home.php">My Home</a>
+                                <li><a href="<?php echo($resURL) ?>home.php">My Home</a>
                                 </li>
-                                <li><a class="live" target="_black" href="<?php echo($resURL) ?>orgchart.php">Org Chart</a>
+                                <li><a target="_black" href="<?php echo($resURL) ?>orgchart.php">Org Chart</a>
                                 </li>
-                                <li><a class="live" href="<?php echo($resURL) ?>dashboard.php">Recruitment</a>
+                                <li><a href="<?php echo($resURL) ?>dashboard.php">Recruitment</a>
                                 </li>
-                                <li><a class="live" href="<?php echo($resURL) ?>performance.php">Performance</a>
+                                <li><a href="<?php echo($resURL) ?>performance.php">Performance</a>
                                 </li>
-                                <li><a class="live" href="<?php echo($resURL) ?>learning.php">Learning</a>
+                                <li><a href="<?php echo($resURL) ?>learning.php">Learning</a>
                                 </li>
-                                <li><a class="live" href="<?php echo($resURL) ?>journal.php">Journal</a>
+                                <li><a href="<?php echo($resURL) ?>journal.php">Journal</a>
                                 </li>
-                                <li><a class="manager-only hide" href="#">Succession</a>
-                                </li>
-                                <li class="divider"></li>
                                 <li><a class="live manager-only hide" href="<?php echo($resURL) ?>systemsettings.php">System settings</a>
+                                <li class="divider"></li>
+                                <li><a   href="create-activity.php">Create learning activity</a>
+                                </li>
                                 </li>
                             </ul>
                         </li>
                         <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a class="live" href="patterns.php">Common Patterns</a></li>
-                                <li><a class="live" href="bulk-progress.php">Bulk Process</a>
+                                <li><a href="patterns.php">Common Patterns</a></li>
+                                <li><a href="bulk-progress.php">Bulk Process</a>
                                 </li>
-                                <li><a class="live" href="orgchart-small.php">Org Chart</a><li>
-                                <li><a class="live" href="360review.php">Circle UI</a></li>
-                                <li><a class="live" href="social-feed.php">Timeline</a></li>
-                                <li class="divider"></li>
-                                <li><a class="live" href="apps/paperless.php">Paper less interview</a></li>
-                                <li><a class="live" target="_black" href="paper-performance">Paper Performance</a></li>
+                                <li><a href="orgchart-small.php">Org Chart</a><li>
+                                <li><a href="360review.php">Circle UI</a></li>
+                                <li><a href="social-feed.php">Timeline</a></li>                                
                             </ul>
                         </li>
-                        <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="glyphicon glyphicon-plus-sign icon-white"></i>&nbsp;Create</a>
-                            <ul
-                            class="dropdown-menu">
-                                <li><a  class="live"  href="create-activity.php">Learning activity</a>
-                                </li>
-                                <li><a href="#">Performance review</a>
-                                </li>
-                                <li><a href="#">360 review</a>
-                                </li>
-                                <li><a href="#">Succession plan</a>
-                                </li>
-                                </ul>
-                        </li>
-                        <li class="manager-only hide">
-                            <a target="_black" href="apps/map"><i class="fa fa-lg fa-globe"></i> Map  <span class="new">new</span></a>
+                        <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-lg fa-coffee"></i>&nbsp; Relax  <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                               <li><a href="apps/paperless.php">Paper less interview</a></li>
+                               <li><a target="_black" href="paper-performance">Paper Performance</a></li>
+                               <li><a target="_black" href="apps/map"> Map</a></li>
+                            </ul>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">

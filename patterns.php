@@ -1,18 +1,16 @@
 <?php include 'base.php' ?>
 <?php startblock('page') ?>
-<link rel="stylesheet" href="http://abpetkov.github.io/switchery/dist/switchery.css" />
-<script src="http://abpetkov.github.io/switchery/dist/switchery.js"></script>
-
- 	 <?php showPatterns(); ?>
+<?php showPatterns(); ?>
 
 <script type="text/javascript">
-
-var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
-
-elems.forEach(function(elem) {
-  var switchery = new Switchery(elem, { size: 'small', color: '#1493c9' });
+$(document).ready(function(){
+	 var checkboxes = $('input[type="checkbox"]');
+	  checkboxes.prop('checked', false);
+	  checkboxes.click(function(){
+	  	var ele = $(this).attr("value");
+	  	$('.'+ ele).fadeIn().toggleClass('hide');
+	});
 });
-
 
 </script>
 <?php endblock() ?>

@@ -1,4 +1,5 @@
 @import "variables";
+@import "awesome-bootstrap-checkbox.css";
 body {
     color: @text-color;
     font-size: 13px;
@@ -64,7 +65,7 @@ article{
     padding: 20px;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);  
 }
-.ibox {
+.pu-box {
   clear: both;
   margin-bottom: 25px;
   margin-top: 0;
@@ -72,7 +73,7 @@ article{
   background: #fff;
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);
   border:1px solid @bordercolor;  
-  .ibox-title {
+  .pu-box-title {
     background-color: #ffffff;
     margin-bottom: 0;
     padding: 14px 15px 7px;
@@ -87,7 +88,7 @@ article{
         padding: 0;
         text-overflow: ellipsis;
     }
-    .ibox-tools {
+    .pu-box-tools {
         display: block;
         float: none;
         margin-top: 0;
@@ -107,33 +108,41 @@ article{
         }
     }
   }
-  .ibox-content {
+  .pu-box-content {
     padding: 15px 20px 20px 20px;
     border-color: @bordercolor;
     border-image: none;
     border-style: solid solid none;
     border-width: 1px 0;
   }
-  .ibox-footer {
+  .pu-box-footer {
     padding: 10px 15px;
     border-top: 1px solid @bordercolor;
   }
 }
-.ibox.collapsed .ibox-content {
+.pu-box.collapsed .ibox-content {
   display: none;
 }
-.ibox.collapsed .fa.fa-chevron-up:before {
+.pu-box.collapsed .fa.fa-chevron-up:before {
   content: "\f078";
 }
-.ibox.collapsed .fa.fa-chevron-down:before {
+.pu-box.collapsed .fa.fa-chevron-down:before {
   content: "\f077";
 }
-.ibox:after,
-.ibox:before {
+.pu-box:after,
+.pu-box:before {
   display: table;
 }
 
-
+.pu-label {
+  background-color: #d1dade;
+  color: #5e5e5e;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 8px;
+  text-shadow: none;
+}
 .btn-white {
     background: white none repeat scroll 0 0;
     border: 1px solid #ddd;
@@ -297,25 +306,10 @@ li.dropdown.open{
     color: #fff;
 }
 .dropdown-menu > li > a {
-    color: #999;
-}
-.dropdown-menu > li > a.live {
     color: @pucolor;
-
-}
-.navbar .new {
-  color: #fff;
-  background: #E8910C;
-  padding: 0px 5px;
-  font-size: 12px;
-  border-radius: 4px;
-
 }
 
-.dropdown-menu > li > a.live:hover{
-    margin-left: 5px;
-    transition: all 0.2s ease 0s;
-}
+
 .navbar-inner {
     border:0;
     padding-top: 10px;
