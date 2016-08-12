@@ -15,7 +15,6 @@
                                 </li>
                                 <li><a href="<?php echo($resURL) ?>home.php">My Home</a>
                                 </li>
-                                <li><a target="_black" href="<?php echo($resURL) ?>orgchart.php">Org Chart</a>
                                 </li>
                                 <li><a href="<?php echo($resURL) ?>dashboard.php">Recruitment</a>
                                 </li>
