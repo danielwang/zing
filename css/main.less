@@ -1,5 +1,6 @@
 @import "variables";
 @import "awesome-bootstrap-checkbox.css";
+@import "pageup";
 body {
     color: @text-color;
     font-size: 13px;
@@ -65,88 +66,8 @@ article{
     padding: 20px;
     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);
 }
-.pu-card{
-    background: #fff none repeat scroll 0 0;
-    padding: 20px;
-    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);  
-}
-.pu-box {
-  clear: both;
-  margin-bottom: 25px;
-  margin-top: 0;
-  padding: 0;
-  background: #fff;
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.11);
-  border:1px solid @bordercolor;  
-  .pu-box-title {
-    background-color: #ffffff;
-    margin-bottom: 0;
-    padding: 14px 15px 7px;
-    min-height: 48px;
-    h5 {
-        display: inline-block;
-        float: left;
-        font-size: 16px;
-        font-weight: 700;
-        margin: 0 0 7px;
-        padding: 0;
-        text-overflow: ellipsis;
-    }
-    .pu-box-tools {
-        display: block;
-        float: none;
-        margin-top: 0;
-        padding: 0;
-        position: relative;
-        text-align: right;
-        &> a {
-            color: #c4c4c4;
-            cursor: pointer;
-            margin-left: 5px;
-        }
-        &.open{
-          .dropdown-menu {
-              left: auto;
-              right: 0;
-          }
-        }
-    }
-  }
-  .pu-box-content {
-    padding: 15px 20px 20px 20px;
-    border-color: @bordercolor;
-    border-image: none;
-    border-style: solid solid none;
-    border-width: 1px 0;
-  }
-  .pu-box-footer {
-    padding: 10px 15px;
-    border-top: 1px solid @bordercolor;
-  }
-}
-.pu-box.collapsed .ibox-content {
-  display: none;
-}
-.pu-box.collapsed .fa.fa-chevron-up:before {
-  content: "\f078";
-}
-.pu-box.collapsed .fa.fa-chevron-down:before {
-  content: "\f077";
-}
-.pu-box:after,
-.pu-box:before {
-  display: table;
-}
 
-.pu-label {
-  background-color: #d1dade;
-  color: #5e5e5e;
-  font-family: 'Open Sans';
-  font-size: 10px;
-  font-weight: 600;
-  padding: 3px 8px;
-  text-shadow: none;
-}
+
 .btn-white {
     background: white none repeat scroll 0 0;
     border: 1px solid #ddd;
@@ -163,102 +84,8 @@ article{
     background-color: lightyellow;
     border-bottom: 1px dotted #999;
 }
-.pu-square{
-    background: none repeat scroll 0 0 #fff;
-    border-radius: 10px;
-    color: #fff;
-    height: 60px;
-    font-size: 22px;
-    padding: 13px 18px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transition: transform 0.3s ease 0s;
-    -webkit-transition: transform 0.3s ease 0s;
-    width: 60px;
-    display: inline-block;
-    margin: 40px auto 20px;
 
 
-    &:before {
-        border-radius: inherit;
-        content: "";
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        transform: scale3d(0.9, 0.9, 1);
-        transition: box-shadow 0.3s ease 0s, transform 0.3s ease 0s;
-        width: 100%;
-        z-index: -1;
-    }
-
-    &.orange-bg:before {box-shadow: 0 0 0 35px @orange inset;}
-    &.orange-bg:hover{ color:@orange; background-color: #fff;}
-    &.orange-bg:hover:before {box-shadow: 0 0 0 2px @orange inset; transform: scale3d(1, 1, 1);}
-
-    &.green-bg:before {box-shadow: 0 0 0 35px @green inset;}
-    &.green-bg:hover{ color:@green; background-color: #fff;}
-    &.green-bg:hover:before {box-shadow: 0 0 0 2px @green inset; transform: scale3d(1, 1, 1);}
-
-    &.red-bg:before {box-shadow: 0 0 0 35px @red inset;}
-    &.red-bg:hover{ color:@red; background-color: #fff;}
-    &.red-bg:hover:before {box-shadow: 0 0 0 2px @red inset; transform: scale3d(1, 1, 1);}
-
-    &.purple-bg:before {box-shadow: 0 0 0 35px @purple inset;}
-    &.purple-bg:hover{ color:@purple; background-color: #fff;}
-    &.purple-bg:hover:before {box-shadow: 0 0 0 2px @purple inset; transform: scale3d(1, 1, 1);}
-
-    &.sushi-bg:before {box-shadow: 0 0 0 35px @sushi inset;}
-    &.sushi-bg:hover{ color:@sushi; background-color: #fff;}
-    &.sushi-bg:hover:before {box-shadow: 0 0 0 2px @sushi inset; transform: scale3d(1, 1, 1);}
-
-    &.blue-bg:before {box-shadow: 0 0 0 35px @blue inset;}
-    &.blue-bg:hover{ color:@blue; background-color: #fff;}
-    &.blue-bg:hover:before {box-shadow: 0 0 0 2px @blue inset; transform: scale3d(1, 1, 1);}
-    &.small{
-        height: 45px;
-        width: 45px;
-        font-size: 14px;
-    }
-    &.pu-square i{
-        transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-        transition: transform 0.3s ease 0s;
-        -webkit-transition: transform 0.3s ease 0s;
-    }
-    & + span{
-        display: block;
-    }
-}
-.blue{color: @blue}
-.red{color: @red }
-.green{color: @green }
-.orange{color: @orange }
-.purple{color: @purple }
-.sushi{color: @sushi }
-.pucolor{color: @pucolor;}
-.gray, .mute, .inactive{color:#999999;}
-.white-bg{background-color: @white}
-.blue-bg{background-color: @blue}
-.red-bg{background-color: @red }
-.green-bg{background-color: @green }
-.orange-bg{background-color: @orange }
-.purple-bg{background-color: @purple }
-.sushi-bg{background-color: @sushi }
-.pu-bg{background-color: @pucolor;}
-.left-border{border-left: 1px solid @bordercolor;}
-.right-border{border-right: 1px solid @bordercolor;}
-/*.pu-square:hover{
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-}
-
-.pu-square:hover i{
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transition: transform 0.3s ease 0s;
-    -webkit-transition: transform 0.3s ease 0s;
-}*/
 .app-only{
   display: none !important
 }
@@ -287,10 +114,7 @@ input, textarea, select {
 }
 
 #feeds{background: #ffffff;}
-.avatar-sm {width:30px; border-radius: 50%; border: 2px solid #FFA500;}
-.avatar {width:45px; border-radius: 50%; border: 3px solid #FFA500;}
-.avatar-lg {width:60px; height:60px; border-radius: 50%; border: 4px solid #FFA500;}
-.avatar-xlg {width:100px; height:100px; border-radius: 50%; border: 4px solid #FFA500;}
+
 li.dropdown.open{ 
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125) inset;
  }
@@ -604,40 +428,6 @@ a.notice-more, a.notice-more:hover {
     }
 }    
 
-.target-date {
-      border: 5px solid #dddddd;
-      border-radius: 10px;
-      height: 80px;
-      text-align: center;
-      width: 80px;
-      color: @green;
-    
-    .month {
-        font-size: 13px;
-    }
-    .day {
-        font-size: 26px;
-    }
-    .year {
-        color: #7c8ba4;
-        font-size: 10px;
-    }
-    &.xs{
-      width: 45px;
-      height:45px;
-      border-width: 3px;
-      .month{
-        font-size: 9px;
-      }
-      .day {
-          font-size: 13px;
-          line-height: 0.9;
-      }
-      .year {
-          font-size: 9px;
-      }
-    }
-  }
 
 .pop {
   position: absolute;

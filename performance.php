@@ -57,7 +57,7 @@
           <div class="item box row collaps">
             <h4>Develop sustainable reliability plans to meet standard scheme <span class="status">Current</span></h4>
              <span class="pull-right">
-              <div class="target-date xs">
+              <div class="calendar xs">
                 <div class="month">Jan</div>
                 <div class="day">1</div>
                 <div class="year">2016</div>

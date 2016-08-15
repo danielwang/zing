@@ -14,7 +14,7 @@
             <br clear="both" />    
             <hr>
             <div class="col-xs-1">
-               <div class="target-date">
+               <div class="calendar">
                    <div class="month">March</div>
                    <div class="day">3</div>
                    <div class="year">2016</div>
@@ -126,7 +126,7 @@
       <div class="timeline-item">
          <div class="row">
             <div class="col-xs-1">
-               <div class="target-date">
+               <div class="calendar">
                    <div class="month">March</div>
                    <div class="day">4</div>
                    <div class="year">2016</div>

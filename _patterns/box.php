@@ -1,4 +1,4 @@
-<div class="col-sm-6">
+<div class="col-sm-8">
    <div class="pu-box">
    		<div class="pu-box-title">
             <h5><span class="pu-box-icon hide"><i class="fa fa-leaf" aria-hidden="true"></i></span> This is box title <small class="pu-box-label hide"><label class="label label-warning">label</label></small></h5>
@@ -22,7 +22,7 @@
         </div>
    </div>
 </div>
-<div class="col-sm-4">
+<div class="col-sm-2">
 	<ul>
 	<?php 
 		$options = array(
@@ -34,7 +34,7 @@
 		);
 		//$i = 0;
 		for($r=0; $r<count($options); $r++) {
-			echo '<li class="checkbox checkbox-info checkbox-circle"><input id="'.$options[$r][1].'" type="checkbox" class="styled" value="'.$options[$r][1].'" unchecked /><label for="'.$options[$r][1].'"> '.$options[$r][0].' </label></li>';
+			echo '<li class="checkbox checkbox-info"><input id="'.$options[$r][1].'" type="checkbox" class="styled" value="'.$options[$r][1].'" unchecked /><label for="'.$options[$r][1].'"> '.$options[$r][0].' </label></li>';
 		}
   	?>
 	</ul>
