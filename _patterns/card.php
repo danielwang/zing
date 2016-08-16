@@ -1,22 +1,24 @@
 
 <div class="col-sm-4">
-   <div class="pu-card">
-   			<img class="avatar-lg pu-card-avatar hide" src="img/emp/emp.jpg">	
-        	  <h5>Steve Oxley</h5>
-               <div class="row">
-                  <span class="col-xs-12"><i class="fa fa-fw fa-calendar"></i> Friday 04 March 2016  6:00 am -&gt; 7:00 am</span> 
-                  <span class="col-xs-12"><i class="fa fa-fw fa-map-marker"></i> London Room level 6 </span> 
-                  <span class="col-xs-12"><i class="fa fa-fw fa-suitcase"></i> Graphic Designer #58973654</span>
-                  <span class="col-xs-12"><i class="fa fa-fw fa-user"></i> Recruiter: Danielle Berto</span> 
-               </div> 
+   <div class="pu-box pu-card">
+      <div class="media"> 
+        <span class="media-left pu-card-avatar hide"><img class="avatar-lg " src="img/emp/emp.jpg"></span> 
+        <span class="media-body"><h5><a href="#_">Daniel Wang</a></h5> <h6>Sales Manager</h6></span> 
+      </div>     
+      <div class="row">
+        <span class="col-xs-12"><i class="fa fa-fw fa-calendar orange"></i> Friday 04 March 2016  6:00 am </span> 
+        <span class="col-xs-12"><i class="fa fa-fw fa-map-marker orange"></i> London Room level 6 </span> 
+        <span class="col-xs-12"><i class="fa fa-fw fa-suitcase orange"></i> Graphic Designer #58973654</span>
+        <span class="col-xs-12"><i class="fa fa-fw fa-user orange"></i> Recruiter: Danielle Berto</span> 
+      </div> 
 	    <div class="pu-card-footer hide">
 	    	<button class="btn btn-sm btn-primary">Action</button>
-        </div>
+      </div>
    </div>
 </div>
 <div class="col-sm-4">
-   <div class="pu-card stack">
-   		<h5>Job card</h5>
+   <div class="pu-box pu-card stack">
+   	<h5><a href="#_">Job card</a></h5>
         	Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam ...
 	    <div class="pu-card-footer hide">
 	    	<button class="btn btn-sm btn-primary">Action</button>
@@ -29,6 +31,7 @@
 		$options = array(
 			array("Avatar", "pu-card-avatar"),
 			array("Footer", "pu-card-footer"),
+      array("Label", "pu-card-label"),
 			array("Actions", "pu-card-tools")
 		);
 		//$i = 0;
@@ -37,4 +40,14 @@
 		}
   	?>
 	</ul>
+</div>
+
+<div class="col-sm-offset-2 col-sm-4">
+   <div class="pu-box pu-card">
+    <h5><a href="#_">Learning card</a></h5>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam ...
+      <div class="pu-card-footer hide">
+        <button class="btn btn-sm btn-primary">Action</button>
+        </div>
+   </div>
 </div>

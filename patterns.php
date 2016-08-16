@@ -17,7 +17,7 @@ $(document).ready(function(){
 	  checkboxes.prop('checked', false);
 	  checkboxes.click(function(){
 	  	var ele = $(this).attr("value");
-	  	$('.'+ ele).fadeIn().toggleClass('hide');
+	  	$('.'+ ele).toggleClass('hide');
 	});
 });
 
