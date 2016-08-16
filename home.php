@@ -1,8 +1,8 @@
 <?php include 'base.php' ?>
 <?php startblock('page') ?>
+
 <div class="row row-gap">
 	<div class="col-sm-1">
-
 	</div>
 	<div class="col-md-6">  
        	<span id="switch"><label> About Me </label> <i class="fa fa-exchange"></i> <label> My Team </label></span>

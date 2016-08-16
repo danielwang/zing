@@ -33,19 +33,19 @@
          <h4><i class="fa fa-tags"></i> Keywords</h4>
 
          <ul id="tag-cloud">
-            <li class="tag-cloud tag-cloud-success">Agility <sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud tag-cloud-success">growth<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud">communication<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud tag-cloud-success">revenue<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud">development<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud">effectiveness<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud tag-cloud-success">delivery<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud">innovation<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud">negotiation<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud tag-cloud-success">problem solving<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud tag-cloud-success">quality<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud tag-cloud-success">teamwork<sup class="fa fa-times"></sup></li>
-            <li class="tag-cloud">zing<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud green-bg">Agility <sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud green-bg">growth<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud inactive-bg">communication<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud green-bg">revenue<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud inactive-bg">development<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud inactive-bg">effectiveness<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud green-bg">delivery<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud inactive-bg">innovation<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud inactive-bg">negotiation<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud green-bg">problem solving<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud green-bg">quality<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud green-bg">teamwork<sup class="fa fa-times"></sup></li>
+            <li class="tag-cloud inactive-bg">zing<sup class="fa fa-times"></sup></li>
          </ul>
          <h1> &nbsp;</h1>
          <h4><i class="fa fa-sticky-note"></i> Notes</h4>

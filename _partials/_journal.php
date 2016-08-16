@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="<?php echo($resURL) ?>css/quickflip.css" />
+<link rel="stylesheet" href="<?php echo($resURL) ?>css/journal.css" /> 
 <h4><i class="fa fa-pencil-square-o"></i> Journal</h4>   
 <script src="js/journal.js"></script>
 <!-- ********************  journaling  ***********************************-->

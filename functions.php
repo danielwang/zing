@@ -11,10 +11,10 @@
   }
 
    // Display foundation elements
-    function showPatterns() {
-      //include('_patterns/box.php');
+    function showPatterns($path) {
+      $folder = $path;
       $files = array();
-      $handle=opendir('_patterns/');
+      $handle=opendir($folder);
       while (false !== ($file = readdir($handle))):
           if(stristr($file,'.php')):
               $files[] = $file;
@@ -25,11 +25,14 @@
       foreach ($files as $file):
           $filename = preg_replace("/\.php$/i", "", $file);
           $title = preg_replace("/\-/i", " ", $filename);
+          $doc = ''.$path.'/'.$file;
           echo '<div class="row row-gap"><div class="col-sm-2">';
           echo '<h4>'.$title.'</h4>';
           echo '</div>';
-          include('_patterns/'.$file);
-          echo '</div>';
+          include($doc);
+          echo '</div> <hr>';
       endforeach;
     }
 ?>
+
+

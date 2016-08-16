@@ -11,8 +11,6 @@
     <!--<link rel="stylesheet/less" type="text/css" href="css/material/material.less"> -->
     <link href="<?php echo($resURL) ?>css/circle.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet/less" type="text/css" href="<?php echo($resURL) ?>css/main.less" />
-    <link rel="stylesheet" type="text/css" href="<?php echo($resURL) ?>css/quickflip.css" />
-    <link rel="stylesheet" href="<?php echo($resURL) ?>css/journal.css" /> 
     <!-- apps css -->
     <?php if($pageClass != null) { 
        echo '<link rel="stylesheet/less" type="text/css" href="'.$resURL.'css/apps.less" />';
@@ -22,7 +20,7 @@
     <!-- Fontawesome -->
     <link href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css" rel="stylesheet">
     <!-- Google font -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <!-- Latest compiled and minified JavaScript -->

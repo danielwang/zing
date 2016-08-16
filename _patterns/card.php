@@ -2,7 +2,7 @@
 <div class="col-sm-4">
    <div class="pu-card">
    			<img class="avatar-lg pu-card-avatar hide" src="img/emp/emp.jpg">	
-        	  <p class="m-b-xs"><strong>Steve Oxley</strong></p>
+        	  <h5>Steve Oxley</h5>
                <div class="row">
                   <span class="col-xs-12"><i class="fa fa-fw fa-calendar"></i> Friday 04 March 2016  6:00 am -&gt; 7:00 am</span> 
                   <span class="col-xs-12"><i class="fa fa-fw fa-map-marker"></i> London Room level 6 </span> 
