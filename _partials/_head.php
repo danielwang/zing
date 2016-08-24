@@ -8,8 +8,8 @@
     <meta name="author" content="daniel.wang" >
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <!--<link rel="stylesheet/less" type="text/css" href="css/material/material.less"> -->
     <link href="<?php echo($resURL) ?>css/circle.css" rel="stylesheet" type="text/css" />
+    <link href="../gel/sg/dist/css/pageup.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet/less" type="text/css" href="<?php echo($resURL) ?>css/main.less" />
     <!-- apps css -->
     <?php if($pageClass != null) { 
