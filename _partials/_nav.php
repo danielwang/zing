@@ -50,7 +50,7 @@
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="journa-btn"><a href="#myModal" role="link" data-toggle="modal" id="addJournal"><i class="glyphicon glyphicon-edit icon-white"></i> journal</a>
+                        <li class="journa-btn"><a href="#myModal" class="btn btn-primary btn-sm" role="link" data-toggle="modal" id="addJournal"><i class="glyphicon glyphicon-edit icon-white"></i> journal</a>
                         </li>
                         <li class="dropdown">
                             <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
