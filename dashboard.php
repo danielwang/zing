@@ -1,15 +1,16 @@
 <?php include 'base.php' ?>
 <?php startblock('page') ?>
 	<link href="css/dashboard.css" rel="stylesheet" type="text/css" />
-	<div class="row clearfix">
+	<div class="row clearfix row-gap">
 		<div class="col-md-12 column">
 			<div class="row clearfix">
 				<div class="col-md-8 column">     
-			        <div class="box">
-			        <h4><i class="fa fa-suitcase"></i> Current Jobs</h4>
-			              <ul class="status clearfix">  
+			        <div class="pu-box">
+			            <div class="pu-box-title"><h4><i class="fa fa-suitcase"></i> Current Jobs</h4></div>
+			                <div class="pu-box-content">
+			                <ul class="status clearfix">  
 			                <li data-attr="all">
-			                    <div class="c100 c0 dark small p100">
+			                    <div class="c100 c0 dark pu-circle p100">
 			                        <span>10</span>
 			                        <div class="slice">
 			                            <div class="bar"></div>
@@ -19,7 +20,7 @@
 			                    <span>Total</span> 
 			                </li>
 			                <li data-attr="s1">
-			                    <div class="c100 c1 blue small p100">
+			                    <div class="c100 c1 pu-circle-red pu-circle p100">
 			                        <span>2</span>
 			                        <div class="slice">
 			                            <div class="bar"></div>
@@ -31,7 +32,7 @@
 			                </li>
 			                <li data-attr="s2">
 			               
-			                    <div class="c100 c2 orange small p100">
+			                    <div class="c100 c2 pu-circle-orange pu-circle p100">
 			                        <span>1</span>
 			                        <div class="slice">
 			                            <div class="bar"></div>
@@ -42,7 +43,7 @@
 			                </li>
 			                <li data-attr="s3">
 			                
-			                    <div class="c100 c3 purple small p100">
+			                    <div class="c100 c3 pu-circle-purple pu-circle p100">
 			                        <span>1</span>
 			                        <div class="slice">
 			                            <div class="bar"></div>
@@ -54,7 +55,7 @@
 			                </li>
 			                <li data-attr="s4">
 			               
-			                    <div class="c100 c4 yellow small p100">
+			                    <div class="c100 c4 pu-circle-yellow pu-circle p100">
 			                        <span>1</span>
 			                        <div class="slice">
 			                            <div class="bar"></div>
@@ -66,7 +67,7 @@
 			                </li>
 			                <li data-attr="s5">
 			                          
-			                    <div class="c100 c5 small green p100">
+			                    <div class="c100 c5 pu-circle pu-circle-green p100">
 			                        <span>4</span>
 			                        <div class="slice">
 			                            <div class="bar"></div>
@@ -233,68 +234,12 @@
 			                    <br clear="all">
 			            </div>
 			        </div>
-
+			    </div>
 
 				</div>
 				<div class="col-md-4 column">
-
-					  <div class="event box">
-			            <h4> <i class="fa fa-calendar"></i> Upcoming events</h4>
-			            <ul>
-			                <li class="date">Tomorrow </li>
-			                <li>
-			                    <a href="#"><i class="fa fa-lg fa-info-circle"></i> 3:00 pm to 4:00 pm Phone Interview with Steve Tout.</a>
-			                </li>
-			                <li>
-			                    <a href="#"><i class="fa fa-lg fa-info-circle"></i> 3:00 pm to 4:00 pm Phone Interview with Steve Tout.</a>
-			                </li>
-			                  <li>
-			                    <a href="#"><i class="fa fa-lg fa-info-circle"></i> 3:00 pm to 4:00 pm Phone Interview with Steve Tout.</a>
-			                </li>
-			               
-			                <li class="date"> 15 Nov </li>
-			                <li>
-			                    <a href="#"><i class="fa fa-lg fa-info-circle"></i> 1:00 pm to 4:00 pm Phone Interview with Steve Tout.</a>
-			                </li>
-			            </ul>
-			        </div>
-
-			     
-			        <div class="tasks box">
-			            <h4><i class="fa fa-tasks"></i> Tasks</h4>
-			            <p><a href="#">Assigned Tasks</a> <button class="button right"><i class="fa fa-plus-circle"></i> Add</button> </p>
-			            <hr />
-			            <div class="task">
-			                <div class="col-sm-2 date">
-			                    <i class="fa fa-level-up alert"></i>
-			                    <span>12 Dec 2014</span>
-			                </div>
-			                <div class="col-sm-10 content">
-			                    <p><strong> Follow up with Bob Jones </strong></p>
-			                    
-			                </div>
-			            </div>
-			            <div class="task">
-			                <div class="col-sm-2 date">
-			                    <i class="fa fa-clock-o alert"></i>                   
-			                    <span class="alert">9 Nov 2014</span>
-			                </div>
-			                <div class="col-sm-10 content">
-			                    <p>Call: Jane Disby - Congratulations</p>
-			                </div>
-			            </div>
-			             <div class="task">
-			                <div class="col-sm-2 date">
-			                    <i class="fa fa-level-down"></i>                   
-			                    <span>9 Jan 2015</span>
-			                </div>
-			                <div class="col-sm-10 content">
-			                    <p><a href="#"><i class="fa fa-info-circle"></i></a> Head of Delivery (Brisbane) 10020371-003 </p>
-			                </div>
-			            </div>
-
-			            <br clear="both" />
-			        </div>   <!-- end tasks--> 
+			     	<?php include '_partials/widgets/event.html';?>
+			     	<?php include '_partials/widgets/task.html';?>	
 				</div>
 			</div>
 		</div>

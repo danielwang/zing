@@ -10,7 +10,7 @@
     </div> -->
     <div class="vertical-timeline-block">
         <div class="vertical-timeline-icon orange-bg mgr">
-        	<img class="avatar" src="img/emp/emp3.png">         
+        	<img class="pu-avatar pu-avatar" src="img/emp/emp3.png">         
         </div>
 
         <div class="vertical-timeline-content">
@@ -39,7 +39,7 @@
             <div class="feed-activity-list">
                 <div class="feed-element">
                     <a class="pull-left" href="#">
-                        <img src="img/emp/emp8.png" class="avatar-sm" alt="image">
+                        <img src="img/emp/emp8.png" class="pu-avatar pu-avatar-sm" alt="image">
                     </a>
                     <div class="media-body ">
                         <small class="pull-right text-muted">2h ago</small>
@@ -56,7 +56,7 @@
                 </div>
                 <div class="feed-element">
                     <a class="pull-left" href="#">
-                        <img src="img/emp/emp7.png" class="avatar-sm" alt="image">
+                        <img src="img/emp/emp7.png" class="pu-avatar pu-avatar-sm" alt="image">
                     </a>
                     <div class="media-body ">
                         <small class="pull-right text-muted"> 2h ago</small>
@@ -69,7 +69,7 @@
                 </div>
                 <div class="feed-element">
                     <a class="pull-left" href="#">
-                        <img src="img/emp/emp10.png" class="avatar-sm" alt="image">
+                        <img src="img/emp/emp10.png" class="pu-avatar pu-avatar-sm" alt="image">
                     </a>
                     <div class="media-body ">
                         <small class="pull-right text-muted">5h ago</small>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="feed-element">
                     <a class="pull-left" href="#">
-                        <img src="img/emp/emp11.png" class="avatar-sm" alt="image">
+                        <img src="img/emp/emp11.png" class="pu-avatar pu-avatar-sm" alt="image">
                     </a>
                     <div class="media-body ">
                         <small class="pull-right text-muted">12m ago</small>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="feed-element">
                     <a class="pull-left" href="#">
-                        <img src="img/emp/emp12.png" class="avatar-sm" alt="image">
+                        <img src="img/emp/emp12.png" class="pu-avatar pu-avatar-sm" alt="image">
                     </a>
                     <div class="media-body ">
                         <small class="pull-right text-muted">23m ago</small>
@@ -112,7 +112,7 @@
                 </div>
                 <div class="feed-element">
                     <a class="pull-left" href="#">
-                        <img src="img/emp/emp13.png" class="avatar-sm" alt="image">
+                        <img src="img/emp/emp13.png" class="pu-avatar pu-avatar-sm" alt="image">
                     </a>
                     <div class="media-body ">
                         <small class="pull-right text-muted">46m ago</small>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="feed-element">
                     <a class="pull-left" href="#">
-                        <img src="img/emp/emp.jpg" class="avatar-sm" alt="image">
+                        <img src="img/emp/emp.jpg" class="pu-avatar pu-avatar-sm" alt="image">
                     </a>
                     <div class="media-body ">
                         <input class="col-sm-12" placeholder="write a reply"/>
@@ -138,7 +138,7 @@
 
 	<div class="vertical-timeline-block">
         <div class="vertical-timeline-icon purple-bg">  
-        	<img class="avatar" src="img/emp/emp9.png">        
+        	<img class="pu-avatar pu-avatar" src="img/emp/emp9.png">        
         </div>
 
         <div class="vertical-timeline-content">
@@ -155,7 +155,7 @@
     </div>
     <div class="vertical-timeline-block">
         <div class="vertical-timeline-icon purple-bg">  
-        	<img class="avatar" src="img/emp/emp8.png">        
+        	<img class="pu-avatar pu-avatar" src="img/emp/emp8.png">        
         </div>
 
         <div class="vertical-timeline-content">
@@ -172,7 +172,7 @@
     </div>
 	<div class="vertical-timeline-block">
         <div class="vertical-timeline-icon orange-bg">  
-        	<img class="avatar" src="img/emp/emp1.png">       
+        	<img class="pu-avatar pu-avatar" src="img/emp/emp1.png">       
         </div>
 
         <div class="vertical-timeline-content">
@@ -201,7 +201,7 @@
 
     <div class="vertical-timeline-block">
         <div class="vertical-timeline-icon purple-bg"> 
-       	 <img class="avatar" src="img/emp/emp4.png">         
+       	 <img class="pu-avatar pu-avatar" src="img/emp/emp4.png">         
         </div>
 
         <div class="vertical-timeline-content">
