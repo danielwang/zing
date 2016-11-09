@@ -1,100 +1,92 @@
-<header id="top" class="navbar navbar-default navbar-static-top bs-docs-nav navbar-fixed-top" role="banner">
-<div class="container">
-    <div class="row clearfix">
-        <div class="col-md-12 column">
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="navbar-header">
-                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="<?php echo($resURL) ?>index.php"><img width="80" src="<?php echo($resURL) ?>img/pu-logo.png"/></a>
-                </div>
-                
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav main-nav">
-                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-th-large fa-lg"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="<?php echo($resURL) ?>dock.php">ES Dock</a>
-                                </li>
-                                <li><a href="<?php echo($resURL) ?>home.php">My Home</a>
-                                </li>
-                                </li>
-                                <li><a href="<?php echo($resURL) ?>dashboard.php">Recruitment</a>
-                                </li>
-                                <li><a href="<?php echo($resURL) ?>performance.php">Performance</a>
-                                </li>
-                                <li><a href="<?php echo($resURL) ?>learning.php">Learning</a>
-                                </li>
-                                <li><a href="<?php echo($resURL) ?>journal.php">Journal</a>
-                                </li>
-                                <li><a class="live manager-only hide" href="<?php echo($resURL) ?>systemsettings.php">System settings</a>
-                                <li class="divider"></li>
-                                <li><a   href="create-activity.php">Create learning activity</a>
-                                </li>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="patterns.php">Common Patterns</a></li>
-                                <li><a href="bulk-progress.php">Bulk Process</a>
-                                </li>
-                                <li><a href="orgchart-small.php">Org Chart</a><li>
-                                <li><a href="360review.php">Circle UI</a></li>
-                                <li><a href="social-feed.php">Timeline</a></li>                                
-                            </ul>
-                        </li>
-                        <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-lg fa-coffee"></i>&nbsp; Relax  <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                               <li><a href="apps/paperless.php">Paper less interview</a></li>
-                               <li><a target="_black" href="paper-performance">Paper Performance</a></li>
-                               <li><a target="_black" href="apps/map"> Map</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="journa-btn"><a href="#myModal" class="btn btn-primary btn-sm" role="link" data-toggle="modal" id="addJournal"><i class="glyphicon glyphicon-edit icon-white"></i> journal</a>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
-                            <?php include '_notification.html' ?>
-                        </li>
-                        <li class="dropdown loginAs"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="<?php echo($resURL) ?>img/emp/emp.jpg" class="img-responsive" /> Daniel <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Profile</a>
-                                </li>
-                                <li><a href="#">Journal</a>
-                                </li>
-                                <li class="divider"></li>
-                                <li><a href="#">Logout</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li id="user-setting" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="fa fa-cogs"></i></a>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                             <li>User Type :</li>
-                             <li class="manager"><a data-attr="manager" href="#"> Manager</a> </li>
-                             <li class="employee"><a data-attr="employee" href="#"> Employee</a> </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <!-- search box -->
-                    <form role="search" id="search" class="navbar-form app-only">
-                        <div class="input-group">
-                            <span class="input-group-addon"> <i class="fa fa-search"></i> </span>
-                            <input type="text" placeholder="Search" class="form-control search-box">
-                        </div>
-                        <label id="pin-btn" class="checkbox__label">
-                          <input id="toggle-view" class="checkbox hide" type="checkbox">
-                          <span class="pin__track">
-                            <span class="pin">
-                              <span class="pin__component__wrapper">
-                                <i class="fa fa-lg fa-thumb-tack" aria-hidden="true"></i>
-                              </span>
-                            </span>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+            <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="<?php echo($resURL) ?>index.php"><img width="80" src="<?php echo($resURL) ?>img/pu-logo.png"/></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav main-nav">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-th-large fa-lg"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="<?php echo($resURL) ?>dock.php">ES Dock</a>
+                            </li>
+                            <li><a href="<?php echo($resURL) ?>home.php">My Home</a>
+                            </li>
+                            </li>
+                            <li><a href="<?php echo($resURL) ?>dashboard.php">Recruitment</a>
+                            </li>
+                            <li><a href="<?php echo($resURL) ?>performance.php">Performance</a>
+                            </li>
+                            <li><a href="<?php echo($resURL) ?>learning.php">Learning</a>
+                            </li>
+                            <li><a href="<?php echo($resURL) ?>journal.php">Journal</a>
+                            </li>
+                            <li><a class="live manager-only hide" href="<?php echo($resURL) ?>systemsettings.php">System settings</a>
+                            <li class="divider"></li>
+                            <li><a   href="create-activity.php">Create learning activity</a>
+                            </li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="patterns.php">Common Patterns</a></li>
+                            <li><a href="bulk-progress.php">Bulk Process</a>
+                            </li>
+                            <li><a href="orgchart-small.php">Org Chart</a><li>
+                            <li><a href="360review.php">Circle UI</a></li>
+                            <li><a href="social-feed.php">Timeline</a></li>                                
+                        </ul>
+                    </li>
+                    <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-lg fa-coffee"></i>&nbsp; Relax  <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="apps/paperless.php">Paper less interview</a></li>
+                           <li><a target="_black" href="paper-performance">Paper Performance</a></li>
+                           <li><a target="_black" href="apps/map"> Map</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><button class="btn btn-info btn-sm margin-right">Action</button></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
+                        <?php include '_notification.html' ?>
+                    </li>
+                    <li class="dropdown loginAs"> <span data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="<?php echo($resURL) ?>img/emp/emp.jpg" class="pu-avatar pu-avatar-sm" /> Daniel <b class="caret"></b></span>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Profile</a>
+                            </li>
+                            <li><a href="#">Journal</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="user-setting" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="fa fa-cogs"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                         <li>User Type :</li>
+                         <li class="manager"><a data-attr="manager" href="#"> Manager</a> </li>
+                         <li class="employee"><a data-attr="employee" href="#"> Employee</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- search box -->
+                <form role="search" id="search" class="navbar-form app-only">
+                    <div class="input-group">
+                        <span class="input-group-addon"> <i class="fa fa-search"></i> </span>
+                        <input type="text" placeholder="Search" class="form-control search-box">
+                    </div>
+                    <label id="pin-btn" class="checkbox__label">
+                      <input id="toggle-view" class="checkbox hide" type="checkbox">
+                      <span class="pin__track">
+                        <span class="pin">
+                          <span class="pin__component__wrapper">
+                            <i class="fa fa-lg fa-thumb-tack" aria-hidden="true"></i>
                           </span>
-                        </label>
-                    </form>
-                </div>   
-            </nav>
-        </div>
+                        </span>
+                      </span>
+                    </label>
+                </form>
+            </div>   
     </div>
-</div>
-</header>
+</nav>
