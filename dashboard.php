@@ -1,14 +1,15 @@
-<?php include 'base.php' ?>
-<?php startblock('page') ?>
+<?php include 'base.php'?>
+<?php startblock('page')?>
 	<link href="css/dashboard.css" rel="stylesheet" type="text/css" />
+	<h2>Recruitment Dashboard</h2>
 	<div class="row clearfix row-gap">
 		<div class="col-md-12 column">
 			<div class="row clearfix">
-				<div class="col-md-8 column">     
+				<div class="col-md-8 column">
 			        <div class="pu-box">
 			            <div class="pu-box-title"><h4><i class="fa fa-suitcase"></i> Current Jobs</h4></div>
 			                <div class="pu-box-content">
-			                <ul class="status clearfix">  
+			                <ul class="status clearfix">
 			                <li data-attr="all">
 			                    <div class="c100 c0 dark pu-circle p100">
 			                        <span>10</span>
@@ -16,8 +17,8 @@
 			                            <div class="bar"></div>
 			                            <div class="fill"></div>
 			                        </div>
-			                    </div> 
-			                    <span>Total</span> 
+			                    </div>
+			                    <span>Total</span>
 			                </li>
 			                <li data-attr="s1">
 			                    <div class="c100 c1 pu-circle-red pu-circle p100">
@@ -26,12 +27,12 @@
 			                            <div class="bar"></div>
 			                            <div class="fill"></div>
 			                        </div>
-			                    </div> 
-			                    <span>Sourcing</span> 
+			                    </div>
+			                    <span>Sourcing</span>
 			                    <i class="alert fa fa-exclamation-circle fa-lg"></i>
 			                </li>
 			                <li data-attr="s2">
-			               
+
 			                    <div class="c100 c2 pu-circle-orange pu-circle p100">
 			                        <span>1</span>
 			                        <div class="slice">
@@ -39,42 +40,42 @@
 			                            <div class="fill"></div>
 			                        </div>
 			                    </div>
-			                    <span>Screening</span>  
+			                    <span>Screening</span>
 			                </li>
 			                <li data-attr="s3">
-			                
+
 			                    <div class="c100 c3 pu-circle-purple pu-circle p100">
 			                        <span>1</span>
 			                        <div class="slice">
 			                            <div class="bar"></div>
 			                            <div class="fill"></div>
 			                        </div>
-			                    </div> 
+			                    </div>
 			                    <span>Interview</span>
-			                    <i class="alert fa fa-exclamation-circle fa-lg"></i>  
+			                    <i class="alert fa fa-exclamation-circle fa-lg"></i>
 			                </li>
 			                <li data-attr="s4">
-			               
+
 			                    <div class="c100 c4 pu-circle-yellow pu-circle p100">
 			                        <span>1</span>
 			                        <div class="slice">
 			                            <div class="bar"></div>
 			                            <div class="fill"></div>
 			                        </div>
-			                    </div> 
-			                    <span>Background Checking </span> 
-			                
+			                    </div>
+			                    <span>Background Checking </span>
+
 			                </li>
 			                <li data-attr="s5">
-			                          
+
 			                    <div class="c100 c5 pu-circle pu-circle-green p100">
 			                        <span>4</span>
 			                        <div class="slice">
 			                            <div class="bar"></div>
 			                            <div class="fill"></div>
 			                        </div>
-			                    </div> 
-			                     <span>Offer</span>    
+			                    </div>
+			                     <span>Offer</span>
 			                </li>
 			            </ul>
 
@@ -110,8 +111,8 @@
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>
-			                    <ul class="clearfix">                   
-			                        <li><i class="fa fa-circle-o"></i> 1 assigned application is approved. <a href="#">View</a></li>                    
+			                    <ul class="clearfix">
+			                        <li><i class="fa fa-circle-o"></i> 1 assigned application is approved. <a href="#">View</a></li>
 			                    </ul>
 			                </div>
 			                    <br clear="all">
@@ -239,9 +240,9 @@
 				</div>
 				<div class="col-md-4 column">
 			     	<?php include '_partials/widgets/event.html';?>
-			     	<?php include '_partials/widgets/task.html';?>	
+			     	<?php include '_partials/widgets/task.html';?>
 				</div>
 			</div>
 		</div>
 	</div>
-<?php endblock() ?>
+<?php endblock()?>
