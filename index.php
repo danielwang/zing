@@ -8,7 +8,7 @@
             <a href="learning.php"><span class="pu-diamond pu-diamond-orange">
                 <span><i class="fa fa-graduation-cap"></i></span>
             </span></a>
-            <span>Learning</span>
+            <h5>Learning</h5>
           </div>
           <div class="col-xs-4 text-center">
             <a href="journal.php">
@@ -16,7 +16,7 @@
                 <span><i class="fa fa-pencil-square-o"></i></span>
               </span>
             </a>
-            <span>Journal</span>
+            <h5>Journal</h5>
           </div>
 
           <div class="col-xs-4 text-center">
@@ -25,7 +25,7 @@
                  <i class="fa fa-user-plus"></i>
               </span>
             </a>
-            <span>Recuitment</span>
+            <h5>Recuitment</h5>
           </div>
           <div class="col-xs-4 text-center">
             <a href="performance.php">
@@ -39,29 +39,29 @@
              <div class="pu-diamond pu-diamond-orange">
                 <span><i class="fa fa-users"></i></span>
             </div>
-            <span>360</span>
+            <h5>360</h5>
           </div>
 
            <div class="col-xs-4 text-center">
              <span class="pu-diamond pu-diamond-red"><i class="fa fa-sitemap"></i></span>
-            <span>Succession</span>
+            <h5>Succession</h5>
           </div>
           <div class="col-xs-4 text-center">
             <span class="pu-diamond pu-diamond-blue">
                 <i class="fa fa-clock-o"></i></span>
 
-            <span>Timesheet</span>
+            <h5>Timesheet</h5>
           </div>
           <div class="col-xs-4 text-center">
             <span class="pu-diamond pu-diamond-green">
                 <i class="fa fa-money"></i></span>
-            <span>Compensation</span>
+            <h5>Compensation</h5>
           </div>
 
           <div class="col-xs-4 text-center">
             <span class="pu-diamond pu-diamond-yellow">
               <i class="fa fa-bar-chart"></i></span>
-            <span>Analytics</span>
+            <h5>Analytics</h5>
           </div>
       </div>
       </div>
