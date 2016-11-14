@@ -13,7 +13,7 @@
 <!-- Responsive images -->
 <h3>Responsive images</h3>
 <p>For images to be responsive (so that they will rescale to suit the width of the parent, use the <code>.img-responsive</code> class.</p>
-<p><img class="img-responsive" src="http://placehold.it/800x350" alt=""></p>
+<p><img class="img-responsive" src="http://placehold.it/800x350/ABE0F4/57C0E9" alt=""></p>
 
 <!-- Lists -->
 <h3>Unordered list</h3>
@@ -62,7 +62,7 @@
 
 <h3>Buttons</h3>
 <p>You can apply the <code>btn</code> class to any element that requires a button style.</p>
-<p><a href="#" class="btn">Submit</a></p>
+<p><a href="#" class="btn btn-info">Submit</a></p>
 <hr>
 
 <!-- Tables -->
