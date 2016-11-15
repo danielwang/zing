@@ -1,26 +1,26 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
             <div class="navbar-header">
-                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="<?php echo($resURL) ?>index.php"><img width="80" src="<?php echo($resURL) ?>img/pu-logo.png"/></a>
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="<?php echo ($resURL) ?>index.php"><img width="80" src="<?php echo ($resURL) ?>img/pu-logo.png"/></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav main-nav">
                     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-th-large fa-lg"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo($resURL) ?>dock.php">ES Dock</a>
+                            <li><a href="<?php echo ($resURL) ?>dock.php">ES Dock</a>
                             </li>
-                            <li><a href="<?php echo($resURL) ?>home.php">My Home</a>
+                            <li><a href="<?php echo ($resURL) ?>home.php">My Home</a>
                             </li>
                             </li>
-                            <li><a href="<?php echo($resURL) ?>dashboard.php">Recruitment</a>
+                            <li><a href="<?php echo ($resURL) ?>dashboard.php">Recruitment</a>
                             </li>
-                            <li><a href="<?php echo($resURL) ?>performance.php">Performance</a>
+                            <li><a href="<?php echo ($resURL) ?>performance.php">Performance</a>
                             </li>
-                            <li><a href="<?php echo($resURL) ?>learning.php">Learning</a>
+                            <li><a href="<?php echo ($resURL) ?>learning.php">Learning</a>
                             </li>
-                            <li><a href="<?php echo($resURL) ?>journal.php">Journal</a>
+                            <li><a href="<?php echo ($resURL) ?>journal.php">Journal</a>
                             </li>
-                            <li><a class="live manager-only hide" href="<?php echo($resURL) ?>systemsettings.php">System settings</a>
+                            <li><a class="live manager-only hide" href="<?php echo ($resURL) ?>systemsettings.php">System settings</a>
                             <li class="divider"></li>
                             <li><a   href="create-activity.php">Create learning activity</a>
                             </li>
@@ -34,7 +34,7 @@
                             </li>
                             <li><a href="orgchart-small.php">Org Chart</a><li>
                             <li><a href="360review.php">Circle UI</a></li>
-                            <li><a href="social-feed.php">Timeline</a></li>                                
+                            <li><a href="social-feed.php">Timeline</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-lg fa-coffee"></i>&nbsp; Relax  <b class="caret"></b></a>
@@ -48,11 +48,11 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><button class="btn btn-info btn-sm margin-right">Action</button></li>
                     <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a> 
-                        <?php include '_notification.html' ?>
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a>
+                        <?php include '_notification.html'?>
                     </li>
-                    <li class="dropdown loginAs"> <span data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="<?php echo($resURL) ?>img/emp/emp.jpg" class="pu-avatar pu-avatar-sm" /> Daniel <b class="caret"></b></span>
-                        <ul class="dropdown-menu">
+                    <li class="dropdown loginAs"> <span data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="<?php echo ($resURL) ?>img/emp/emp.jpg" class="pu-avatar pu-avatar-sm" /> Daniel <b class="caret"></b></span>
+                        <ul class="dropdown-menu dropdown-menu-right">
                             <li><a href="#">Profile</a>
                             </li>
                             <li><a href="#">Journal</a>
@@ -87,6 +87,6 @@
                       </span>
                     </label>
                 </form>
-            </div>   
+            </div>
     </div>
 </nav>

@@ -33,7 +33,7 @@
                   <i class="fa fa-star"></i>
                 </span>
             </a>
-            <span>Performance</span>
+            <h5>Performance</h5>
           </div>
           <div class="col-xs-4 text-center">
              <div class="pu-diamond pu-diamond-orange">
