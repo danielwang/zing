@@ -62,7 +62,7 @@
 
 <h3>Buttons</h3>
 <p>You can apply the <code>btn</code> class to any element that requires a button style.</p>
-<p><a href="#" class="btn btn-info">Submit</a></p>
+<p><a href="#" class="btn btn-success">Submit</a></p>
 <hr>
 
 <!-- Tables -->
@@ -72,6 +72,7 @@
 	<thead>
 		<tr>
 			<th>#</th>
+			<th></th>
 			<th>First Name</th>
 			<th>Last Name</th>
 			<th>Username</th>
@@ -80,18 +81,21 @@
 	<tbody>
 		<tr>
 			<th scope="row">1</th>
+			<td><img class="pu-avatar pu-avatar-sm" src="img/emp/emp1.png"></td>
 			<td>Mark</td>
 			<td>Otto</td>
 			<td>@mdo</td>
 		</tr>
 		<tr>
 			<th scope="row">2</th>
+			<td><img class="pu-avatar pu-avatar-sm" src="img/emp/emp2.png"></td>
 			<td>Jacob</td>
 			<td>Thornton</td>
 			<td>@fat</td>
 		</tr>
 		<tr>
 			<th scope="row">3</th>
+			<td><img class="pu-avatar pu-avatar-sm" src="img/emp/emp3.png"></td>
 			<td>Larry</td>
 			<td>the Bird</td>
 			<td>@twitter</td>
