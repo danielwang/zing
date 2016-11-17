@@ -3,6 +3,7 @@
         <thead>
             <tr>
                 <th></th>
+                <th></th>
                 <th>Name </th>
                 <th>Completed </th>
                 <th>Task</th>
@@ -11,7 +12,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php for ($x = 0; $x <= 10; $x++) {?>
+            <?php for ($x = 0; $x <= 9; $x++) {?>
             <tr>
                 <td>
                     <div class="checkbox checkbox-info">
@@ -19,7 +20,8 @@
                         <label></label>
                     </div>
                 </td>
-                <td><a href="#">John Smith</a></td>
+                <td><img class="pu-avatar pu-avatar-sm" src="img/emp/emp<?php echo($x)?>.png" /></td>
+                <td><a href="#"><?php echo($x)?> John Smith</a></td>
                 <td><span class="pie" style="display: none;">0.52/1.561</span>
                     <svg class="peity" height="16" width="16">
                         <path d="M 8 8 L 8 0 A 8 8 0 0 1 14.933563796318165 11.990700825968545 Z" fill="#40B8E6" />
@@ -37,7 +39,8 @@
                         <label></label>
                     </div>
                 </td>
-                <td>Alpha project</td>
+                <td><img class="pu-avatar pu-avatar-sm" src="img/emp/emp<?php echo($x+10)?>.png" /></td>
+                <td><a href="#">Alpha Peters</a></td>
                 <td><span class="pie" style="display: none;">6,9</span>
                     <svg class="peity" height="16" width="16">
                         <path d="M 8 8 L 8 0 A 8 8 0 0 1 12.702282018339785 14.47213595499958 Z" fill="#40B8E6" />
@@ -55,7 +58,8 @@
                         <label></label>
                     </div>
                 </td>
-                <td>Betha project</td>
+                <td><img class="pu-avatar pu-avatar-sm" src="img/emp/emp<?php echo($x+8)?>.png" /></td>
+                <td><a href="#">Robert Hill</a></td>
                 <td><span class="pie" style="display: none;">3,1</span>
                     <svg class="peity" height="16" width="16">
                         <path d="M 8 8 L 8 0 A 8 8 0 1 1 0 8.000000000000002 Z" fill="#40B8E6" />
@@ -73,7 +77,8 @@
                         <label></label>
                     </div>
                 </td>
-                <td>Gamma project</td>
+                <td><img class="pu-avatar pu-avatar-sm" src="img/emp/emp<?php echo($x+9)?>.png" /></td>
+                <td><a href="#">Melvyn Jackson</a></td>
                 <td><span class="pie" style="display: none;">4,9</span>
                     <svg class="peity" height="16" width="16">
                         <path d="M 8 8 L 8 0 A 8 8 0 0 1 15.48012994148332 10.836839096340286 Z" fill="#40B8E6" />
