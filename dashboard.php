@@ -81,7 +81,7 @@
 
 			            <div class="job s1">
 			                <div class="app col-sm-2">
-			                    <a href="#"><i class="fa fa-user"></i> 27</a>
+			                    <a href="list"><i class="fa fa-user"></i> 27</a>
 			                    <P>
 			                        <label class="new">2 new</label>
 			                    </p>

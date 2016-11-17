@@ -11,6 +11,14 @@ if (strpos($url, 'apps') !== false) {
 	$pageClass = '';
 }
 
+// layout checking
+$fluidPage = array("list");
+$lastSegment = basename(parse_url($url, PHP_URL_PATH));
+if (in_array($lastSegment, $fluidPage)) {
+	$layout = "-fluid";
+} else {
+	$layout = "";
+}
 ?>
 
 

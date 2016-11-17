@@ -3,31 +3,31 @@
   <div class="myteam circle open">
     <a href="#_">
       <sub></sub>
-      <img class="avatar-lg spaceboots" src="img/emp/emp1.png">  
+      <img class="pu-avatar spaceboots" src="img/emp/emp1.png">
     </a>
-    <a href="#_"><img class="avatar-lg" src="img/emp/emp2.png"></a>
-    <a href="#_"><img class="avatar-lg" src="img/emp/emp3.png"></a>
-    <a href="#_"><img class="avatar-lg" src="img/emp/emp4.png"></a>
-    <a href="#_"><img class="avatar-lg" src="img/emp/emp5.png"></a>
-    <a href="#_"><sub></sub><img class="avatar-lg spaceboots" src="img/emp/emp6.png"></a>
-    <a href="#_"><img class="avatar-lg" src="img/emp/emp7.png"></a>
-    <a href="#_"><img class="avatar-lg" src="img/emp/emp8.png"></a>
-    <!--<a href="#_"><img class="avatar-lg" src="img/emp/emp9.png"></a>
-    <a href="#_"><img class="avatar-lg" src="img/emp/emp10.png"></a>
-    <a href="#_"><img class="avatar-lg" src="img/emp/emp11.png"></a> -->
+    <a href="#_"><img class="pu-avatar" src="img/emp/emp2.png"></a>
+    <a href="#_"><img class="pu-avatar" src="img/emp/emp3.png"></a>
+    <a href="#_"><img class="pu-avatar" src="img/emp/emp4.png"></a>
+    <a href="#_"><img class="pu-avatar" src="img/emp/emp5.png"></a>
+    <a href="#_"><sub></sub><img class="pu-avatar spaceboots" src="img/emp/emp6.png"></a>
+    <a href="#_"><img class="pu-avatar" src="img/emp/emp7.png"></a>
+    <a href="#_"><img class="pu-avatar" src="img/emp/emp8.png"></a>
+    <a href="#_"><img class="pu-avatar" src="img/emp/emp9.png"></a>
+    <a href="#_"><img class="pu-avatar" src="img/emp/emp10.png"></a>
+    <a href="#_"><img class="pu-avatar" src="img/emp/emp11.png"></a>
   </div>
   <div class='pop'>
     <div class='content'>
        <img src="img/orgchart-card.png"/>
     </div>
   </div>
-  <span class="menu-button"><i class="fa fa-users fa-3x"></i></span>
+  <span class="menu-button"></span>
 
 </nav>
 
 <style type="text/css">
 sub {
-    background: #a3b941 none repeat scroll 0 0;
+    background: #F39657 none repeat scroll 0 0;
     bottom: -0.25em;
     display: block;
     height: 10px;
