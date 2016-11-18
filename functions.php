@@ -13,9 +13,11 @@ if (strpos($url, 'apps') !== false) {
 
 // layout checking
 $fluidPage = array("list");
+$subnav = false;
 $lastSegment = basename(parse_url($url, PHP_URL_PATH));
 if (in_array($lastSegment, $fluidPage)) {
 	$layout = "-fluid";
+	$subnav = true;
 } else {
 	$layout = "";
 }

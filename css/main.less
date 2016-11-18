@@ -1,9 +1,6 @@
-@import "variables";
-//@import "awesome-bootstrap-checkbox.css";
-
+@import "variables.less";
 body {
-      padding-top: 55px;
-
+      background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
       &.manager-view{
         * .manager-only{
           display: block !important;
@@ -18,6 +15,11 @@ body {
         }
       }
     }
+
+.subnav{
+  margin-top: -20px;
+  margin-bottom: 0;
+}    
 footer{position: fixed; bottom: 0; right:5px;}
 a:hover{text-decoration: none;}
 ul {padding: 0;}
@@ -100,9 +102,7 @@ input, textarea, select {
     margin-top: 10px;
     padding: 5px 8px;
 }
-.modal-backdrop {
-    background-color: @pucolor;
-}
+
 
 #filter li{
     line-height: 1.4;
