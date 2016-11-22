@@ -1,0 +1,355 @@
+<!-- template engine http://arshaw.com/phpti/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PageUp Concepts Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="daniel.wang" >
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link href="http://styleguide.pageuppeople.com/dist/css/pageup.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet/less" type="text/css" href="css/main.less" />
+    <!-- apps css -->
+        <!-- LESS.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <!-- custom script -->
+    <script src="js/custom.js"></script>
+</head>
+<body class="">
+
+<nav class="navbar navbar-default">
+    <div class="container">
+            <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index"><img width="80" src="img/pu-logo.png"/></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav main-nav">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-th-large fa-lg"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="dock">ES Dock</a>
+                            </li>
+                            <li><a href="home">My Home</a>
+                            </li>
+                            </li>
+                            <li><a href="dashboard">Recruitment</a>
+                            </li>
+                            <li><a href="performance">Performance</a>
+                            </li>
+                            <li><a href="learning">Learning</a>
+                            </li>
+                            <li><a href="journal">Journal</a>
+                            </li>
+                            <li><a class="live manager-only hide" href="systemsettings.php">System settings</a>
+                            <li class="divider"></li>
+                            <li><a   href="create-activity.php">Create learning activity</a>
+                            </li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="patterns">Typography</a></li>
+                            <li><a href="list">List</a>
+                            </li>
+                            <li><a href="orgchart-small">Org Chart</a><li>
+                            <li><a href="360review">Circle UI</a></li>
+                            <li><a href="social-feed">Timeline</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-lg fa-coffee"></i>&nbsp; Relax  <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                           <li><a href="apps/paperless">Paper less interview</a></li>
+                           <li><a target="_black" href="paper-performance">Paper Performance</a></li>
+                           <li><a target="_black" href="apps/map"> Map</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><button class="btn btn-info btn-sm margin-right">Action</button></li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a>
+                         <div class="dropdown-menu dropdown-menu-right messages-list">
+<!--message #1-->
+    <div class="notice-message">
+        <button type="button" class="close">×</button>
+        <div class="avatar">
+            <img alt="" src="img/emp/emp12.png" class="img-responsive" />
+        </div>
+        <div class="info">
+            <div class="author">Kane</div>
+            <div class="date">45 mins ago</div>
+            <div class="clearfix"></div>
+            <div class="text">has approved job <a href="#">Office administrator</a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!--message #4-->
+    <div class="notice-message due">
+        <button type="button" class="close">×</button>
+        <div class="info">
+            <div class="text">Mid year performance for <a href="#">Daniel Wang</a> is due now.</div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!--message #2-->
+    <div class="notice-message">
+        <button type="button" class="close">×</button>
+        <div class="avatar">
+            <img alt="" src="img/emp/emp11.png" class="img-responsive" />
+        </div>
+        <div class="info">
+            <div class="author">Aaron</div>
+            <div class="date">2 hours ago</div>
+            <div class="clearfix"></div>
+            <div class="text">has approved the offer to applicant <a href="">Daniel Wang</a>.</div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!--message #3-->
+    <div class="notice-message">
+        <button type="button" class="close">×</button>
+        <div class="avatar">
+            <img alt="" src="img/emp/emp10.png" class="img-responsive" />
+        </div>
+        <div class="info">
+            <div class="author">Adam</div>
+            <div class="date">yesterday</div>
+            <div class="clearfix"></div>
+            <div class="text">suggested <a href="#">HTML6</a> to you in learning library.</div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+                    </li>
+                    <li class="dropdown loginAs"> <span data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/emp/emp.jpg" class="pu-avatar pu-avatar-sm" /> Daniel <b class="caret"></b></span>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">Profile</a>
+                            </li>
+                            <li><a href="#">Journal</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="user-setting" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="fa fa-cogs"></i></a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                         <li>User Type :</li>
+                         <li class="manager"><a data-attr="manager" href="#"> Manager</a> </li>
+                         <li class="employee"><a data-attr="employee" href="#"> Employee</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- search box -->
+                <form role="search" id="search" class="navbar-form app-only">
+                    <div class="input-group">
+                        <span class="input-group-addon"> <i class="fa fa-search"></i> </span>
+                        <input type="text" placeholder="Search" class="form-control search-box">
+                    </div>
+                    <label id="pin-btn" class="checkbox__label">
+                      <input id="toggle-view" class="checkbox hide" type="checkbox">
+                      <span class="pin__track">
+                        <span class="pin">
+                          <span class="pin__component__wrapper">
+                            <i class="fa fa-lg fa-thumb-tack" aria-hidden="true"></i>
+                          </span>
+                        </span>
+                      </span>
+                    </label>
+                </form>
+            </div>
+    </div>
+</nav>
+
+<div class="container">
+	<h2>Learning Library</h2>
+<div id="learning" class="row row-gap">   
+      <!-- END filtering menu -->
+      <!-- MASONRY ITEMS START==================================================-->
+<div id="Lcontent" class="cards">
+
+<!-- box 2 -->
+<div class="item cat1 col-xs-12 col-sm-4">
+    <div class="pu-card"> 
+        <span class="status rec">Recommended</span>
+        <h4><a href="learning-activity.php">Change and Innovation</a></h4>
+        <span class="type"> Reading </span>
+        <img class="featured" src="http://wwwstatic.pageuppeople.com/wp-content/uploads/2014/03/book_sideview_template-248x300.png">                          
+      
+        <p>
+           This is an E-Learning Activity -  discussion &amp; approval from your manager is required for this development activity. Facilitate and Capitalise on Change and Innovation, Insight International Consultancy 
+        </p>
+    </div>
+</div>
+<!-- box 3 -->
+<div class="item cat4 col-xs-12 col-sm-4">
+    <div class="pu-card stack">
+      <span class="status rec">Recommended</span>
+      <h4><a href="learning-activity.php">Customer Feedback</a></h4>
+      <span class="type"> Self paced activity</span>
+      <img class="featured" src="http://www.brw.com.au/rw/2009-2014/BRW/2014/01/21/Photos/665ee050-8243-11e3-a879-832dfd5ce59e_Karen&Simon_01--646x363.jpg" alt="">
+      <p>
+         Seek feedback from your customers regarding what is working well for them and what could be improved. Are they satisfied with the level of service that you are providing? Take ownership to resolve issues to the satisfaction of the customer and the business.
+      </p>
+   </div>
+</div>
+<!-- box 6 -->
+<div class="item cat2 col-xs-12 col-sm-4">
+    <div class="pu-card">
+      <h4><a href="learning-activity.php">Add Value to your Role</a></h4>
+      <span class="type"> Online learning </span>
+
+      <img src="http://pageuppeople.com/wp-content/uploads/2012/09/Blog-2.jpg" class="featured">
+      <p>
+         Consider your role from the perspective of the business and organisation. Can you anticipate needs? How could you add more value in your role? Act on ideas or put forward a proposal to management/the Board. 
+      </p>
+   </div>
+</div>
+<!-- box 7 -->
+<div class="item cat3 col-xs-12 col-sm-4">
+    <div class="pu-card"> 
+        <span class="status blue-bg">In progress</span>
+        <h4><a href="learning-activity.php">Change and Innovation</a></h4>
+        <span class="type">Internal class</span>
+        <img alt="" src="http://wwwstatic.pageuppeople.com/wp-content/uploads/2014/06/FEDUNI_webinar_website.png"
+        class="featured" />
+
+        <p>This is an E-Learning Activity - discussion &amp; approval from your manager
+            is required for this development activity. Facilitate and Capitalise on
+            Change and Innovation, Insight International Consultancy <a href="learning-activity.phpbel-default"><i class="fa fa-link"></i> www.insightinternational.com.au</a>
+        </p>
+    </div>
+</div>
+<!-- box 8 -->
+<div class="item cat1 col-xs-12 col-sm-4">
+    <div class="pu-card stack"> <span class="status green-bg">Booked</span>
+         <h4><a href="learning-activity.php">Add Value to your Role</a></h4>
+         <span class="type">Internal class</span>
+        <p>Consider your role from the perspective of the business and organisation.
+            Can you anticipate needs? How could you add more value in your role? Act
+            on ideas or put forward a proposal to management/the Board.</p>
+    </div>
+</div>
+<!-- box 9 -->
+<div class="item cat2 col-xs-12 col-sm-4">
+   <div class="pu-card stack">  
+      <h4><a href="learning-activity.php">Explore Alternative Product Offerings</a></h4>
+       <span class="type">Internal class</span>
+       <figure> <i class="fa fa-calendar-o"></i></figure>
+      <p>
+         Explore alternative product/service offerings to meet a more diverse range of customer needs. Seek feedback on these ideas from target customer groups. 
+      </p>
+   </div>
+</div>
+
+<!-- box 11 -->
+<div class="item cat1 col-xs-12 col-sm-4">
+    <div class="pu-card">
+        <h4><a href="learning-activity.php">Improving Performance </a></h4>
+        <span class="type">Internal class</span>
+        <img alt="" src="http://pageuppeoplecareers.com/wp-content/uploads/2013/01/Team-USA-e1380786057315.jpg" class="featured"
+        />
+         
+        <p>Generate at least 2 ideas to improve performance in your part of the business.
+            Identify obstacles and develop strategies to overcome them before you put
+            these ideas forward to your Manager/the team.</p>
+    </div>
+</div>
+<!-- box 12 -->
+<div class="item cat3 col-xs-12 col-sm-4">
+    <div class="pu-card">
+       <h4><a href="learning-activity.php">Marketing Knowledge </a></h4>
+       <span class="type">Internal class</span>
+        <img src="http://pageuppeoplecareers.com/wp-content/uploads/2013/07/JR-TU-438x236.jpg" alt="" class="featured" />
+        <p>I would like to go to ATC next year</p>
+    </div>
+</div>
+<!-- box 5 -->
+<div class="item cat3 col-xs-12 col-sm-4">
+    <div class="pu-card">
+        <span class="status purple-bg">Complete</span>
+         <h4><a href="learning-activity.php">Judgement Observations </a></h4>
+         <span class="type">Online learning</span>
+        <figure><i class="fa fa-file-video-o"></i></figure>
+        <p>Observe people who are particularly good judging situations and making
+            decisions. What information do they use and offer in this process? Could
+            you benefit from using this information in making future judgements?</p>
+    </div>
+</div>
+<!-- box 13 -->
+<div class="item cat1 col-xs-12 col-sm-4">
+    <div class="pu-card">
+        <h4><a href="learning-activity.php">Identify quality issues before they escalate </a></h4>
+        <span class="type">Internal class</span>
+        <p>Identify quality issues before they escalate. Encourage the early detection
+            of quality related issue by: Setting aside time in each team meeting to
+            discuss quality related issues and work standards Building a safe and open
+            atmosphere where team members can freely express their concerns about quality
+            related issues. Listen attentively and formulate an immediate action plan
+            to prevent the issue from escalating Measuring customer satisfaction and
+            requesting feedback (eg. conduct regular reviews) Recognising and responding
+            to customer complaints</p>
+    </div>
+</div>
+<!-- box 14 -->
+<div class="item cat4 col-xs-12 col-sm-4">
+    <div class="pu-card">
+        <h4><a href="learning-activity.php">Managing Relationships</a></h4>
+        <span class="type">Internal class</span>
+        <img src="http://pageuppeoplecareers.com/wp-content/uploads/2013/07/IMG_8107-438x228.jpg  " alt="" class="featured" />
+         
+        <p>Observe people who are particularly good judging situations and making
+            decisions. What information do they use and offer in this process? Could
+            you benefit from using this information in making futurjudgements?</p>
+    </div>
+</div>
+<!-- box 15 -->
+<div class="item cat4 col-xs-12 col-sm-4">
+    <div class="pu-card">
+
+         <h4><a href="learning-activity.php">Engaging your Colleagues</a></h4>
+         <span class="type">Internal class</span>
+        <p>Ensure that you are visible to your colleagues and demonstrate an interest
+            in their activities, problems, and results.</p>
+    </div>
+</div>
+<!-- next box etc -->
+</div>
+<!-- MASONRY ITEMS END -->
+<script src="js/isotope.pkgd.js"></script>
+<script src="js/learning.js"></script></div>
+
+ </div>
+		<footer class="text-center" style="font-size:11px; color:#ababab; margin:20px 0"> designed with <i class="fa fa-heart" style="color:#cb6564"></i> by <a target="_blank" href="https://www.instagram.com/danielwang/">daniel wang </a></footer>
+
+		<!-- material design script -->
+		<!-- <script src="js/material/ripples.min.js"></script>
+		<script src="js/material/material.min.js"></script>
+
+		<script>
+		$(document).ready(function() {
+		// This command is used to initialize some elements and make them work properly
+		$.material.init();
+		});
+		</script>	 -->
+	</body>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-62087058-1', 'auto');
+	  ga('send', 'pageview'); 
+
+	</script>
+</html>
