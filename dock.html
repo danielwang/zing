@@ -1,6 +1,8 @@
-<!-- template engine http://arshaw.com/phpti/ -->
-
  
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,21 +14,20 @@
     <meta name="author" content="daniel.wang" >
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link href="../gel/pu-sg/dist/css/pageup.css" rel="stylesheet" type="text/css" />
+    <link href="http://styleguide.pageuppeople.com/dist/css/pageup.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet/less" type="text/css" href="css/main.less" />
-    <!-- apps css -->
-        <!-- LESS.js -->
+    <!-- LESS.js -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <!-- custom script -->
-    <script src="js/custom.js"></script> 
+    <script src="js/custom.js"></script>
 </head>
-<body class="">
+<body>
 
-    <nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
     <div class="container">
             <div class="navbar-header">
                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index"><img width="80" src="img/pu-logo.png"/></a>
@@ -57,18 +58,12 @@
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="patterns">Typography</a></li>
-                            <li><a href="list">List</a>
-                            </li>
-                            <li><a href="orgchart-small">Org Chart</a><li>
-                            <li><a href="360review">Circle UI</a></li>
-                            <li><a href="social-feed">Timeline</a></li>
+                            <li><a href="typography">Typography</a></li>
+                            <li><a href="list">List</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-lg fa-coffee"></i>&nbsp; Relax  <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                           <li><a href="apps/paperless">Paper less interview</a></li>
-                           <li><a target="_black" href="paper-performance">Paper Performance</a></li>
                            <li><a target="_black" href="apps/map"> Map</a></li>
                         </ul>
                     </li>
@@ -77,59 +72,6 @@
                     <li><button class="btn btn-info btn-sm margin-right">Action</button></li>
                     <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a>
-                         <div class="dropdown-menu dropdown-menu-right messages-list">
-<!--message #1-->
-    <div class="notice-message">
-        <button type="button" class="close">×</button>
-        <div class="avatar">
-            <img alt="" src="img/emp/emp12.png" class="img-responsive" />
-        </div>
-        <div class="info">
-            <div class="author">Kane</div>
-            <div class="date">45 mins ago</div>
-            <div class="clearfix"></div>
-            <div class="text">has approved job <a href="#">Office administrator</a>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <!--message #4-->
-    <div class="notice-message due">
-        <button type="button" class="close">×</button>
-        <div class="info">
-            <div class="text">Mid year performance for <a href="#">Daniel Wang</a> is due now.</div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <!--message #2-->
-    <div class="notice-message">
-        <button type="button" class="close">×</button>
-        <div class="avatar">
-            <img alt="" src="img/emp/emp11.png" class="img-responsive" />
-        </div>
-        <div class="info">
-            <div class="author">Aaron</div>
-            <div class="date">2 hours ago</div>
-            <div class="clearfix"></div>
-            <div class="text">has approved the offer to applicant <a href="">Daniel Wang</a>.</div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <!--message #3-->
-    <div class="notice-message">
-        <button type="button" class="close">×</button>
-        <div class="avatar">
-            <img alt="" src="img/emp/emp10.png" class="img-responsive" />
-        </div>
-        <div class="info">
-            <div class="author">Adam</div>
-            <div class="date">yesterday</div>
-            <div class="clearfix"></div>
-            <div class="text">suggested <a href="#">HTML6</a> to you in learning library.</div>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-</div>
                     </li>
                     <li class="dropdown loginAs"> <span data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="img/emp/emp.jpg" class="pu-avatar pu-avatar-sm" /> Daniel <b class="caret"></b></span>
                         <ul class="dropdown-menu dropdown-menu-right">
@@ -546,27 +488,6 @@ h5{
     </div>
  </div>
 		<footer class="text-center" style="font-size:11px; color:#ababab; margin:20px 0"> designed with <i class="fa fa-heart" style="color:#cb6564"></i> by <a target="_blank" href="https://www.instagram.com/danielwang/">daniel wang </a></footer>
-
-		<!-- material design script -->
-		<!-- <script src="js/material/ripples.min.js"></script>
-		<script src="js/material/material.min.js"></script>
-
-		<script>
-		$(document).ready(function() {
-		// This command is used to initialize some elements and make them work properly
-		$.material.init();
-		});
-		</script>	 -->
 	</body>
 
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-62087058-1', 'auto');
-	  ga('send', 'pageview'); 
-
-	</script>
 </html>

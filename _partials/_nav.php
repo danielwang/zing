@@ -31,15 +31,10 @@
                         <ul class="dropdown-menu">
                             <li><a href="typography">Typography</a></li>
                             <li><a href="list">List</a></li>
-                            <li><a href="orgchart-small">Org Chart</a><li>
-                            <li><a href="360review">Circle UI</a></li>
-                            <li><a href="social-feed">Timeline</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-lg fa-coffee"></i>&nbsp; Relax  <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                           <li><a href="apps/paperless">Paper less interview</a></li>
-                           <li><a target="_black" href="paper-performance">Paper Performance</a></li>
                            <li><a target="_black" href="apps/map"> Map</a></li>
                         </ul>
                     </li>

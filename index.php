@@ -1,6 +1,6 @@
-<?php include 'base.php'?>
+<?php include 'base.php';?>
 
-<?php startblock('page')?>
+<?php startblock('page');?>
     <div class="row clearfix">
       <div class="col-xs-12 col-md-4 col-md-offset-4">
         <div class="row clearfix">
