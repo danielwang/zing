@@ -49,7 +49,6 @@
                     <li><button class="btn btn-info btn-sm margin-right">Action</button></li>
                     <li class="dropdown">
                         <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a>
-                        <?php include '_notification.html'?>
                     </li>
                     <li class="dropdown loginAs"> <span data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="<?php echo ($resURL) ?>img/emp/emp.jpg" class="pu-avatar pu-avatar-sm" /> Daniel <b class="caret"></b></span>
                         <ul class="dropdown-menu dropdown-menu-right">
