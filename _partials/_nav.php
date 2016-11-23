@@ -19,7 +19,7 @@
                             </li>
                             <li><a href="<?php echo ($resURL) ?>journal">Journal</a>
                             </li>
-                            <li><a class="live manager-only hide" href="<?php echo ($resURL) ?>systemsettings.php">System settings</a>
+                            <li><a class="live manager-only hide" href="<?php echo ($resURL) ?>systemsettings">System settings</a>
                             <li class="divider"></li>
                             <li><a   href="create-activity.php">Create learning activity</a>
                             </li>
