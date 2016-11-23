@@ -1,6 +1,6 @@
 <?php
 
-$pages = array("list.html", "dock.html", "systemsetting.html", "journal.html", "typography.html", "index.html", "home.html", "dashboard.html", "learning.html", "performance.html");
+$pages = array("list.html", "dock.html", "systemsettings.html", "journal.html", "typography.html", "index.html", "home.html", "dashboard.html", "learning.html", "performance.html");
 $arrlength = count($pages);
 
 for ($x = 0; $x < $arrlength; $x++) {
