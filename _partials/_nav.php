@@ -7,10 +7,9 @@
                 <ul class="nav navbar-nav main-nav">
                     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-th-large fa-lg"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="<?php echo ($resURL) ?>dock">ES Dock</a>
+                            <li><a href="<?php echo ($resURL) ?>dock">Dock 1</a>
                             </li>
-                            <li><a href="<?php echo ($resURL) ?>home">My Home</a>
-                            </li>
+                            <li><a href="<?php echo ($resURL) ?>home">Dock 2</a>
                             </li>
                             <li><a href="<?php echo ($resURL) ?>dashboard">Recruitment</a>
                             </li>
@@ -31,6 +30,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="typography">Typography</a></li>
                             <li><a href="list">List</a></li>
+                            <li><a href="form">Form</a></li>
                         </ul>
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-lg fa-coffee"></i>&nbsp; Relax  <b class="caret"></b></a>

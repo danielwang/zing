@@ -1,17 +1,17 @@
-<?php include 'base.php';?>
+<?php include 'base';?>
 
 <?php startblock('page');?>
     <div class="row clearfix">
       <div class="col-xs-12 col-md-4 col-md-offset-4">
         <div class="row clearfix">
           <div class="col-xs-4 text-center">
-            <a href="learning.php"><span class="pu-diamond pu-diamond-orange">
+            <a href="learning"><span class="pu-diamond pu-diamond-orange">
                 <span><i class="fa fa-graduation-cap"></i></span>
             </span></a>
             <h5>Learning</h5>
           </div>
           <div class="col-xs-4 text-center">
-            <a href="journal.php">
+            <a href="journal">
               <span class="pu-diamond pu-diamond-purple">
                 <span><i class="fa fa-pencil-square-o"></i></span>
               </span>
@@ -20,7 +20,7 @@
           </div>
 
           <div class="col-xs-4 text-center">
-             <a href="dashboard.php">
+             <a href="dashboard">
               <span class="pu-diamond pu-diamond-blue">
                  <i class="fa fa-user-plus"></i>
               </span>
@@ -28,7 +28,7 @@
             <h5>Recuitment</h5>
           </div>
           <div class="col-xs-4 text-center">
-            <a href="performance.php">
+            <a href="performance">
                 <span class="pu-diamond pu-diamond-green">
                   <i class="fa fa-star"></i>
                 </span>
