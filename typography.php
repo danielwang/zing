@@ -1,5 +1,5 @@
-<?php include 'base.php'?>
-<?php startblock('page')?>
+<?php include 'base.php';?>
+<?php startblock('page');?>
 <div class="row row-gap">
 <div class="col-sm-offset-2 col-sm-8">
 <h2>Page title</h2>

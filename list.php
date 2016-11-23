@@ -1,5 +1,5 @@
-<?php include 'base.php'?>
-<?php startblock('page')?>
+<?php include 'base.php';?>
+<?php startblock('page');?>
 <div class="row row-gap">
 	<div class="col-sm-3">
 	    <h2>Manage jobs</h2>

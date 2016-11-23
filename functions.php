@@ -8,7 +8,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
 	$ext = '.html';
 }
 // layout checking
-$fluidPage = array("list");
+$fluidPage = array("list.php");
 $subnav = false;
 
 if (in_array($lastSegment, $fluidPage)) {

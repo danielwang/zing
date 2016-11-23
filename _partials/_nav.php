@@ -29,9 +29,8 @@
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="patterns">Typography</a></li>
-                            <li><a href="list">List</a>
-                            </li>
+                            <li><a href="typography">Typography</a></li>
+                            <li><a href="list">List</a></li>
                             <li><a href="orgchart-small">Org Chart</a><li>
                             <li><a href="360review">Circle UI</a></li>
                             <li><a href="social-feed">Timeline</a></li>
