@@ -26,6 +26,20 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-th fa-lg"></i>&nbsp; Page Templates <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Page Layout</li>
+                            <li><a href="typography">Fluid</a></li>
+                            <li><a href="typography">Fixed width</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header">Content Layout</li>
+                            <li><a href="typography">Content Only</a></li>
+                            <li><a href="list">Sidebar and content</a></li>
+                            <li><a href="form">Content and aside</a></li>
+                            <li><a href="form">Three Columns</a></li>
+                            <li><a href="form">Focused task</a></li>
+                        </ul>
+                    </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Design Patterns <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li><a href="typography">Typography</a></li>

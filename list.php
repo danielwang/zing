@@ -4,7 +4,7 @@
 	<div class="col-sm-3">
 	    <h2>Manage jobs</h2>
 	</div>
-	<div class="col-sm-6">
+	<div class="col-sm-9 col-md-6">
 		<div class="alert alert-info">
 		  <strong>Info Message!</strong> Consequatur facere deleniti cumque <a class="alert-link" href="">link</a> ducimus maiores nemo.
 		  <button href="#" type="button" class="close"><i class="glyphicon glyphicon-remove"></i></button>
