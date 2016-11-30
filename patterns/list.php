@@ -1,4 +1,4 @@
-<?php include 'base.php';?>
+<?php include '../base.php';?>
 <?php startblock('page');?>
 <div class="row row-gap">
 	<div class="col-sm-3">
@@ -41,7 +41,7 @@
                                         <button type="button" class="btn btn-sm btn-info"> Go</button> </span></div>
             </div>
         </div>
-		<?php include '_partials/_table.html';?>
+		<?php include '../_partials/_table.html';?>
 	</div>
 </div>
 

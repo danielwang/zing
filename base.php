@@ -1,7 +1,6 @@
 <?php require_once 'ti.php';?>
-<?php require 'functions.php';?>
-<?php include '_partials/_head.php';?>
-<?php include '_partials/_nav.php';?>
+<?php include_once 'head.php';?>
+<?php include_once 'nav.php';?>
 
 <?php
 if ($subnav) {
@@ -13,4 +12,4 @@ if ($subnav) {
 	<?php startblock('page')?>
 	<?php endblock()?>
  </div>
-<?php include '_partials/_foot.html';?>
+<?php include 'foot.html';?>
