@@ -2,7 +2,7 @@
 <?php startblock('page');?>
 <div class="row row-gap">
 	<div class="col-sm-3">
-	    <h2>Manage jobs</h2>
+	    <h2>Page title</h2>
 	</div>
 	<div class="col-sm-9 col-md-6">
 		<div class="alert alert-info">

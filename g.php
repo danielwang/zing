@@ -13,14 +13,12 @@ $arrlength = count($pages);
 
 for ($x = 0; $x < $arrlength; $x++) {
 	if (file_exists($pages[$x])) {
-		//	generateStaticPage($pages[$x]);
+		generateStaticPage($pages[$x]);
 		echo "<p><strong>$pages[$x]</strong> has been generated</p>";
 	} else {
 		echo "<p><strong>$pages[$x]</strong> doesn't exist</p>";
 	}
 }
-
-generateStaticPage('tpl/head.php');
 
 function generateStaticPage($page) {
 	ob_start();

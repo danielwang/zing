@@ -96,7 +96,7 @@
           <!-- comments rating-->
           <div class="row">
              <!-- manager comments-->
-              <span class="col-sm-2 text-center"><p><img class="pu-avatar" src="img/emp/emp9.png" /></p>Simon Cariss</span>
+              <span class="col-sm-2 text-center"><p><img class="pu-avatar" src="../img/emp/emp9.png" /></p>Simon Cariss</span>
               <span class="col-sm-7">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -111,7 +111,7 @@
               </span>
               <span class="clearfix"></span>
               <!-- employee comments-->
-              <span class="col-sm-2 text-center"><p><img class="pu-avatar" src="img/emp/emp.jpg" /></p> Daniel Wang</span>
+              <span class="col-sm-2 text-center"><p><img class="pu-avatar" src="../img/emp/emp.jpg" /></p> Daniel Wang</span>
               <span class="col-sm-7"><p style="color:#999"><i class="fa fa-eye-slash"></i> <span>Your comment is not visible to Simon Cariss</a></p><textarea class="col-sm-12 txtEditor"></textarea> <a href="#">Link journal entries</a></span>
               <span class="col-sm-3">
                 <div class="well">

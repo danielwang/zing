@@ -1,11 +1,11 @@
-<?php include 'base.php';?>
+<?php include '../base.php';?>
 <?php startblock('page')?>
 <h2>System Settings</h2>
 <div class="row">
    <div class="col-md-12">
       <!-- conents==================================================-->
       <div class="tabbable" id="tabs-458048">
-         <ul class="nav nav-tabs">
+         <ul class="nav nav-tabs nav-justified">
             <li class="active"> <a href="#panel-420130" data-toggle="tab"><i class="fa fa-cogs"></i> Feature settings</a>
             </li>
             <li> <a href="#panel-455050" data-toggle="tab"><i class="fa fa-language"></i> Language items (12)</a>

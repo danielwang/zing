@@ -7,17 +7,14 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
 	$ext = '.html';
 }
 // layout checking
-$fluidPage = array("list.php");
+$fluidPage = array("list", "list.php", "fluid", "fluid.php");
 $subnav = false;
-
+$layout = "";
 if (in_array($lastSegment, $fluidPage)) {
 	$layout = "-fluid";
-	$subnav = true;
-} else {
-	$layout = "";
 }
 
-$rootfolder = array("index");
+$rootfolder = array("index", "index.php");
 if (in_array($lastSegment, $rootfolder)) {
 	$resURL = '';
 } else {

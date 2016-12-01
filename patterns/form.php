@@ -1,4 +1,4 @@
-<?php include 'base.php';?>
+<?php include '../base.php';?>
 <?php startblock('page');?>
   <h2>Form</h2>
   <div class="row">
@@ -8,7 +8,7 @@
                 <h4>Simple form</h4>
             </div>
             <div class="pu-box-content">
-      			<?php include '_partials/_form.html';?>
+      			<?php include '../_partials/_form.html';?>
       		</div>
       	</div>
     </div>

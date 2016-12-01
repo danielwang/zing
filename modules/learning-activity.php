@@ -1,4 +1,4 @@
-<?php include 'base.php'?>
+<?php include '../base.php'?>
 <?php startblock('page')?>
 <style type="text/css">
 .side .row {
@@ -49,7 +49,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-6 col-lg-4"><i class="fa fa-user fa-fw"></i> <span lang="CREATED_BY">Created by</span></div>
-                <div class="col-sm-6 col-lg-8 dash ng-binding"><img class="pu-avatar pu-avatar-sm" src="img/emp/emp.jpg"> Daniel Wang</div>
+                <div class="col-sm-6 col-lg-8 dash ng-binding"><img class="pu-avatar pu-avatar-sm" src="../img/emp/emp.jpg"> Daniel Wang</div>
             </div>
             <div class="row">
                 <div class="col-xs-6 col-lg-4"><i class="fa fa-clock-o fa-fw"></i> <span lang="APPLICANT_CREATE_DATE">Created</span></div>
@@ -67,12 +67,12 @@
                 <div class="col-xs-6 col-lg-4"><i class="fa fa-thumbs-o-up fa-fw"></i> <span lang="POPULARITY">Popularity</span>
                 </div>
                 <div class="col-sm-6 col-lg-8 dash">
-                  <img class="pu-avatar pu-avatar-sm" src="img/emp/emp1.png"><img class="pu-avatar pu-avatar-sm" src="img/emp/emp2.png">
-                  <img class="pu-avatar pu-avatar-sm" src="img/emp/emp3.png"><img class="pu-avatar pu-avatar-sm" src="img/emp/emp4.png">
-                  <img class="pu-avatar pu-avatar-sm" src="img/emp/emp5.png"><img class="pu-avatar pu-avatar-sm" src="img/emp/emp6.png">
-                  <img class="pu-avatar pu-avatar-sm" src="img/emp/emp7.png"><img class="pu-avatar pu-avatar-sm" src="img/emp/emp8.png">
-                  <img class="pu-avatar pu-avatar-sm" src="img/emp/emp9.png"><img class="pu-avatar pu-avatar-sm" src="img/emp/emp10.png">
-                  <img class="pu-avatar pu-avatar-sm" src="img/emp/emp11.png"><img class="pu-avatar pu-avatar-sm" src="img/emp/emp12.png">
+                  <img class="pu-avatar pu-avatar-sm" src="../img/emp/emp1.png"><img class="pu-avatar pu-avatar-sm" src="../img/emp/emp2.png">
+                  <img class="pu-avatar pu-avatar-sm" src="../img/emp/emp3.png"><img class="pu-avatar pu-avatar-sm" src="../img/emp/emp4.png">
+                  <img class="pu-avatar pu-avatar-sm" src="../img/emp/emp5.png"><img class="pu-avatar pu-avatar-sm" src="../img/emp/emp6.png">
+                  <img class="pu-avatar pu-avatar-sm" src="../img/emp/emp7.png"><img class="pu-avatar pu-avatar-sm" src="../img/emp/emp8.png">
+                  <img class="pu-avatar pu-avatar-sm" src="../img/emp/emp9.png"><img class="pu-avatar pu-avatar-sm" src="../img/emp/emp10.png">
+                  <img class="pu-avatar pu-avatar-sm" src="../img/emp/emp11.png"><img class="pu-avatar pu-avatar-sm" src="../img/emp/emp12.png">
                 </div>
             </div>
 

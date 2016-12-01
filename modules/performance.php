@@ -1,11 +1,11 @@
-<?php include 'base.php'?>
+<?php include '../base.php'?>
 <?php startblock('page')?>
 <h2>Simon Cariss - My Contribution and Career Plan</h2>
 <div id="performance">
   <div class="row row-gap">
 
     <div class="col-sm-10">
-         <?php include '_partials/_item.php';?>
+         <?php include '../_partials/_item.php';?>
          <?php for ($x = 0; $x <= 5; $x++) {?>
           <div class="item box row collaps">
             <h4>Develop sustainable reliability plans to meet standard scheme <span class="status">Current</span></h4>
