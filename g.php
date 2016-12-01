@@ -16,17 +16,18 @@ for ($x = 0; $x < $arrlength; $x++) {
 		generateStaticPage($pages[$x]);
 		echo "<p><strong>$pages[$x]</strong> has been generated</p>";
 	} else {
-		echo "<p><strong>$pages[$x]</strong> doesn't exist</p>";
+		echo "<p style='color:red'><strong>$pages[$x]</strong> doesn't exist</p>";
 	}
 }
 
 function generateStaticPage($page) {
 	ob_start();
 	$file = (string) $page;
-	include_once "{$file}";
-	flushblocks();
-	$outputfile = str_replace(".php", "", "{$page}.html");
-	file_put_contents($outputfile, ob_get_clean());
+	echo $file;
+	// include_once "{$file}";
+	// flushblocks();
+	// $outputfile = str_replace(".php", "", "{$page}.html");
+	// file_put_contents($outputfile, ob_get_clean());
 }
 echo "<a href='d.php'>Delete all html files</a>";
 ?>
