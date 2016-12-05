@@ -37,6 +37,16 @@ function readFolders($foldername) {
 	sort($files);
 	chdir($foldername);
 	foreach ($files as $file):
+		echo "converting $file <br>";
+		generateStaticPage($foldername, $file);
+	endforeach;
+	chdir("../");
+}
+
+/* read php files then output html */
+function generateStaticPage($foldername, $page) {
+	ob_start();
+	$file = (string) $foldername . '/' . $page;
 	include_once "{$file}";
 	flushblocks();
 	$outputfile = str_replace(".php", "", "{$page}.html");
