@@ -1,7 +1,4 @@
-<?php 
-	$file = (string) $resURL . '/base.php' ;
-	include_once "{$file}";
-;?>
+<?php include '../base.php';?>
 <?php startblock('page');?>
 <div class="row row-gap">
 	<div class="col-sm-12">

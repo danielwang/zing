@@ -1,11 +1,11 @@
  <?php
 $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 $lastSegment = basename(parse_url($url, PHP_URL_PATH));
-if ($_SERVER['SERVER_NAME'] == 'localhost') {
-	$ext = ".php";
-} else {
-	$ext = '.html';
-}
+// if ($_SERVER['SERVER_NAME'] == 'localhost') {
+// 	$ext = ".php";
+// } else {
+// 	$ext = '.html';
+// }
 // layout checking
 $fluidPage = array("list", "list.php", "fluid", "fluid.php");
 $subnav = false;

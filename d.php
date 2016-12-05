@@ -1,15 +1,26 @@
 <?php
 
-$pages = array("list.html", "dock.html", "systemsettings.html", "journal.html", "typography.html", "index.html", "home.html", "dashboard.html", "learning.html", "performance.html");
-$arrlength = count($pages);
+$folders = array("layouts", "modules", "patterns");
+for ($i = 0; $i < count($folders); $i++) {
+	readFolders($folders[$i]);
+}
 
-for ($x = 0; $x < $arrlength; $x++) {
-	if (file_exists($pages[$x])) {
-		unlink($pages[$x]);
-		echo "<p><strong>$pages[$x]</strong> has been removed</p>";
-	} else {
-		echo "<p><strong>$pages[$x]</strong> doesn't exist</p>";
-	}
+function readFolders($foldername) {
+	echo "reading $foldername folder <br>";
+	$files = array();
+	$handle = opendir($foldername . '/');
+	while (false !== ($file = readdir($handle))):
+		if (stristr($file, '.html')):
+			$files[] = $file;
+		endif;
+	endwhile;
+	sort($files);
+	chdir($foldername);
+	foreach ($files as $file):
+		echo "deleting $file <br>";
+		unlink($file);
+	endforeach;
+	chdir("../");
 }
 echo "<a href='g.php'>Generate</a>";
 ?>
