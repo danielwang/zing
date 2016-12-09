@@ -37,7 +37,7 @@
                 <ul class="nav navbar-nav main-nav">
                     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-th-large fa-lg"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                           <li><a href="../modules/dashboard">Dashboard</a></li><li><a href="../modules/dock">Dock</a></li><li><a href="../modules/home">Home</a></li><li><a href="../modules/journal">Journal</a></li><li><a href="../modules/learning-activity">Learning Activity</a></li><li><a href="../modules/learning">Learning</a></li><li><a href="../modules/orgchart">Orgchart</a></li><li><a href="../modules/performance">Performance</a></li><li><a href="../modules/systemsettings">Systemsettings</a></li>                        </ul>
+                           <li><a href="../modules/dashboard">Dashboard</a></li><li><a href="../modules/dock">Dock</a></li><li><a href="../modules/job-card">Job Card</a></li><li><a href="../modules/journal">Journal</a></li><li><a href="../modules/learning-activity">Learning Activity</a></li><li><a href="../modules/learning">Learning</a></li><li><a href="../modules/orgchart">Orgchart</a></li><li><a href="../modules/performance">Performance</a></li><li><a href="../modules/systemsettings">Systemsettings</a></li>                        </ul>
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-th fa-lg"></i>&nbsp; Layouts<b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -117,11 +117,13 @@
                 <h4>Simple form</h4>
             </div>
             <div class="pu-box-content">
-      			<form class="form-horizontal" _lpchecked="1">
+      			<form class="form-horizontal">
     <div class="form-group">
         <label class="col-sm-4 control-label">Label</label>
         <div class="col-sm-8">
-            <input class="form-control" placeholder="placeholder" type="text"> <span class="help-block">(optional)</span></div>
+            <input class="form-control" placeholder="placeholder" type="text">
+            <span class="help-block">(optional)</span>
+        </div>
     </div>
     <div class="form-group">
         <label class="col-sm-4 control-label">Disabled</label>
@@ -132,12 +134,16 @@
     <div class="form-group has-success">
         <label class="col-sm-4 control-label">Input with success</label>
         <div class="col-sm-8">
-            <input class="form-control" type="text"><span class="help-block">Success!</span></div>
+            <input class="form-control" type="text">
+            <span class="help-block">Success!</span>
+        </div>
     </div>
     <div class="form-group has-error">
         <label class="col-sm-4 control-label">Input with error</label>
         <div class="col-sm-8">
-            <input class="form-control" type="text"><span class="help-block">Can't be blank</span></div>
+            <input class="form-control" type="text">
+            <span class="help-block">Can't be blank</span>
+        </div>
     </div>
     <div class="form-group">
         <label class="col-sm-4 control-label">Column sizing</label>
@@ -147,9 +153,13 @@
                     <input class="form-control" placeholder="No." type="text">
                 </div>
                 <div class="col-md-4">
-                    <input class="form-control" placeholder="Street" type="text"><span class="help-block">Please enter ...</span></div>
+                    <input class="form-control" placeholder="Street" type="text">
+                    <span class="help-block">Please enter ...</span>
+                </div>
                 <div class="col-md-6">
-                    <input class="form-control" placeholder="State" type="text"><span class="help-block">Please enter ...</span></div>
+                    <input class="form-control" placeholder="State" type="text">
+                    <span class="help-block">Please enter ...</span>
+                </div>
             </div>
         </div>
     </div>
@@ -158,7 +168,9 @@
         <div class="col-sm-8">
             <div class="input-group">
                 <input class="form-control" type="text">
-                <span class="input-group-btn"><button class="btn" type="button">Action</button></span>
+                <span class="input-group-btn">
+                    <button class="btn" type="button">Action</button>
+                </span>
             </div>
         </div>
     </div>
@@ -180,7 +192,8 @@
         <div class="col-sm-8">
             <div class="pu-toggle-btn pu-toggle-btn-blue">
                 <label>
-                    <input checked="" type="checkbox"><span></span>
+                    <input checked="" type="checkbox">
+                    <span></span>
                 </label>
             </div>
         </div>
@@ -192,13 +205,13 @@
         </label>
         <div class="col-sm-8">
             <div class="radio radio-info">
-                <input type="radio" checked="" value="option1" id="radio3" name="radio1">
+                <input checked="" value="option1" id="radio3" name="radio1" type="radio">
                 <label for="radio3">
-                    Option one is this and that—be sure to include why it's great
+                    Option one is this and that&mdash;be sure to include why it's great
                 </label>
             </div>
             <div class="radio radio-info">
-                <input type="radio" value="option2" id="radio4" name="radio1">
+                <input value="option2" id="radio4" name="radio1" type="radio">
                 <label for="radio4">
                     Option two can be something else
                 </label>
@@ -209,16 +222,22 @@
         <label class="col-sm-4 control-label">Inline checkboxes</label>
         <div class="col-sm-8">
             <div class="checkbox checkbox-info checkbox-inline">
-                <input type="checkbox" value="option1" id="inlineCheckbox4" class="styled">
-                <label for="inlineCheckbox4"> Inline One </label>
+                <input value="option1" id="inlineCheckbox4" class="styled" type="checkbox">
+                <label for="inlineCheckbox4">
+                    Inline One
+                </label>
             </div>
             <div class="checkbox checkbox-info checkbox-inline">
-                <input type="checkbox" checked="" value="option1" id="inlineCheckbox5" class="styled">
-                <label for="inlineCheckbox5"> Inline Two </label>
+                <input checked="" value="option1" id="inlineCheckbox5" class="styled" type="checkbox">
+                <label for="inlineCheckbox5">
+                    Inline Two
+                </label>
             </div>
             <div class="checkbox checkbox-info checkbox-inline">
-                <input type="checkbox" value="option1" id="inlineCheckbox6" class="styled">
-                <label for="inlineCheckbox6"> Inline Three </label>
+                <input value="option1" id="inlineCheckbox6" class="styled" type="checkbox">
+                <label for="inlineCheckbox6">
+                    Inline Three
+                </label>
             </div>
         </div>
     </div>
@@ -226,13 +245,6 @@
         <label class="col-sm-4 control-label">Text area</label>
         <div class="col-sm-8">
             <textarea class="form-control"></textarea>
-            <grammarly-btn>
-                <div style="visibility: hidden; z-index: 2;" class="_9b5ef6-textarea_btn _9b5ef6-not_focused" data-grammarly-reactid=".0">
-                    <div class="_9b5ef6-transform_wrap" data-grammarly-reactid=".0.0">
-                        <div title="Protected by Grammarly" class="_9b5ef6-status" data-grammarly-reactid=".0.0.0">&nbsp;</div>
-                    </div>
-                </div>
-            </grammarly-btn>
         </div>
     </div>
     <div class="form-group">

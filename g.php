@@ -15,6 +15,7 @@
    curl_close($ch);
    // display the output
    file_put_contents("index.html", $output);
+   echo "<h3>Index is done</h3>";
  }
 
 

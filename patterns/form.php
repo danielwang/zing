@@ -8,7 +8,7 @@
                 <h4>Simple form</h4>
             </div>
             <div class="pu-box-content">
-      			<?php include '../_partials/_form.html';?>
+      			<?php include '../_partials/_form-horizontal.html';?>
       		</div>
       	</div>
     </div>
