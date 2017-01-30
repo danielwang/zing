@@ -87,7 +87,7 @@
 			                    </p>
 			                </div>
 			                <div class="col-sm-10">
-			                    <h4><a href="#"><i class="fa fa-lg fa-info-circle"></i> Global Transaction Banking Sales</a></h4>
+			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i> Global Transaction Banking Sales</a></h4>
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>
@@ -107,7 +107,7 @@
 			                    </p>
 			                </div>
 			                <div class="col-sm-10">
-			                    <h4><a href="#"><i class="fa fa-lg fa-info-circle"></i>  Senior Consultant </a></h4>
+			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i>  Senior Consultant </a></h4>
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>
@@ -122,7 +122,7 @@
 			                    <a href="#"><i class="fa fa-user"></i> 12</a>
 			                </div>
 			                    <div class="col-sm-10">
-			                    <h4><a href="#"><i class="fa fa-lg fa-info-circle"></i>  Business Banking Manager </a></h4>
+			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i>  Business Banking Manager </a></h4>
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>
@@ -134,7 +134,7 @@
 			                    <a href="#"><i class="fa fa-user"></i> 31</a>
 			                </div>
 			                <div class="col-sm-10">
-			                    <h4><a href="#"><i class="fa fa-lg fa-info-circle"></i> Sales Manager</a></h4>
+			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i> Sales Manager</a></h4>
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>
@@ -149,7 +149,7 @@
 			                    </p>
 			                </div>
 			                <div class="col-sm-10">
-			                    <h4><a href="#"><i class="fa fa-lg fa-info-circle"></i> Regional Sales Manager</a></h4>
+			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i> Regional Sales Manager</a></h4>
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>
@@ -170,7 +170,7 @@
 			                    </p>
 			                </div>
 			                <div class="col-sm-10">
-			                    <h4><a href="#"><i class="fa fa-lg fa-info-circle"></i> Store Manager</a></h4>
+			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i> Store Manager</a></h4>
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>
@@ -185,7 +185,7 @@
 			                    </p>
 			                </div>
 			                <div class="col-sm-10">
-			                    <h4><a href="#"><i class="fa fa-lg fa-info-circle"></i> Account Manager </a></h4>
+			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i> Account Manager </a></h4>
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>
@@ -200,7 +200,7 @@
 			                    </p>
 			                </div>
 			                <div class="col-sm-10">
-			                    <h4><a href="#"><i class="fa fa-lg fa-info-circle"></i> Senior Administration Assistant</a></h4>
+			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i> Senior Administration Assistant</a></h4>
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>
@@ -215,7 +215,7 @@
 			                    </p>
 			                </div>
 			                <div class="col-sm-10">
-			                    <h4><a href="#"><i class="fa fa-lg fa-info-circle"></i> Customer Service Consultant</a></h4>
+			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i> Customer Service Consultant</a></h4>
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>
@@ -227,7 +227,7 @@
 			                    <a href="#"><i class="fa fa-user"></i> 45</a>
 			                </div>
 			                    <div class="col-sm-10">
-			                    <h4><a href="#"><i class="fa fa-lg fa-info-circle"></i>  General Manager - Engineering </a></h4>
+			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i>  General Manager - Engineering </a></h4>
 			                    <span class="col-sm-4">Job No.: 691858</span>
 			                    <span class="col-sm-4">John Smith</span>
 			                    <span class="col-sm-4">Positon: 1</span>

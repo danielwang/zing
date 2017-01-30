@@ -5,7 +5,7 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav main-nav">
-                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fa fa-th-large fa-lg"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="pu-icon pu-icon-logo"></i>&nbsp;&nbsp;PU Modules <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                            <?php
 $folder = "{$resURL}modules";
@@ -43,7 +43,7 @@ listElementsAsOptions($folder)
                 <ul class="nav navbar-nav navbar-right">
                     <li><button class="btn btn-info btn-sm margin-right">Action</button></li>
                     <li class="dropdown">
-                        <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="fa fa-bell"></i></a>
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle head-button-link"><span class="notice-new">3</span><i class="pu-icon pu-icon-bell"></i></a>
                     </li>
                     <li class="dropdown loginAs"> <span data-toggle="dropdown" class="dropdown-toggle" href="#"><img src="<?php echo ($resURL) ?>img/emp/emp.jpg" class="pu-avatar pu-avatar-sm" /> Daniel <b class="caret"></b></span>
                         <ul class="dropdown-menu dropdown-menu-right">
@@ -56,7 +56,7 @@ listElementsAsOptions($folder)
                             </li>
                         </ul>
                     </li>
-                    <li id="user-setting" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="fa fa-cogs"></i></a>
+                    <li id="user-setting" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#_"><i class="pu-icon pu-icon-cogs"></i></a>
                         <ul class="dropdown-menu dropdown-menu-right">
                          <li>User Type :</li>
                          <li class="manager"><a data-attr="manager" href="#"> Manager</a> </li>
