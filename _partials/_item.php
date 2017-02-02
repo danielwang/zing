@@ -9,22 +9,22 @@
     <h4>Increase revenues for existing customers by 15%  <span class="status">Current</span></h4>
     <div class="pu-box-tools"><a id="dLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i></a>
       <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><a class="edit-btn" href="#"><i class="fa fa-fw fa-pencil"></i>&nbsp;Edit</a></li>
-        <li><a href="#"><i class="fa fa-fw fa-trash-o"></i>&nbsp;Remove</a></li>
+        <li><a class="edit-btn" href="#"><i class="pu-icon pu-icon-edit"></i>&nbsp;Edit</a></li>
+        <li><a href="#"><i class="pu-icon pu-icon-delete"></i>&nbsp;Remove</a></li>
       </ul>
     </div>
     </div>
     <div class="pu-box-content row">
       <div class="col-sm-1">
           <ul class="item-nav">
-            <li title="Details" class="active" data-toggle="tooltip" data-placement="right" data-attr="details-panel"><i class="fa fa-fw fa-lg fa-info-circle"></i></li>
-            <li title="Progress note" data-toggle="tooltip" data-placement="right" data-attr="progress-note-panel"><i class="fa fa-fw fa-lg fa-pencil-square-o"></i><span>5</span></li>
-            <li title="Development activities" data-toggle="tooltip" data-placement="right" data-attr="dev-activity-panel"><i class="fa fa-fw fa-lg fa-graduation-cap"></i><span>3</span></li>
+            <li title="Details" class="active" data-toggle="tooltip" data-placement="right" data-attr="details-panel"><i class="pu-icon pu-icon-info"></i></li>
+            <li title="Progress note" data-toggle="tooltip" data-placement="right" data-attr="progress-note-panel"><i class="pu-icon pu-icon-pencil"></i><span>5</span></li>
+            <li title="Development activities" data-toggle="tooltip" data-placement="right" data-attr="dev-activity-panel"><i class="pu-icon pu-icon-learning"></i><span>3</span></li>
             <!--<li title="Goal Align" data-toggle="tooltip" data-placement="right" data-attr="goalalign-panel"><i class="fa fa-fw fa-lg fa-bullseye"></i></li> -->
             <!-- <li title=""><i class="fa fa-fw fa-lg fa-money"></i> &nbsp;Bonus</li> -->
             <!-- <li title=""><i class="fa fa-fw fa-lg fa-paperclip"></i> &nbsp;Attachment (1)</li> -->
-            <li title="History" data-toggle="tooltip" data-placement="right" data-attr="history-panel"><i class="fa fa-fw fa-lg fa-history"></i></li>
-            <li title="External Feedback" data-toggle="tooltip" data-placement="right" data-attr="external-feedback-panel"><i class="fa fa-fw fa-lg fa-comments-o"></i><span>2</span></li>
+            <li title="History" data-toggle="tooltip" data-placement="right" data-attr="history-panel"><i class="pu-icon pu-icon-history"></i></li>
+            <li title="External Feedback" data-toggle="tooltip" data-placement="right" data-attr="external-feedback-panel"><i class="pu-icon pu-icon-chat"></i><span>2</span></li>
           </ul>
       </div>
       <div class="col-sm-11 left-border panel-container">

@@ -81,7 +81,7 @@
 
 			            <div class="job s1">
 			                <div class="app col-sm-2">
-			                    <a href="list"><i class="fa fa-user"></i> 27</a>
+			                    <a href="list"><i class="pu-icon pu-icon-person"></i> 27</a>
 			                    <P>
 			                        <label class="new">2 new</label>
 			                    </p>
@@ -101,7 +101,7 @@
 			            </div>
 			            <div class="job s1">
 			                    <div class="app col-sm-2">
-			                    <a href="#"><i class="fa fa-user"></i> 15</a>
+			                    <a href="#"><i class="pu-icon pu-icon-person"></i> 15</a>
 			                    <P>
 			                        <label class="new">5 new</label>
 			                    </p>
@@ -119,7 +119,7 @@
 			            </div>
 			            <div class="job s2">
 			                    <div class="app col-sm-2">
-			                    <a href="#"><i class="fa fa-user"></i> 12</a>
+			                    <a href="#"><i class="pu-icon pu-icon-person"></i> 12</a>
 			                </div>
 			                    <div class="col-sm-10">
 			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i>  Business Banking Manager </a></h4>
@@ -131,7 +131,7 @@
 			            </div>
 			            <div class="job s2">
 			                <div class="app col-sm-2">
-			                    <a href="#"><i class="fa fa-user"></i> 31</a>
+			                    <a href="#"><i class="pu-icon pu-icon-person"></i> 31</a>
 			                </div>
 			                <div class="col-sm-10">
 			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i> Sales Manager</a></h4>
@@ -143,7 +143,7 @@
 			            </div>
 			            <div class="job s3">
 			                <div class="app col-sm-2">
-			                    <a href="#"><i class="fa fa-user"></i> 36</a>
+			                    <a href="#"><i class="pu-icon pu-icon-person"></i> 36</a>
 			                    <P>
 			                        <label class="new">12 new</label>
 			                    </p>
@@ -164,7 +164,7 @@
 
 			                <div class="job s4">
 			                    <div class="app col-sm-2">
-			                    <a href="#"><i class="fa fa-user"></i> 11</a>
+			                    <a href="#"><i class="pu-icon pu-icon-person"></i> 11</a>
 			                    <P>
 			                        <label class="new">7 new</label>
 			                    </p>
@@ -179,7 +179,7 @@
 			            </div>
 			            <div class="job s5">
 			                    <div class="app col-sm-2">
-			                    <a href="#"><i class="fa fa-user"></i> 37</a>
+			                    <a href="#"><i class="pu-icon pu-icon-person"></i> 37</a>
 			                    <P>
 			                        <label class="new">22 new</label>
 			                    </p>
@@ -194,7 +194,7 @@
 			            </div>
 			            <div class="job s5">
 			                <div class="app col-sm-2">
-			                    <a href="#"><i class="fa fa-user"></i> 29</a>
+			                    <a href="#"><i class="pu-icon pu-icon-person"></i> 29</a>
 			                    <P>
 			                        <label class="new">25 new</label>
 			                    </p>
@@ -209,7 +209,7 @@
 			            </div>
 			            <div class="job s5">
 			                    <div class="app col-sm-2">
-			                    <a href="#"><i class="fa fa-user"></i> 61</a>
+			                    <a href="#"><i class="pu-icon pu-icon-person"></i> 61</a>
 			                    <P>
 			                        <label class="new">18 new</label>
 			                    </p>
@@ -224,7 +224,7 @@
 			            </div>
 			            <div class="job s5">
 			                <div class="app col-sm-2">
-			                    <a href="#"><i class="fa fa-user"></i> 45</a>
+			                    <a href="#"><i class="pu-icon pu-icon-person"></i> 45</a>
 			                </div>
 			                    <div class="col-sm-10">
 			                    <h4><a href="#"><i class="pu-icon pu-icon-info"></i>  General Manager - Engineering </a></h4>
