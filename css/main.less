@@ -22,12 +22,20 @@ body {
 }
 /*** start card model */
 .pu-card {
+    border-radius: 5px;
+
     header {
-        position: relative;
+        h4 {
+            margin-top: 0;
+        }
 
         & > span {
             display: table-cell;
             vertical-align: top;
+
+            .app {
+                font-size: 28px;
+            }
 
             .pu-avatar {
                 margin-top: 10px;
@@ -38,21 +46,26 @@ body {
             }
         }
 
-        .more {
-            position: absolute;
-            right: 0;
-            top: -10px;
+        .actions {
+            height: 15px;
+            position: relative;
 
-            a {
-                color: @brand-grey;
+            .more {
+                position: absolute;
+                right: 0;
+                top: -10px;
+
+                a {
+                    color: @brand-grey;
+                }
             }
-        }
 
-        .checkbox {
-            left: -10px;
-            margin: 0;
-            position: absolute;
-            top: -10px;
+            .checkbox {
+                left: -10px;
+                margin: 0;
+                position: absolute;
+                top: -10px;
+            }
         }
     }
 

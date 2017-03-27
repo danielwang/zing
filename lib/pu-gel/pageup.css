@@ -149,14 +149,7 @@ a:focus {
 .bg-primary,
 .bg-purple,
 .bg-red,
-.bg-yellow,
-.label-primary,
-.label-danger,
-.label-info,
-.label-warning,
-.label-purple,
-.label-success,
-.label-yellow {
+.bg-yellow {
   color: #fff !important;
 }
 .bg-brand {
@@ -166,8 +159,7 @@ a:focus {
   background-color: #4f617d !important;
 }
 .bg-brand-light,
-.bg-primary,
-.label-primary {
+.bg-primary {
   background-color: #257ba0 !important;
 }
 .bg-brand-light-tint,
@@ -186,8 +178,7 @@ a:focus {
 .bg-brand-grey-light-tint {
   background-color: #c9cacb !important;
 }
-.bg-red,
-.label-danger {
+.bg-red {
   background-color: #ee3d4b !important;
 }
 .bg-red-tint,
@@ -195,46 +186,40 @@ a:focus {
 .alert-error {
   background-color: #fcd8db !important;
 }
-.bg-blue,
-.label-info {
+.bg-blue {
   background-color: #57c0e9 !important;
 }
 .bg-blue-tint,
 .alert-info {
   background-color: #ddf2fb !important;
 }
-.bg-green,
-.label-success {
+.bg-green {
   background-color: #76c190 !important;
 }
 .bg-green-tint,
 .alert-success {
   background-color: #e4f3e9 !important;
 }
-.bg-orange,
-.label-warning {
+.bg-orange {
   background-color: #f39657 !important;
 }
 .bg-orange-tint,
 .alert-warning {
   background-color: #fdeadd !important;
 }
-.bg-yellow,
-.label-yellow {
+.bg-yellow {
   background-color: #eed046 !important;
 }
 .bg-yellow-tint {
   background-color: #fcf6da !important;
 }
-.bg-purple,
-.label-purple {
+.bg-purple {
   background-color: #b565a9 !important;
 }
 .bg-purple-tint,
 .alert-hint {
   background-color: #f0e0ee !important;
 }
-.bg-light,
 .bg-light {
   background-color: #c9cacb;
 }
@@ -1948,6 +1933,54 @@ a:focus {
  * Component: Label
  * ----------------
  */
+.label-danger {
+  background-color: #ee3d4b;
+  color: #ee3d4b;
+  border: 1px solid #ee3d4b;
+  background: white;
+  font-family: "Open Sans";
+  border-radius: 1em;
+}
+.label-info {
+  background-color: #57c0e9;
+  color: #57c0e9;
+  border: 1px solid #57c0e9;
+  background: white;
+  font-family: "Open Sans";
+  border-radius: 1em;
+}
+.label-warning {
+  background-color: #f39657;
+  color: #f39657;
+  border: 1px solid #f39657;
+  background: white;
+  font-family: "Open Sans";
+  border-radius: 1em;
+}
+.label-purple {
+  background-color: #b565a9;
+  color: #b565a9;
+  border: 1px solid #b565a9;
+  background: white;
+  font-family: "Open Sans";
+  border-radius: 1em;
+}
+.label-success {
+  background-color: #76c190;
+  color: #76c190;
+  border: 1px solid #76c190;
+  background: white;
+  font-family: "Open Sans";
+  border-radius: 1em;
+}
+.label-yellow {
+  background-color: #eed046;
+  color: #eed046;
+  border: 1px solid #eed046;
+  background: white;
+  font-family: "Open Sans";
+  border-radius: 1em;
+}
 .checkbox {
   padding-left: 20px;
 }
@@ -2939,6 +2972,80 @@ table.text-center th {
   background-color: #57c0e9;
   border-color: #57c0e9;
 }
+.pu-tag {
+  padding: 5px 8px;
+  font-size: 16px;
+  margin: 5px 5px 8px 0;
+  position: relative;
+  border-radius: 3px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 21px;
+  vertical-align: baseline;
+}
+.pu-tag sup {
+  background: white none repeat scroll 0 0;
+  border-radius: 50%;
+  height: 16px;
+  position: absolute;
+  right: -5px;
+  text-align: center;
+  top: -5px;
+  width: 16px;
+  color: #999999;
+  font-size: 13px !important;
+}
+.pu-tag.pu-tag-sm {
+  font-size: 13px;
+  padding: 0 8px;
+}
+.pu-tag.pu-tag-sm sup {
+  top: -6px;
+  right: -6px;
+}
+.pu-tag.pu-tag-green {
+  background: #76c190;
+}
+.pu-tag.pu-tag-green sup {
+  color: #76c190;
+  border: 1px solid white;
+}
+.pu-tag.pu-tag-blue {
+  background: #57c0e9;
+}
+.pu-tag.pu-tag-blue sup {
+  color: #57c0e9;
+  border: 1px solid white;
+}
+.pu-tag.pu-tag-red {
+  background: #ee3d4b;
+}
+.pu-tag.pu-tag-red sup {
+  color: #ee3d4b;
+  border: 1px solid white;
+}
+.pu-tag.pu-tag-purple {
+  background: #b565a9;
+}
+.pu-tag.pu-tag-purple sup {
+  color: #b565a9;
+  border: 1px solid white;
+}
+.pu-tag.pu-tag-orange {
+  background: #f39657;
+}
+.pu-tag.pu-tag-orange sup {
+  color: #f39657;
+  border: 1px solid white;
+}
+.pu-tag.pu-tag-yellow {
+  background: #eed046;
+}
+.pu-tag.pu-tag-yellow sup {
+  color: #eed046;
+  border: 1px solid white;
+}
 /* *************************************** *\
  *   PU UI contains PageUp specific UI elements
  *   Such as diamond, tags, avatar, box, card etc.
@@ -3078,80 +3185,6 @@ table.text-center th {
 }
 .pu-diamond + span {
   display: block;
-}
-.pu-tag {
-  padding: 5px 8px;
-  font-size: 16px;
-  margin: 5px 5px 8px 0;
-  position: relative;
-  border-radius: 3px;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 21px;
-  vertical-align: baseline;
-}
-.pu-tag sup {
-  background: white none repeat scroll 0 0;
-  border-radius: 50%;
-  height: 16px;
-  position: absolute;
-  right: -5px;
-  text-align: center;
-  top: -5px;
-  width: 16px;
-  color: #999999;
-  font-size: 13px !important;
-}
-.pu-tag.pu-tag-sm {
-  font-size: 13px;
-  padding: 0 8px;
-}
-.pu-tag.pu-tag-sm sup {
-  top: -6px;
-  right: -6px;
-}
-.pu-tag.pu-tag-green {
-  background: #76c190;
-}
-.pu-tag.pu-tag-green sup {
-  color: #76c190;
-  border: 1px solid white;
-}
-.pu-tag.pu-tag-blue {
-  background: #57c0e9;
-}
-.pu-tag.pu-tag-blue sup {
-  color: #57c0e9;
-  border: 1px solid white;
-}
-.pu-tag.pu-tag-red {
-  background: #ee3d4b;
-}
-.pu-tag.pu-tag-red sup {
-  color: #ee3d4b;
-  border: 1px solid white;
-}
-.pu-tag.pu-tag-purple {
-  background: #b565a9;
-}
-.pu-tag.pu-tag-purple sup {
-  color: #b565a9;
-  border: 1px solid white;
-}
-.pu-tag.pu-tag-orange {
-  background: #f39657;
-}
-.pu-tag.pu-tag-orange sup {
-  color: #f39657;
-  border: 1px solid white;
-}
-.pu-tag.pu-tag-yellow {
-  background: #eed046;
-}
-.pu-tag.pu-tag-yellow sup {
-  color: #eed046;
-  border: 1px solid white;
 }
 .img-responsive {
   border-radius: 3px;

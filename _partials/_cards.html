@@ -5,13 +5,15 @@
             <header>
                 <h4>
                     <a href="#_">John Smith</a>
-                    <span class="label label-info">active</span>
+                    <span class="label label-info">new</span>
                 </h4>
-                <h5>Sales Manager</h5>
+                <h5>
+                    <a href="#">Sales Manager</a>
+                </h5>
                 <p class="gray">
                     <small>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        Melbourne, Australia</small>
+                        <i class="fa fa-clock-o" aria-hitden="true"></i>
+                        Last updated 08 March 2017</small>
                 </p>
             </header>
         </article>
@@ -27,6 +29,11 @@
                         <a href="#_">Marcus McNamara</a>
                     </h4>
                     <h5>Presales Engineer</h5>
+                    <p class="gray">
+                        <small>
+                            <i class="fa fa-map-marker" aria-hitden="true"></i>
+                            Melbourne, Australia</small>
+                    </p>
                     <p>
                         <button class="btn btn-xs btn-outline btn-primary" type="button">Quick action</button>
                     </p>
@@ -37,9 +44,24 @@
     <div class="col-sm-3 col-sm-offset-1">
         <article class="pu-card">
             <header>
-                <div class="checkbox checkbox-circle checkbox-info">
-                    <input type="checkbox">
-                    <label></label>
+                <div class="actions">
+                    <div class="checkbox checkbox-circle checkbox-info">
+                        <input type="checkbox">
+                        <label></label>
+                    </div>
+                    <div class="more">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li>
+                                <a href="#">Action 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Action 2</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <span><img class="pu-avatar pu-avatar" src="../img/emp/emp3.png"></span>
                 <span>
@@ -49,26 +71,13 @@
                     <h5>SVP Global Talent</h5>
                     <p class="gray">
                         <small>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <i class="fa fa-map-marker" aria-hitden="true"></i>
                             Melbourne, Australia</small>
                     </p>
                     <p>
                         <button class="btn btn-xs btn-outline btn-primary" type="button">Quick action</button>
                     </p>
                 </span>
-                <div class="more">
-                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
-                        <i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li>
-                            <a href="#">Action 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Action 2</a>
-                        </li>
-                    </ul>
-                </div>
             </header>
         </article>
     </div>
@@ -81,60 +90,106 @@
             <header>
                 <h4>
                     <a href="#_">Jenifer Smith</a>
-                    <span class="label label-info">active</span>
                 </h4>
-                <h5>Sales Manager</h5>
+                <h5>
+                    <a href="#">Sales Manager</a>
+                    <small class="gray">
+                        @ Francotyp-Postalia Ag &amp; Co. Kg</small>
+                </h5>
+                <p>Flags:
+                    <i class="fa fa-plane yellow" aria-hitden="true"></i>
+                    <i class="fa fa-flag green"></i>
+                    <i class="fa fa-phone red"></i>
+                    <i class="fa fa-trophy purple"></i>
+                </p>
             </header>
             <section>
+                <h6>Past roles</h6>
                 <p>
-                    <span class="pu-tag pu-tag-sm pu-tag-green">agility
-                    </span>
-                    <span class="pu-tag pu-tag-sm pu-tag-blue">mobile
-                    </span>
-                    <span class="pu-tag pu-tag-sm pu-tag-orange">client facing
-                    </span>
+                    <b>Operations Director
+                    </b>
+                    <span>
+                        @ Francotyp-Postalia Ag &amp; Co. Kg.</span>
+                    <small class="gray">Jan 2003 to Sept 2004 (1 year 8 months)</small>
+                </p>
+                <p>
+                    <b>Operations Director
+                    </b>
+                    <span>
+                        @ At&amp;T Labs Research, Florham</span><br>
+                    <small class="gray">June 1997 to July 1999 (2 years 1 month)</small>
+                </p>
+                <p>
+                    <a href="#">More</a>
                 </p>
             </section>
         </article>
     </div>
     <div class="col-sm-4">
-        <div class="pu-card">
+        <article class="pu-card">
             <header>
                 <span><img class="pu-avatar" src="../img/emp/emp6.png"></span>
                 <span>
-                    <h4 class="pu-card-title">
+                    <h4>
                         <a href="#_">Tal Robart</a>
                     </h4>
                     <h5>Chef Technology Officer</h5>
+                    <p>
+                        <span class="label label-info">agility
+                        </span>
+                        <span class="label label-danger">mobile
+                        </span>
+                        <span class="label label-purple">client facing
+                        </span>
+                    </p>
                 </span>
             </header>
             <section>
                 <p>
-                    <i class="fa fa-fw fa-calendar blue"></i>
-                    Friday 04 March 2016 6:00 am
+                    <i class="fa fa-fw fa-envelope"></i>
+                    Tal.Robart@pageuppeople.com
                 </p>
                 <p>
-                    <i class="fa fa-fw fa-map-marker blue"></i>
-                    London Room level 6
+                    <i class="fa fa-fw fa-phone"></i>
+                    +61 0400 000 000
                 </p>
                 <p>
-                    <i class="fa fa-fw fa-suitcase blue"></i>
-                    Graphic Designer #58973654</p>
+                    <i class="fa fa-fw fa-map-marker"></i>
+                    91 William Street, Melbourne
+                </p>
                 <p>
-                    <i class="fa fa-fw fa-user blue"></i>
-                    Recruiter: Danielle Berto</p>
+                    <i class="fa fa-fw fa-suitcase"></i>
+                    Technology</p>
+                <p>
+                    <i class="fa fa-fw fa-user"></i>
+                    Manager: John Smith</p>
             </section>
             <footer>
                 <button class="btn btn-sm btn-primary">Action</button>
             </footer>
-        </div>
+        </article>
     </div>
     <div class="col-sm-4">
-        <div class="pu-card">
+        <article class="pu-card">
             <header>
-                <div class="checkbox checkbox-circle checkbox-info">
-                    <input type="checkbox">
-                    <label></label>
+                <div class="actions">
+                    <div class="checkbox checkbox-circle checkbox-info">
+                        <input type="checkbox">
+                        <label></label>
+                    </div>
+                    <div class="more">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li>
+                                <a href="#">Action 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Action 2</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <span><img class="pu-avatar pu-avatar" src="../img/emp/emp7.png"></span>
                 <span>
@@ -144,46 +199,35 @@
                     <h5>Global Support Team Lead</h5>
                     <p class="gray">
                         <small>
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <i class="fa fa-map-marker" aria-hitden="true"></i>
                             Melbourne, Australia</small>
                     </p>
                 </span>
-                <div class="more">
-                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
-                        <i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li>
-                            <a href="#">Action 1</a>
-                        </li>
-                        <li>
-                            <a href="#">Action 2</a>
-                        </li>
-                    </ul>
-                </div>
             </header>
             <section>
                 <ul class="nav nav-tabs nav-line">
                     <li class="active">
-                        <a href="#1c">One</a>
+                        <a href="#1a">Details</a>
                     </li>
                     <li>
-                        <a href="#2c">Two</a>
+                        <a href="#2a">Activity</a>
                     </li>
                     <li>
-                        <a href="#3c">Three</a>
+                        <a href="#3a">Documents
+                            <sup class="badge">2</sup>
+                        </a>
                     </li>
                 </ul>
                 <div class="tab-content clearfix">
-                    <div class="tab-pane active" id="1c">
+                    <div class="tab-pane active" id="1a">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                    <div class="tab-pane" id="2c">
-                        <p>Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+                    <div class="tab-pane" id="2a">
+                        <p>Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quitdam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
                         </p>
                     </div>
-                    <div class="tab-pane" id="3c">
-                        <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+                    <div class="tab-pane" id="3a">
+                        <p>Mihi quidem Homerus huius modi quitdam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
                         </p>
                     </div>
                 </div>
@@ -191,41 +235,150 @@
             <footer>
                 <button class="btn btn-sm btn-primary">Action</button>
             </footer>
-        </div>
+        </article>
     </div>
 </div>
+<h2>Job Cards</h2>
 <div class="row">
-    <h3 class="col-sm-12">Large</h3>
-    <div class="col-sm-12">
-        <div class="pu-card">
-            <div class="media">
-                <span class="media-left"><img class="pu-avatar" src="../img/emp/emp8.png"></span>
-                <span class="media-body">
-                    <h4 class="pu-card-title">
-                        <a href="#_">Daniel Wang</a>
+    <h3 class="col-sm-12">Small</h3>
+    <div class="col-sm-4">
+        <article class="pu-card">
+            <header>
+                <h4>
+                    <a href="#_">Sales Manager</a>
+                    <span class="label label-info">Interviewing</span>
+                </h4>
+                <p class="gray">
+                    <small>
+                        Job No.: 512829</small>
+                    <small>
+                        Position No.: 5</small>
+                </p>
+            </header>
+        </article>
+    </div>
+    <div class="col-sm-4">
+        <article class="pu-card">
+            <header>
+                <span>
+                    <a class="gray" href="#">
+                        <i class="pu-icon pu-icon-team pu-icon-2x"></i>
+                        <span class="app">36</span>
+                    </a>
+                </span>
+                <span>
+                    <h4>
+                        <a href="#_">Sales Manager</a>
+                        <span class="label label-info">Sourcing</span>
                     </h4>
-                    <h5>Sales Manager</h5>
+                    <p class="gray">
+                        <small>
+                            Job No.: 512829</small>
+                        <small>
+                            Position No.: 5</small>
+                    </p>
                 </span>
-            </div>
-            <div class="row">
-                <span class="col-xs-12">
-                    <i class="fa fa-fw fa-calendar blue"></i>
-                    Friday 04 March 2016 6:00 am
+            </header>
+        </article>
+    </div>
+    <div class="col-sm-4">
+        <article class="pu-card">
+            <header>
+                <div class="actions">
+                    <div class="checkbox checkbox-circle checkbox-info">
+                        <input type="checkbox">
+                        <label></label>
+                    </div>
+                    <div class="more">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li>
+                                <a href="#">Close job</a>
+                            </li>
+                            <li>
+                                <a href="#">Copy job</a>
+                            </li>
+                            <li>
+                                <a href="#">Invite</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <span>
+                    <a class="gray" href="#">
+                        <i class="pu-icon pu-icon-team pu-icon-2x"></i>
+                        <span class="app">36</span>
+                    </a>
                 </span>
-                <span class="col-xs-12">
-                    <i class="fa fa-fw fa-map-marker blue"></i>
-                    London Room level 6
+                <span>
+                    <h4>
+                        <a href="#_">Sales Manager</a>
+                        <span class="label label-info">Screening</span>
+                    </h4>
+                    <p class="gray">
+                        <small>
+                            Job No.: 512829</small>
+                        <small>
+                            Position No.: 5</small>
+                    </p>
                 </span>
-                <span class="col-xs-12">
-                    <i class="fa fa-fw fa-suitcase blue"></i>
-                    Graphic Designer #58973654</span>
-                <span class="col-xs-12">
-                    <i class="fa fa-fw fa-user blue"></i>
-                    Recruiter: Danielle Berto</span>
-            </div>
-            <div class="pu-card-footer hide">
-                <button class="btn btn-sm btn-primary">Action</button>
-            </div>
-        </div>
+            </header>
+            <section>
+                <ul class="nav nav-tabs nav-line">
+                    <li class="active">
+                        <a href="#1f">Details</a>
+                    </li>
+                    <li>
+                        <a href="#2f">Cost</a>
+                    </li>
+                    <li>
+                        <a href="#3f">Notes
+                            <sup class="badge">2</sup>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content clearfix">
+                    <div class="tab-pane active" id="1f">
+                        <table>
+                            <tr>
+                                <td>Location:
+                                </td>
+                                <td>Melbourne</td>
+                            </tr>
+                            <tr>
+                                <td>Business Unit:
+                                </td>
+                                <td>Sale Team</td>
+                            </tr>
+                            <tr>
+                                <td>Recruiter:
+                                </td>
+                                <td>
+                                    <a href="#">Bob Smith</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Hiring Manager:
+                                </td>
+
+                                <td>
+                                    <a href="#">Jenifer Smith</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-pane" id="2f">
+                        <p>Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quitdam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+                        </p>
+                    </div>
+                    <div class="tab-pane" id="3f">
+                        <p>Mihi quidem Homerus huius modi quitdam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </article>
     </div>
 </div>
