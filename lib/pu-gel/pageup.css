@@ -1933,6 +1933,15 @@ a:focus {
  * Component: Label
  * ----------------
  */
+.label {
+  background-color: #939597;
+  color: #939597;
+  border: 1px solid #939597;
+  background: white;
+  font-family: "Open Sans";
+  border-radius: 1em;
+  padding: 0.1em 0.6em;
+}
 .label-danger {
   background-color: #ee3d4b;
   color: #ee3d4b;
@@ -1940,6 +1949,7 @@ a:focus {
   background: white;
   font-family: "Open Sans";
   border-radius: 1em;
+  padding: 0.1em 0.6em;
 }
 .label-info {
   background-color: #57c0e9;
@@ -1948,6 +1958,7 @@ a:focus {
   background: white;
   font-family: "Open Sans";
   border-radius: 1em;
+  padding: 0.1em 0.6em;
 }
 .label-warning {
   background-color: #f39657;
@@ -1956,6 +1967,7 @@ a:focus {
   background: white;
   font-family: "Open Sans";
   border-radius: 1em;
+  padding: 0.1em 0.6em;
 }
 .label-purple {
   background-color: #b565a9;
@@ -1964,6 +1976,7 @@ a:focus {
   background: white;
   font-family: "Open Sans";
   border-radius: 1em;
+  padding: 0.1em 0.6em;
 }
 .label-success {
   background-color: #76c190;
@@ -1972,6 +1985,7 @@ a:focus {
   background: white;
   font-family: "Open Sans";
   border-radius: 1em;
+  padding: 0.1em 0.6em;
 }
 .label-yellow {
   background-color: #eed046;
@@ -1980,6 +1994,7 @@ a:focus {
   background: white;
   font-family: "Open Sans";
   border-radius: 1em;
+  padding: 0.1em 0.6em;
 }
 .checkbox {
   padding-left: 20px;
@@ -2713,6 +2728,7 @@ Variations
 }
 .nav-tabs.nav-justified > li a {
   border: 1px solid #dddddd;
+  background: white;
 }
 .nav-tabs.nav-justified > li.active > a,
 .nav-tabs.nav-justified > li.active > a:focus {
@@ -2724,6 +2740,10 @@ Variations
   border-top: 3px solid #257ba0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+  margin-top: -1px;
+}
+.nav-tabs.nav-line {
+  border-bottom: 0;
 }
 .nav-tabs.nav-line > li {
   margin-bottom: -2px;
@@ -2731,6 +2751,7 @@ Variations
 .nav-tabs.nav-line > li a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   border: 0 none;
+  color: #555555;
 }
 .nav-tabs.nav-line > li.active > a,
 .nav-tabs.nav-line > li.active > a:focus {
@@ -2750,6 +2771,7 @@ Variations
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
+  border-top: 1px solid #dddddd;
 }
 .tab-content {
   background: #fff;
@@ -2983,6 +3005,11 @@ table.text-center th {
   display: inline-block;
   line-height: 21px;
   vertical-align: baseline;
+  background: #939597;
+}
+.pu-tag sup {
+  color: #939597;
+  border: 1px solid white;
 }
 .pu-tag sup {
   background: white none repeat scroll 0 0;
