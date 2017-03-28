@@ -2910,7 +2910,7 @@ table.text-center th {
   padding: 15px;
 }
 .pu-box .pu-box-footer {
-  padding: 15px 15px;
+  padding: 15px;
   border-top: 1px dashed #dddddd;
 }
 .pu-box.collapsed .ibox-content {
@@ -2938,43 +2938,53 @@ table.text-center th {
   border-bottom: 0 none;
   box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #ffffff, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.2), 0 1em 0 -0.5em #ffffff, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
 }
-.pu-card h4.pu-card-title {
+.pu-card header h4 {
   margin-top: 0;
 }
-.calendar {
-  border: 5px solid #dddddd;
-  border-radius: 10px;
-  height: 80px;
-  text-align: center;
-  width: 80px;
-  color: #76c190;
-  background: white;
+.pu-card header > span {
+  display: table-cell;
+  vertical-align: top;
 }
-.calendar .month {
-  font-size: 13px;
+.pu-card header > span .app {
+  font-size: 28px;
 }
-.calendar .day {
-  font-size: 26px;
+.pu-card header > span .pu-avatar {
+  margin-top: 10px;
 }
-.calendar .year {
-  color: #7c8ba4;
-  font-size: 10px;
+.pu-card header > span + span {
+  padding-left: 10px;
 }
-.calendar.xs {
-  width: 45px;
-  height: 45px;
-  border-width: 3px;
-  border-radius: 6px;
+.pu-card header .actions {
+  height: 15px;
+  position: relative;
 }
-.calendar.xs .month {
-  font-size: 9px;
+.pu-card header .actions .more {
+  position: absolute;
+  right: 0;
+  top: -10px;
 }
-.calendar.xs .day {
-  font-size: 13px;
-  line-height: 0.9;
+.pu-card header .actions .more a {
+  color: #58585b;
 }
-.calendar.xs .year {
-  font-size: 9px;
+.pu-card header .actions .checkbox {
+  left: -10px;
+  margin: 0;
+  position: absolute;
+  top: -10px;
+}
+.pu-card section {
+  border-top: 1px dashed #dddddd;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+.pu-card section img.featured {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.pu-card footer {
+  border-top: 1px dashed #dddddd;
+  margin-top: 10px;
+  padding-top: 15px;
 }
 .pagination > li > a {
   color: #939597;
@@ -3003,7 +3013,7 @@ table.text-center th {
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  line-height: 21px;
+  line-height: inherit;
   vertical-align: baseline;
   background: #939597;
 }
