@@ -1,10 +1,4 @@
  
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,16 +9,11 @@
     <meta name="author" content="daniel.wang" >
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <link href="https://s3-ap-southeast-2.amazonaws.com/pu-gel/1.2/dist/css/pageup.css" rel="stylesheet" type="text/css" />
+    <!--<link href="https://ui.pageuppeople.com/gel/pu-theme/v1.1/css/pageup.min.css" rel="stylesheet" type="text/css" /> -->
     <link rel="stylesheet/less" type="text/css" href="../css/main.less" />
     <!-- LESS.js -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <!-- custom script -->
-    <script src="../js/custom.js"></script>
+
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -54,7 +43,7 @@
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Patterns <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                           <li><a href="../patterns/form">Form</a></li><li><a href="../patterns/list">List</a></li><li><a href="../patterns/typography">Typography</a></li>                        </ul>
+                           <li><a href="../patterns/cards">Cards</a></li><li><a href="../patterns/form">Form</a></li><li><a href="../patterns/list">List</a></li><li><a href="../patterns/typography">Typography</a></li>                        </ul>
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-lg fa-coffee"></i>&nbsp; Relax  <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -241,9 +230,21 @@
         <!-- progress note panel-->
         <div class="progress-note-panel hidden">
              <br />
-<b>Warning</b>:  include(_partials/_feeds.php): failed to open stream: No such file or directory in <b>/Applications/MAMP/htdocs/mockup/_partials/_item.php</b> on line <b>127</b><br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: include(_partials/_feeds.php): failed to open stream: No such file or directory in E:\Program\wamp\www\mockup\_partials\_item.php on line <i>127</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0006</td><td bgcolor='#eeeeec' align='right'>355704</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0107</td><td bgcolor='#eeeeec' align='right'>452848</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'E:\Program\wamp\www\mockup\_partials\_item.php'</font> )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>8</td></tr>
+</table></font>
 <br />
-<b>Warning</b>:  include(): Failed opening '_partials/_feeds.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.0.8/lib/php') in <b>/Applications/MAMP/htdocs/mockup/_partials/_item.php</b> on line <b>127</b><br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: include(): Failed opening '_partials/_feeds.php' for inclusion (include_path='.;C:\php\pear') in E:\Program\wamp\www\mockup\_partials\_item.php on line <i>127</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0006</td><td bgcolor='#eeeeec' align='right'>355704</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0107</td><td bgcolor='#eeeeec' align='right'>452848</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'E:\Program\wamp\www\mockup\_partials\_item.php'</font> )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>8</td></tr>
+</table></font>
         </div>
         <!-- dev-activity panel-->
         <div class="dev-activity-panel hidden">
@@ -583,7 +584,19 @@ $(function () {
   </div>
 </div>
  </div>
-		<footer class="text-center" style="font-size:11px; color:#ababab; margin:20px 0"> designed with <i class="fa fa-heart" style="color:#cb6564"></i> by <a target="_blank" href="https://www.instagram.com/danielwang/">daniel wang </a></footer>
-	</body>
+<footer class="text-center" style="font-size:11px; color:#ababab; margin:20px 0">
+	designed with
+	<i class="fa fa-heart" style="color:#cb6564"></i>
+	by
+	<a target="_blank" href="https://www.instagram.com/danielwang/">daniel wang
+	</a>
+</footer>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- custom script -->
+<script src="../js/custom.js"></script>
+</body>
 
 </html>
