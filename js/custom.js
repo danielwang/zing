@@ -1,8 +1,15 @@
-$(document).ready(function(){
-	$('#switch').click(function(){
-		$(this).toggleClass('flip');
+$(document).ready(function() {
+    $('#switch').click(function() {
+        $(this).toggleClass('flip');
         $('#flipBoard').toggleClass('flip');
     });
+
+    // enable the tabs
+    $('.nav-tabs a, .nav-pills a').click(function(e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+
 
     initUser();
     toggleView();
@@ -16,12 +23,12 @@ function initUser() {
     if (window.localStorage) {
         var who = localStorage.getItem("user");
         if (who != null) {
-            $('body').addClass(who+'-view');
+            $('body').addClass(who + '-view');
         } else {
             setUserType(defaultUser);
         }
 
-        $('#user-setting li a').each(function () {
+        $('#user-setting li a').each(function() {
             $(this).click(function() {
                 var who = this.getAttribute('data-attr');
                 setUserType(who);
@@ -31,20 +38,17 @@ function initUser() {
 }
 
 function setUserType(user) {
-    $('body')[0].className = user+"-view";
+    $('body')[0].className = user + "-view";
     localStorage.setItem("user", user); // store the value in local browser
 }
 
 // pin views in app
-function toggleView(){
-     $('#toggle-view').change(function(){
-        if(this.checked)
-        {
+function toggleView() {
+    $('#toggle-view').change(function() {
+        if (this.checked) {
             console.log('1');
-        }
-        else
-        {
-             console.log('2');
+        } else {
+            console.log('2');
         }
     });
 }
