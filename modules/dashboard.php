@@ -6,9 +6,9 @@
 		<div class="col-md-12 column">
 			<div class="row clearfix">
 				<div class="col-md-8 column">
-			        <div class="pu-box">
-			            <div class="pu-box-title"><h4><i class="fa fa-suitcase"></i> Current Jobs</h4></div>
-			                <div class="pu-box-content">
+			        <div class="panel panel-default">
+			            <div class="panel-heading"><h3 class="panel-title"><i class="fa fa-suitcase"></i> Current Jobs</h3></div>
+			                <div class="panel-body">
 			                <ul class="status clearfix">
 			                <li data-attr="all">
 			                    <div class="c100 c0 dark pu-circle p100">

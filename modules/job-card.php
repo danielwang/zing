@@ -5,17 +5,17 @@
         <h2>Human Resources Officer</h2>
         <div class="row row-gap">
           <div class="col-sm-8">
-            <div class="pu-box">
-                   <div class="pu-box-title">
-                       <h4>Position info</h4>
+            <div class="panel panel-default">
+                   <div class="panel-heading">
+                       <h3 class="panel-title">Position info</h3>
                    </div>
-                   <div class="pu-box-content">
+                   <div class="panel-body">
                   <?php include '../_partials/_form.html'; ?>
                 </div>
               </div>
           </div>
           <div class="col-sm-4">
-              <?php include '../_partials/_tabs.html'; ?>  
+              <?php include '../_partials/_tabs.html'; ?>
           </div>
         </div>
       </div>
