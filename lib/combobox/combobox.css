@@ -76,7 +76,8 @@ button.cb_button img {
     width: 100%;
     z-index: 300;
     border-radius: 3px;
-    position: relative;
+    position: absolute;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .cb_option {
