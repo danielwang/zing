@@ -43,7 +43,7 @@
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-puzzle-piece fa-lg"></i>&nbsp; Patterns <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                           <li><a href="../patterns/cards">Cards</a></li><li><a href="../patterns/form">Form</a></li><li><a href="../patterns/list">List</a></li><li><a href="../patterns/typography">Typography</a></li>                        </ul>
+                           <li><a href="../patterns/cards">Cards</a></li><li><a href="../patterns/form">Form</a></li><li><a href="../patterns/list">List</a></li><li><a href="../patterns/test">Test</a></li><li><a href="../patterns/typography">Typography</a></li>                        </ul>
                     </li>
                     <li class="dropdown"> <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-lg fa-coffee"></i>&nbsp; Relax  <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -234,16 +234,16 @@
 <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: include(_partials/_feeds.php): failed to open stream: No such file or directory in E:\Program\wamp\www\mockup\_partials\_item.php on line <i>127</i></th></tr>
 <tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
 <tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
-<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0002</td><td bgcolor='#eeeeec' align='right'>355704</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>0</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0022</td><td bgcolor='#eeeeec' align='right'>452848</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'E:\Program\wamp\www\mockup\_partials\_item.php'</font> )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0004</td><td bgcolor='#eeeeec' align='right'>355704</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0095</td><td bgcolor='#eeeeec' align='right'>452848</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'E:\Program\wamp\www\mockup\_partials\_item.php'</font> )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>8</td></tr>
 </table></font>
 <br />
 <font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
 <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: include(): Failed opening '_partials/_feeds.php' for inclusion (include_path='.;C:\php\pear') in E:\Program\wamp\www\mockup\_partials\_item.php on line <i>127</i></th></tr>
 <tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
 <tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
-<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0002</td><td bgcolor='#eeeeec' align='right'>355704</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>0</td></tr>
-<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0022</td><td bgcolor='#eeeeec' align='right'>452848</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'E:\Program\wamp\www\mockup\_partials\_item.php'</font> )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0004</td><td bgcolor='#eeeeec' align='right'>355704</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.0095</td><td bgcolor='#eeeeec' align='right'>452848</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'E:\Program\wamp\www\mockup\_partials\_item.php'</font> )</td><td title='E:\Program\wamp\www\mockup\modules\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>8</td></tr>
 </table></font>
         </div>
         <!-- dev-activity panel-->
@@ -597,6 +597,7 @@ $(function () {
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- custom script -->
 <script src="../js/custom.js"></script>
+<script src="../lib/combobox/combobox.js"></script>
 </body>
 
 </html>
