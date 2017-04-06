@@ -76,6 +76,7 @@ a:hover {
   text-decoration: none;
 }
 a:focus {
+  color: #57c0e9;
   outline: none;
 }
 /* Code for Firefox */
@@ -97,6 +98,9 @@ a:focus {
  * General: Miscellaneous
  * ----------------------
  */
+.row-gap {
+  margin-top: 20px;
+}
 .pad {
   padding: 15px;
 }
@@ -116,6 +120,7 @@ a:focus {
   display: inline;
 }
 .gray,
+.help,
 .inactive,
 .mute {
   color: #999999;
@@ -356,59 +361,83 @@ a:focus {
   display: block;
 }
 .btn-default {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #58585b;
-  border-color: #ddd;
+  border-color: #dddddd;
 }
-.btn-default:hover,
+.btn-default.hover,
 .btn-default:active,
-.btn-default.hover {
-  background-color: #e7e7e7;
+.btn-default:hover {
+  background-color: #f2f2f2;
+}
+.btn-default:focus {
+  background-color: #e6e6e6;
+  border-color: #bfbfbf;
 }
 .btn-primary {
   background-color: #257ba0;
   border-color: #206b8b;
 }
-.btn-primary:hover,
+.btn-primary.hover,
 .btn-primary:active,
-.btn-primary.hover {
+.btn-primary:hover {
   background-color: #206b8b;
+}
+.btn-primary:focus {
+  background-color: #1b5b77;
+  border-color: #0d2b38;
 }
 .btn-success {
   background-color: #76c190;
   border-color: #64b982;
 }
-.btn-success:hover,
+.btn-success.hover,
 .btn-success:active,
-.btn-success.hover {
+.btn-success:hover {
   background-color: #64b982;
+}
+.btn-success:focus {
+  background-color: #53b174;
+  border-color: #397e51;
 }
 .btn-info {
   background-color: #57c0e9;
   border-color: #40b8e6;
 }
-.btn-info:hover,
+.btn-info.hover,
 .btn-info:active,
-.btn-info.hover {
+.btn-info:hover {
   background-color: #40b8e6;
+}
+.btn-info:focus {
+  background-color: #2aafe3;
+  border-color: #1681aa;
 }
 .btn-danger {
   background-color: #ee3d4b;
   border-color: #ec2635;
 }
-.btn-danger:hover,
+.btn-danger.hover,
 .btn-danger:active,
-.btn-danger.hover {
+.btn-danger:hover {
   background-color: #ec2635;
+}
+.btn-danger:focus {
+  background-color: #e41424;
+  border-color: #9e0e19;
 }
 .btn-warning {
   background-color: #f39657;
   border-color: #f1873f;
 }
-.btn-warning:hover,
+.btn-warning.hover,
 .btn-warning:active,
-.btn-warning.hover {
+.btn-warning:hover {
   background-color: #f1873f;
+}
+.btn-warning:focus {
+  background-color: #f07827;
+  border-color: #bd540e;
 }
 .btn-outline {
   background-color: #fff;
@@ -416,51 +445,69 @@ a:focus {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-.btn-outline.btn-default {
-  color: #58585b;
-}
-.btn-outline.btn-default:hover,
-.btn-outline.btn-default:active {
-  background-color: #58585b;
-  color: white;
-}
 .btn-outline.btn-primary {
   color: #257ba0;
 }
-.btn-outline.btn-primary:hover,
-.btn-outline.btn-primary:active {
+.btn-outline.btn-primary:active,
+.btn-outline.btn-primary:hover {
   background-color: #257ba0;
+  color: white;
+}
+.btn-outline.btn-primary:focus {
+  background-color: #1b5b77;
+  border-color: #0d2b38;
   color: white;
 }
 .btn-outline.btn-success {
   color: #76c190;
 }
-.btn-outline.btn-success:hover,
-.btn-outline.btn-success:active {
+.btn-outline.btn-success:active,
+.btn-outline.btn-success:hover {
   background-color: #76c190;
+  color: white;
+}
+.btn-outline.btn-success:focus {
+  background-color: #53b174;
+  border-color: #397e51;
   color: white;
 }
 .btn-outline.btn-info {
   color: #57c0e9;
 }
-.btn-outline.btn-info:hover,
-.btn-outline.btn-info:active {
+.btn-outline.btn-info:active,
+.btn-outline.btn-info:hover {
   background-color: #57c0e9;
+  color: white;
+}
+.btn-outline.btn-info:focus {
+  background-color: #2aafe3;
+  border-color: #1681aa;
   color: white;
 }
 .btn-outline.btn-warning {
   color: #f39657;
 }
-.btn-outline.btn-warning:hover,
-.btn-outline.btn-warning:active {
+.btn-outline.btn-warning:active,
+.btn-outline.btn-warning:hover {
   background-color: #f39657;
+  color: white;
+}
+.btn-outline.btn-warning:focus {
+  background-color: #f07827;
+  border-color: #bd540e;
   color: white;
 }
 .btn-outline.btn-danger {
   color: #ee3d4b;
 }
+.btn-outline.btn-danger:active,
 .btn-outline.btn-danger:hover {
   background-color: #ee3d4b;
+  color: white;
+}
+.btn-outline.btn-danger:focus {
+  background-color: #e41424;
+  border-color: #9e0e19;
   color: white;
 }
 .btn-link {
@@ -485,8 +532,8 @@ a:focus {
   font-size: 12px;
 }
 .btn-app > .fa,
-.btn-app > .glyphicon,
-.btn-app > .ion {
+.btn-app > .ion,
+.btn-app > .glyphicon {
   font-size: 20px;
   display: block;
 }
@@ -528,8 +575,8 @@ a:focus {
   background: #57c0e9;
   color: #ffffff;
 }
-.form-control::-moz-placeholder,
 .form-control:-ms-input-placeholder,
+.form-control::-moz-placeholder,
 .form-control::-webkit-input-placeholder {
   color: #bbb;
   opacity: 1;
@@ -538,6 +585,9 @@ a:focus {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+}
+.form-group {
+  position: relative;
 }
 .form-group.has-success label {
   color: #76c190;
@@ -576,7 +626,7 @@ a:focus {
 }
 .form-group .control-label.required:after {
   content: "\f069";
-  color: #fcd8db;
+  color: #f8b1b7;
   position: absolute;
   margin-left: 3px;
   top: 0;
@@ -601,14 +651,14 @@ a:focus {
 .form-control-feedback.fa {
   line-height: 34px;
 }
-.input-lg + .form-control-feedback.fa,
+.form-group-lg .form-control + .form-control-feedback.fa,
 .input-group-lg + .form-control-feedback.fa,
-.form-group-lg .form-control + .form-control-feedback.fa {
+.input-lg + .form-control-feedback.fa {
   line-height: 46px;
 }
-.input-sm + .form-control-feedback.fa,
+.form-group-sm .form-control + .form-control-feedback.fa,
 .input-group-sm + .form-control-feedback.fa,
-.form-group-sm .form-control + .form-control-feedback.fa {
+.input-sm + .form-control-feedback.fa {
   line-height: 30px;
 }
 /* support toggle btn alignment*/
@@ -2726,21 +2776,21 @@ Variations
 .nav-tabs .dropdown-menu {
   margin-top: 0;
 }
-.nav-tabs.nav-justified > li a {
+.nav-tabs.pu-tab > li a {
   border: 1px solid #dddddd;
   background: white;
+  font-size: 16px;
 }
-.nav-tabs.nav-justified > li.active > a,
-.nav-tabs.nav-justified > li.active > a:focus {
+.nav-tabs.pu-tab > li.active > a,
+.nav-tabs.pu-tab > li.active > a:focus {
   background: #257ba0;
   color: white;
   border-color: #257ba0;
 }
-.nav-tabs.nav-justified + .tab-content {
+.nav-tabs.pu-tab + .tab-content {
   border-top: 3px solid #257ba0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  margin-top: -1px;
 }
 .nav-tabs.nav-line {
   border-bottom: 0;
@@ -2824,7 +2874,7 @@ Variations
 }
 .table > thead > tr > th {
   font-family: 'Proxima Nova Semibold';
-  border-bottom: 2px solid #dddddd;
+  border-bottom: 0;
   font-weight: normal;
 }
 .table tr td .progress {
@@ -2833,6 +2883,32 @@ Variations
 .table tr td .checkbox,
 .table tr td .radio {
   margin: 0;
+}
+.table.pu-table {
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.table.pu-table thead {
+  border-radius: 3px;
+}
+.table.pu-table thead th {
+  background: #257ba0;
+  color: white;
+  font-size: 16px;
+}
+.table.pu-table thead th:first-of-type {
+  border-top-left-radius: 3px;
+}
+.table.pu-table thead th:last-of-type {
+  border-top-right-radius: 3px;
+}
+.table.pu-table tbody {
+  background: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #dddddd;
+  border-radius: 3px;
 }
 .table-bordered {
   border: 1px solid #dddddd;
@@ -2872,27 +2948,29 @@ table.text-center th {
   border: 1px solid #dddddd;
   border-radius: 3px;
   margin-bottom: 30px;
-  padding: 15px;
 }
 .pu-box header {
+  padding: 15px;
   position: relative;
 }
 .pu-box header h4 {
-  margin-top: 0;
+  margin: 0;
 }
 .pu-box header .more {
   position: absolute;
-  right: 0;
-  top: -5px;
+  right: 15px;
+  top: 10px;
 }
 .pu-box header .more a {
   color: #58585b;
 }
 .pu-box section {
-  margin-top: 10px;
+  border-top: 1px dashed #dddddd;
+  padding: 15px;
 }
 .pu-box footer {
   margin-top: 10px;
+  padding: 15px;
 }
 .pu-card {
   background: #fff;
@@ -2900,7 +2978,6 @@ table.text-center th {
   border: 1px solid #dddddd;
   border-radius: 3px;
   margin-bottom: 15px;
-  padding: 15px 0;
   max-width: 358px;
   min-width: 260px;
 }
@@ -2909,7 +2986,7 @@ table.text-center th {
   box-shadow: 0 0.0625em 0.1875em 0 rgba(0, 0, 0, 0.1), 0 0.5em 0 -0.25em #ffffff, 0 0.5em 0.1875em -0.25em rgba(0, 0, 0, 0.2), 0 1em 0 -0.5em #ffffff, 0 1em 0.1875em -0.5em rgba(0, 0, 0, 0.1);
 }
 .pu-card header {
-  padding: 0 15px;
+  padding: 15px;
 }
 .pu-card header h4 {
   margin-top: 0;
@@ -2924,10 +3001,12 @@ table.text-center th {
 .pu-card header aside .pu-avatar {
   margin-top: 10px;
 }
+.pu-card header aside + main {
+  padding-left: 10px;
+}
 .pu-card header main {
   display: table-cell;
   vertical-align: top;
-  padding-left: 10px;
 }
 .pu-card header .actions {
   height: 15px;
@@ -2958,7 +3037,7 @@ table.text-center th {
 }
 .pu-card footer {
   margin-top: 10px;
-  padding: 0 15px;
+  padding: 15px;
 }
 .pu-cards .pu-card {
   margin: 0;
@@ -2976,42 +3055,41 @@ table.text-center th {
 .pu-cards .pu-card.current {
   background-color: #ddf2fb;
   border-left: 3px solid #57c0e9;
-  margin-left: -3px;
 }
 .pu-cards .pu-card .thumbnail {
   width: 100px;
 }
-.panel.panel-default {
+.panel {
   border-color: #dddddd;
 }
-.panel.panel-default > .panel-heading {
+.panel > .panel-heading {
   color: #ffffff;
   background-color: #257ba0;
   border-color: #257ba0;
 }
-.panel.panel-default > .panel-heading + .panel-collapse > .panel-body {
+.panel > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #dddddd;
 }
-.panel.panel-default > .panel-heading .badge {
+.panel > .panel-heading .badge {
   color: #257ba0;
   background-color: #ffffff;
 }
-.panel.panel-default > .panel-footer + .panel-collapse > .panel-body {
+.panel > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #dddddd;
 }
-.panel.panel-default > .panel-heading {
+.panel > .panel-heading {
   color: #ffffff;
   background-color: #257ba0;
   border-color: #257ba0;
 }
-.panel.panel-default > .panel-heading + .panel-collapse > .panel-body {
+.panel > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #dddddd;
 }
-.panel.panel-default > .panel-heading .badge {
+.panel > .panel-heading .badge {
   color: #257ba0;
   background-color: #ffffff;
 }
-.panel.panel-default > .panel-footer + .panel-collapse > .panel-body {
+.panel > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #dddddd;
 }
 .panel .panel-heading {
@@ -3025,16 +3103,24 @@ table.text-center th {
 .panel .panel-heading .more > a {
   color: white;
 }
-.panel .panel-heading span {
-  cursor: pointer;
+.panel .panel-heading .panel-title > a:before {
+  float: right !important;
+  font-family: FontAwesome;
+  content: "\f078";
+  padding-right: 5px;
 }
-.panel .panel-heading span:after {
-  font-family: 'Glyphicons Halflings';
-  content: "\e114";
-  float: right;
+.panel .panel-heading .panel-title > a.collapsed:before {
+  float: right !important;
+  content: "\f054";
 }
-.panel .panel-heading span.collapsed:after {
-  content: "\e080";
+.panel .panel-heading .panel-title > a:active,
+.panel .panel-heading .panel-title > a:focus,
+.panel .panel-heading .panel-title > a:hover {
+  text-decoration: none;
+}
+.panel-group .panel {
+  overflow: hidden;
+  /* make the heading round corner when content collapsed */
 }
 .pagination > li > a {
   color: #939597;
@@ -3132,6 +3218,39 @@ table.text-center th {
 .pu-tag.pu-tag-yellow sup {
   color: #eed046;
   border: 1px solid white;
+}
+/*
+ * Component: modal
+ * ----------------
+ */
+.modal {
+  background: rgba(0, 0, 0, 0.3);
+}
+.modal-dialog .modal-content {
+  -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.125);
+  border: 0;
+}
+@media (min-width: 768px) {
+  .modal-dialog .modal-content {
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.125);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.125);
+  }
+}
+.modal-dialog .modal-header {
+  border-bottom: 1px solid #dddddd;
+}
+.modal-dialog .modal-body {
+  background: #f0f0f0;
+}
+.modal-dialog .modal-footer {
+  border-top: 1px solid #dddddd;
+}
+.modal-dialog.modal-success .modal-title {
+  color: #76c190;
+}
+.modal-dialog.modal-danger .modal-title {
+  color: #ee3d4b;
 }
 /* *************************************** *\
  *   PU UI contains PageUp specific UI elements
