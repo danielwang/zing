@@ -2,7 +2,7 @@
  <?php
  compileIndex();
  function compileIndex(){
-   $url = 'http://localhost:9000/concept/index.php';
+   $url = 'http://localhost:9000/mockup/index.php';
    $ch = curl_init();
    // tell cURL what the URL is
    curl_setopt($ch, CURLOPT_URL, $url);
@@ -55,7 +55,7 @@ function recurseDir($folderpath) {
 function viewSource($folderpath, $page){
   chdir($folderpath); // go to the dir
   // define the URL to load
-  $url = 'http://localhost:9000/concept/'. $folderpath . '/' . $page;
+  $url = 'http://localhost:9000/mockup/'. $folderpath . '/' . $page;
   // start cURL
   $ch = curl_init();
   // tell cURL what the URL is
