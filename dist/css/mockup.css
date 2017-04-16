@@ -571,6 +571,19 @@ body.hold-transition .right-side {
     transform: translate(0, 0);
   }
 }
+.left-side footer,
+.main-sidebar footer {
+  position: absolute;
+  bottom: 5px;
+  color: #f0f0f0;
+  font-size: 11px;
+  width: 100%;
+  font-family: "Proxima Nova";
+}
+.left-side footer a,
+.main-sidebar footer a {
+  color: #f0f0f0;
+}
 .sidebar {
   padding-bottom: 10px;
 }
@@ -612,9 +625,9 @@ body.hold-transition .right-side {
   margin-top: 3px;
   font-size: 11px;
 }
-.user-panel > .info > a > .glyphicon,
+.user-panel > .info > a > .fa,
 .user-panel > .info > a > .ion,
-.user-panel > .info > a > .fa {
+.user-panel > .info > a > .glyphicon {
   margin-right: 3px;
 }
 .sidebar-menu {
@@ -636,8 +649,8 @@ body.hold-transition .right-side {
   font-size: 16px;
   vertical-align: top;
 }
-.sidebar-menu > li > a > .pu-icon,
-.sidebar-menu > li > a > .fa {
+.sidebar-menu > li > a > .fa,
+.sidebar-menu > li > a > .pu-icon {
   display: inline-block;
   width: 35px;
   font-size: 1.5em;
@@ -666,8 +679,8 @@ body.hold-transition .right-side {
   right: 10px;
   margin-top: -8px;
 }
-.sidebar-menu li.active > a > .pull-right-container > .fa-angle-left,
-.sidebar-menu li.active > a > .fa-angle-left {
+.sidebar-menu li.active > a > .fa-angle-left,
+.sidebar-menu li.active > a > .pull-right-container > .fa-angle-left {
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
@@ -695,15 +708,15 @@ body.hold-transition .right-side {
   font-size: 14px;
   font-family: "Proxima Nova Semibold";
 }
-.sidebar-menu .treeview-menu > li > a > .glyphicon,
+.sidebar-menu .treeview-menu > li > a > .fa,
 .sidebar-menu .treeview-menu > li > a > .ion,
-.sidebar-menu .treeview-menu > li > a > .fa {
+.sidebar-menu .treeview-menu > li > a > .glyphicon {
   width: 20px;
 }
-.sidebar-menu .treeview-menu > li > a > .fa-angle-down,
+.sidebar-menu .treeview-menu > li > a > .fa-angle-left,
 .sidebar-menu .treeview-menu > li > a > .pull-right-container > .fa-angle-down,
 .sidebar-menu .treeview-menu > li > a > .pull-right-container > .fa-angle-left,
-.sidebar-menu .treeview-menu > li > a > .fa-angle-left {
+.sidebar-menu .treeview-menu > li > a > .fa-angle-down {
   width: auto;
 }
 /*
@@ -723,6 +736,9 @@ body.hold-transition .right-side {
     transform: translate(0, 0);
     width: 50px !important;
     z-index: 850;
+  }
+  .sidebar-mini.sidebar-collapse .main-sidebar footer {
+    display: none;
   }
   .sidebar-mini.sidebar-collapse .sidebar-menu > li {
     position: relative;

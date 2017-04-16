@@ -35,6 +35,19 @@
             .translate(0, 0);
         }
     }
+
+    footer {
+        position: absolute;
+        bottom: 5px;
+        color: #f0f0f0;
+        font-size: 11px;
+        width: 100%;
+        font-family: @heading-font-normal;
+
+        a {
+            color: #f0f0f0;
+        }
+    }
 }
 
 .sidebar {
@@ -79,9 +92,9 @@
             margin-top: 3px;
             font-size: 11px;
 
-             > .glyphicon,
+             > .fa,
              > .ion,
-            > .fa {
+            > .glyphicon {
                 margin-right: 3px;
             }
         }
@@ -109,8 +122,8 @@
                 vertical-align: top;
             }
 
-             > .pu-icon,
-            > .fa {
+             > .fa,
+            > .pu-icon {
                 display: inline-block;
                 width: 35px;
                 font-size: 1.5em;
@@ -148,8 +161,8 @@
     }
 
     li.active {
-         > a > .pull-right-container > .fa-angle-left,
-        > a > .fa-angle-left {
+         > a > .fa-angle-left,
+        > a > .pull-right-container > .fa-angle-left {
             .rotate(-90deg);
         }
 
@@ -178,16 +191,16 @@
                 font-size: 14px;
                 font-family: @heading-font-semibold;
 
-                 > .glyphicon,
+                 > .fa,
                  > .ion,
-                > .fa {
+                > .glyphicon {
                     width: 20px;
                 }
 
-                 > .fa-angle-down,
+                 > .fa-angle-left,
                  > .pull-right-container > .fa-angle-down,
                  > .pull-right-container > .fa-angle-left,
-                > .fa-angle-left {
+                > .fa-angle-down {
                     width: auto;
                 }
             }
