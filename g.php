@@ -22,31 +22,40 @@
 /* read php files from folders */
 $folders = array("layouts", "modules", "patterns");
 for ($i = 0; $i < count($folders); $i++) {
-	readFolders($folders[$i]);
+  echo "<ul><li>";
+  recurseDir($folders[$i]);
+  echo "</li></ul>";
 }
 
-function readFolders($foldername) {
-	echo "<h3>reading $foldername folder </h3>";
-	$files = array();
-	$handle = opendir($foldername . '/');
-	while (false !== ($file = readdir($handle))):
-		if (stristr($file, '.php')):
-			$files[] = $file;
-		endif;
-	endwhile;
-	sort($files);
-	chdir($foldername);
-	foreach ($files as $file):
-		echo "converting $file <br>";
-    viewSource($foldername, $file);
-		// generateStaticPage($foldername, $file);
-	endforeach;
-	chdir("../");
+function recurseDir($folderpath) {
+	echo "<ul><li><b>$folderpath</b></li>";
+  // check if has sub folders
+  $files = scandir($folderpath);
+
+  foreach($files as $file){
+    if($file != '.' && $file != '..'){
+      if(is_dir($folderpath . '/' . $file)){
+        echo "<li> $file <i>Subfolder</i>";
+        $file_path = $folderpath . DIRECTORY_SEPARATOR . $file;
+        recurseDir($file_path);
+        echo "</li>";
+      }else{
+        echo "<li>$folderpath -> $file</li>";
+        viewSource($folderpath, $file);
+      }
+    }
+  }
+  echo "</ul>";
+  // chdir("../");
+  // echo getcwd();
 }
+
+
 /* read php files then output html */
-function viewSource($foldername, $page){
+function viewSource($folderpath, $page){
+  chdir($folderpath); // go to the dir
   // define the URL to load
-  $url = 'http://localhost:9000/mockup/'. $foldername . '/' . $page;
+  $url = 'http://localhost:9000/mockup/'. $folderpath . '/' . $page;
   // start cURL
   $ch = curl_init();
   // tell cURL what the URL is
@@ -59,20 +68,15 @@ function viewSource($foldername, $page){
   // important)
   curl_close($ch);
   // display the output
-  // echo $output;
+  //echo "$output -> converting";
   $outputfile = str_replace(".php", "", "{$page}.html");
   file_put_contents($outputfile, $output);
-}
+  // go back to the right levels
+  if (substr_count($folderpath, "/") == 1){
+      chdir("../../");
+  } else{
+      chdir("../");
+  }
 
-// function generateStaticPage($foldername, $page) {
-// 	ob_start();
-// 	$file = (string) $foldername . '/' . $page;
-// 	include_once "{$file}";
-// 	flushblocks();
-// 	$outputfile = str_replace(".php", "", "{$page}.html");
-// 	/* output to folders*/
-// 	//echo $outputfile;
-// 	file_put_contents($outputfile, ob_get_clean());
-// }
-// echo "<a href='d.php'>Delete all html files</a>";
-// ?>
+}
+?>

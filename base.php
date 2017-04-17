@@ -1,15 +1,12 @@
 <?php require_once 'ti.php';?>
 <?php include_once 'head.php';?>
-<?php include_once 'nav.php';?>
-
-<?php
-if ($subnav) {
-	include '_partials/_subnav.html';
-}
-?>
-
-<div class="container<?php echo ($layout) ?>">
-	<?php startblock('page')?>
-	<?php endblock()?>
- </div>
+    <?php include_once 'partials/header.html';?>
+		<?php include_once 'partials/menu.html';?>
+		<div class="content-wrapper">
+			<div class="container content">
+				<?php startblock('page')?>
+				<?php endblock()?>
+			</div>
+		</div>
+		<?php include 'partials/footer.html';?>
 <?php include 'foot.html';?>
