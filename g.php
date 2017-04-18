@@ -40,6 +40,7 @@ function recurseDir($folderpath) {
         recurseDir($file_path);
         echo "</li>";
       }else{
+        $folderpath = str_replace('/', DIRECTORY_SEPARATOR, $folderpath);
         echo "<li>$folderpath -> $file</li>";
         viewSource($folderpath, $file);
       }
@@ -56,7 +57,9 @@ function viewSource($folderpath, $page){
   chdir($folderpath); // go to the dir
   // define the URL to load
   $url = 'http://localhost:9000/mockup/'. $folderpath . '/' . $page;
-  // start cURL
+  $url = str_replace('\\', '/',$url);
+  //echo $url;
+  //start cURL
   $ch = curl_init();
   // tell cURL what the URL is
   curl_setopt($ch, CURLOPT_URL, $url);
@@ -72,7 +75,7 @@ function viewSource($folderpath, $page){
   $outputfile = str_replace(".php", "", "{$page}.html");
   file_put_contents($outputfile, $output);
   // go back to the right levels
-  if (substr_count($folderpath, "/") == 1){
+  if (substr_count($folderpath, DIRECTORY_SEPARATOR) == 1){
       chdir("../../");
   } else{
       chdir("../");

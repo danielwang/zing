@@ -26,7 +26,7 @@ function recurseDir($folderpath) {
 					 chdir($folderpath);
 					 echo "deleting $file <br>";
 					 unlink($file);
-					 if (substr_count($folderpath, "/") == 1){
+					 if (substr_count($folderpath, DIRECTORY_SEPARATOR) == 1){
 					 			chdir("../../");
 					 	} else{
 					 			chdir("../");

@@ -409,9 +409,21 @@
         <!-- progress note panel-->
         <div class="progress-note-panel hidden">
              <br />
-<b>Warning</b>:  include(_partials/_feeds.php): failed to open stream: No such file or directory in <b>/Applications/MAMP/htdocs/mockup/components/_item.php</b> on line <b>127</b><br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: include(_partials/_feeds.php): failed to open stream: No such file or directory in E:\Program\wamp\www\mockup\components\_item.php on line <i>127</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>356088</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\Program\wamp\www\mockup\modules\performance\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.7831</td><td bgcolor='#eeeeec' align='right'>1934976</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'E:\Program\wamp\www\mockup\components\_item.php'</font> )</td><td title='E:\Program\wamp\www\mockup\modules\performance\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>8</td></tr>
+</table></font>
 <br />
-<b>Warning</b>:  include(): Failed opening '_partials/_feeds.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.0.8/lib/php') in <b>/Applications/MAMP/htdocs/mockup/components/_item.php</b> on line <b>127</b><br />
+<font size='1'><table class='xdebug-error xe-warning' dir='ltr' border='1' cellspacing='0' cellpadding='1'>
+<tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> Warning: include(): Failed opening '_partials/_feeds.php' for inclusion (include_path='.;C:\php\pear') in E:\Program\wamp\www\mockup\components\_item.php on line <i>127</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0003</td><td bgcolor='#eeeeec' align='right'>356088</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\Program\wamp\www\mockup\modules\performance\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.7831</td><td bgcolor='#eeeeec' align='right'>1934976</td><td bgcolor='#eeeeec'>include( <font color='#00bb00'>'E:\Program\wamp\www\mockup\components\_item.php'</font> )</td><td title='E:\Program\wamp\www\mockup\modules\performance\performance.php' bgcolor='#eeeeec'>...\performance.php<b>:</b>8</td></tr>
+</table></font>
         </div>
         <!-- dev-activity panel-->
         <div class="dev-activity-panel hidden">
@@ -754,10 +766,12 @@ $(function () {
 		<footer class="main-footer">
     <!-- To the right -->
     <div class="pull-right hidden-xs">
-        <a href="http://localhost:9000/mockup2/g.php">Generate</a>
+        <a href="http://localhost:9000/mockup/g.php">Generate</a>
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2017 <a href="#">Company</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2017
+        <a href="#">Company</a>.</strong>
+    All rights reserved.
 </footer>
 </div>
 <!-- ./wrapper -->
