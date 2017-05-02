@@ -17,6 +17,13 @@ html {
 .layout-boxed html {
   height: 100%;
 }
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
 /* Layout */
 .wrapper {
   height: 100%;
@@ -237,11 +244,11 @@ body.hold-transition .right-side {
   text-decoration: none;
 }
 .pu-blue .treeview-menu > li > a {
-  color: #7099dc;
+  color: #fff;
 }
 .pu-blue .treeview-menu > li.active > a,
 .pu-blue .treeview-menu > li > a:hover {
-  color: #ffffff;
+  color: #57c0e9;
 }
 .pu-blue .sidebar-form {
   border-radius: 3px;
@@ -616,9 +623,9 @@ body.hold-transition .right-side {
   margin-top: 3px;
   font-size: 11px;
 }
-.user-panel > .info > a > .glyphicon,
+.user-panel > .info > a > .fa,
 .user-panel > .info > a > .ion,
-.user-panel > .info > a > .fa {
+.user-panel > .info > a > .glyphicon {
   margin-right: 3px;
 }
 .sidebar-menu {
@@ -640,8 +647,8 @@ body.hold-transition .right-side {
   font-size: 16px;
   vertical-align: top;
 }
-.sidebar-menu > li > a > .pu-icon,
-.sidebar-menu > li > a > .fa {
+.sidebar-menu > li > a > .fa,
+.sidebar-menu > li > a > .pu-icon {
   display: inline-block;
   width: 35px;
   font-size: 1.5em;
@@ -670,8 +677,8 @@ body.hold-transition .right-side {
   right: 10px;
   margin-top: -8px;
 }
-.sidebar-menu li.active > a > .pull-right-container > .fa-angle-left,
-.sidebar-menu li.active > a > .fa-angle-left {
+.sidebar-menu li.active > a > .fa-angle-left,
+.sidebar-menu li.active > a > .pull-right-container > .fa-angle-left {
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
@@ -699,15 +706,15 @@ body.hold-transition .right-side {
   font-size: 14px;
   font-family: "Proxima Nova Semibold";
 }
-.sidebar-menu .treeview-menu > li > a > .glyphicon,
+.sidebar-menu .treeview-menu > li > a > .fa,
 .sidebar-menu .treeview-menu > li > a > .ion,
-.sidebar-menu .treeview-menu > li > a > .fa {
+.sidebar-menu .treeview-menu > li > a > .glyphicon {
   width: 20px;
 }
-.sidebar-menu .treeview-menu > li > a > .fa-angle-down,
+.sidebar-menu .treeview-menu > li > a > .fa-angle-left,
 .sidebar-menu .treeview-menu > li > a > .pull-right-container > .fa-angle-down,
 .sidebar-menu .treeview-menu > li > a > .pull-right-container > .fa-angle-left,
-.sidebar-menu .treeview-menu > li > a > .fa-angle-left {
+.sidebar-menu .treeview-menu > li > a > .fa-angle-down {
   width: auto;
 }
 /*
@@ -823,6 +830,24 @@ body.hold-transition .right-side {
   right: 10px;
   top: 50%;
   margin-top: -7px;
+}
+.disable-animations,
+.disable-animations * {
+  /* CSS transitions */
+  -o-transition-property: none !important;
+  -moz-transition-property: none !important;
+  -webkit-transition-property: none !important;
+  transition-property: none !important;
+  /* CSS transforms */
+  -o-transform: none !important;
+  -moz-transform: none !important;
+  -webkit-transform: none !important;
+  transform: none !important;
+  /* CSS animations */
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -o-animation: none !important;
+  animation: none !important;
 }
 .animated {
   -webkit-animation-duration: 0.5s;
