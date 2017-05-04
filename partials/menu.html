@@ -52,10 +52,17 @@
         </a>
       </li>
       <li>
-        <a href="<?php echo ($resURL)?>modules/settings">
+        <a href="#">
           <i class="pu-icon pu-icon-2x pu-icon-settings"></i>
           <span>Settings</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
         </a>
+        <ul class="treeview-menu">
+          <?php $folder = "{$resURL}modules/settings";
+                  listElementsAsOptions($folder);?>
+        </ul>
       </li>
       <!-- <li class="header">Layouts</li> -->
       <li class="treeview">

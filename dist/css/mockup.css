@@ -1021,9 +1021,6 @@ ul.status li .c100 {
 ul.status li.selected span {
   color: #333333;
 }
-.alert {
-  color: #cb6564 !important;
-}
 .status .c0 .fill {
   color: #999;
 }
