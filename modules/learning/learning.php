@@ -1,13 +1,11 @@
 <?php include '../../base.php'?>
 <?php startblock('page')?>
-<h2>Learning Library</h2>
+<h1>Learning Library</h1>
 <div id="learning" class="row row-gap">
-      <!-- END filtering menu -->
-      <?php include ("${resURL}components/_learning_cards.html");?>
+  <?php for ($x = 0; $x <= 11; $x++) {?>
+  <div class="col-sm-4">
+      <?php include ("${resURL}components/_learning-card.html");?>
+  </div>
+  <?php } ?>
 </div>
-
 <?php endblock('page')?>
-
-<!-- MASONRY ITEMS END -->
-<script src="../js/isotope.pkgd.js"></script>
-<script src="../js/learning.js"></script>

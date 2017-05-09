@@ -117,7 +117,7 @@ a:visited {
 }
 .fixed .content-wrapper,
 .fixed .right-side {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 @media (max-width: 767px) {
   .fixed .content-wrapper,
@@ -294,6 +294,16 @@ body.hold-transition .right-side {
 }
 .sidebar-collapse .sidebar-menu .treeview-menu > li > a {
   padding-left: 15px;
+}
+.submenu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 50px;
+  width: 100%;
+  background: white;
+  padding: 8px;
+  z-index: 1;
 }
 /*
  * Component: Main Header

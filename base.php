@@ -2,6 +2,7 @@
 <?php include_once 'head.php';?>
     <?php include_once 'partials/header.html';?>
 		<?php include_once 'partials/menu.html';?>
+    <?php include_once 'partials/submenu.html';?>
 		<div class="content-wrapper">
 			<div class="container content">
 				<?php startblock('page')?>

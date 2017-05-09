@@ -49,7 +49,14 @@
         <a href="#">
           <i class="pu-icon pu-icon-2x pu-icon-analytics"></i>
           <span>Analytics</span>
+          <span class="pull-right-container">
+            <i class="fa fa-angle-left pull-right"></i>
+          </span>
         </a>
+        <ul class="treeview-menu">
+          <?php $folder = "{$resURL}modules/analytics";
+                  listElementsAsOptions($folder);?>
+        </ul>
       </li>
       <li>
         <a href="#">
@@ -104,8 +111,7 @@
   <!-- /.sidebar -->
   <footer class="text-center">
     handcrafted with
-    <i class="fa fa-heart" style="color:#cb6564"></i>
-    by
+    <i class="fa fa-heart" style="color:#cb6564"></i> by
     <a target="_blank" href="https://www.instagram.com/danielwang/">
       daniel 王大禹
     </a>

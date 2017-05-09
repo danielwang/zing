@@ -1,6 +1,6 @@
 <?php include '../../base.php'?>
 <?php startblock('page')?>
-	<h2>Recruitment Dashboard</h2>
+	<h1>Recruitment Dashboard</h1>
 	<div class="row clearfix row-gap">
 		<div class="col-md-8 column">
 	        <div class="panel panel-default">

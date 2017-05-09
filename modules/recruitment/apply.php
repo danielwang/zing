@@ -1,7 +1,7 @@
 <?php include '../../base.php'?>
 <?php startblock('page')?>
 <div class="page-header">
-  <h2>Senior Electrical Engineer</h2>
+  <h1>Senior Electrical Engineer</h1>
 </div>
 
     <div class="row row-gap">

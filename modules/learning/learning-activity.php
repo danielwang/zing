@@ -14,7 +14,7 @@
   }
 </style>
 
-   <h2>Talent Mobility</h2>
+   <h1>Talent Mobility</h1>
       <div class="row">
           <div class="col-sm-8">
             <div class="pu-box">

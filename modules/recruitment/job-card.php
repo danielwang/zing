@@ -1,14 +1,24 @@
 <?php include '../../base.php' ?>
 <?php startblock('page') ?>
 <div class="page-header">
-  <h2>Human Resources Officer</h2>
+  <ol class="breadcrumb">
+    <li>
+        <a href="#">
+            Recruitment Centre</a>
+    </li>
+    <li>
+      <a href="#">Approvals</a>
+    </li>
+    <li class="active">Human Resources Officer</li>
+</ol>
+  <h1>Human Resources Officer</h1>
 </div>
  <div id="dockbody">
     <div class="row row-gap">
       <div class="col-sm-8">
-        <div class="panel panel-default">
+        <div class="pu-panel panel">
                <div class="panel-heading">
-                   <h3 class="panel-title">Position info</h3>
+                   <h4 class="panel-title">Position info</h4>
                </div>
                <div class="panel-body">
               <?php include ("${resURL}components/_form.html"); ?>
