@@ -1,8 +1,17 @@
-<?php for ($x =1; $x <= 5; $x++) {?>
-<div class="checkbox checkbox-info">
-  <input type="checkbox" id="checkbox<?php echo($x)?>">
-  <label for="checkbox<?php echo($x)?>">
-        Item <?php echo($x)?>
+<div class="row">
+  <?php for ($m =1; $m <= 6; $m++) { ?>
+  <div class="col-sm-4">
+    <h5>Categrory
+      <?php echo($m)?></h5>
+    <?php for ($n =1; $n <= 5; $n++) {?>
+    <div class="checkbox checkbox-info">
+      <input type="checkbox" id="checkbox<?php echo($n)?>">
+      <label for="checkbox<?php echo($n)?>">
+        Item
+        <?php echo($n)?>
       </label>
+    </div>
+    <?php } ?>
+  </div>
+  <?php } ?>
 </div>
-<?php } ?>

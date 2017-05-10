@@ -1,0 +1,27 @@
+<div class="accordion" id="accordion">
+  <?php for ($m =1; $m <= 6; $m++) { ?>
+  <div class="panel">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo($m)?>">
+          Category
+          <?php echo($m)?>
+        </a>
+      </h4>
+    </div>
+    <div id="collapse<?php echo($m)?>" class="panel-collapse collapse">
+      <div class="panel-body">
+        <?php for ($n =1; $n <= 5; $n++) {?>
+        <div class="checkbox checkbox-info">
+          <input type="checkbox" id="checkbox<?php echo($n)?>">
+          <label for="checkbox<?php echo($n)?>">
+            Item
+            <?php echo($n)?>
+          </label>
+        </div>
+        <?php } ?>
+      </div>
+    </div>
+  </div>
+  <?php } ?>
+</div>

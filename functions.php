@@ -9,6 +9,7 @@
 // }
 
 
+
  $resURL = getRelativeUrl();
 
  function getRelativeUrl(){

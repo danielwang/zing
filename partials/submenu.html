@@ -1,40 +1,50 @@
 <nav class="submenu">
   <div class="row">
     <div class="col-sm-6">
-      <?php if ($breadcrumb){ ?>
+      <?php if ($breadcrumb == true){ ?>
       <ol class="breadcrumb">
         <li>
           <a href="#">
-            <i class="pu-icon pu-icon-settings"></i> System Settings</a>
+            Top level</a>
         </li>
         <li>
-          <a href="#">Jobs</a>
+          <a href="#">Level 2</a>
         </li>
         <li>
-          <a href="#">Recruitment Processes</a>
+          <a href="#">Level 3</a>
         </li>
         <li>
-          <a href="#">Graduate</a>
+          <a href="#">Level 4</a>
         </li>
-        <li class="active">Application statuses</li>
+        <li class="active">Level 5</li>
       </ol>
-      <?php } else { ?>
-      <button type="button" onclick="window.history.back();" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Back"><i class="fa fa-chevron-left fa-lg" aria-hitden="true"></i></button>
+    <?php } else { ?>
+      <button type="button" onclick="window.history.back();" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Back">
+        <i class="fa fa-chevron-left fa-lg" aria-hitden="true"></i>
+      </button>
       <?php } ?>
     </div>
     <div class="col-sm-6 text-right">
-      <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Edit"><i class="fa fa-pencil fa-lg" aria-hitden="true"></i></button>
+      <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Add">
+        Add
+      </button>
       <div class="btn-group">
-        <button type="button" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Clone"><i class="fa fa-copy fa-lg" aria-hitden="true"></i></button>
-        <button type="button" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Delete"><i class="fa fa-trash fa-lg" aria-hitden="true"></i></button>
+        <button type="button" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Clone">
+          <i class="fa fa-copy fa-lg" aria-hitden="true"></i>
+        </button>
+        <button type="button" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Delete">
+          <i class="fa fa-trash fa-lg" aria-hitden="true"></i>
+        </button>
         <div class="btn-group">
-          <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown"><i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i></button>
-          <ul class="dropdown-menu">
+          <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-right">
             <li>
-              <a href="#">Dropdown link</a>
+              <a href="#">Action 1</a>
             </li>
             <li>
-              <a href="#">Dropdown link</a>
+              <a href="#">Action 2</a>
             </li>
           </ul>
         </div>
