@@ -3,8 +3,7 @@
   include_once 'head.php';
   include_once 'partials/header.html';
 	include_once 'partials/menu.html';
-       include_once 'partials/submenu.html';
-  
+  include_once 'partials/submenu.html';
   ?>
 		<div class="content-wrapper">
 			<div class="container content">
