@@ -295,15 +295,24 @@ body.hold-transition .right-side {
 .sidebar-collapse .sidebar-menu .treeview-menu > li > a {
   padding-left: 15px;
 }
+.sidebar-mini.sidebar-collapse .submenu {
+  margin-left: 50px;
+}
 .submenu {
   position: fixed;
   left: 0;
   right: 0;
   top: 50px;
-  width: 100%;
+  margin-left: 230px;
   background: white;
   padding: 8px;
   z-index: 1;
+}
+.submenu .breadcrumb {
+  margin-bottom: 0;
+}
+.submenu + .content-wrapper {
+  padding-top: 100px;
 }
 /*
  * Component: Main Header

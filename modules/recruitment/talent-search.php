@@ -1,25 +1,8 @@
-<?php include '../../base.php'?>
+<?php $breadcrumb = true; include '../../base.php' ?>
 <?php startblock('page')?>
 <div class="page-header">
-  <ol class="breadcrumb">
-      <li>
-          <a href="#">
-              <i class="pu-icon pu-icon-settings"></i>
-              System Settings</a>
-      </li>
-      <li>
-        <a href="#">Jobs</a>
-      </li>
-      <li>
-          <a href="#">Recruitment Processes</a>
-      </li>
-      <li>
-          <a href="#">Graduate</a>
-      </li>
-      <li class="active">Application statuses</li>
-  </ol>
   <h1>Talent Search</h1>
-</div>  
+</div>
 
 <div class="row row-gap">
   <?php for ($x = 0; $x <= 11; $x++) {?>

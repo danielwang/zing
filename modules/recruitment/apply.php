@@ -3,7 +3,6 @@
 <div class="page-header">
   <h1>Senior Electrical Engineer</h1>
 </div>
-
     <div class="row row-gap">
       <div class="col-sm-4">
         <div class="pu-wizard pu-wizard-vertical">
@@ -46,22 +45,11 @@
         </div>
       </div>
       <div class="col-sm-6 col-sm-offset-1">
-        <article class="pu-box" role="box">
-        		<header class="pu-box-header" role="box-header">
-                <h4>Personal details</h4>
-                <div class="more hide">
-                    <a href="#" data-toggle="dropdown" class="dropdown-toggle">
-                        <i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i>
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-right">
-                        <li><a href="#">Action 1</a>
-                        </li>
-                        <li><a href="#">Action 2</a>
-                        </li>
-                    </ul>
-                </div>
-            </header>
-        		<section class="pu-box-content" role="box-content">
+        <div class="pu-panel panel">
+             <div class="panel-heading">
+                <h4 class="panel-title">Personal details</h4>
+            </div>
+        		<section class="panel-body">
               <form>
                 <div class="form-group">
                   <label>Label</label>

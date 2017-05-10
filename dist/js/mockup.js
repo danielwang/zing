@@ -12,4 +12,11 @@ $(function($) {
       $body.removeClass('disable-animations');
     });
   }
+
+});
+
+$(document).ready(function() {
+  $('.nav-tabs a').click(function(e) {
+    $(this).tab('show')
+  })
 });
