@@ -1,54 +1,53 @@
 <form>
-  <h4 class="blue">Job Role</h4>
-  <div class="form-group">
-    <label class="control-label">Job title</label>
-    <input class="form-control" placeholder="placeholder" type="text" autofocus/>
-  </div>
-  <div class="form-group">
-    <label class="control-label">Job No.</label>
-    <input class="form-control" type="text">
-    <span class="help-block">Leave blank to automatically create a reference No.</span>
-  </div>
-  <div class="form-group">
-    <label class="control-label">Reports to manager name:</label>
-    <input class="form-control" type="text">
-  </div>
-  <h4 class="blue">Headcount Management</h4>
-  <div class="form-group">
-    <label class="control-label">Positions</label>
-    <div class="row">
-      <div class="col-md-5"><input class="form-control" placeholder="New" type="text"></div>
-      <div class="col-md-5"><input class="form-control" placeholder="Replacement" type="text">
-      </div>
-      <div class="col-md-2">
-        <button class="btn btn-default" type="button">Add</button>
+  <h3 class="blue">Job Role</h3>
+  <div class="row">
+    <div class="col-md-5">
+      <div class="form-group">
+        <label for="title" class="control-label">Job title</label>
+        <input id="title" class="form-control" type="text" />
       </div>
     </div>
   </div>
-  <div class="form-group">
-    <div class="row">
-      <div class="col-md-4"><label class="control-label">Date opened</label>
-        <div class="input-group">
-          <input class="form-control" type="text">
-          <span class="input-group-btn">
-                  <button class="btn" type="button">
-                      <i class="fa fa-calendar"></i>
-                  </button>
-              </span>
-        </div>
+  <div class="row">
+    <div class="col-md-5">
+      <div class="form-group">
+        <label class="control-label">Job No.</label>
+        <input class="form-control" type="text" />
+        <small class="help-block gray">Leave blank to automatically create a reference No.</small>
       </div>
-      <div class="col-md-4"><label class="control-label">Date needed</label>
-        <div class="input-group">
-          <input class="form-control" type="text">
-          <span class="input-group-btn">
-                  <button class="btn" type="button">
-                      <i class="fa fa-calendar"></i>
-                  </button>
-              </span>
-        </div>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <div class="form-group">
+        <label for="mgr" class="control-label">Reports to manager name:</label>
+        <input id="mgr" class="form-control" type="text" />
       </div>
-      <div class="col-md-4">
-        <label class="control-label">Date filled</label>
+    </div>
+  </div>
+  <h3 class="blue">Headcount Management</h3>
+  <h6>Positions</h6>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="form-group">
+        <label class="control-label">New</label>
+        <input class="form-control" type="text">
+      </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+      <div class="form-group">
+        <label class="control-label">Replacement</label>
+        <input class="form-control" type="text">
+      </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+      <button class="btn btn-default btn-sm" type="button">Add</button>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-3">
+      <div class="form-group">
+        <label class="control-label">Date Opened</label>
         <div class="input-group">
           <input class="form-control" type="text">
           <span class="input-group-btn">
@@ -59,73 +58,123 @@
         </div>
       </div>
     </div>
+    <div class="col-md-3 col-md-offset-1">
+      <div class="form-group">
+        <label class="control-label">Date Needed</label>
+        <div class="input-group">
+          <input class="form-control" type="text">
+          <span class="input-group-btn">
+                    <button class="btn" type="button">
+                        <i class="fa fa-calendar"></i>
+                    </button>
+                </span>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+      <div class="form-group">
+        <label class="control-label">Date Filled</label>
+        <div class="input-group">
+          <input class="form-control" type="text">
+          <span class="input-group-btn">
+                    <button class="btn" type="button">
+                        <i class="fa fa-calendar"></i>
+                    </button>
+                </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h3 class="blue">Position Details</h3>
+  <div class="row">
+    <div class="col-md-5">
+      <div class="form-group">
+        <label class="control-label">Business Unit</label>
+        <div class="select">
+          <select class="form-control">
+                    <option>Option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                </select>
+        </div>
 
+      </div>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <div class="form-group">
+        <label class="control-label">Department</label>
+        <div class="select">
+          <select class="form-control">
+                    <option>Option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                </select>
+
+        </div>
+      </div>
+    </div>
   </div>
-  <h4 class="blue">Position Details</h4>
-  <div class="form-group">
-    <label class="control-label">Business Unit</label>
-    <div class="select">
-      <select class="form-control">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="form-group">
+        <label class="control-label">Employment type</label>
+        <div class="select">
+          <select class="form-control">
+                    <option>Option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                </select>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <div class="form-group">
+        <label class="control-label">Pay scale</label>
+        <div class="select">
+          <select class="form-control">
                 <option>Option 1</option>
                 <option>option 2</option>
                 <option>option 3</option>
                 <option>option 4</option>
             </select>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="form-group">
-    <label class="control-label">Department</label>
-    <div class="select">
-      <select class="form-control">
-                <option>Option 1</option>
-                <option>option 2</option>
-                <option>option 3</option>
-                <option>option 4</option>
-            </select>
+  <h3 class="blue">Skill and knowledge</h3>
+  <div class="row">
+    <div class="col-md-11">
+      <div class="form-group">
+        <label class="control-label">Relevant Experience and/or Qualifications</label>
+        <textarea class="form-control"></textarea>
+      </div>
     </div>
   </div>
-  <div class="form-group">
-    <label class="control-label">Employment type</label>
-    <div class="select">
-      <select class="form-control">
-                <option>Option 1</option>
-                <option>option 2</option>
-                <option>option 3</option>
-                <option>option 4</option>
-            </select>
+  <h3 class="blue">Approvals</h3>
+  <div class="row">
+    <div class="col-md-5">
+      <div class="form-group">
+        <label class="control-label">Approval process</label>
+        <div class="select">
+          <select class="form-control">
+                    <option>Option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                    <option>option 4</option>
+                </select>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="form-group">
-    <label class="control-label">Pay scale</label>
-    <div class="select">
-      <select class="form-control">
-                <option>Option 1</option>
-                <option>option 2</option>
-                <option>option 3</option>
-                <option>option 4</option>
-            </select>
+    <div class="col-md-5 col-md-offset-1">
+      <div class="form-group">
+        <label class="control-label">Recruiter</label>
+        <input class="form-control" type="text">
+      </div>
     </div>
-  </div>
-  <h4 class="blue">Skill and knowledge</h4>
-  <div class="form-group">
-    <label class="control-label">Relevant Experience and/or Qualifications</label>
-    <textarea class="form-control"></textarea>
-  </div>
-  <h4 class="blue">Approvals</h4>
-  <div class="form-group">
-    <label class="control-label">Approval process</label>
-    <div class="select">
-      <select class="form-control">
-                <option>Option 1</option>
-                <option>option 2</option>
-                <option>option 3</option>
-                <option>option 4</option>
-            </select>
-    </div>
-  </div>
-  <div class="form-group">
-    <label class="control-label">Recruiter</label>
-    <input class="form-control" type="text">
   </div>
   <div class="checkbox checkbox-info">
     <input value="option1" id="inlineCheckbox4" class="styled" type="checkbox" checked/>
