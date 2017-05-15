@@ -6,10 +6,15 @@
   include_once 'partials/submenu.html';
   ?>
 		<div class="content-wrapper">
+      <?php if ($jumbotron == true){?>
+        <?php startblock('page')?>
+				<?php endblock()?>
+      <?php } else { ?>
 			<div class="container content">
 				<?php startblock('page')?>
 				<?php endblock()?>
 			</div>
+     <?php }?>
 		</div>
 
 <?php // include 'partials/footer.html';?>

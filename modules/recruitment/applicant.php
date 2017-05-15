@@ -1,11 +1,16 @@
-<?php include '../../base.php' ?>
+<?php $breadcrumb = false; $jumbotron = true; include '../../base.php' ?>
 <?php startblock('page') ?>
-<div class="page-header">
-  <h1>John Smith</h1>
+<div class="jumbotron">
+  <div class="container">
+    <h1>John Smith</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Action</a></p>
+  </div>
 </div>
-<div class="row row-gap">
-  <div class="col-sm-4">
-    <article class="pu-box" role="box">
+<div class="container">
+  <div class="row row-gap">
+  <div class="col-sm-8">
+    <article class="pu-box" role="box" style="margin-top: -160px">
       <header class="pu-box-header" role="box-header">
         <h4>Profile</h4>
       </header>
@@ -41,14 +46,12 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
       </div>
     </article>
-  </div>
-  <div class="col-sm-8">
     <ul class="nav nav-tabs nav-justified pu-tab">
       <li class="active">
         <a href="#1b" data-toggle="tab">Applications</a>
       </li>
       <li>
-        <a href="#2b" data-toggle="tab">History</a>
+        <a href="#2b" data-toggle="tab">CRM</a>
       </li>
       <li>
         <a href="#3b" data-toggle="tab">Resume</a>
@@ -58,14 +61,25 @@
       <div class="tab-pane active" id="1b">
         <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
         </p>
+        <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+        </p>
+        <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+        </p>
+        <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+        </p>
       </div>
       <div class="tab-pane" id="2b">
-        <?php include ("${resURL}components/_timeline.html");?>
+          Inquit, dasne adolescenti
       </div>
       <div class="tab-pane" id="3b">
         <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
   </div>
+  <div class="col-sm-4">
+    <h4>History</h4>
+    <?php include ("${resURL}components/_timeline.html");?>
+  </div>
+</div>
 </div>
 <?php endblock() ?>

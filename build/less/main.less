@@ -3,65 +3,66 @@
  * ----------
  */
 .pu-blue {
-    //Navbar
-    .main-header {
-        .navbar {
-            .navbar-variant(@brand-grey-light, #fff);
+  //Navbar
+  .main-header {
+    .navbar {
+      .navbar-variant(@brand-grey-light, #fff);
 
-            .sidebar-toggle {
-                color: #fff;
+      .sidebar-toggle {
+        color: #fff;
 
-                &:hover {
-                    background-color: darken(@brand-grey-light, 5%);
-                }
+        &:hover {
+          background-color: darken(@brand-grey-light, 5%);
+        }
+      }
+      @media (max-width: @screen-header-collapse) {
+        .dropdown-menu {
+          li {
+            &.divider {
+              background-color: rgba(255, 255, 255, 0.1);
             }
-            @media (max-width: @screen-header-collapse) {
-                .dropdown-menu {
-                    li {
-                        &.divider {
-                            background-color: rgba(255, 255, 255, 0.1);
-                        }
 
-                        a {
-                            color: #fff;
+            a {
+              color: #fff;
 
-                            &:hover {
-                                background: darken(@brand-grey-light, 5%);
-                            }
-                        }
-                    }
-                }
+              &:hover {
+                background: darken(@brand-grey-light, 5%);
+              }
             }
+          }
         }
-        //Logo
-        .logo {
-            .logo-variant(@brand-navy);
-        }
+      }
+    }
+    //Logo
+    .logo {
+      .logo-variant(@brand-navy);
+    }
 
-        li.user-header {
-            background-color: @brand-navy;
-        }
+    li.user-header {
+      background-color: @brand-navy;
     }
-    //Content Header
-    .content-header {
-        background: transparent;
-    }
-    //Create the sidebar skin
-    .skin-dark-sidebar(@brand-navy);
+  }
+  //Content Header
+  .content-header {
+    background: transparent;
+  }
+  //Create the sidebar skin
+  .skin-dark-sidebar(@brand-navy);
 }
 
 .skin-blue.layout-top-nav .main-header > .logo {
-    .logo-variant(@light-blue);
+  .logo-variant(@light-blue);
 }
 
 .sidebar-collapse .sidebar-menu .treeview-menu > li > a {
-    padding-left: 15px;
+  padding-left: 15px;
 }
 
-.sidebar-mini.sidebar-collapse .submenu{
-    margin-left: 50px;
+.sidebar-mini.sidebar-collapse .submenu {
+  margin-left: 50px;
 }
-.submenu{
+
+.submenu {
   position: fixed;
   left: 0;
   right: 0;
@@ -71,10 +72,26 @@
   padding: 8px;
   z-index: 1;
 
-  .breadcrumb{
+  .breadcrumb {
     margin-bottom: 0;
   }
-  + .content-wrapper{
+
+  + .content-wrapper {
     padding-top: 100px;
+  }
+}
+
+.jumbotron {
+  background: linear-gradient(120deg,@brand-navy-light 25%, @blue 85%);
+  color: white;
+
+  h1 {
+    font-size: 36px;
+  }
+
+  &.hero {
+    background-image: linear-gradient(rgba(37, 123, 160, 0.5), rgba(37, 123, 160, 0.5)), url("https://source.unsplash.com/category/nature/1600x900/");
+    background-attachment: fixed;
+    background-size: cover;
   }
 }

@@ -314,6 +314,18 @@ body.hold-transition .right-side {
 .submenu + .content-wrapper {
   padding-top: 100px;
 }
+.jumbotron {
+  background: linear-gradient(120deg, #257ba0 25%, #57c0e9 85%);
+  color: white;
+}
+.jumbotron h1 {
+  font-size: 36px;
+}
+.jumbotron.hero {
+  background-image: linear-gradient(rgba(37, 123, 160, 0.5), rgba(37, 123, 160, 0.5)), url("https://source.unsplash.com/category/nature/1600x900/");
+  background-attachment: fixed;
+  background-size: cover;
+}
 /*
  * Component: Main Header
  * ----------------------
@@ -595,7 +607,7 @@ body.hold-transition .right-side {
   color: #f0f0f0;
   font-size: 12px;
   width: 100%;
-  font-family: "Montserrat";
+  font-family: "Raleway";
 }
 .left-side footer a,
 .main-sidebar footer a {
@@ -662,7 +674,7 @@ body.hold-transition .right-side {
   display: block;
 }
 .sidebar-menu > li > a span {
-  font-family: "Montserrat";
+  font-family: "Raleway";
   font-size: 16px;
   vertical-align: top;
 }
@@ -723,7 +735,7 @@ body.hold-transition .right-side {
   padding: 5px 5px 5px 45px;
   display: block;
   font-size: 14px;
-  font-family: "Montserrat";
+  font-family: "Raleway";
 }
 .sidebar-menu .treeview-menu > li > a > .fa,
 .sidebar-menu .treeview-menu > li > a > .ion,

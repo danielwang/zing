@@ -1,12 +1,17 @@
-<?php include '../../base.php' ?>
+<?php $breadcrumb = true; $jumbotron = true; include '../../base.php' ?>
 <?php startblock('page') ?>
-<div class="page-header">
-  <h1><img class="pu-avatar pu-avatar-lg" src="<?php echo ($resURL)?>img/avatar/users-1.svg" /> Daniel Wang
-  </h1>
+<div class="jumbotron hero">
+  <div class="container">
+    <h1><img class="pu-avatar pu-avatar-lg" src="<?php echo ($resURL)?>img/avatar/users-1.svg" /> Daniel Wang
+    </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn now</a></p>
+  </div>
 </div>
-<div class="row row-gap">
+  <div class="container">
+    <div class="row row-gap">
   <div class="col-sm-4">
-    <article class="pu-box" role="box">
+    <article class="pu-box" role="box" style="margin-top: -160px">
       <header class="pu-box-header" role="box-header">
         <h4>Profile</h4>
       </header>
@@ -70,22 +75,22 @@
   <div class="col-sm-8">
     <ul class="nav nav-tabs nav-justified pu-tab">
       <li class="active">
-        <a href="#1b" data-toggle="tab">Performance</a>
-      </li>
-      <li>
-        <a href="#3b" data-toggle="tab">Learning</a>
-      </li>
-      <li>
-        <a href="#2b" data-toggle="tab">History</a>
-      </li>
+          <a href="#2b" data-toggle="tab">History</a>
+        </li>
+        <li>
+          <a href="#1b" data-toggle="tab">Performance</a>
+        </li>
+        <li>
+          <a href="#3b" data-toggle="tab">Learning</a>
+        </li>
     </ul>
     <div class="tab-content clearfix">
-      <div class="tab-pane active" id="1b">
+      <div class="tab-pane active" id="2b">
+        <?php include ("${resURL}components/_timeline.html");?>
+      </div>
+      <div class="tab-pane" id="1b">
         <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
         </p>
-      </div>
-      <div class="tab-pane" id="2b">
-        <?php include ("${resURL}components/_timeline.html");?>
       </div>
       <div class="tab-pane" id="3b">
         <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -93,4 +98,5 @@
     </div>
   </div>
 </div>
+  </div>
 <?php endblock() ?>

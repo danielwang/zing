@@ -1,4 +1,4 @@
-<?php $breadcrumb = true; include '../../base.php';?>
+<?php $breadcrumb = true; $jumbotron=false; include '../../base.php';?>
 <?php startblock('page')?>
 <div class="page-header">
   <h1>Jobs</h1>
