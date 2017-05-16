@@ -2,7 +2,7 @@
 <?php startblock('page') ?>
 <div class="jumbotron hero">
   <div class="container">
-    <h1><img class="pu-avatar pu-avatar-lg" src="<?php echo ($resURL)?>img/avatar/users-1.svg" /> Daniel Wang
+    <h1><img class="pu-avatar pu-avatar-lg" src="<?php echo ($resURL)?>img/avatar/avatar.svg" /> Daniel Wang
     </h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
     <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn now</a></p>
@@ -11,7 +11,7 @@
   <div class="container">
     <div class="row row-gap">
   <div class="col-sm-4">
-    <article class="pu-box" role="box" style="margin-top: -160px">
+    <article class="pu-box" role="box" style="margin-top: -100px">
       <header class="pu-box-header" role="box-header">
         <h4>Profile</h4>
       </header>
@@ -76,6 +76,9 @@
     <ul class="nav nav-tabs nav-justified pu-tab">
       <li class="active">
           <a href="#2b" data-toggle="tab">History</a>
+        </li>
+        <li>
+          <a href="#1b" data-toggle="tab">Jobs</a>
         </li>
         <li>
           <a href="#1b" data-toggle="tab">Performance</a>

@@ -2953,7 +2953,8 @@ Variations
 .nav-tabs.pu-tab > li a {
   border: 1px solid #dddddd;
   background: white;
-  font-size: 18px;
+  font-size: 16px;
+  padding: 10px 15px;
 }
 .nav-tabs.pu-tab > li.active > a,
 .nav-tabs.pu-tab > li.active > a:focus {
@@ -3076,6 +3077,7 @@ Variations
   background: #257ba0;
   color: white;
   font-size: 16px;
+  padding: 12px 8px;
 }
 .table.pu-table thead th a {
   color: white;
@@ -3294,7 +3296,7 @@ table.text-center th {
   border-bottom-color: #dddddd;
 }
 .pu-accordion .panel .panel-heading {
-  padding: 15px;
+  padding: 15px 15px;
 }
 .accordion .panel {
   border-color: #ffffff;
@@ -3434,6 +3436,9 @@ table.text-center th {
 }
 .panel.pu-panel .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #dddddd;
+}
+.panel.pu-panel .panel-heading {
+  padding: 15px;
 }
 .panel .panel-heading {
   position: relative;
@@ -3816,6 +3821,7 @@ table.text-center th {
 }
 .pu-timeline {
   list-style: none;
+  padding: 0;
 }
 .pu-timeline .timeline-item {
   overflow: hidden;
@@ -4004,4 +4010,26 @@ table.text-center th {
 }
 .badge.badge-red {
   background-color: #da4167;
+}
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+  color: #fff;
+  background-color: #257ba0;
+  border-color: #257ba0;
+}
+.list-group-item a {
+  font-family: 'Raleway', sans-serif;
+}
+.jumbotron {
+  background: linear-gradient(120deg, #257ba0 25%, #7e52a0 85%);
+  color: white;
+}
+.jumbotron h1 {
+  font-size: 36px;
+}
+.jumbotron.hero {
+  background-image: linear-gradient(rgba(37, 123, 160, 0.5), rgba(37, 123, 160, 0.5)), url("https://source.unsplash.com/category/nature");
+  background-attachment: fixed;
+  background-size: cover;
 }

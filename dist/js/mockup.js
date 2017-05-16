@@ -12,7 +12,7 @@ $(function($) {
       $body.removeClass('disable-animations');
     });
   }
-
+  submenuShadow();
 });
 
 $(document).ready(function() {
@@ -20,3 +20,14 @@ $(document).ready(function() {
     $(this).tab('show')
   })
 });
+
+function submenuShadow(){
+    var header = $('.submenu');
+    $(window).scroll(function(){
+        if($(window).scrollTop() <= 30){
+       		header.css('box-shadow', '0px 0px ' + $(window).scrollTop() + 'px rgba(0, 0, 0, 0.4)');
+        } else {
+          header.css('box-shadow', '0px 0px 30px rgba(0, 0, 0, 0.4)');
+        }
+    });
+};

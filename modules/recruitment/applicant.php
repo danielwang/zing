@@ -10,7 +10,7 @@
 <div class="container">
   <div class="row row-gap">
   <div class="col-sm-8">
-    <article class="pu-box" role="box" style="margin-top: -160px">
+    <article class="pu-box" role="box" style="margin-top: -100px">
       <header class="pu-box-header" role="box-header">
         <h4>Profile</h4>
       </header>

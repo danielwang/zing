@@ -5,21 +5,16 @@
 </div>
 <div class="row">
   <div class="col-sm-2"> <!-- required for floating -->
-   <!-- Nav tabs -->
-   <ul class="nav nav-tabs tabs-left">
-     <li class="active">
-       <span class="pu-toggle-btn pu-toggle-btn-green">
-            <label>
-                <input type="checkbox" checked>
-                <span></span>
-            </label>
-       </span>
-       <a href="#home" data-toggle="tab">Career Website</a>
-     </li>
-     <li><a href="#profile" data-toggle="tab">Profile</a></li>
-     <li><a href="#messages" data-toggle="tab">Messages</a></li>
-     <li><a href="#settings" data-toggle="tab">Settings</a></li>
-   </ul>
+    <div class="list-group">
+      <a href="#" class="list-group-item">
+        Career website
+      </a>
+      <a href="#" class="list-group-item active">Seek</a>
+      <a href="#" class="list-group-item">Intranet</a>
+      <a href="#" class="list-group-item">Job Bank</a>
+      <a href="#" class="list-group-item">Career One</a>
+      <a href="#" class="list-group-item">Job Street</a>
+  </div>
  </div>
 
  <div class="col-sm-10">
@@ -27,10 +22,10 @@
    <div class="tab-content">
      <div class="tab-pane active" id="home">
        <div class="row">
-         <div class="col-sm-8">
+         <div class="col-sm-9">
            <?php include ("${resURL}components/_form.html");?>
          </div>
-         <div class="col-sm-4">
+         <div class="col-sm-3">
            <button class="btn btn-default">Apply job template</button>
            <?php include ("${resURL}components/_filters.html");?>
          </div>
