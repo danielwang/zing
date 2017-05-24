@@ -318,7 +318,9 @@
   </div>
 </nav>
 		<div class="content-wrapper">
-      			<div class="container content">
+      <br />
+<b>Notice</b>:  Undefined variable: jumbotron in <b>/Applications/MAMP/htdocs/mockup/base.php</b> on line <b>9</b><br />
+			<div class="container content">
 				<div class="page-header">
   <h1>Sourcing Channels</h1>
 </div>
@@ -343,177 +345,431 @@
        <div class="row">
          <div class="col-sm-9">
            <form>
-  <h3 class="blue">Job Role</h3>
+  <h4 class="blue">Job Role</h4>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-12">
       <div class="form-group">
-        <label for="title" class="control-label">Job title</label>
-        <input id="title" class="form-control" type="text" />
+        <label for="title" class="control-label required">Job title</label>
+        <input id="title" class="form-control" type="text"/>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="form-group">
         <label class="control-label">Job No.</label>
-        <input class="form-control" type="text" />
+        <input class="form-control" type="text"/>
         <small class="help-block gray">Leave blank to automatically create a reference No.</small>
       </div>
     </div>
-    <div class="col-md-5 col-md-offset-1">
+    <div class="col-md-6">
       <div class="form-group">
         <label for="mgr" class="control-label">Reports to manager name:</label>
-        <input id="mgr" class="form-control" type="text" />
+        <input id="mgr" class="form-control" type="text"/>
       </div>
     </div>
   </div>
-  <h3 class="blue">Headcount Management</h3>
+  <h4 class="blue">Headcount Management</h4>
   <h6>Positions</h6>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="form-group">
         <label class="control-label">New</label>
-        <input class="form-control" type="text">
+        <div class="input-group">
+          <input class="form-control" type="text">
+          <span class="input-group-btn">
+            <button class="btn" type="button">
+              Add
+            </button>
+          </span>
+        </div>
       </div>
     </div>
-    <div class="col-md-3 col-md-offset-1">
+    <div class="col-md-4">
       <div class="form-group">
         <label class="control-label">Replacement</label>
-        <input class="form-control" type="text">
+        <div class="input-group">
+          <input class="form-control" type="text">
+          <span class="input-group-btn">
+            <button class="btn" type="button">
+              Add
+            </button>
+          </span>
+        </div>
       </div>
     </div>
-    <div class="col-md-3 col-md-offset-1">
-      <button class="btn btn-default btn-sm" type="button">Add</button>
-    </div>
   </div>
-
-
+  <div class="table-responsive">
+  <table class="table table-striped table-hover">
+    <thead>
+      <tr>
+        <th>Column 1
+        </th>
+        <th>Column 2</th>
+        <th>Type</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+            <tr>
+        <td>
+          <input class="form-control input-sm" placeholder="placehoder ..." type="text">
+        </td>
+        <td>
+          <select class="form-control input-sm">
+            <option value="">Select</option>
+          </select>
+        </td>
+        <td>
+          Type
+          0        </td>
+        <td>
+          Status
+          0</td>
+        <td>
+          <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-default">Edit</button>
+            <button type="button" class="btn btn-default">
+              <i class="fa fa-trash fa-lg" aria-hitden="true"></i>
+            </button>
+            <div class="btn-group btn-group-sm">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <input class="form-control input-sm" placeholder="placehoder ..." type="text">
+        </td>
+        <td>
+          <select class="form-control input-sm">
+            <option value="">Select</option>
+          </select>
+        </td>
+        <td>
+          Type
+          1        </td>
+        <td>
+          Status
+          1</td>
+        <td>
+          <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-default">Edit</button>
+            <button type="button" class="btn btn-default">
+              <i class="fa fa-trash fa-lg" aria-hitden="true"></i>
+            </button>
+            <div class="btn-group btn-group-sm">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <input class="form-control input-sm" placeholder="placehoder ..." type="text">
+        </td>
+        <td>
+          <select class="form-control input-sm">
+            <option value="">Select</option>
+          </select>
+        </td>
+        <td>
+          Type
+          2        </td>
+        <td>
+          Status
+          2</td>
+        <td>
+          <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-default">Edit</button>
+            <button type="button" class="btn btn-default">
+              <i class="fa fa-trash fa-lg" aria-hitden="true"></i>
+            </button>
+            <div class="btn-group btn-group-sm">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <input class="form-control input-sm" placeholder="placehoder ..." type="text">
+        </td>
+        <td>
+          <select class="form-control input-sm">
+            <option value="">Select</option>
+          </select>
+        </td>
+        <td>
+          Type
+          3        </td>
+        <td>
+          Status
+          3</td>
+        <td>
+          <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-default">Edit</button>
+            <button type="button" class="btn btn-default">
+              <i class="fa fa-trash fa-lg" aria-hitden="true"></i>
+            </button>
+            <div class="btn-group btn-group-sm">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+            <tr>
+        <td>
+          <input class="form-control input-sm" placeholder="placehoder ..." type="text">
+        </td>
+        <td>
+          <select class="form-control input-sm">
+            <option value="">Select</option>
+          </select>
+        </td>
+        <td>
+          Type
+          4        </td>
+        <td>
+          Status
+          4</td>
+        <td>
+          <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-default">Edit</button>
+            <button type="button" class="btn btn-default">
+              <i class="fa fa-trash fa-lg" aria-hitden="true"></i>
+            </button>
+            <div class="btn-group btn-group-sm">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </td>
+      </tr>
+          </tbody>
+  </table>
+</div>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="form-group">
         <label class="control-label">Date Opened</label>
         <div class="input-group">
           <input class="form-control" type="text">
           <span class="input-group-btn">
-                    <button class="btn" type="button">
-                        <i class="fa fa-calendar"></i>
-                    </button>
-                </span>
+            <button class="btn" type="button">
+              <i class="fa fa-calendar"></i>
+            </button>
+          </span>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-md-offset-1">
+    <div class="col-md-4">
       <div class="form-group">
         <label class="control-label">Date Needed</label>
         <div class="input-group">
           <input class="form-control" type="text">
           <span class="input-group-btn">
-                    <button class="btn" type="button">
-                        <i class="fa fa-calendar"></i>
-                    </button>
-                </span>
+            <button class="btn" type="button">
+              <i class="fa fa-calendar"></i>
+            </button>
+          </span>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-md-offset-1">
+    <div class="col-md-4">
       <div class="form-group">
         <label class="control-label">Date Filled</label>
         <div class="input-group">
           <input class="form-control" type="text">
           <span class="input-group-btn">
-                    <button class="btn" type="button">
-                        <i class="fa fa-calendar"></i>
-                    </button>
-                </span>
+            <button class="btn" type="button">
+              <i class="fa fa-calendar"></i>
+            </button>
+          </span>
         </div>
       </div>
     </div>
   </div>
-  <h3 class="blue">Position Details</h3>
+  <h4 class="blue">Position Details</h4>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="form-group">
-        <label class="control-label">Business Unit</label>
+        <label class="control-label required">Business Unit</label>
         <div class="select">
           <select class="form-control">
-                    <option>Option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                </select>
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
         </div>
 
       </div>
     </div>
-    <div class="col-md-5 col-md-offset-1">
-      <div class="form-group">
+    <div class="col-md-6">
+      <div class="form-group required">
         <label class="control-label">Department</label>
         <div class="select">
           <select class="form-control">
-                    <option>Option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                </select>
-
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
         </div>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="form-group">
         <label class="control-label">Employment type</label>
         <div class="select">
           <select class="form-control">
-                    <option>Option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                </select>
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
 
         </div>
       </div>
     </div>
-    <div class="col-md-5 col-md-offset-1">
+    <div class="col-md-6">
       <div class="form-group">
         <label class="control-label">Pay scale</label>
         <div class="select">
           <select class="form-control">
-                <option>Option 1</option>
-                <option>option 2</option>
-                <option>option 3</option>
-                <option>option 4</option>
-            </select>
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
         </div>
       </div>
     </div>
   </div>
-  <h3 class="blue">Skill and knowledge</h3>
+  <div class="form-group">
+    <label class="control-label">Ad description</label>
+    <script type="text/javascript" src="https://ui.pageuppeople.com/libs/scribble/scribble.js" charset="UTF-8" async></script>
+<textarea style="visibility: hidden;" pageup-scribble>Hello from Scribble!</textarea>
+  </div>
+  <div class="form-group">
+    <label class="control-label">Position documents upload</label>
+    <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+<link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
+
+<p>
+  This is the most minimal example of Dropzone. The upload in this example doesn't work, because there is no actual server to handle the file upload.
+</p>
+
+<!-- Change /upload-target to your upload address -->
+<form action="/upload-target" class="dropzone"></form>
+  </div>
+  <h4 class="blue">Skill and knowledge</h4>
   <div class="row">
-    <div class="col-md-11">
+    <div class="col-md-12">
       <div class="form-group">
         <label class="control-label">Relevant Experience and/or Qualifications</label>
         <textarea class="form-control"></textarea>
       </div>
     </div>
   </div>
-  <h3 class="blue">Approvals</h3>
+  <h4 class="blue">Employee referral</h4>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="form-group">
-        <label class="control-label">Approval process</label>
+        <label class="control-label required">Referral category</label>
         <div class="select">
           <select class="form-control">
-                    <option>Option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                </select>
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
         </div>
       </div>
     </div>
-    <div class="col-md-5 col-md-offset-1">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label class="control-label">Referral amount</label>
+        <div class="input-group">
+          <div class="input-group-addon">
+            <i class="fa fa-usd" aria-hidden="true"></i>
+          </div>
+          <input class="form-control" id="exampleInputAmount" placeholder="Amount" type="text">
+          <div class="input-group-addon">.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h4 class="blue">Approvals</h4>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label class="control-label required">Approval process</label>
+        <div class="select">
+          <select class="form-control">
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
       <div class="form-group">
         <label class="control-label">Recruiter</label>
         <input class="form-control" type="text">
@@ -523,8 +779,8 @@
   <div class="checkbox checkbox-info">
     <input value="option1" id="inlineCheckbox4" class="styled" type="checkbox" checked/>
     <label for="inlineCheckbox4">
-            Save a copy of this job as a template
-        </label>
+      Save a copy of this job as a template
+    </label>
   </div>
   <div class="text-center">
     <button type="button" class="btn btn-default">Spell check</button>

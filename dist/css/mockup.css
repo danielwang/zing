@@ -306,7 +306,7 @@ body.hold-transition .right-side {
   margin-left: 230px;
   background: white;
   padding: 8px;
-  z-index: 1;
+  z-index: 999;
 }
 .submenu .breadcrumb {
   margin-bottom: 0;

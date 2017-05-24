@@ -1,175 +1,220 @@
 <form>
-  <h3 class="blue">Job Role</h3>
+  <h4 class="blue">Job Role</h4>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-12">
       <div class="form-group">
-        <label for="title" class="control-label">Job title</label>
-        <input id="title" class="form-control" type="text" />
+        <label for="title" class="control-label required">Job title</label>
+        <input id="title" class="form-control" type="text"/>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="form-group">
         <label class="control-label">Job No.</label>
-        <input class="form-control" type="text" />
+        <input class="form-control" type="text"/>
         <small class="help-block gray">Leave blank to automatically create a reference No.</small>
       </div>
     </div>
-    <div class="col-md-5 col-md-offset-1">
+    <div class="col-md-6">
       <div class="form-group">
         <label for="mgr" class="control-label">Reports to manager name:</label>
-        <input id="mgr" class="form-control" type="text" />
+        <input id="mgr" class="form-control" type="text"/>
       </div>
     </div>
   </div>
-  <h3 class="blue">Headcount Management</h3>
+  <h4 class="blue">Headcount Management</h4>
   <h6>Positions</h6>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="form-group">
         <label class="control-label">New</label>
-        <input class="form-control" type="text">
+        <div class="input-group">
+          <input class="form-control" type="text">
+          <span class="input-group-btn">
+            <button class="btn" type="button">
+              Add
+            </button>
+          </span>
+        </div>
       </div>
     </div>
-    <div class="col-md-3 col-md-offset-1">
+    <div class="col-md-4">
       <div class="form-group">
         <label class="control-label">Replacement</label>
-        <input class="form-control" type="text">
+        <div class="input-group">
+          <input class="form-control" type="text">
+          <span class="input-group-btn">
+            <button class="btn" type="button">
+              Add
+            </button>
+          </span>
+        </div>
       </div>
     </div>
-    <div class="col-md-3 col-md-offset-1">
-      <button class="btn btn-default btn-sm" type="button">Add</button>
-    </div>
   </div>
-
-
+  <?php include ("${resURL}components/_table-sm-edit.html"); ?>
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="form-group">
         <label class="control-label">Date Opened</label>
         <div class="input-group">
           <input class="form-control" type="text">
           <span class="input-group-btn">
-                    <button class="btn" type="button">
-                        <i class="fa fa-calendar"></i>
-                    </button>
-                </span>
+            <button class="btn" type="button">
+              <i class="fa fa-calendar"></i>
+            </button>
+          </span>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-md-offset-1">
+    <div class="col-md-4">
       <div class="form-group">
         <label class="control-label">Date Needed</label>
         <div class="input-group">
           <input class="form-control" type="text">
           <span class="input-group-btn">
-                    <button class="btn" type="button">
-                        <i class="fa fa-calendar"></i>
-                    </button>
-                </span>
+            <button class="btn" type="button">
+              <i class="fa fa-calendar"></i>
+            </button>
+          </span>
         </div>
       </div>
     </div>
-    <div class="col-md-3 col-md-offset-1">
+    <div class="col-md-4">
       <div class="form-group">
         <label class="control-label">Date Filled</label>
         <div class="input-group">
           <input class="form-control" type="text">
           <span class="input-group-btn">
-                    <button class="btn" type="button">
-                        <i class="fa fa-calendar"></i>
-                    </button>
-                </span>
+            <button class="btn" type="button">
+              <i class="fa fa-calendar"></i>
+            </button>
+          </span>
         </div>
       </div>
     </div>
   </div>
-  <h3 class="blue">Position Details</h3>
+  <h4 class="blue">Position Details</h4>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="form-group">
-        <label class="control-label">Business Unit</label>
+        <label class="control-label required">Business Unit</label>
         <div class="select">
           <select class="form-control">
-                    <option>Option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                </select>
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
         </div>
 
       </div>
     </div>
-    <div class="col-md-5 col-md-offset-1">
-      <div class="form-group">
+    <div class="col-md-6">
+      <div class="form-group required">
         <label class="control-label">Department</label>
         <div class="select">
           <select class="form-control">
-                    <option>Option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                </select>
-
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
         </div>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="form-group">
         <label class="control-label">Employment type</label>
         <div class="select">
           <select class="form-control">
-                    <option>Option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                </select>
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
 
         </div>
       </div>
     </div>
-    <div class="col-md-5 col-md-offset-1">
+    <div class="col-md-6">
       <div class="form-group">
         <label class="control-label">Pay scale</label>
         <div class="select">
           <select class="form-control">
-                <option>Option 1</option>
-                <option>option 2</option>
-                <option>option 3</option>
-                <option>option 4</option>
-            </select>
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
         </div>
       </div>
     </div>
   </div>
-  <h3 class="blue">Skill and knowledge</h3>
+  <div class="form-group">
+    <label class="control-label">Ad description</label>
+    <?php include ("${resURL}components/_rte.html"); ?>
+  </div>
+  <div class="form-group">
+    <label class="control-label">Position documents upload</label>
+    <?php include ("${resURL}components/_dropzone.html"); ?>
+  </div>
+  <h4 class="blue">Skill and knowledge</h4>
   <div class="row">
-    <div class="col-md-11">
+    <div class="col-md-12">
       <div class="form-group">
         <label class="control-label">Relevant Experience and/or Qualifications</label>
         <textarea class="form-control"></textarea>
       </div>
     </div>
   </div>
-  <h3 class="blue">Approvals</h3>
+  <h4 class="blue">Employee referral</h4>
   <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-6">
       <div class="form-group">
-        <label class="control-label">Approval process</label>
+        <label class="control-label required">Referral category</label>
         <div class="select">
           <select class="form-control">
-                    <option>Option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
-                    <option>option 4</option>
-                </select>
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
         </div>
       </div>
     </div>
-    <div class="col-md-5 col-md-offset-1">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label class="control-label">Referral amount</label>
+        <div class="input-group">
+          <div class="input-group-addon">
+            <i class="fa fa-usd" aria-hidden="true"></i>
+          </div>
+          <input class="form-control" id="exampleInputAmount" placeholder="Amount" type="text">
+          <div class="input-group-addon">.00</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h4 class="blue">Approvals</h4>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <label class="control-label required">Approval process</label>
+        <div class="select">
+          <select class="form-control">
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
       <div class="form-group">
         <label class="control-label">Recruiter</label>
         <input class="form-control" type="text">
@@ -179,8 +224,8 @@
   <div class="checkbox checkbox-info">
     <input value="option1" id="inlineCheckbox4" class="styled" type="checkbox" checked/>
     <label for="inlineCheckbox4">
-            Save a copy of this job as a template
-        </label>
+      Save a copy of this job as a template
+    </label>
   </div>
   <div class="text-center">
     <button type="button" class="btn btn-default">Spell check</button>
