@@ -153,6 +153,13 @@ body.hold-transition .right-side {
 .nopadding {
   padding: 0 !important;
 }
+.dropzone.pu-dropzone {
+  border: 2px dashed #dddddd;
+}
+.dropzone.pu-dropzone .pu-icon-upload-cloud {
+  font-size: 8em;
+  color: #dddddd;
+}
 /*
  * Skin: Blue
  * ----------

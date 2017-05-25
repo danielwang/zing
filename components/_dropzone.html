@@ -1,9 +1,14 @@
 <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
 <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
-
-<p>
-  This is the most minimal example of Dropzone. The upload in this example doesn't work, because there is no actual server to handle the file upload.
-</p>
-
 <!-- Change /upload-target to your upload address -->
-<form action="/upload-target" class="dropzone"></form>
+<form action="/upload-target" class="dropzone pu-dropzone needsclick dz-clickable">
+  <div class="dz-message needsclick">
+    <div class="text-center gray">
+      <i class="pu-icon pu-icon-upload-cloud pu-icon-4x"></i>
+    </div>
+    Drop files here or click to upload.<br>
+    <span class="note needsclick">(This is just a demo dropzone. Selected files are
+      <strong>not</strong>
+      actually uploaded.)</span>
+  </div>
+</form>
