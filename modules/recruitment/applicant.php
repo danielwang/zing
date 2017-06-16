@@ -1,12 +1,18 @@
-<?php $breadcrumb = false; $jumbotron = true; include '../../base.php' ?>
-<?php startblock('page') ?>
-<div class="jumbotron">
-  <div class="container">
-    <h1>John Smith</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Action</a></p>
+<?php include '../../base.php' ?>
+
+<?php startblock('jumbotron') ?>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>John Smith</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">Action</a></p>
+    </div>
   </div>
-</div>
+<?php endblock() ?>
+<?php startblock('submenu') ?>
+  <?php $breadcrumb = true; include ("${resURL}partials/submenu.html"); ?>
+<?php endblock() ?>
+<?php startblock('page') ?>
 <div class="container">
   <div class="row row-gap">
   <div class="col-sm-8">

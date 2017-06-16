@@ -2,13 +2,18 @@
 <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
 <!-- Change /upload-target to your upload address -->
 <form action="/upload-target" class="dropzone pu-dropzone needsclick dz-clickable">
-  <div class="dz-message needsclick">
-    <div class="text-center gray">
+  <div class="dz-message needsclick gray">
+    <div class="text-center">
       <i class="pu-icon pu-icon-upload-cloud pu-icon-4x"></i>
     </div>
-    Drop files here or click to upload.<br>
-    <span class="note needsclick">(This is just a demo dropzone. Selected files are
-      <strong>not</strong>
-      actually uploaded.)</span>
+    <h3 class="gray">Drag & Drop files here</h3>
+    <span class="note needsclick">
+      Or
+      <a href="#_">browse</a>
+      from local drive
+    </span>
+    <p>
+      <small>Max 5MB in size, Word, PDF, or JPG formats</small>
+    </p>
   </div>
 </form>

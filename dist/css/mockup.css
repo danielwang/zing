@@ -605,7 +605,6 @@ body.hold-transition .right-side {
   color: #f0f0f0;
   font-size: 12px;
   width: 100%;
-  font-family: "Raleway";
 }
 .left-side footer a,
 .main-sidebar footer a {
@@ -672,7 +671,6 @@ body.hold-transition .right-side {
   display: block;
 }
 .sidebar-menu > li > a span {
-  font-family: "Raleway";
   font-size: 16px;
   vertical-align: top;
 }
@@ -733,7 +731,6 @@ body.hold-transition .right-side {
   padding: 5px 5px 5px 45px;
   display: block;
   font-size: 14px;
-  font-family: "Raleway";
 }
 .sidebar-menu .treeview-menu > li > a > .fa,
 .sidebar-menu .treeview-menu > li > a > .ion,
