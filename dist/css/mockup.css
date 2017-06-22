@@ -314,15 +314,16 @@ body.hold-transition .right-side {
   background: white;
   padding: 8px;
   z-index: 999;
+  height: 50px;
 }
 .submenu .breadcrumb {
   margin-bottom: 0;
 }
 .submenu + .content-wrapper {
-  padding-top: 100px;
+  padding-top: 50px;
 }
-.jumbotron.hero {
-  background-position-y: 70%;
+.jumbotron + .content-wrapper {
+  padding-top: 100px;
 }
 /*
  * Component: Main Header

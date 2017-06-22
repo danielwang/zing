@@ -1,4 +1,7 @@
-<?php $breadcrumb = true; $jumbotron=false; include '../../base.php';?>
+<?php include '../../base.php';?>
+<?php startblock('top') ?>
+  <?php include ("${resURL}partials/submenu.html"); ?>
+<?php endblock()?>
 <?php startblock('page')?>
 <div class="page-header">
   <h1>Jobs</h1>

@@ -71,16 +71,19 @@
   background: white;
   padding: 8px;
   z-index: 999;
+  height: 50px;
 
   .breadcrumb {
     margin-bottom: 0;
   }
 
   + .content-wrapper {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 }
 
-.jumbotron.hero {
-  background-position-y: 70%;
+.jumbotron {
+  + .content-wrapper {
+    padding-top: 100px;
+  }
 }

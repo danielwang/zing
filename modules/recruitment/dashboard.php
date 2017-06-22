@@ -1,12 +1,8 @@
-<?php $breadcrumb = true; $jumbotron = true; include '../../base.php'?>
+<?php $breadcrumb = true; $jumbotron = true; include '../../base.php' ?>
+<?php startblock('page-title') ?>
+	<h1>Recruitment Dashboard</h1>
+<?php endblock() ?>
 <?php startblock('page')?>
-	<div class="jumbotron hero">
-	  <div class="container">
-	    <h1>Recruitment Dashboard</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-	    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
-	  </div>
-	</div>
 	<div class="row clearfix row-gap">
 		<div class="col-md-8 column">
 	        <div class="panel panel-default">

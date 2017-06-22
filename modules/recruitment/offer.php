@@ -1,8 +1,9 @@
-<?php $breadcrumb = null; include '../../base.php'; ?>
+<?php include '../../base.php'; ?>
+<?php startblock('page-title') ?>
+<h1>Offer Details</h1>
+<h2>John Smith</h2>
+<?php endblock() ?>
 <?php startblock('page') ?>
-<div class="page-header">
-  <h1>Offer Details - John Smith</h1>
-</div>
 <div class="row row-gap">
   <div class="col-sm-4">
     <div class="list-group">

@@ -1,28 +1,9 @@
 <nav class="submenu">
   <div class="row">
     <div class="col-sm-6">
-      <?php if ($breadcrumb == true){ ?>
-      <ol class="breadcrumb">
-        <li>
-          <a href="#">
-            Top level</a>
-        </li>
-        <li>
-          <a href="#">Level 2</a>
-        </li>
-        <li>
-          <a href="#">Level 3</a>
-        </li>
-        <li>
-          <a href="#">Level 4</a>
-        </li>
-        <li class="active">Level 5</li>
-      </ol>
-    <?php } else { ?>
       <button type="button" onclick="window.history.back();" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Back">
         <i class="fa fa-chevron-left fa-lg" aria-hitden="true"></i>
       </button>
-      <?php } ?>
     </div>
     <div class="col-sm-6 text-right">
       <button type="button" class="btn btn-info" data-toggle="tooltip" data-placement="bottom" title="Add">

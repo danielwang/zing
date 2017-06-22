@@ -1,19 +1,11 @@
 <?php include '../../base.php' ?>
 
-<?php startblock('jumbotron') ?>
-  <div class="jumbotron">
-    <div class="container">
-      <h1>John Smith</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Action</a></p>
-    </div>
-  </div>
+<?php startblock('page-title') ?>
+<h1>James Bond</h1>
+<h4>Senior graphic designer</h4>
 <?php endblock() ?>
-<?php startblock('submenu') ?>
-  <?php $breadcrumb = true; include ("${resURL}partials/submenu.html"); ?>
-<?php endblock() ?>
+
 <?php startblock('page') ?>
-<div class="container">
   <div class="row row-gap">
   <div class="col-sm-8">
     <article class="pu-box" role="box" style="margin-top: -100px">
@@ -87,5 +79,5 @@
     <?php include ("${resURL}components/_timeline.html");?>
   </div>
 </div>
-</div>
+
 <?php endblock() ?>

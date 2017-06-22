@@ -6,7 +6,7 @@ PHP Template Inheritance
 ------------------------
 Version: 0.9
 Released: Sun Mar 28 10:05:41 2010 -0700
-Website: http://phpti.com/
+Website: http://arshaw.com/phpti/
 Author: Adam Shaw (http://arshaw.com/)
 Released under the MIT License (license.txt)
 

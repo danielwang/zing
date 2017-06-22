@@ -1,8 +1,9 @@
-<?php include '../../base.php'?>
-<?php startblock('page')?>
-<div class="page-header">
-  <h1>Senior Electrical Engineer</h1>
-</div>
+<?php include '../../base.php' ?>
+    <?php startblock('page-title') ?>
+      <h1>Senior Electrical Engineer</h1>
+      <h4>Melbourne</h4>
+    <?php endblock() ?>
+    <?php startblock('page')?>
     <div class="row row-gap">
       <div class="col-sm-4">
         <div class="pu-wizard pu-wizard-vertical">
