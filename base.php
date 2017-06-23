@@ -41,7 +41,7 @@
       <?php endblock() ?>
       <!-- submenu -->
       <!-- page body -->
-			<div class="container content-wrapper">
+			<div class="container content">
 				<?php startblock('page')?>
 				<?php endblock()?>
 			</div>

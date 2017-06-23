@@ -2,7 +2,6 @@
  * Core: General Layout Style
  * -------------------------
  */
-
 body,
 html {
   height: 100%;
@@ -20,7 +19,6 @@ a:visited {
   text-decoration: none;
 }
 /* Layout */
-
 .wrapper {
   .clearfix();
   height: 100%;
@@ -44,7 +42,6 @@ a:visited {
  * Content Wrapper - contains the main content
  * ```.right-side has been deprecated as of v2.0.0 in favor of .content-wrapper  ```
  */
-
 .content-wrapper,
 .main-footer,
 .right-side {
@@ -88,7 +85,6 @@ a:visited {
   border-top: 1px solid @gray-lte;
 }
 /* Fixed layout */
-
 .fixed {
   .left-side,
   .main-header,
@@ -104,7 +100,7 @@ a:visited {
 
   .content-wrapper,
   .right-side {
-    padding-top: 80px;
+    padding-top: 50px;
     @media (max-width: @screen-header-collapse) {
       padding-top: 100px;
     }
@@ -130,12 +126,10 @@ body.hold-transition {
   }
 }
 /* Content */
-
 .content {
   min-height: 250px;
   padding: 15px;
   .container-fixed(@grid-gutter-width);
 }
 /* Page Header */
-
 .page-header {}

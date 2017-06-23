@@ -1,13 +1,12 @@
-<?php $breadcrumb = true; $jumbotron = true; include '../../base.php' ?>
+<?php include '../../base.php' ?>
+
+<?php startblock('page-title') ?>
+<h1><img class="pu-avatar pu-avatar-lg" src="<?php echo ($resURL)?>img/avatar/avatar.svg" /> Daniel Wang
+</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+<?php endblock() ?>
+
 <?php startblock('page') ?>
-<div class="jumbotron hero">
-  <div class="container">
-    <h1><img class="pu-avatar pu-avatar-lg" src="<?php echo ($resURL)?>img/avatar/avatar.svg" /> Daniel Wang
-    </h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn now</a></p>
-  </div>
-</div>
   <div class="container">
     <div class="row row-gap">
   <div class="col-sm-4">

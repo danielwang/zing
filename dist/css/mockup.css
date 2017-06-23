@@ -117,7 +117,7 @@ a:visited {
 }
 .fixed .content-wrapper,
 .fixed .right-side {
-  padding-top: 80px;
+  padding-top: 50px;
 }
 @media (max-width: 767px) {
   .fixed .content-wrapper,
@@ -319,11 +319,15 @@ body.hold-transition .right-side {
 .submenu .breadcrumb {
   margin-bottom: 0;
 }
-.submenu + .content-wrapper {
-  padding-top: 50px;
+.submenu + .content {
+  padding-top: 80px;
 }
-.jumbotron + .content-wrapper {
-  padding-top: 100px;
+.jumbotron {
+  padding-top: 80px;
+  background-position: 0 50%;
+}
+.jumbotron + .content {
+  padding-top: 0;
 }
 /*
  * Component: Main Header
