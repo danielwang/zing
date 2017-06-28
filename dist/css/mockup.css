@@ -325,9 +325,16 @@ body.hold-transition .right-side {
 .jumbotron {
   padding-top: 80px;
   background-position: 0 50%;
+  position: relative;
 }
 .jumbotron + .content {
   padding-top: 0;
+}
+.jumbotron .sub-pages {
+  position: absolute;
+}
+.jumbotron .sub-pages li {
+  background: rgba(0, 0, 0, 0.2);
 }
 /*
  * Component: Main Header

@@ -7,7 +7,7 @@
 		<div class="content-wrapper">
       <!-- jumbotron -->
       <?php startblock('top') ?>
-      <div class="jumbotron hero">
+      <div class="jumbotron">
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-md-7 col-lg-9">

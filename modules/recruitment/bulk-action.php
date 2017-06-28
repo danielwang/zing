@@ -1,11 +1,15 @@
-<?php $breadcrumb = false; include '../../base.php' ?>
+<?php include '../../base.php' ?>
 <?php startblock('top') ?>
-  <?php include ("${resURL}partials/submenu.html"); ?>
+<div class="jumbotron">
+  <div class="container">
+    <h1>Bulk action</h1>
+    <div class="row">
+      <?php include ("${resURL}components/_carousel.html"); ?>
+    </div>
+  </div>
+</div>
 <?php endblock()?>
 <?php startblock('page') ?>
-<div class="page-header">
-  <h1>Bulk action</h1>
-</div>
 <div class="row row-gap">
   <div class="col-sm-12">
   <?php include ("${resURL}components/_wizard.html"); ?>

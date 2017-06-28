@@ -2,7 +2,6 @@
  * Skin: Blue
  * ----------
  */
-
 .pu-blue {
   //Navbar
   .main-header {
@@ -86,8 +85,17 @@
 .jumbotron {
   padding-top: 80px;
   background-position: 0 50%;
+  position: relative;
 
   + .content {
     padding-top: 0;
+  }
+
+  .sub-pages {
+    position: absolute;
+
+    li {
+      background: rgba(0,0,0,.2);
+    }
   }
 }
