@@ -1,8 +1,10 @@
 <?php include '../../base.php';?>
+<?php startblock('top') ?>
+  <?php include ("${resURL}components/_jumbotron.html"); ?>
+<?php endblock()?>
 <?php startblock('page')?>
-<h2>System Settings</h2>
 <div class="row">
-   <div class="col-sm-8 col-sm-offset-2">
+   <div class="col-sm-12">
       <!-- conents==================================================-->
        <ul class="nav nav-tabs nav-justified pu-tab">
           <li class="active"> <a href="#panel-420130" data-toggle="tab"><i class="fa fa-cogs"></i> Feature settings</a>
