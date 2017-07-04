@@ -150,6 +150,9 @@ body.hold-transition .right-side {
   padding-right: 15px;
 }
 /* Page Header */
+.modal-footer.text-left {
+  text-align: left;
+}
 .nopadding {
   padding: 0 !important;
 }

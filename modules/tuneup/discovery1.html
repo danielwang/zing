@@ -276,10 +276,7 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-md-7 col-lg-9">
-              <h1>Talent Mobility</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-<p><a class="btn btn-warning btn-lg" href="#" role="button">Learn now</a></p>
-            </div>
+                          </div>
             <div class="col-sm-6 col-md-5 col-lg-3">
               <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -308,125 +305,76 @@
             <!-- submenu -->
       <!-- page body -->
 			<div class="container content">
-				<style type="text/css">
-.side .row {
-      margin-bottom: 20px;
-      padding-bottom: 5px;
-  }
-.side i {
-    color: #40B8E6;
-  }
-.side .dash {
-      border-bottom: 1px dashed #ddd;
-      padding-bottom: 5px;
-  }
-</style>
-<div class="container content">
-  <div class="row">
-      <div class="col-sm-8">
-        <div class="pu-box">
-          <div class="pu-box-content">
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
-          <p>Ut wisi enim ad minim veniam, <a href="#">quis nostrud exerci tation ullamcorper</a> suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-          <h3>Paragraphs</h3>
-          <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-          <h3>Paragraphs</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-          <h3>Unordered list</h3>
-            <p>Unordered lists are used to markup lists where list items do not require numbering.</p>
-            <ul>
-              <li>Ut wisi enim ad minim veniam</li>
-              <li>Quis nostrud exerci tation</li>
-              <li>Lamcorper suscipit lobortis nis</li>
-              <li>Ut aliquip ex ea commodo consequat</li>
-              <li>Duis autem vel eum iriure dolor</li>
-            </ul>
-          </div>
-          <div class="pu-box-footer text-center">
-              <button class="btn btn-primary">Action</button>
-          </div>
-        </div>
+				<div class="modal fade in" id="ideaModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: block; padding-right: 15px;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span class="fa fa-times-circle" aria-hidden="true"></span>
+                </button>
+        <h4 class="modal-title" id="myModalLabel">We love your feedback!</h4>
       </div>
-      <div class="col-sm-4 side">
-        <div ng-show="activity.status" class="row">
-            <div class="col-xs-6 col-lg-4"><i class="fa fa-info fa-fw"></i> <span lang="STATUS">Status</span></div>
-            <div class="col-sm-6 col-lg-8 dash ng-binding">In progress</div>
+      <div class="modal-body pu-scroll-vertical" style="height:540px">
+        <!-- <h5>We’d love your feedback on great new functionality that PageUp is thinking about!.</h5> -->
+        <div class="text-right">
+          <div class="btn-group btn-group-sm">
+            <button type="button" class="btn btn-default">New ideas</button>
+            <button type="button" class="btn btn-info">Reviewed</button>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-xs-6 col-lg-4"><i class="fa fa-user fa-fw"></i> <span lang="CREATED_BY">Created by</span></div>
-            <div class="col-sm-6 col-lg-8 dash ng-binding"><img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp.jpg"> Daniel Wang</div>
-        </div>
-        <div class="row">
-            <div class="col-xs-6 col-lg-4"><i class="fa fa-clock-o fa-fw"></i> <span lang="APPLICANT_CREATE_DATE">Created</span></div>
-            <div class="col-sm-6 col-lg-8 dash activity-created-date ng-binding">21 Aug 15</div>
-        </div>
-        <div class="row">
-            <div class="col-xs-6 col-lg-4"><i class="fa fa-files-o fa-fw"></i> <span lang="TYPE">Type</span></div>
-            <div class="col-sm-6 col-lg-8 dash ng-binding">Online Video Learning</div>
-        </div>
-        <div ng-show="activity.validity !== 0" class="row ng-hide">
-            <div class="col-xs-6 col-lg-4"><i class="fa fa-history fa-fw"></i> <span lang="VALID_FOR">Valid for</span></div>
-            <div class="col-sm-6 col-lg-8 dash ng-binding">0 <span lang="DAYS">Days</span></div>
-        </div>
-        <div class="row">
-            <div class="col-xs-6 col-lg-4"><i class="fa fa-thumbs-o-up fa-fw"></i> <span lang="POPULARITY">Popularity</span>
+        <div class="media">
+          <div class="media-left"> <a href="#"> <img width="150" alt="64x64" class="thumbnail media-object" src="../../img/report0.png"> </a> </div>
+          <div class="media-body">
+            <div class="col-sm-10"><a href="#" class="media-heading visited">New look and feel Report Builder</a>
+              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
             </div>
-            <div class="col-sm-6 col-lg-8 dash">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp1.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp2.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp3.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp4.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp5.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp6.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp7.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp8.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp9.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp10.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp11.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp12.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp13.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp14.png">
-                              <img class="pu-avatar pu-avatar-sm" src="../..//img/emp/emp15.png">
-                          </div>
+            <div class="col-sm-2 text-center">
+              <i class="fa fa-2x fa-smile-o green"></i>
+            </div>
+          </div>
         </div>
-
-
-        <div ng-show="activity.competencies.length !== 0">
-        <h5 lang="COMPETENCIES">Competencies</h5>
-
-        <!-- ngRepeat: c in activity.competencies --><p ng-repeat="c in activity.competencies" class="ng-scope">
-            <a popover-trigger="focus" popover="Introducing original ideas; applying new methods; being creative." popover-placement="right" href="" ng-show="c.overview.length !==0" class="ng-scope ng-binding">Innovation</a>
-            <span ng-show="c.overview.length ===0" class="ng-binding ng-hide">Innovation </span>
-            - <span class="level ng-binding">People Leader</span>
-        </p><!-- end ngRepeat: c in activity.competencies --><p ng-repeat="c in activity.competencies" class="ng-scope">
-            <a popover-trigger="focus" popover="Introducing original ideas; applying new methods; being creative." popover-placement="right" href="" ng-show="c.overview.length !==0" class="ng-scope ng-binding">Innovation</a>
-            <span ng-show="c.overview.length ===0" class="ng-binding ng-hide">Innovation </span>
-            - <span class="level ng-binding">Technical Leader</span>
-        </p><!-- end ngRepeat: c in activity.competencies --><p ng-repeat="c in activity.competencies" class="ng-scope">
-            <a popover-trigger="focus" popover="Introducing original ideas; applying new methods; being creative." popover-placement="right" href="" ng-show="c.overview.length !==0" class="ng-scope ng-binding">Innovation</a>
-            <span ng-show="c.overview.length ===0" class="ng-binding ng-hide">Innovation </span>
-            - <span class="level ng-binding">Business Leader</span>
-        </p><!-- end ngRepeat: c in activity.competencies --><p ng-repeat="c in activity.competencies" class="ng-scope">
-            <a popover-trigger="focus" popover="Creating and defining a broad, compelling organisational vision, and organising and inspiring others to pursue it." popover-placement="right" href="" ng-show="c.overview.length !==0" class="ng-scope ng-binding">Leadership (Strategic)</a>
-            <span ng-show="c.overview.length ===0" class="ng-binding ng-hide">Leadership (Strategic) </span>
-            - <span class="level ng-binding">Team Member</span>
-        </p><!-- end ngRepeat: c in activity.competencies --><p ng-repeat="c in activity.competencies" class="ng-scope">
-            <a popover-trigger="focus" popover="Creating and defining a broad, compelling organisational vision, and organising and inspiring others to pursue it." popover-placement="right" href="" ng-show="c.overview.length !==0" class="ng-scope ng-binding">Leadership (Strategic)</a>
-            <span ng-show="c.overview.length ===0" class="ng-binding ng-hide">Leadership (Strategic) </span>
-            - <span class="level ng-binding">People Leader</span>
-        </p><!-- end ngRepeat: c in activity.competencies --><p ng-repeat="c in activity.competencies" class="ng-scope">
-            <a popover-trigger="focus" popover="Creating and defining a broad, compelling organisational vision, and organising and inspiring others to pursue it." popover-placement="right" href="" ng-show="c.overview.length !==0" class="ng-scope ng-binding">Leadership (Strategic)</a>
-            <span ng-show="c.overview.length ===0" class="ng-binding ng-hide">Leadership (Strategic) </span>
-            - <span class="level ng-binding">Technical Leader</span>
-        </p><!-- end ngRepeat: c in activity.competencies --><p ng-repeat="c in activity.competencies" class="ng-scope">
-            <a popover-trigger="focus" popover="Creating and defining a broad, compelling organisational vision, and organising and inspiring others to pursue it." popover-placement="right" href="" ng-show="c.overview.length !==0" class="ng-scope ng-binding">Leadership (Strategic)</a>
-            <span ng-show="c.overview.length ===0" class="ng-binding ng-hide">Leadership (Strategic) </span>
-            - <span class="level ng-binding">Business Leader</span>
-        </p><!-- end ngRepeat: c in activity.competencies -->
+        <div class="media">
+          <div class="media-left"> <a href="#"> <img width="150" alt="64x64" class="thumbnail media-object" src="../../img/ios7.png"> </a> </div>
+          <div class="media-body">
+            <div class="col-sm-10"><a href="#" class="visited media-heading">Everyday Learning Concept</a>
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+              felis in faucibus.</p>
+            </div>
+            <div class="col-sm-2 text-center">
+              <i class="fa fa-2x fa-meh-o orange"></i>
+            </div>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media-left"> <a href="#"> <img width="150" alt="64x64" class="thumbnail media-object" src="../../img/placeholder_video.png"> </a> </div>
+          <div class="media-body">
+            <div class="col-sm-10"><a href="#" class="media-heading">Configurable applicant flags</a>
+              <p>Tired of the same old applicant flags? Create your own?</p>
+            </div>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media-left"> <a href="#"> <img width="150" alt="64x64" class="thumbnail media-object" src="http://styleguide.pageuppeople.com/images/image-placeholder.png"> </a> </div>
+          <div class="media-body">
+            <div class="col-sm-10"><a href="#" class="media-heading">Blah blah blah blah</a>
+              <p>Tired of the same old applicant flags? Create your own?</p>
+            </div>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media-left"> <a href="#"> <img width="150" alt="64x64" class="thumbnail media-object" src="http://styleguide.pageuppeople.com/images/image-placeholder.png"> </a> </div>
+          <div class="media-body">
+            <div class="col-sm-10"><a href="#" class="media-heading">Blah blah blah blah</a>
+              <p>Tired of the same old applicant flags? Create your own?</p>
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-   </div>
+      <!-- <div class="modal-footer">
+
+            </div> -->
+    </div>
+  </div>
 </div>
 			</div>
 		</div>
