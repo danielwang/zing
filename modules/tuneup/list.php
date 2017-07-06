@@ -1,30 +1,27 @@
 <?php include '../../base-app.php';?>
 <?php startblock('page');?>
-<h2>Idea list</h2>
+<h2>PageUp Idea Hub</h2>
 <hr>
 <div class="row">
   <div class="col-sm-4">
-    <h4>Reimagine Discovery</h4>
-    <p>This is a TuneUp idea created by Justin, Daniel, Andrei, Chris L and Chris M.</p> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti veniam? Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-    <div id="carousel" class="carousel slide" data-ride="carousel">
+    <h4>Introduction</h4>
+    <p>Reimagine Discovery was a TuneUp idea created by Justin, Daniel, Andrei, Chris L and Chris M.</p>
+    <p>The idea is to get feedback on our planned initiatives, roadmap items, and innovations - in realtime, directly from all our end users.</p>
+    <p>End Users are engaged, providing insights into our product, see what we’re planning</p>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1" class=""></li>
-        <li data-target="#carousel" data-slide-to="2" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
       </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="http://styleguide.pageuppeople.com/images/image-placeholder.png" />
+          <img src="../../img/preview1.png" width="360" height="298" alt="...">
         </div>
-        <div src="item">
-          <img class="http://styleguide.pageuppeople.com/images/image-placeholder.png" />
-        </div>
-        <div src="item">
-          <img class="http://styleguide.pageuppeople.com/images/image-placeholder.png" />
+        <div class="item">
+          <img src="../../img/report.png" width="360" height="298" alt="...">
         </div>
       </div>
     </div>
@@ -44,7 +41,7 @@
             <a href="create" class="btn btn-primary"> Create</a>
           </div>
         </div>
-        <div class="table-responsive">
+        <div class="table-responsive row-gap">
           <table class="table table-striped table-hover">
             <thead>
               <tr>
@@ -67,8 +64,8 @@
                      <span class="pu-tag pu-tag-green pu-tag-sm"> LIVE </span>
                     </td>
                     <td>
-                      <a href="create" class="btn btn-sm btn-default">View</a>
                       <a href="report" class="btn btn-sm btn-default">Report</a>
+                      <a href="create" class="btn btn-sm btn-default">Update</a>
                     </td>
                   </tr>
                   <tr>
@@ -80,8 +77,7 @@
                      <span class="pu-tag pu-tag-yellow pu-tag-sm"> DRAFT </span>
                     </td>
                     <td>
-                      <a href="create" class="btn btn-sm btn-default">View</a>
-                      <a href="report" class="btn btn-sm btn-default">Report</a>
+                      <a href="create" class="btn btn-sm btn-default">Edit</a>
                     </td>
                   </tr>
                   <tr>
@@ -93,7 +89,6 @@
                      <span class="pu-tag pu-tag-sm"> RETIRED </span>
                     </td>
                     <td>
-                      <a href="create" class="btn btn-sm btn-default">View</a>
                       <a href="report" class="btn btn-sm btn-default">Report</a>
                     </td>
                   </tr>
