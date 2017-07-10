@@ -20,7 +20,7 @@
 
 
 /* read php files from folders */
-$folders = array("layouts", "modules", "patterns");
+$folders = array("layouts", "modules", "patterns", "tuneup");
 for ($i = 0; $i < count($folders); $i++) {
   echo "<ul><li>";
   recurseDir($folders[$i]);

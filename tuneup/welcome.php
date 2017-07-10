@@ -1,4 +1,4 @@
-<?php include '../../base.php';?>
+<?php include '../base.php';?>
 <?php startblock('page');?>
 <div class="modal fade in" id="ideaModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: block; padding-right: 15px;">
   <div class="modal-dialog" role="document">
@@ -26,7 +26,7 @@
              </svg>
              <hr>
              <p>We’d love your feedback on great new functionality <br>that we are thinking about!</p>
-             <p> <button class="btn btn-info">Let's go!</button></p>
+             <p> <a href="discovery1" class="btn btn-info">Let's go!</a></p>
         </div>
         <div class="modal-footer"></div>
     </div>
