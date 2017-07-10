@@ -1,4 +1,4 @@
-<?php include '../../base.php' ?>
+<?php include '../../base1.php' ?>
 
 <?php startblock('page-title') ?>
 <h1>James Bond</h1>
@@ -8,7 +8,7 @@
 <?php startblock('page') ?>
   <div class="row row-gap">
   <div class="col-sm-8">
-    <article class="pu-box" role="box" style="margin-top: -100px">
+    <article class="pu-box" role="box">
       <header class="pu-box-header" role="box-header">
         <h4>Profile</h4>
       </header>
@@ -57,6 +57,14 @@
     </ul>
     <div class="tab-content clearfix">
       <div class="tab-pane active" id="1b">
+        <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+        </p>
+        <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+        </p>
+        <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+        </p>
+        <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
+        </p>
         <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti
         </p>
         <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit. De illis, cum volemus. Inquit, dasne adolescenti

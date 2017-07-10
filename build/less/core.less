@@ -44,6 +44,7 @@ a:visited {
  */
 .content-wrapper,
 .main-footer,
+.main-footer,
 .right-side {
   //Using disposable variable to join statements with a comma
   @transition-rule: @transition-speed @transition-fn, margin @transition-speed @transition-fn;
@@ -79,10 +80,15 @@ a:visited {
 }
 
 .main-footer {
-  background: #fff;
-  padding: 15px;
-  color: #444;
-  border-top: 1px solid @gray-lte;
+  //  background-color: rgba(37,123,160,0.15);
+  background-color: rgba(0,0,0,0.15);
+  height: 54px;
+  padding: 10px 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 999;
 }
 /* Fixed layout */
 .fixed {
@@ -101,7 +107,8 @@ a:visited {
   .content-wrapper,
   .right-side {
     padding-top: 50px;
-    @media (max-width: @screen-header-collapse) {
+    padding-bottom: 50px;
+    @media (max-width:@screen-header-collapse) {
       padding-top: 100px;
     }
   }
@@ -134,6 +141,6 @@ body.hold-transition {
 /* Page Header */
 .page-header {}
 
-.modal-footer.text-left{
-  text-align: left;
+.modal-footer.text-left {
+  text-align: left-side;
 }

@@ -1,4 +1,4 @@
-<?php include '../../base.php';?>
+<?php include '../../base2.php';?>
 <?php startblock('top') ?>
   <?php include ("${resURL}partials/submenu.html"); ?>
 <?php endblock()?>

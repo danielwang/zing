@@ -1,11 +1,10 @@
-<?php include '../../base.php' ?>
+<?php include '../../base1.php' ?>
 <?php startblock('page-title') ?>
 <h1>Senior graphic designer</h1>
 <h4>Job ID: #1234567890</h4>
 <?php endblock() ?>
 <?php startblock('page') ?>
-<div class="container content">
-  <?php include ("${resURL}components/_wizard.html"); ?>
+<div class="container">
   <div class="row row-gap">
     <div class="col-sm-8">
       <div class="pu-panel panel">

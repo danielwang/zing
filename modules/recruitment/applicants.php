@@ -1,11 +1,6 @@
-<?php include '../../base.php';?>
-<?php startblock('top') ?>
-  <?php include ("${resURL}partials/submenu.html"); ?>
-<?php endblock()?>
+<?php include '../../base2.php';?>
+
 <?php startblock('page')?>
-<div class="row">
-  <div class="col-sm-8 col-sm-offset-2">
-    <?php include ("${resURL}components/_table-people.html");?>
-  </div>
-</div>
+  <h1>Applicants</h1>
+  <?php include ("${resURL}components/_table-people.html");?>
 <?php endblock()?>

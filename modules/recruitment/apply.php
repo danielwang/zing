@@ -1,4 +1,4 @@
-<?php include '../../base.php' ?>
+<?php include '../../base1.php' ?>
     <?php startblock('page-title') ?>
       <h1>Senior Electrical Engineer</h1>
       <h4>Melbourne</h4>
@@ -165,13 +165,6 @@
 
                   <textarea placeholder="say something ..." class="form-control" required=""></textarea>
 
-                </div>
-                <div class="form-group">
-                  <div class="text-right">
-                    <button type="submit" class="btn btn-success">Save and Exit</button>
-                    <button type="submit" class="btn btn-primary">Next
-                      <i class="fa fa-chevron-right"/></i>
-                  </button>
                 </div>
               </form>
 
