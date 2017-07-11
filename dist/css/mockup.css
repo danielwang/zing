@@ -339,15 +339,34 @@ body.hold-transition .right-side {
   padding-top: 80px;
   background-position: 0 50%;
   position: relative;
+  margin-bottom: 0;
+  background: linear-gradient(rgba(37, 123, 160, 0.75), rgba(37, 123, 160, 0.75)), url('../../img/bg.jpg');
 }
 .jumbotron + .content {
   padding-top: 0;
 }
-.jumbotron .sub-pages {
-  position: absolute;
+.jumbotron.sub-pages {
+  padding-top: 40px;
+  padding-bottom: 80px;
 }
-.jumbotron .sub-pages li {
+.jumbotron.sub-pages .nav-pills {
+  position: absolute;
+  bottom: 15px;
+}
+.jumbotron.sub-pages .nav-pills li {
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.jumbotron.sub-pages .nav-pills li.active a {
   background: rgba(0, 0, 0, 0.2);
+}
+.jumbotron.sub-pages .nav-pills li a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.subnav {
+  background: white;
+  padding: 10px 0;
 }
 /*
  * Component: Main Header

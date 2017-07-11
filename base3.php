@@ -7,41 +7,21 @@
 		<section class="content-wrapper">
       <!-- jumbotron -->
       <?php startblock('top') ?>
-        <div class="jumbotron sub-pages">
+        <div class="jumbotron">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 col-md-7 col-lg-9">
+            <div class="col-sm-6 col-md-4">
               <?php emptyblock('page-title') ?>
             </div>
-            <div class="col-sm-6 col-md-5 col-lg-3">
-              <ul class="nav navbar-nav navbar-right">
-                <li>
-                  <a class="text-center" href="#_">
-                    <i class="fa fa-print fa-lg"></i>
-                    <h6>Print</h6>
-                  </a>
-                </li>
-                <li>
-                  <a class="text-center" href="#_">
-                    <i class="fa fa-comments-o fa-lg"></i>
-                    <h6>Feedback</h6>
-                  </a>
-                </li>
-                <li>
-                  <a class="text-center" href="#_">
-                    <i class="fa fa-info-circle fa-lg"></i>
-                    <h6>Help</h6>
-                  </a>
-                </li>
-              </ul>
+            <div class="col-sm-6 col-md-6">
+              <form>
+                 <div class="input-group input-group-lg">
+                   <input type="text" class="form-control" placeholder="Search ...">
+                   <span class="input-group-addon"><i class="fa fa-sliders" aria-hidden="true"></i></span>
+                 </div>
+             </form>
             </div>
           </div>
-          <ul class="nav nav-pills">
-            <li class="active"><a href="#">Position</a></li>
-            <li><a href="#">Sourcing </a></li>
-            <li><a href="./">Notes <span class="badge">3</span></a></li>
-            <li><a href="#">Documents</a></li>
-          </ul>
         </div>
       </div>
       <?php endblock() ?>
@@ -87,25 +67,4 @@
 				<?php endblock()?>
 			</section>
 		</section>
-    <?php startblock('footer') ?>
-    <footer class="main-footer">
-      <section class="container">
-        <div class="row">
-          <div class="col-sm-8">
-            <button class="btn btn-default">
-              Tertiary
-            </button>
-          </div>
-          <div class="col-sm-4 text-right">
-            <button class="btn btn-success">
-              Secondary
-            </button>
-            <button class="btn btn-primary">
-              Primary
-            </button>
-          </div>
-        </div>
-      </section>
-    </footer>
-    <?php endblock()?>
 <?php include 'foot.html';?>

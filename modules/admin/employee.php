@@ -1,4 +1,4 @@
-<?php include '../../base.php' ?>
+<?php include '../../base1.php' ?>
 
 <?php startblock('page-title') ?>
 <h1><img class="pu-avatar pu-avatar-lg" src="<?php echo ($resURL)?>img/avatar/avatar.svg" /> Daniel Wang

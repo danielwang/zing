@@ -1,4 +1,4 @@
-<?php include '../../base.php';?>
+<?php include '../../base2.php';?>
 <?php startblock('page')?>
 <ol class="breadcrumb">
     <li>
