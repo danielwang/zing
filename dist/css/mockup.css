@@ -341,9 +341,6 @@ body.hold-transition .right-side {
   position: relative;
   margin-bottom: 0;
 }
-.jumbotron ~ .content {
-  padding-top: 0;
-}
 .jumbotron + .content {
   padding-top: 30px;
 }

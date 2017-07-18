@@ -28,9 +28,9 @@
 <?php startblock('sub-page') ?>
 <ul class="nav nav-pills">
   <li class="active"><a href="#">Position</a></li>
-  <li><a href="#">Applicants <span class="badge">93</span></a></li>
+  <li><a href="applicants">Applicants <span class="badge">93</span></a></li>
   <li><a href="#">Sourcing <span class="badge">3</span></a></li>
-  <li><a href="./">Notes <span class="badge">8</span></a></li>
+  <li><a href="#">Notes <span class="badge">8</span></a></li>
   <li><a href="#">Documents <span class="badge">2</span></a></li>
 </ul>
 <?php endblock() ?>

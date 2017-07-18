@@ -48,64 +48,76 @@
     </div>
   </div>
 </div>
-<ul class="nav nav-tabs">
-  <li class="active">
-    <a href="#1b">English</a>
-  </li>
-  <li>
-    <a href="#2b">Two</a>
-  </li>
-  <li>
-    <a href="#3b">Three</a>
-  </li>
-</ul>
-<div class="tab-content clearfix">
-  <div class="tab-pane active" id="1b">
-    <div class="form-group">
-      <label class="control-label required">Job title</label>
-      <input class="form-control" placeholder="placeholder" type="text">
-    </div>
-    <div class="form-group">
-      <label class="control-label required">Summary</label>
-      <textarea class="form-control"></textarea>
-    </div>
-    <div class="form-group">
-      <label class="control-label">Design template</label>
-      <div class="select">
-        <select class="form-control">
-          <option>Option 1</option>
-          <option>option 2</option>
-          <option>option 3</option>
-          <option>option 4</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label required">Application form</label>
-      <div class="select">
-        <select class="form-control">
-          <option>Option 1</option>
-          <option>option 2</option>
-          <option>option 3</option>
-          <option>option 4</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label required">Text to appear in Job Ad</label>
-      <textarea style="visibility: hidden;" pageup-scribble>Hello from Scribble!</textarea>
-      <script type="text/javascript" src="https://ui.pageuppeople.com/libs/scribble/scribble.js" charset="UTF-8" async></script>
-    </div>
-  </div>
-  <div class="tab-pane" id="2b">
-    <p>De illis, cum volemus. Inquit, dasne adolescenti veniam?</p>
-  </div>
-  <div class="tab-pane" id="3b">
-    <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<div class="form-group">
+  <label class="control-label required">Application form</label>
+  <div class="select">
+    <select class="form-control">
+      <option>Option 1</option>
+      <option>option 2</option>
+      <option>option 3</option>
+      <option>option 4</option>
+    </select>
   </div>
 </div>
-<?php include ("${resURL}components/_checklist.html"); ?>
 <div class="form-group">
+  <ul class="nav nav-tabs">
+    <li class="active">
+      <a href="#1b">English
+        <small>(defualt)</small>
+      </a>
+    </li>
+    <li>
+      <a href="#2b">Español</a>
+    </li>
+    <li>
+      <a href="#3b">简体中文</a>
+    </li>
+  </ul>
+  <div class="tab-content clearfix">
+    <div class="tab-pane active" id="1b">
+      <div class="form-group">
+        <label class="control-label required">Job title</label>
+        <input class="form-control" placeholder="placeholder" type="text">
+      </div>
+      <div class="form-group">
+        <label class="control-label required">Summary</label>
+        <textarea class="form-control"></textarea>
+      </div>
+      <div class="form-group">
+        <label class="control-label">Design template</label>
+        <div class="select">
+          <select class="form-control">
+            <option>Option 1</option>
+            <option>option 2</option>
+            <option>option 3</option>
+            <option>option 4</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label required">Text to appear in Job Ad</label>
+        <textarea style="visibility: hidden;" pageup-scribble>Hello from Scribble!</textarea>
+        <script type="text/javascript" src="https://ui.pageuppeople.com/libs/scribble/scribble.js" charset="UTF-8" async></script>
+      </div>
+    </div>
+    <div class="tab-pane" id="2b">
+      <p>De illis, cum volemus. Inquit, dasne adolescenti veniam?</p>
+    </div>
+    <div class="tab-pane" id="3b">
+      <p>Mihi quidem Homerus huius modi quiddam Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+</div>
+<div class="form-group">
+  <?php include ("${resURL}components/_checklist.html"); ?>
+</div>
+<div class="form-group">
+  <div class="pu-toggle-btn">
+    <label>
+      <input type="checkbox">
+      <span>Blind job (only visible when searched for by job number)</span>
+    </label>
+  </div>
   <div class="pu-toggle-btn">
     <label>
       <input type="checkbox">
