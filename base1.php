@@ -14,34 +14,10 @@
               <?php emptyblock('page-title') ?>
             </div>
             <div class="col-sm-6 col-md-5 col-lg-3">
-              <ul class="nav navbar-nav navbar-right">
-                <li>
-                  <a class="text-center" href="#_">
-                    <i class="fa fa-print fa-lg"></i>
-                    <h6>Print</h6>
-                  </a>
-                </li>
-                <li>
-                  <a class="text-center" href="#_">
-                    <i class="fa fa-comments-o fa-lg"></i>
-                    <h6>Feedback</h6>
-                  </a>
-                </li>
-                <li>
-                  <a class="text-center" href="#_">
-                    <i class="fa fa-info-circle fa-lg"></i>
-                    <h6>Help</h6>
-                  </a>
-                </li>
-              </ul>
+              <?php emptyblock('page-action') ?>
             </div>
           </div>
-          <ul class="nav nav-pills">
-            <li class="active"><a href="#">Position</a></li>
-            <li><a href="#">Sourcing </a></li>
-            <li><a href="./">Notes <span class="badge">3</span></a></li>
-            <li><a href="#">Documents</a></li>
-          </ul>
+          <?php emptyblock('sub-page') ?>
         </div>
       </div>
       <?php endblock() ?>

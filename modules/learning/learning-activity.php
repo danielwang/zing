@@ -4,6 +4,8 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 <p><a class="btn btn-warning btn-lg" href="#" role="button">Learn now</a></p>
 <?php endblock() ?>
+<?php emptyblock('footer') ?>
+
 <?php startblock('page')?>
 <style type="text/css">
 .side .row {

@@ -340,10 +340,12 @@ body.hold-transition .right-side {
   background-position: 0 50%;
   position: relative;
   margin-bottom: 0;
-  background: linear-gradient(rgba(37, 123, 160, 0.75), rgba(37, 123, 160, 0.75)), url('../../img/bg.jpg');
+}
+.jumbotron ~ .content {
+  padding-top: 0;
 }
 .jumbotron + .content {
-  padding-top: 0;
+  padding-top: 30px;
 }
 .jumbotron.sub-pages {
   padding-top: 40px;
