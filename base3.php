@@ -9,7 +9,7 @@
   ?>
 		<section class="content-wrapper">
       <?php startblock('top') ?>
-        <div class="template3 jumbotron text-center sub-pages">
+        <div class="template-landing jumbotron text-center sub-pages">
           <h1><?php emptyblock('page-title') ?></h1>
           <p></p>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit pellentesque, tellus id fermentum finibus<br/> Sed turpis risus, efficitur ac augue vitae</p>

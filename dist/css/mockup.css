@@ -367,6 +367,9 @@ svg.pu-line-icon.green {
 .jumbotron + .content {
   padding-top: 30px;
 }
+.jumbotron.template-landing .nav-pills {
+  transform: translateX(-50%);
+}
 .jumbotron.sub-pages {
   padding-top: 40px;
   padding-bottom: 80px;
@@ -374,6 +377,7 @@ svg.pu-line-icon.green {
 .jumbotron.sub-pages .nav-pills {
   position: absolute;
   bottom: 15px;
+  display: inline-block;
 }
 .jumbotron.sub-pages .nav-pills li {
   border-radius: 4px;
