@@ -163,6 +163,29 @@ body.hold-transition .right-side {
 .modal-footer.text-left {
   text-align: left-side;
 }
+/* Page Header */
+svg.pu-line-icon {
+  width: 65px;
+  fill: #257ba0;
+}
+svg.pu-line-icon.red {
+  fill: #ee3d4b;
+}
+svg.pu-line-icon.orange {
+  fill: #f39657;
+}
+svg.pu-line-icon.purple {
+  fill: #b565a9;
+}
+svg.pu-line-icon.yellow {
+  fill: #eed046;
+}
+svg.pu-line-icon.blue {
+  fill: #57c0e9;
+}
+svg.pu-line-icon.green {
+  fill: #76c190;
+}
 .nopadding {
   padding: 0 !important;
 }
@@ -178,7 +201,7 @@ body.hold-transition .right-side {
  * ----------
  */
 .pu-blue .main-header .navbar {
-  background-color: #939597;
+  background-color: #142c52;
 }
 .pu-blue .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -218,12 +241,12 @@ body.hold-transition .right-side {
   }
 }
 .pu-blue .main-header .logo {
-  background-color: #142c52;
+  background-color: #58585b;
   color: #ffffff;
   border-bottom: 0 solid transparent;
 }
 .pu-blue .main-header .logo:hover {
-  background-color: #132a4e;
+  background-color: #555558;
 }
 .pu-blue .main-header li.user-header {
   background-color: #142c52;
@@ -234,15 +257,15 @@ body.hold-transition .right-side {
 .pu-blue .wrapper,
 .pu-blue .main-sidebar,
 .pu-blue .left-side {
-  background-color: #142c52;
+  background-color: #58585b;
 }
 .pu-blue .user-panel > .info,
 .pu-blue .user-panel > .info > a {
   color: #fff;
 }
 .pu-blue .sidebar-menu > li.header {
-  color: #2858a4;
-  background: #102342;
+  color: #8b8b8e;
+  background: #4e4e51;
 }
 .pu-blue .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -250,15 +273,15 @@ body.hold-transition .right-side {
 .pu-blue .sidebar-menu > li:hover > a,
 .pu-blue .sidebar-menu > li.active > a {
   color: #ffffff;
-  background: #12284a;
+  background: #535356;
   border-left-color: #142c52;
 }
 .pu-blue .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
-  background: #193767;
+  background: #656568;
 }
 .pu-blue .sidebar a {
-  color: #adc5eb;
+  color: #f2f2f3;
 }
 .pu-blue .sidebar a:hover {
   text-decoration: none;
@@ -272,13 +295,13 @@ body.hold-transition .right-side {
 }
 .pu-blue .sidebar-form {
   border-radius: 3px;
-  border: 1px solid #1e427b;
+  border: 1px solid #717175;
   margin: 10px 10px;
 }
 .pu-blue .sidebar-form input[type="text"],
 .pu-blue .sidebar-form .btn {
   box-shadow: none;
-  background-color: #1e427b;
+  background-color: #717175;
   border: 1px solid transparent;
   height: 35px;
 }

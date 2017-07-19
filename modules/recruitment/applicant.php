@@ -1,8 +1,8 @@
 <?php include '../../base1.php' ?>
 
 <?php startblock('page-title') ?>
-<h1><i class="pu-icon pu-icon-profile"></i> James Bond</h1>
-<h4>Senior graphic designer</h4>
+<h1>James Bond</h1>
+<h4><i class="pu-icon pu-icon-job"></i> Senior Technology Specialist - Networks</h4>
 <?php endblock() ?>
 <?php startblock('page-action') ?>
 <ul class="nav navbar-nav navbar-right">
@@ -20,10 +20,18 @@
   </li>
   <li>
     <a class="text-center" href="#_">
-      <i class="pu-icon pu-icon-2x pu-icon-info"></i>
-      <h6>Help</h6>
+      <i class="pu-icon pu-icon-2x pu-icon-resume"></i>
+      <h6>Resume</h6>
     </a>
   </li>
+</ul>
+<?php endblock() ?>
+<?php startblock('sub-page') ?>
+<ul class="nav nav-pills">
+  <li class="active"><a href="#">History</a></li>
+  <li><a href="#">Profile</a></li>
+  <li><a href="#">Applications</a></li>
+  <li><a href="#">TRM</a></li>
 </ul>
 <?php endblock() ?>
 <?php startblock('page') ?>

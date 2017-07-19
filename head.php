@@ -5,14 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="robots" content="noindex">
-    <title>PageUp Mockup</title>
+    <title>Mockup - PageUp </title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="description" content="Where Daniel plays the concept design">
     <meta name="author" content="daniel.wang" >
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://ui.pageuppeople.com/icons/v1.0.2/css/pu-icon.css">
     <!-- <link rel="stylesheet" href="<?php echo ($resURL) ?>vendor/pu-gel/pageup.css">-->
     <link rel="stylesheet" href="http://styleguide.pageuppeople.com/dist/css/pageup.css">
     <!-- <link rel="stylesheet" href="<?php echo ($resURL) ?>dist/css/skins/skin-blue.css"> -->

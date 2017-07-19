@@ -3,12 +3,42 @@
 <?php startblock('page-title') ?>
 <h1><img class="pu-avatar pu-avatar-lg" src="<?php echo ($resURL)?>img/avatar/avatar.svg" /> Daniel Wang
 </h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+<h6><i class="pu-icon pu-icon-employee"></i> : #1234567890 </h6>
+<h6><i class="pu-icon pu-icon-job"></i> : Senior UX Designer </h6>
 <?php endblock() ?>
-
+<?php startblock('page-action') ?>
+<ul class="nav navbar-nav navbar-right">
+  <li>
+    <a class="text-center" href="#_">
+      <i class="pu-icon pu-icon-2x pu-icon-control"></i>
+      <h6>Control</h6>
+    </a>
+  </li>
+  <li>
+    <a class="text-center" href="#_">
+      <i class="pu-icon pu-icon-2x pu-icon-printer"></i>
+      <h6>Print</h6>
+    </a>
+  </li>
+  <li>
+    <a class="text-center" href="#_">
+      <i class="pu-icon pu-icon-2x pu-icon-resume"></i>
+      <h6>Resume</h6>
+    </a>
+  </li>
+</ul>
+<?php endblock() ?>
+<?php startblock('sub-page') ?>
+<ul class="nav nav-pills">
+  <li class="active"><a href="#">Profile</a></li>
+  <li><a href="#">History</a></li>
+  <li><a href="#">Jobs</a></li>
+  <li><a href="#">Performance</a></li>
+  <li><a href="#">Learning</a></li>
+</ul>
+<?php endblock() ?>
 <?php startblock('page') ?>
-  <div class="container">
-    <div class="row row-gap">
+<div class="row row-gap">
   <div class="col-sm-4">
     <article class="pu-box" role="box">
       <header class="pu-box-header" role="box-header">
@@ -74,16 +104,16 @@
   <div class="col-sm-8">
     <ul class="nav nav-tabs nav-justified pu-tab">
       <li class="active">
-          <a href="#2b" data-toggle="tab">History</a>
+          <a href="#2b" data-toggle="tab">Employment</a>
         </li>
         <li>
-          <a href="#1b" data-toggle="tab">Jobs</a>
+          <a href="#1b" data-toggle="tab">Education</a>
         </li>
         <li>
-          <a href="#1b" data-toggle="tab">Performance</a>
+          <a href="#1b" data-toggle="tab">Position</a>
         </li>
         <li>
-          <a href="#3b" data-toggle="tab">Learning</a>
+          <a href="#3b" data-toggle="tab">Other</a>
         </li>
     </ul>
     <div class="tab-content clearfix">
@@ -100,5 +130,4 @@
     </div>
   </div>
 </div>
-  </div>
 <?php endblock() ?>

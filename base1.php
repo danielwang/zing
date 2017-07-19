@@ -1,3 +1,6 @@
+<!-- ******************
+***  Detail template ***
+******************  -->
 <?php
   require_once 'ti.php';
   include_once 'head.php';
