@@ -1,9 +1,39 @@
-<?php $breadcrumb = true; include '../../base.php' ?>
-<?php startblock('page')?>
-<div class="page-header">
-  <h1>Talent Search</h1>
-</div>
+<?php include '../../base3.php' ?>
 
+<?php startblock('page-title') ?>
+  Talent Search
+<?php endblock() ?>
+<?php emptyblock('tag-line') ?>
+<?php startblock('page') ?>
+<ul class="nav nav-pills pu-buckets">
+      <li class="bucket-green active">
+        <a href="#">
+          <h3>15</h3>
+          <p>Applicants</p>
+          <span class="icon">
+            <i class="fa fa-bitbucket" aria-hidden="true"></i>
+          </span>
+        </a>
+      </li>
+      <li class="bucket-orange">
+        <a href="#">
+          <h3>8</h3>
+          <p>Applicants</p>
+          <span class="icon">
+            <i class="fa fa-bitbucket" aria-hidden="true"></i>
+          </span>
+        </a>
+      </li>
+      <li class="bucket-red">
+        <a href="#">
+          <h3>23</h3>
+          <p>Applicants</p>
+          <span class="icon">
+            <i class="fa fa-bitbucket" aria-hidden="true"></i>
+          </span>
+        </a>
+      </li>
+    </ul>
 <div class="row row-gap">
   <?php for ($x = 0; $x <= 11; $x++) {?>
   <div class="col-sm-4">

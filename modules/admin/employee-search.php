@@ -1,9 +1,9 @@
 <?php include '../../base3.php' ?>
 
 <?php startblock('page-title') ?>
-<h1>Employee Search</h1>
+  Employee Search
 <?php endblock() ?>
-
+<?php emptyblock('tag-line') ?>
 <?php startblock('page') ?>
 <div class="row row-gap">
   <?php for ($x = 0; $x <= 11; $x++) {?>

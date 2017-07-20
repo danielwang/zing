@@ -1,9 +1,15 @@
-<?php include '../../base3.php'?>
-
+<?php include '../../base3.php' ?>
 <?php startblock('page-title') ?>
-<h1>Learning Library</h1>
+Learning
 <?php endblock() ?>
-
+<?php emptyblock('tag-line') ?>
+<?php startblock('sub-page') ?>
+<ul class="nav nav-pills">
+  <li class="active"><a href="#">Library</a></li>
+  <li><a href="#">Events</a></li>
+  <li><a href="#"><i class="fa fa-lg fa-plus-circle"></i></a></li>
+</ul>
+<?php endblock() ?>
 <?php startblock('page')?>
 <div id="learning" class="row row-gap">
   <?php for ($x = 0; $x <= 11; $x++) {?>

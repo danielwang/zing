@@ -3,7 +3,7 @@
 <?php startblock('page-title') ?>
   Performance Centre
 <?php endblock() ?>
-
+<?php emptyblock('search') ?>
 <?php startblock('page') ?>
 <div class="row">
 <div class="col-sm-4">

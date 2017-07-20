@@ -1,5 +1,5 @@
 <!-- ******************
-***  Detail template ***
+*** T1 Detail template ***
 ******************  -->
 <?php
   require_once 'ti.php';
@@ -7,10 +7,10 @@
   include_once 'partials/header.html';
 	include_once 'partials/menu.html';
   ?>
-		<section class="content-wrapper">
+		<section class="content-wrapper tpl-detail">
       <!-- jumbotron -->
       <?php startblock('top') ?>
-        <div class="jumbotron sub-pages">
+        <div class="jumbotron">
         <div class="container">
           <div class="row">
             <div class="col-sm-6 col-md-7 col-lg-9">
@@ -20,7 +20,9 @@
               <?php emptyblock('page-action') ?>
             </div>
           </div>
-          <?php emptyblock('sub-page') ?>
+          <div class="sub-page">
+            <?php emptyblock('sub-page') ?>
+          </div>
         </div>
       </div>
       <?php endblock() ?>

@@ -50,7 +50,6 @@
       padding-bottom: 5px;
   }
 </style>
-<div class="container content">
   <div class="row">
       <div class="col-sm-8">
         <div class="pu-box">
@@ -144,5 +143,4 @@
       </div>
       </div>
    </div>
-</div>
 <?php endblock()?>

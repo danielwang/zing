@@ -2,6 +2,7 @@
  * Skin: Blue
  * ----------
  */
+
 .pu-blue {
   //Navbar
   .main-header {
@@ -83,44 +84,38 @@
 }
 
 .jumbotron {
-  padding-top: 80px;
-  background-position: 0 50%;
   position: relative;
   margin-bottom: 0;
+
+  h1 {
+    margin: 0 0 15px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 
   + .content {
     padding-top: 30px;
   }
 
-  &.template-landing {
-    .nav-pills {
-      transform: translateX(-50%);
-    }
-  }
+  .sub-page {
+    margin: 30px 0 -45px;
+    display: inline-block;
 
-  &.sub-pages {
-    padding-top: 40px;
-    padding-bottom: 80px;
+    li {
+      border-radius: 4px;
+      margin-right: 5px;
 
-    .nav-pills {
-      position: absolute;
-      bottom: 15px;
-      display: inline-block;
-
-      li {
-        border-radius: 4px;
-        margin-right: 5px;
-
-        &.active {
-          a {
-            background: rgba(0,0,0,.2);
-          }
-        }
-
+      &.active {
         a {
-          padding-top: 10px;
-          padding-bottom: 10px;
+          background: rgba(0,0,0,.2);
         }
+      }
+
+      a {
+        padding-top: 10px;
+        padding-bottom: 10px;
       }
     }
   }
@@ -129,4 +124,41 @@
 .subnav {
   background: white;
   padding: 10px 0;
+}
+
+#search {
+  position: relative;
+  font-size: 18px;
+
+  label {
+    position: absolute;
+    left: 17px;
+    top: 12px;
+  }
+
+  #search-input {
+    padding-left: 43px;
+    padding-right: 43px;
+    border-radius: 10px;
+  }
+
+  #search-refine {
+    text-decoration: none;
+    position: absolute;
+    right: 18px;
+    top: 14px;
+  }
+}
+
+.tpl-landing {
+  .jumbotron {
+    text-align: center;
+    background-image: linear-gradient(rgba(37, 123, 160, 0.75), rgba(37, 123, 160, 0.75)), url("../../img/bg1.jpg");
+    background-size: cover;
+
+    #search {
+      margin: 0 auto;
+      width: 33%;
+    }
+  }
 }
