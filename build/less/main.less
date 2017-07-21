@@ -47,7 +47,7 @@
     background: transparent;
   }
   //Create the sidebar skin
-  .skin-dark-sidebar(@brand-navy);
+  .skin-dark-sidebar(@brand-navy-light);
 }
 
 .skin-blue.layout-top-nav .main-header > .logo {
@@ -123,6 +123,15 @@
 .subnav {
   background: white;
   padding: 10px 0;
+
+  &.affix {
+    width: 100%;
+    top: 50px;
+    left: 25px;
+    right: 0;
+    z-index: 99;
+    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+  }
 }
 
 #search {

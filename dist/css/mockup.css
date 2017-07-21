@@ -274,7 +274,7 @@ svg.pu-line-icon.green {
 .pu-blue .sidebar-menu > li.active > a {
   color: #ffffff;
   background: #535356;
-  border-left-color: #142c52;
+  border-left-color: #257ba0;
 }
 .pu-blue .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
@@ -389,6 +389,14 @@ svg.pu-line-icon.green {
 .subnav {
   background: white;
   padding: 10px 0;
+}
+.subnav.affix {
+  width: 100%;
+  top: 50px;
+  left: 25px;
+  right: 0;
+  z-index: 99;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 #search {
   position: relative;

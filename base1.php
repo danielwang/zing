@@ -28,7 +28,7 @@
       <?php endblock() ?>
       <!-- submenu -->
       <?php startblock('submenu') ?>
-      <nav class="subnav">
+      <nav class="subnav" data-spy="affix" data-offset-top="220">
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
