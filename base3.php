@@ -17,13 +17,14 @@
             <input id="search-input" class="form-control input-lg" placeholder="Search ..." autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
             <span id="search-refine" href="#" class="fa fa-sliders" aria-hidden="true"></span>
           </section>
+          <p><a href="#">item</a> <a href="#">item</a> <a href="#">item</a></p>
           <?php endblock()?>
           <?php startblock('tag-line') ?>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit pellentesque, tellus id fermentum finibus<br/> Sed turpis risus, efficitur ac augue vitae</p>
           <?php endblock()?>
           <div class="sub-page">
             <?php emptyblock('sub-page') ?>
-          </div>  
+          </div>
        </div>
       <?php endblock() ?>
       <!-- page body -->

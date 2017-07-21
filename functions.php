@@ -44,6 +44,18 @@ require "lessc.inc.php";
 $less = new lessc;
 $less->checkedCompile($lesspath, $csspath);
 
+function buildMenu() {
+    return  [
+      ["apply","job"],
+      ["recruitment","recruitment"],
+      ["learning","learning"],
+      ["performance","performance"],
+      ["analytics","analytics"],
+      ["settings","settings"],
+      ["admin","team"]
+    ];
+}
+
 // Display pages as links from a folder
 function listElementsAsOptions($type) {
   // $ext = "";

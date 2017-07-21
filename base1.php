@@ -16,7 +16,7 @@
             <div class="col-sm-6 col-md-7 col-lg-9">
               <?php emptyblock('page-title') ?>
             </div>
-            <div class="col-sm-6 col-md-5 col-lg-3">
+            <div class="hidden-xs col-sm-6 col-md-5 col-lg-3">
               <?php emptyblock('page-action') ?>
             </div>
           </div>

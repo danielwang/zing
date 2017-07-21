@@ -403,6 +403,7 @@ svg.pu-line-icon.green {
   padding-left: 43px;
   padding-right: 43px;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 #search #search-refine {
   text-decoration: none;
@@ -746,9 +747,9 @@ svg.pu-line-icon.green {
   margin-top: 3px;
   font-size: 11px;
 }
-.user-panel > .info > a > .fa,
+.user-panel > .info > a > .glyphicon,
 .user-panel > .info > a > .ion,
-.user-panel > .info > a > .glyphicon {
+.user-panel > .info > a > .fa {
   margin-right: 3px;
 }
 .sidebar-menu {
@@ -768,9 +769,10 @@ svg.pu-line-icon.green {
 .sidebar-menu > li > a span {
   font-size: 16px;
   vertical-align: top;
+  text-transform: capitalize;
 }
-.sidebar-menu > li > a > .fa,
-.sidebar-menu > li > a > .pu-icon {
+.sidebar-menu > li > a > .pu-icon,
+.sidebar-menu > li > a > .fa {
   display: inline-block;
   width: 35px;
   font-size: 1.5em;
@@ -786,25 +788,26 @@ svg.pu-line-icon.green {
   padding: 10px 25px 10px 15px;
   font-size: 12px;
 }
-.sidebar-menu li > a > .fa-angle-left,
-.sidebar-menu li > a > .pull-right-container > .fa-angle-left {
+.sidebar-menu li > a > .fa-angle-down,
+.sidebar-menu li > a > .pull-right-container > .fa-angle-down {
   width: auto;
   height: auto;
   padding: 0;
   margin-right: 10px;
+  transition: 200ms linear all;
 }
-.sidebar-menu li > a > .fa-angle-left {
+.sidebar-menu li > a > .fa-angle-down {
   position: absolute;
   top: 50%;
   right: 10px;
   margin-top: -8px;
 }
-.sidebar-menu li.active > a > .fa-angle-left,
-.sidebar-menu li.active > a > .pull-right-container > .fa-angle-left {
-  -webkit-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+.sidebar-menu li.active > a > .pull-right-container > .fa-angle-down,
+.sidebar-menu li.active > a > .fa-angle-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .sidebar-menu li.active > .treeview-menu {
   display: block;
@@ -827,14 +830,14 @@ svg.pu-line-icon.green {
   display: block;
   font-size: 14px;
 }
-.sidebar-menu .treeview-menu > li > a > .fa,
+.sidebar-menu .treeview-menu > li > a > .glyphicon,
 .sidebar-menu .treeview-menu > li > a > .ion,
-.sidebar-menu .treeview-menu > li > a > .glyphicon {
+.sidebar-menu .treeview-menu > li > a > .fa {
   width: 20px;
 }
-.sidebar-menu .treeview-menu > li > a > .fa-angle-left,
+.sidebar-menu .treeview-menu > li > a > .fa-angle-down,
 .sidebar-menu .treeview-menu > li > a > .pull-right-container > .fa-angle-down,
-.sidebar-menu .treeview-menu > li > a > .pull-right-container > .fa-angle-left,
+.sidebar-menu .treeview-menu > li > a > .pull-right-container > .fa-angle-down,
 .sidebar-menu .treeview-menu > li > a > .fa-angle-down {
   width: auto;
 }

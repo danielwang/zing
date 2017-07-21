@@ -91,9 +91,9 @@
       margin-top: 3px;
       font-size: 11px;
 
-       > .fa,
+       > .glyphicon,
        > .ion,
-      > .glyphicon {
+      > .fa {
         margin-right: 3px;
       }
     }
@@ -118,10 +118,11 @@
       span {
         font-size: 16px;
         vertical-align: top;
+        text-transform: capitalize;
       }
 
-       > .fa,
-      > .pu-icon {
+       > .pu-icon,
+      > .fa {
         display: inline-block;
         width: 35px;
         font-size: 1.5em;
@@ -143,15 +144,16 @@
     font-size: 12px;
   }
 
-  li > a > .fa-angle-left,
-  li > a > .pull-right-container > .fa-angle-left {
+  li > a > .fa-angle-down,
+  li > a > .pull-right-container > .fa-angle-down {
     width: auto;
     height: auto;
     padding: 0;
     margin-right: 10px;
+    transition: 200ms linear all;
   }
 
-  li > a > .fa-angle-left {
+  li > a > .fa-angle-down {
     position: absolute;
     top: 50%;
     right: 10px;
@@ -159,9 +161,9 @@
   }
 
   li.active {
-     > a > .fa-angle-left,
-    > a > .pull-right-container > .fa-angle-left {
-      .rotate(-90deg);
+     > a > .pull-right-container > .fa-angle-down,
+    > a > .fa-angle-down {
+      .rotate(180deg);
     }
 
     > .treeview-menu {
@@ -188,15 +190,15 @@
         display: block;
         font-size: 14px;
 
-         > .fa,
+         > .glyphicon,
          > .ion,
-        > .glyphicon {
+        > .fa {
           width: 20px;
         }
 
-         > .fa-angle-left,
+         > .fa-angle-down,
          > .pull-right-container > .fa-angle-down,
-         > .pull-right-container > .fa-angle-left,
+         > .pull-right-container > .fa-angle-down,
         > .fa-angle-down {
           width: auto;
         }
