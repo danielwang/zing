@@ -64,7 +64,7 @@
       <?php endblock() ?>
       <!-- page body -->
 			<section class="container content">
-				<?php startblock('page')?>
+				<?php startblock('page-body')?>
 				<?php endblock()?>
 			</section>
 		</section>

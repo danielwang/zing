@@ -3,7 +3,7 @@
   Template 4 - Search page
 <?php endblock() ?>
 
-<?php startblock('page');?>
+<?php startblock('page-body');?>
 <div class="row row-gap">
     <?php for ($x = 0; $x <= 11; $x++) {?>
     <div class="col-sm-4">

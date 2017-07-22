@@ -34,7 +34,7 @@
   <li><a href="#">Documents <span class="badge">2</span></a></li>
 </ul>
 <?php endblock() ?>
-<?php startblock('page') ?>
+<?php startblock('page-body') ?>
   <div class="row row-gap">
     <div class="col-sm-8">
       <div class="pu-panel panel">

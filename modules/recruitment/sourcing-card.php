@@ -35,7 +35,7 @@
 </ul>
 <?php endblock() ?>
 <?php emptyblock('submenu') ?>
-<?php startblock('page') ?>
+<?php startblock('page-body') ?>
 <div class="row">
   <div class="col-sm-3"> <!-- required for floating -->
     <div class="list-group">

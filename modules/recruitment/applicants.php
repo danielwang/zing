@@ -34,7 +34,7 @@
   <li><a href="#">Documents <span class="badge">2</span></a></li>
 </ul>
 <?php endblock() ?>
-<?php startblock('page') ?>
+<?php startblock('page-body') ?>
   <?php include ("${resURL}components/_table-people.html");?>
 <?php endblock() ?>
 <?php emptyblock('footer') ?>

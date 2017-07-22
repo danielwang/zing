@@ -36,7 +36,7 @@
 <?php emptyblock('submenu') ?>
 <?php emptyblock('footer') ?>
 
-<?php startblock('page')?>
+<?php startblock('page-body')?>
 <style type="text/css">
 .side .row {
       margin-bottom: 20px;

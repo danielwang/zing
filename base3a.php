@@ -1,5 +1,5 @@
 <!-- ******************
-***  T3 Centre landing template ***
+***  T3 a Centre landing template ***
 ******************  -->
 <?php
   require_once 'ti.php';
@@ -11,14 +11,6 @@
       <?php startblock('top') ?>
         <div class="jumbotron">
           <h1><?php emptyblock('page-title') ?></h1>
-          <?php startblock('search') ?>
-          <section id="search">
-            <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search icons</span></label>
-            <input id="search-input" class="form-control input-lg" placeholder="Search ..." autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
-            <span id="search-refine" href="#" class="fa fa-sliders" aria-hidden="true"></span>
-          </section>
-          <p><a href="#">item</a> <a href="#">item</a> <a href="#">item</a></p>
-          <?php endblock()?>
           <?php startblock('tag-line') ?>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit pellentesque, tellus id fermentum finibus<br/> Sed turpis risus, efficitur ac augue vitae</p>
           <?php endblock()?>
@@ -29,7 +21,7 @@
       <?php endblock() ?>
       <!-- page body -->
 			<section class="container content">
-				<?php startblock('page')?>
+				<?php startblock('page-body')?>
 				<?php endblock()?>
 			</section>
 		</section>

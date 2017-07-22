@@ -1,10 +1,10 @@
-<?php include '../../base3.php' ?>
+<?php include '../../base3b.php' ?>
 
 <?php startblock('page-title') ?>
   Talent Search
 <?php endblock() ?>
-<?php emptyblock('tag-line') ?>
-<?php startblock('page') ?>
+
+<?php startblock('page-body') ?>
 <ul class="nav nav-pills pu-buckets">
       <li class="bucket-green active">
         <a href="#">
@@ -42,4 +42,4 @@
   <?php } ?>
 </div>
 
-<?php endblock('page')?>
+<?php endblock('page-body')?>

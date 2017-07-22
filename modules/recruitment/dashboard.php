@@ -1,8 +1,8 @@
-<?php $breadcrumb = true; $jumbotron = true; include '../../base.php' ?>
+<?php include '../../base4.php' ?>
 <?php startblock('page-title') ?>
 	<h1>Recruitment Dashboard</h1>
 <?php endblock() ?>
-<?php startblock('page')?>
+<?php startblock('page-body')?>
 	<div class="row clearfix row-gap">
 		<div class="col-md-8 column">
 	        <div class="panel panel-default">

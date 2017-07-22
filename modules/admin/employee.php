@@ -37,7 +37,7 @@
   <li><a href="#">Learning</a></li>
 </ul>
 <?php endblock() ?>
-<?php startblock('page') ?>
+<?php startblock('page-body') ?>
 <div class="row row-gap">
   <div class="col-sm-4">
     <article class="pu-box" role="box">

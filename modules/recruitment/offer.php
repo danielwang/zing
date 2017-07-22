@@ -27,7 +27,7 @@
 <?php endblock() ?>
 
 
-<?php startblock('page') ?>
+<?php startblock('page-body') ?>
 <div class="row row-gap">
   <div class="col-sm-4">
     <div class="list-group">

@@ -1,5 +1,5 @@
 <?php include '../base-app.php';?>
-<?php startblock('page');?>
+<?php startblock('page-body');?>
 <h2>PageUp Idea Hub</h2>
 <hr>
 <div class="row">

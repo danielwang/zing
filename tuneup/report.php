@@ -1,5 +1,5 @@
 <?php include '../base-app.php';?>
-<?php startblock('page');?>
+<?php startblock('page-body');?>
 <a href="list" class="btn btn-default"><i class="fa fa-chevron-left"></i> Back </a>
 <div class="row">
   <div class="col-sm-10 col-sm-offset-1">

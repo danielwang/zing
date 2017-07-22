@@ -1,5 +1,5 @@
 <?php include '../base.php';?>
-<?php startblock('page');?>
+<?php startblock('page-body');?>
 <h1>Cards</h1>
 <div class="row">
     <h3 class="col-sm-12">Small</h3>

@@ -31,7 +31,7 @@
       <!-- page body -->
 			<section class="container content">
         <h1><?php emptyblock('page-title') ?></h1>
-				<?php startblock('page')?>
+				<?php startblock('page-body')?>
 				<?php endblock()?>
 			</section>
 		</section>

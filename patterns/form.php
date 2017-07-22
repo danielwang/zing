@@ -1,5 +1,5 @@
 <?php include '../base.php';?>
-<?php startblock('page');?>
+<?php startblock('page-body');?>
   <h2>Form</h2>
   <div class="row">
     <div class="col-sm-8 col-sm-offset-2">

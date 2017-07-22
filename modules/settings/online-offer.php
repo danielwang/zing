@@ -1,5 +1,8 @@
-<?php include '../../base2.php';?>
-<?php startblock('page')?>
+<?php include '../../base4.php';?>
+<?php startblock('page-title') ?>
+Online offer
+<?php endblock()?>
+<?php startblock('breadcrumb') ?>
 <ol class="breadcrumb">
     <li>
         <a href="#">
@@ -20,9 +23,10 @@
     </li>
     <li class="active">Online offer</li>
 </ol>
-
+<?php endblock()?>
+<?php startblock('page-body')?>
 <div class="row">
-  <div class="col-sm-8 col-sm-offset-2">
+  <div class="col-sm-8">
      <div class="pu-accordion" id="pu-accordion" role="tablist" aria-multiselectable="true">
             <div class="panel">
                 <div class="panel-heading" role="tab" id="headingOne">

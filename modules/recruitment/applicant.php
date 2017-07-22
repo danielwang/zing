@@ -34,7 +34,7 @@
   <li><a href="#">TRM</a></li>
 </ul>
 <?php endblock() ?>
-<?php startblock('page') ?>
+<?php startblock('page-body') ?>
   <div class="row row-gap">
   <div class="col-sm-8">
     <article class="pu-box" role="box">

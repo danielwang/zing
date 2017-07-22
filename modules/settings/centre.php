@@ -1,11 +1,17 @@
-<?php include '../../base3.php' ?>
+<?php include '../../base3b.php' ?>
 
 <?php startblock('page-title') ?>
 System Settings
 <?php endblock() ?>
-<?php emptyblock('tag-line') ?>
-
-<?php startblock('page')?>
+<?php startblock('sub-page') ?>
+<ul class="nav nav-pills">
+  <li class="active"><a href="#"> <i class="pu-icon pu-icon-home"></i> Configure</a></li>
+  <li><a href="#"><i class="pu-icon pu-icon-profile"></i>  Settings</a></li>
+  <li><a href="#"><i class="pu-icon pu-icon-resume"></i> Knowledge Portal</a></li>
+  <li><a href="#"><i class="pu-icon pu-icon-person"></i>  Client Bundles</a></li>
+</ul>
+<?php endblock() ?>
+<?php startblock('page-body')?>
 <div class="row">
    <div class="col-sm-12">
       <!-- conents==================================================-->

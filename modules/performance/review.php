@@ -26,7 +26,7 @@
   </li>
 </ul>
 <?php endblock() ?>
-<?php startblock('page')?>
+<?php startblock('page-body')?>
 <div id="performance">
   <div class="row row-gap">
     <div class="col-sm-3">

@@ -1,5 +1,5 @@
 <?php include '../base.php';?>
-<?php startblock('page');?>
+<?php startblock('page-body');?>
 <div class="row row-gap">
 	<div class="col-sm-12">
 		<div class="alert alert-info">

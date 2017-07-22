@@ -1,4 +1,4 @@
-<?php include '../../base3.php' ?>
+<?php include '../../base3b.php' ?>
 <?php startblock('page-title') ?>
 Learning
 <?php endblock() ?>
@@ -10,7 +10,7 @@ Learning
   <li><a href="#"><i class="fa fa-lg fa-plus-circle"></i></a></li>
 </ul>
 <?php endblock() ?>
-<?php startblock('page')?>
+<?php startblock('page-body')?>
 <div id="learning" class="row row-gap">
   <?php for ($x = 0; $x <= 11; $x++) {?>
   <div class="col-sm-4">
@@ -18,4 +18,4 @@ Learning
   </div>
   <?php } ?>
 </div>
-<?php endblock('page')?>
+<?php endblock('page-body')?>

@@ -1,9 +1,8 @@
-<?php include '../../base3.php' ?>
+<?php include '../../base3a.php' ?>
 <?php startblock('page-title') ?>
   Performance Centre
 <?php endblock() ?>
-<?php emptyblock('search') ?>
-<?php startblock('page') ?>
+<?php startblock('page-body') ?>
 <div class="row">
 <div class="col-sm-4">
   <div class="pu-box text-center">

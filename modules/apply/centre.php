@@ -1,4 +1,4 @@
-<?php include '../../base3.php' ?>
+<?php include '../../base3a.php' ?>
 
 <?php startblock('page-title') ?>
   Welcome Daniel Wang!
@@ -12,7 +12,7 @@
   <li><a href="#"><i class="pu-icon pu-icon-person"></i>  Account</a></li>
 </ul>
 <?php endblock() ?>
-<?php startblock('page') ?>
+<?php startblock('page-body') ?>
 <div class="alert alert-success">
   <strong>Congratulations!</strong>
   Totam officiis dolorum voluptatibus maxime molestiae iste. Lorem ipsum dolor sit amet, consectetuer adipiscin

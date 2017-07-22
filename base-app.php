@@ -12,7 +12,7 @@
 		<div class="content-wrapper" style="margin-left:0 !important">
       <!-- page body -->
 			<div class="container content">
-				<?php startblock('page')?>
+				<?php startblock('page-body')?>
 				<?php endblock()?>
 			</div>
 		</div>
