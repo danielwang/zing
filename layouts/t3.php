@@ -1,4 +1,4 @@
-<?php include '../base3.php' ?>
+<?php include '../base3a.php' ?>
 <?php startblock('page-title') ?>
   Template 3 - Landing page
 <?php endblock() ?>

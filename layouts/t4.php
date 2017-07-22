@@ -1,4 +1,4 @@
-<?php include '../base4.php' ?>
+<?php include '../base3b.php' ?>
 <?php startblock('page-title') ?>
   Template 4 - Search page
 <?php endblock() ?>
