@@ -386,6 +386,9 @@ svg.pu-line-icon.green {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.jumbotron .sub-page li a:hover {
+  color: #fff;
+}
 .subnav {
   background: white;
   padding: 10px 0;
@@ -421,8 +424,11 @@ svg.pu-line-icon.green {
 }
 .tpl-landing .jumbotron {
   text-align: center;
-  background-image: linear-gradient(rgba(37, 123, 160, 0.75), rgba(37, 123, 160, 0.75)), url("../../img/bg1.jpg");
-  background-size: cover;
+  background-image: url("../../img/pattern.svg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-attachment: scroll;
 }
 .tpl-landing .jumbotron #search {
   margin: 0 auto;
