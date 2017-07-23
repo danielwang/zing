@@ -371,22 +371,22 @@ svg.pu-line-icon.green {
 .jumbotron + .content {
   padding-top: 30px;
 }
-.jumbotron .sub-page {
+.jumbotron .sub-page .nav {
   margin: 30px 0 -45px;
   display: inline-block;
 }
-.jumbotron .sub-page li {
+.jumbotron .sub-page .nav li {
   border-radius: 4px;
   margin-right: 5px;
 }
-.jumbotron .sub-page li.active a {
+.jumbotron .sub-page .nav li.active a {
   background: rgba(0, 0, 0, 0.2);
 }
-.jumbotron .sub-page li a {
+.jumbotron .sub-page .nav li a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.jumbotron .sub-page li a:hover {
+.jumbotron .sub-page .nav li a:hover {
   color: #fff;
 }
 .subnav {
