@@ -22,7 +22,6 @@
 </div>
 <hr>
 <h3>Incomplete Applications</h3>
-<hr>
 <div class="row">
   <div class="col-sm-4">
     <article class="pu-card">
@@ -48,7 +47,6 @@
   </div>
 </div>
 <h3>Submitted Applications</h3>
-<hr>
 <div class="row">
   <div class="col-sm-4">
     <article class="pu-card">
