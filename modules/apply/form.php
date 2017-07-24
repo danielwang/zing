@@ -3,6 +3,7 @@
       <h1>Senior Electrical Engineer</h1>
       <h4>Melbourne</h4>
     <?php endblock() ?>
+    <?php emptyblock('submenu') ?>
     <?php startblock('page-body')?>
     <div class="row row-gap">
       <div class="col-sm-4">

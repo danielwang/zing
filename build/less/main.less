@@ -2,6 +2,7 @@
  * Skin: Blue
  * ----------
  */
+
 .pu-blue {
   //Navbar
   .main-header {
@@ -62,24 +63,41 @@
   margin-left: 50px;
 }
 
-.submenu {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 50px;
-  margin-left: 230px;
+.subnav {
   background: white;
-  padding: 8px;
-  z-index: 999;
-  height: 50px;
+  padding: 10px 0;
+
+  &.affix {
+    width: 100%;
+    top: 50px;
+    left: 25px;
+    right: 0;
+    z-index: 99;
+    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+  }
 
   .breadcrumb {
     margin-bottom: 0;
   }
 
-  + .content {
-    padding-top: 80px;
+  #search {
+    label {
+      left: 10px;
+      top: 6px;
+    }
+
+    #search-refine {
+      right: 12px;
+      top: 8px;
+    }
+
+    #search-input {
+      margin: 0;
+    }
   }
+  // + .content {
+  //   padding-top: 80px;
+  // }
 }
 
 .jumbotron {
@@ -123,20 +141,6 @@
         }
       }
     }
-  }
-}
-
-.subnav {
-  background: white;
-  padding: 10px 0;
-
-  &.affix {
-    width: 100%;
-    top: 50px;
-    left: 25px;
-    right: 0;
-    z-index: 99;
-    box-shadow: 0 0 30px rgba(0,0,0,0.4);
   }
 }
 

@@ -341,22 +341,31 @@ svg.pu-line-icon.green {
 .sidebar-mini.sidebar-collapse .submenu {
   margin-left: 50px;
 }
-.submenu {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 50px;
-  margin-left: 230px;
+.subnav {
   background: white;
-  padding: 8px;
-  z-index: 999;
-  height: 50px;
+  padding: 10px 0;
 }
-.submenu .breadcrumb {
+.subnav.affix {
+  width: 100%;
+  top: 50px;
+  left: 25px;
+  right: 0;
+  z-index: 99;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+.subnav .breadcrumb {
   margin-bottom: 0;
 }
-.submenu + .content {
-  padding-top: 80px;
+.subnav #search label {
+  left: 10px;
+  top: 6px;
+}
+.subnav #search #search-refine {
+  right: 12px;
+  top: 8px;
+}
+.subnav #search #search-input {
+  margin: 0;
 }
 .jumbotron {
   position: relative;
@@ -388,18 +397,6 @@ svg.pu-line-icon.green {
 }
 .jumbotron .sub-page .nav li a:hover {
   color: #fff;
-}
-.subnav {
-  background: white;
-  padding: 10px 0;
-}
-.subnav.affix {
-  width: 100%;
-  top: 50px;
-  left: 25px;
-  right: 0;
-  z-index: 99;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
 }
 #search {
   position: relative;

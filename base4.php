@@ -19,8 +19,6 @@
               <?php endblock() ?>
             </div>
             <div class="col-sm-4 text-right">
-              <button type="button" class="btn btn-primary">
-              <i class="fa fa-plus-circle"></i> New</button>
             </div>
           </div>
         </div>
