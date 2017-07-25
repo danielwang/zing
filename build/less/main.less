@@ -79,22 +79,6 @@
   .breadcrumb {
     margin-bottom: 0;
   }
-
-  #search {
-    label {
-      left: 10px;
-      top: 6px;
-    }
-
-    #search-refine {
-      right: 12px;
-      top: 8px;
-    }
-
-    #search-input {
-      margin: 0;
-    }
-  }
   // + .content {
   //   padding-top: 80px;
   // }
@@ -150,22 +134,37 @@
 
   label {
     position: absolute;
-    left: 17px;
-    top: 12px;
-  }
-
-  #search-input {
-    padding-left: 43px;
-    padding-right: 43px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    left: 10px;
+    top: 6px;
   }
 
   #search-refine {
     text-decoration: none;
     position: absolute;
-    right: 18px;
-    top: 14px;
+    right: 12px;
+    top: 8px;
+  }
+
+  #search-input {
+    padding-left: 43px;
+    padding-right: 43px;
+    margin: 0;
+  }
+
+  &.search-lg {
+    label {
+      left: 17px;
+      top: 12px;
+    }
+
+    #search-input {
+      margin-bottom: 15px;
+    }
+
+    #search-refine {
+      right: 18px;
+      top: 14px;
+    }
   }
 }
 

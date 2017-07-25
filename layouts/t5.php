@@ -9,7 +9,7 @@
     <div class="col-sm-4">
         <div class="pu-box">
           <img class="img-responsive" src="http://placehold.it/1200x800/ABE0F4/57C0E9?text=card" alt="">
-        </div>
+        </div>3
     </div>
     <?php } ?>
 </div>

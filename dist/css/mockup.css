@@ -356,17 +356,6 @@ svg.pu-line-icon.green {
 .subnav .breadcrumb {
   margin-bottom: 0;
 }
-.subnav #search label {
-  left: 10px;
-  top: 6px;
-}
-.subnav #search #search-refine {
-  right: 12px;
-  top: 8px;
-}
-.subnav #search #search-input {
-  margin: 0;
-}
 .jumbotron {
   position: relative;
   margin-bottom: 0;
@@ -404,18 +393,28 @@ svg.pu-line-icon.green {
 }
 #search label {
   position: absolute;
-  left: 17px;
-  top: 12px;
-}
-#search #search-input {
-  padding-left: 43px;
-  padding-right: 43px;
-  border-radius: 10px;
-  margin-bottom: 15px;
+  left: 10px;
+  top: 6px;
 }
 #search #search-refine {
   text-decoration: none;
   position: absolute;
+  right: 12px;
+  top: 8px;
+}
+#search #search-input {
+  padding-left: 43px;
+  padding-right: 43px;
+  margin: 0;
+}
+#search.search-lg label {
+  left: 17px;
+  top: 12px;
+}
+#search.search-lg #search-input {
+  margin-bottom: 15px;
+}
+#search.search-lg #search-refine {
   right: 18px;
   top: 14px;
 }

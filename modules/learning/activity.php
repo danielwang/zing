@@ -6,7 +6,7 @@
 <?php startblock('sub-page') ?>
 <ul class="nav nav-pills">
   <li class="active"><a href="#">Details</a></li>
-  <li><a href="#">Attendees</a></li>
+  <li><a href="attendees">Attendees</a></li>
 </ul>
 <?php endblock() ?>
 

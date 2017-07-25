@@ -1,6 +1,6 @@
 <?php include '../../base1.php' ?>
 <?php startblock('page-title') ?>
-<h2><i class="pu-icon pu-icon-job"></i> Senior Technology Specialist - Networks</h2>
+<h2>Senior Technology Specialist - Networks</h2>
 <h6>Job ID: #1234567890</h6>
 <?php endblock() ?>
 <?php startblock('page-action') ?>
