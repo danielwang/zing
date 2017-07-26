@@ -1,7 +1,7 @@
 <?php include '../../base1.php' ?>
 
 <?php startblock('page-title') ?>
-<h1><i class="pu-icon pu-icon-journal"></i> Journal</h1>
+<h1>Journal</h1>
 <?php endblock() ?>
 <?php startblock('page-action') ?>
 <ul class="nav navbar-nav navbar-right">
@@ -35,3 +35,4 @@
   <?php } ?>
 </div>
 <?php endblock()?>
+<?php emptyblock('footer') ?>

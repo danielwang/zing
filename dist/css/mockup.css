@@ -359,6 +359,8 @@ svg.pu-line-icon.green {
 .jumbotron {
   position: relative;
   margin-bottom: 0;
+  background: linear-gradient(70deg, #257ba0 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(30deg, #489bbf 60%, #48afdb 60%);
+  padding-top: 30px;
 }
 .jumbotron h1 {
   margin: 0 0 15px;
