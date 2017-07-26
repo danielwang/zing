@@ -36,5 +36,5 @@
     |               | sidebar-mini                            |
     |---------------------------------------------------------|
     -->
-<body class="hold-transition pu-blue sidebar-mini fixed">
+<body class="hold-transition pu-blue sidebar-mini">
   <div class="wrapper">

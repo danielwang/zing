@@ -30,14 +30,19 @@
 <div id="performance">
   <div class="row row-gap">
     <div class="col-sm-3">
-        <ul class="sidenav affix" data-spy="affix" data-offset-top="150">
-          <li><a href="#">Start</a></li>
-          <li class="active">
-            <a href="#">My Contribution</a>
-          </li>
-          <li><a href="#">Career plan</a></li>
-          <li><a href="#">Next Step</a></li>
-        </ul>
+      <div class="list-group">
+        <a href="#" class="list-group-item">
+          Start
+        </a>
+        <a href="#" class="list-group-item active">Objectives
+        </a>
+        <a href="#" class="list-group-item">Competencies
+        </a>
+        <a href="#" class="list-group-item">Values</a>
+        <a href="#" class="list-group-item">Development Plan</a>
+        <a href="#" class="list-group-item">Next Step
+        </a>
+      </div>
     </div>
     <div class="col-sm-9">
          <?php include ("${resURL}components/_item.php");?>

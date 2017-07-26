@@ -2,6 +2,7 @@
  * Skin: Blue
  * ----------
  */
+
 .pu-blue {
   //Navbar
   .main-header {
@@ -63,16 +64,19 @@
 }
 
 .subnav {
-  background: white;
+  background-color: white;
   padding: 10px 0;
+  transition: background-color 0.25s ease;
 
   &.affix {
     width: 100%;
-    top: 50px;
+    top: 0;
     left: 25px;
     right: 0;
     z-index: 99;
     box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    background-color: @brand-navy;
+    color: white;
   }
 
   .breadcrumb {
@@ -81,6 +85,12 @@
   // + .content {
   //   padding-top: 80px;
   // }
+}
+
+.sidenav {
+  &.affix {
+    top: 80px;
+  }
 }
 
 .jumbotron {

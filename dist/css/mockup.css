@@ -342,19 +342,25 @@ svg.pu-line-icon.green {
   margin-left: 50px;
 }
 .subnav {
-  background: white;
+  background-color: white;
   padding: 10px 0;
+  transition: background-color 0.25s ease;
 }
 .subnav.affix {
   width: 100%;
-  top: 50px;
+  top: 0;
   left: 25px;
   right: 0;
   z-index: 99;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  background-color: #142c52;
+  color: white;
 }
 .subnav .breadcrumb {
   margin-bottom: 0;
+}
+.sidenav.affix {
+  top: 80px;
 }
 .jumbotron {
   position: relative;

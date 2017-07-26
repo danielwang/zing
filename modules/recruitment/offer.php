@@ -26,19 +26,17 @@
 </ul>
 <?php endblock() ?>
 
-
 <?php startblock('page-body') ?>
 <div class="row row-gap">
   <div class="col-sm-4">
-    <div class="list-group">
-        <a href="#" class="list-group-item">Offer details
-        </a>
-        <a href="#" class="list-group-item">Employee referrals
-        </a>
-        <a href="#" class="list-group-item">Offer documents </a>
-        <a href="#" class="list-group-item">Approval process</a>
-        <a href="#" class="list-group-item">Provisioning</a>
-      </div>
+    <ul class="sidenav affix" data-spy="affix" data-offset-top="257">
+      <li><a href="#">Offer details </a></li>
+      <li>
+        <a href="#">Employee referrals</a>
+      </li>
+      <li><a href="#">Approval process</a></li>
+      <li><a href="#">Provisioning</a></li>
+    </ul>
   </div>
   <div class="col-sm-8">
     <?php include ("${resURL}components/_accordion-offer.html");?>

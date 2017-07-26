@@ -28,35 +28,38 @@
       <?php endblock() ?>
       <!-- submenu -->
       <?php startblock('submenu') ?>
-      <nav class="subnav" data-spy="affix" data-offset-top="220">
+      <nav class="subnav" data-spy="affix" data-offset-top="253">
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
+              <?php emptyblock('submenu-left') ?>
             </div>
             <div class="col-sm-6 text-right">
-              <button type="button" class="btn btn-outline btn-info">
-              Action</button>
-              <div class="btn-group">
-                <button type="button" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Clone">
-                  <i class="fa fa-copy fa-lg" aria-hitden="true"></i>
-                </button>
-                <button type="button" class="btn btn-white" data-toggle="tooltip" data-placement="bottom" title="Delete">
-                  <i class="fa fa-trash fa-lg" aria-hitden="true"></i>
-                </button>
+              <?php startblock('submenu-right') ?>
+                <button type="button" class="btn btn-outline btn-info">
+                Action</button>
                 <div class="btn-group">
-                  <button type="button" class="btn btn-white dropdown-toggle" data-toggle="dropdown">
-                    <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+                  <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Clone">
+                    <i class="fa fa-copy fa-lg" aria-hitden="true"></i>
                   </button>
-                  <ul class="dropdown-menu dropdown-menu-right">
-                    <li>
-                      <a href="#">Action 1</a>
-                    </li>
-                    <li>
-                      <a href="#">Action 2</a>
-                    </li>
-                  </ul>
+                  <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Delete">
+                    <i class="fa fa-trash fa-lg" aria-hitden="true"></i>
+                  </button>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                      <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                      <li>
+                        <a href="#">Action 1</a>
+                      </li>
+                      <li>
+                        <a href="#">Action 2</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
+              <?php endblock() ?>
             </div>
           </div>
         </div>
