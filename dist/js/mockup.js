@@ -19,6 +19,8 @@ $(document).ready(function() {
     $(this).tab('show')
   });
   multiCarousel();
+
+  $('[data-toggle="popover"]').popover();
 });
 
 

@@ -1,7 +1,7 @@
 <?php include '../../base1.php' ?>
 <?php startblock('page-title') ?>
 <h1>My Contribution and Career Plan</h1>
-<h4>Daniel Wang</h4>
+<h4><img class="pu-avatar pu-avatar-sm" src="<?php echo ($resURL) ?>/img/avatar/avatar.svg"> Daniel Wang</h4>
 <?php endblock() ?>
 
 <?php startblock('page-action') ?>

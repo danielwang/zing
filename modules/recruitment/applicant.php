@@ -61,6 +61,40 @@
   6 of 12
 <?php endblock() ?>
 
+<?php startblock('submenu-right') ?>
+  <button type="button" class="btn btn-outline btn-info">
+  <i class="fa fa-envelope" aria-hidden="true"></i> Communicate</button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Add notes">
+      <i class="fa fa-sticky-note fa-lg" aria-hitden="true"></i>
+    </button>
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Add documents">
+      <i class="fa fa-cloud-upload fa-lg" aria-hitden="true"></i>
+    </button>
+    <div class="btn-group">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" data-placement="bottom" title="More actions">
+        <i class="fa fa-ellipsis-h fa-lg" aria-hitden="true"></i>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-right">
+        <li>
+          <a href="#">Edit</a>
+        </li>
+        <li>
+          <a href="#">Lock</a>
+        </li>
+        <li>
+          <a href="#">Reset password</a>
+        </li>
+        <li>
+          <a href="#">Withdraw</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+<?php endblock() ?>
+
+<?php emptyblock('footer') ?>
+
 <?php startblock('page-body') ?>
   <div class="row row-gap">
   <div class="col-sm-8">
@@ -120,7 +154,7 @@
         <article class="pu-card" role="card" style="max-width:none; border:1px solid #ddd">
             <header class="pu-card-header" role="card-header">
               <h4>
-                  <a href="#_"><i class="pu-icon pu-icon-job"></i></a> Junior Professor in Landscape Architecture
+                  <a href="#_" data-toggle="popover" data-content='<?php include ("${resURL}components/_job-info-popover.html");?>' data-placement="right" data-html="true"><i class="pu-icon pu-icon-job"></i></a> Junior Professor in Landscape Architecture
               </h4>
               <div class="row">
                 <div class="col-sm-6">

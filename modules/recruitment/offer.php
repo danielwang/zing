@@ -30,13 +30,31 @@
 <div class="row row-gap">
   <div class="col-sm-4">
     <ul class="sidenav affix" data-spy="affix" data-offset-top="257">
-      <li><a href="#">Offer details </a></li>
-      <li>
-        <a href="#">Employee referrals</a>
-      </li>
-      <li><a href="#">Approval process</a></li>
-      <li><a href="#">Provisioning</a></li>
-    </ul>
+       <li>
+         <a href="#">Personal details</a>
+       </li>
+       <li>
+         <a href="#">Job details</a>
+       </li>
+       <li>
+         <a href="#">Position type</a>
+       </li>
+       <li>
+         <a href="#">Offer details</a>
+       </li>
+       <li class="active">
+         <a href="#">Rates calculator</a>
+       </li>
+       <li>
+         <a href="#">Employee referrals</a>
+       </li>
+       <li>
+         <a href="#">Offer documents</a>
+       </li>
+       <li>
+         <a href="#">Offer Check</a>
+       </li>
+      </ul>
   </div>
   <div class="col-sm-8">
     <?php include ("${resURL}components/_accordion-offer.html");?>
