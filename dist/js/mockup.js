@@ -21,6 +21,11 @@ $(document).ready(function() {
   multiCarousel();
 
   $('[data-toggle="popover"]').popover();
+
+  // $('body').scrollspy({
+  //   target: '.sidenav',
+  //   offset: 50
+  // });
 });
 
 
