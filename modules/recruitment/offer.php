@@ -29,7 +29,8 @@
 <?php startblock('page-body') ?>
 <div class="row row-gap">
   <div class="col-sm-4">
-    <ul class="sidenav affix" data-spy="affix" data-offset-top="257">
+    <div class="sidenav">
+      <ul class="nav affix" data-spy="affix" data-offset-top="80">
        <li>
          <a href="#">Personal details</a>
        </li>
@@ -42,7 +43,7 @@
        <li>
          <a href="#">Offer details</a>
        </li>
-       <li class="active">
+       <li>
          <a href="#">Rates calculator</a>
        </li>
        <li>
@@ -55,6 +56,7 @@
          <a href="#">Offer Check</a>
        </li>
       </ul>
+    </div>
   </div>
   <div class="col-sm-8">
     <?php include ("${resURL}components/_accordion-offer.html");?>

@@ -38,7 +38,7 @@ Template 5 - Page Title
       <ul class="nav" data-spy="affix" data-offset-top="10">
         <?php for ($x = 1; $x <= 10; $x++) {?>
           <li>
-            <a href="#section<?php echo($x) ?>">API <?php echo($x) ?></a>
+            <a href="#section<?php echo($x) ?>">Section <?php echo($x) ?></a>
           </li>
         <?php } ?>
       </ul>
@@ -48,7 +48,7 @@ Template 5 - Page Title
       <div  class="pu-box">
           <?php for ($x = 1; $x <= 10; $x++) {?>
             <section id="section<?php echo($x) ?>">
-              <h3><a href="#"> API <?php echo($x) ?> </a></h3>
+              <h3><a href="#"> Section <?php echo($x) ?> </a></h3>
               <article>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec imperdiet turpis. Curabitur aliquet pulvinar ultrices. Etiam at posuere leo. Proin ultrices ex et dapibus feugiat
                   <a href="#">link example</a>

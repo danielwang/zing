@@ -22,10 +22,10 @@ $(document).ready(function() {
 
   $('[data-toggle="popover"]').popover();
 
-  // $('body').scrollspy({
-  //   target: '.sidenav',
-  //   offset: 50
-  // });
+  $('body').scrollspy({
+    target: '.sidenav',
+    offset: 0
+  });
 });
 
 

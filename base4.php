@@ -26,7 +26,7 @@
       <?php endblock() ?>
       <!-- page body -->
 			<section class="container content">
-        <h1><?php emptyblock('page-title') ?></h1>
+        <h1 class="text-center"><?php emptyblock('page-title') ?></h1>
 				<?php startblock('page-body')?>
 				<?php endblock()?>
 			</section>

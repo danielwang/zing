@@ -12,7 +12,7 @@
         <div class="jumbotron">
           <h1><?php emptyblock('page-title') ?></h1>
           <?php startblock('search') ?>
-          <section id="search">
+          <section id="search" class="search-lg">
             <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search icons</span></label>
             <input id="search-input" class="form-control input-lg" placeholder="Search ..." autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
             <span id="search-refine" href="#" class="fa fa-sliders" aria-hidden="true"></span>
