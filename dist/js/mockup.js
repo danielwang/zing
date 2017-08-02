@@ -19,6 +19,7 @@ $(document).ready(function() {
     $(this).tab('show')
   });
   multiCarousel();
+  usageToggle();
 
   $('[data-toggle="popover"]').popover();
 
@@ -48,3 +49,12 @@ function multiCarousel() {
     }
   });
 };
+
+function usageToggle() {
+  var checkboxes = $('#demo input[type="checkbox"]');
+  checkboxes.prop('checked', true);
+  checkboxes.click(function() {
+    var ele = $(this).attr("value");
+    $('.' + ele).toggleClass('hide');
+  });
+}

@@ -1,7 +1,7 @@
 <?php include '../base1.php' ?>
 <?php startblock('page-title') ?>
 <h1>Template 1 - Page Title</h1>
-<h4>Tagline - Etiam porta sem malesuada magna mollis euismod.</h4>
+<h4 class="tag-line">Tagline - Etiam porta sem malesuada magna mollis euismod.</h4>
 <?php endblock() ?>
 
 <?php startblock('page-action') ?>
@@ -43,6 +43,15 @@
     <div class="col-sm-4">
         <img class="img-responsive" src="http://placehold.it/390x500/ABE0F4/57C0E9?text=aside" alt="">
     </div>
+</div>
+
+<div id="demo" class="pu-box">
+  <p>Optional components on this template</p>
+  <?php $options = array(array("Tag line", "tag-line"), array("Page action", "page-action"), array("Sub Pages", "sub-page"), array("Footer", "main-footer"), array("Subnav", "subnav"));
+  for ($r = 0; $r < count($options); $r++) {
+    echo '<p class="pu-toggle-btn pu-toggle-btn-orange"> <label for="' . $options[$r][1] . '"> <input id="' . $options[$r][1] . '"
+  type="checkbox" value="' . $options[$r][1] . '" unchecked /><span>' . $options[$r][0] . '</span> </label> </p>';
+  } ?>
 
 </div>
 <?php endblock()?>
