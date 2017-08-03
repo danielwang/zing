@@ -199,7 +199,7 @@ svg.pu-line-icon.green {
 #demo {
   position: fixed;
   width: 250px;
-  height: 300px;
+  height: auto;
   background: #ffc none repeat scroll 0 0;
   box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
   color: #000;
@@ -213,6 +213,7 @@ svg.pu-line-icon.green {
  * ----------
  */
 .pu-blue .main-header .navbar {
+  height: 50px;
   background-color: #142c52;
 }
 .pu-blue .main-header .navbar .nav > li > a {
@@ -379,9 +380,11 @@ svg.pu-line-icon.green {
   margin-bottom: 0;
   background: linear-gradient(70deg, #257ba0 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(30deg, #489bbf 60%, #48afdb 60%);
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 .jumbotron h1 {
-  margin: 0 0 15px;
+  margin: 0;
+  font-size: 32px;
 }
 .jumbotron p {
   font-size: 16px;
@@ -389,8 +392,12 @@ svg.pu-line-icon.green {
 .jumbotron + .content {
   padding-top: 30px;
 }
+.jumbotron .page-action .navbar-nav > li > a {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 .jumbotron .sub-page .nav {
-  margin: 30px 0 -45px;
+  margin: 30px 0 -25px;
   display: inline-block;
 }
 .jumbotron .sub-page .nav li {
@@ -447,7 +454,7 @@ svg.pu-line-icon.green {
   background-attachment: scroll;
 }
 .tpl-landing .jumbotron #search {
-  margin: 0 auto;
+  margin: 15px auto;
   width: 33%;
 }
 /*

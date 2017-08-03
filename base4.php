@@ -8,6 +8,15 @@
 	include_once 'partials/menu.html';
   ?>
 		<section class="content-wrapper">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-7 col-lg-9">
+              <h1><?php emptyblock('page-title') ?></h1>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- submenu -->
       <?php startblock('submenu') ?>
       <nav class="subnav">
@@ -26,7 +35,6 @@
       <?php endblock() ?>
       <!-- page body -->
 			<section class="container content">
-        <h1 class="text-center"><?php emptyblock('page-title') ?></h1>
 				<?php startblock('page-body')?>
 				<?php endblock()?>
 			</section>

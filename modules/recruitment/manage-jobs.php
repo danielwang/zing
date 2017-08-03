@@ -1,7 +1,5 @@
 <?php include '../../base2.php';?>
-<?php startblock('top') ?>
-  <?php include ("${resURL}partials/submenu.html"); ?>
-<?php endblock()?>
+
 <?php startblock('page-title') ?>
  Manage Jobs
 <?php endblock()?>

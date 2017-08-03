@@ -1,10 +1,16 @@
 <?php include '../../base1.php' ?>
 
 <?php startblock('page-title') ?>
-<h1><img class="pu-avatar pu-avatar-lg" src="<?php echo ($resURL)?>img/avatar/avatar.svg" /> Daniel Wang
-</h1>
-<h6><i class="pu-icon pu-icon-employee"></i> : #1234567890 </h6>
-<h6><i class="pu-icon pu-icon-job"></i> : Senior UX Designer </h6>
+<div class="media">
+  <div class="media-left">
+    <img class="pu-avatar pu-avatar-lg" src="<?php echo ($resURL)?>img/avatar/avatar.svg" />
+  </div>
+  <div class="media-body">
+    <h1>Daniel Wang</h1>
+    <h6><i class="pu-icon pu-icon-employee"></i> : #1234567890</h6>
+    <h6><i class="pu-icon pu-icon-job"></i> : Senior UX Designer</h6>
+  </div>
+</div>
 <?php endblock() ?>
 <?php startblock('page-action') ?>
 <ul class="nav navbar-nav navbar-right">

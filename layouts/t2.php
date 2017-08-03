@@ -1,7 +1,5 @@
 <?php include '../base2.php';?>
-<?php startblock('top') ?>
-  <?php include ("${resURL}partials/submenu.html"); ?>
-<?php endblock()?>
+
 <?php startblock('page-title') ?>
 Template 2 - Page Title
 <?php endblock()?>

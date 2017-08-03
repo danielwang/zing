@@ -1,7 +1,7 @@
 <?php include '../../base1.php' ?>
 <?php startblock('page-title') ?>
-<h2>Senior Technology Specialist - Networks</h2>
-<h6>Job ID: #1234567890</h6>
+<h1>Senior Technology Specialist - Networks</h1>
+<h4>Job ID: #1234567890</h4>
 <?php endblock() ?>
 <?php startblock('page-action') ?>
 <ul class="nav navbar-nav navbar-right">

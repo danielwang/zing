@@ -10,9 +10,18 @@
 		<section class="content-wrapper tpl-datalist">
 
       <?php startblock('top') ?>
+          <div class="jumbotron">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-6 col-md-7 col-lg-9">
+                  <h1><?php emptyblock('page-title') ?></h1>
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- submenu -->
           <?php startblock('submenu') ?>
-          <nav class="subnav" data-spy="affix" data-offset-top="80">
+          <nav class="subnav" data-spy="affix" data-offset-top="150">
             <div class="container">
               <div class="row">
                 <div class="col-sm-6">
@@ -34,9 +43,6 @@
 
       <!-- page body -->
 			<section class="container content">
-        <div class="page-header text-center">
-          <h1><?php emptyblock('page-title') ?></h1>
-        </div>
 				<?php startblock('page-body')?>
 				<?php endblock()?>
 			</section>

@@ -7,7 +7,7 @@
 <?php startblock('page-action') ?>
 <ul class="nav navbar-nav navbar-right">
   <li>
-    <a class="text-center" href="#_">
+    <a class="text-center" href="library">
       <i class="pu-icon pu-icon-2x pu-icon-learning"></i>
       <h6>Library</h6>
     </a>

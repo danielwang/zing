@@ -1,4 +1,4 @@
-<?php include '../../base5.php' ?>
+<?php include '../../base4.php' ?>
 <?php startblock('page-title') ?>
 Document
 <?php endblock() ?>
