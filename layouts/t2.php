@@ -3,6 +3,7 @@
 <?php startblock('page-title') ?>
 Template 2 - Page Title
 <?php endblock()?>
+
 <?php startblock('page-body');?>
 <div class="row row-gap">
 	<div class="col-sm-12">

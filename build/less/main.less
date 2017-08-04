@@ -2,6 +2,10 @@
  * Skin: Blue
  * ----------
  */
+.pu-avatar {
+  background: #EBEFF2;
+}
+
 .pu-blue {
   //Navbar
   .main-header {
@@ -77,6 +81,7 @@
     box-shadow: 0 0 30px rgba(0,0,0,0.4);
     background-color: @brand-navy;
     color: white;
+    opacity: 0.9;
   }
 
   .breadcrumb {
@@ -103,10 +108,11 @@
   h1 {
     margin: 0;
     font-size: 32px;
-  }
 
-  p {
-    font-size: 16px;
+    + p {
+      font-size: 16px;
+      margin-top: 15px;
+    }
   }
 
   + .content {

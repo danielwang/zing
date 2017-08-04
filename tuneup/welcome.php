@@ -1,4 +1,4 @@
-<?php include '../base.php';?>
+<?php include '../base-app.php';?>
 <?php startblock('page-body');?>
 <div class="modal fade in" id="ideaModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: block; padding-right: 15px;">
   <div class="modal-dialog" role="document">

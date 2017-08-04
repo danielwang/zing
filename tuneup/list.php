@@ -1,7 +1,10 @@
-<?php include '../base-app.php';?>
+<?php include '../base2.php';?>
+<?php startblock('page-title') ?>
+PageUp Idea Hub
+<?php endblock()?>
+<?php emptyblock('submenu') ?>
+
 <?php startblock('page-body');?>
-<h2>PageUp Idea Hub</h2>
-<hr>
 <div class="row">
   <div class="col-sm-4">
     <h4>Introduction</h4>
@@ -18,10 +21,10 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="../../img/preview1.png" width="360" height="298" alt="...">
+          <img src="../img/preview1.png" width="360" height="298" alt="...">
         </div>
         <div class="item">
-          <img src="../../img/report.png" width="360" height="298" alt="...">
+          <img src="../img/report.png" width="360" height="298" alt="...">
         </div>
       </div>
     </div>

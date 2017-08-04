@@ -28,9 +28,10 @@
 <?php endblock() ?>
 <?php startblock('sub-page') ?>
 <ul class="nav nav-pills">
-  <li class="active"><a href="#">Applications</a></li>
+  <li class="active"><a href="#">Summary</a></li>
   <li><a href="#">Profile</a></li>
-  <li><a href="#">Resume</a></li>
+  <li><a href="#">Notes <span class="badge">8</span></a></li>
+  <li><a href="#">Documents <span class="badge">2</span></a></li>
   <li><a href="#">TRM</a></li>
 </ul>
 <?php endblock() ?>

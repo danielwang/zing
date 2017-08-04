@@ -212,6 +212,9 @@ svg.pu-line-icon.green {
  * Skin: Blue
  * ----------
  */
+.pu-avatar {
+  background: #EBEFF2;
+}
 .pu-blue .main-header .navbar {
   height: 50px;
   background-color: #142c52;
@@ -368,6 +371,7 @@ svg.pu-line-icon.green {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   background-color: #142c52;
   color: white;
+  opacity: 0.9;
 }
 .subnav .breadcrumb {
   margin-bottom: 0;
@@ -386,8 +390,9 @@ svg.pu-line-icon.green {
   margin: 0;
   font-size: 32px;
 }
-.jumbotron p {
+.jumbotron h1 + p {
   font-size: 16px;
+  margin-top: 15px;
 }
 .jumbotron + .content {
   padding-top: 30px;
