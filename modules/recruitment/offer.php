@@ -29,7 +29,8 @@
 <?php startblock('page-body') ?>
 <div class="row row-gap">
   <div class="col-sm-4">
-    <div class="sidenav">
+    <div class="sidenav toc">
+      <h6 class="gray">Contents</h6>
       <ul class="nav affix" data-spy="affix" data-offset-top="80">
        <li>
          <a href="#">Personal details</a>
